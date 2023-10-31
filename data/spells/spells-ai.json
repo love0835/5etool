@@ -1,0 +1,473 @@
+{
+	"spell": [
+		{
+			"name": "扭曲價值",
+			"ENG_name": "Distort Value",
+			"source": "AI",
+			"page": 75,
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"當你試圖賣掉從混沌神殿中解放出來的那座奇異章魚雕像時，你是否需要從那個無良商人口袋裡再壓榨幾塊黃金？當收稅員駐足你的身前時，你是否需要貶低一些魔法資產的價值呢？扭曲價值法術為你保駕護航。",
+				"你施展此法術于邊長不超過1尺的一個物件上，以幻術的滋養和拋光來加倍它看起來的價值，或者是用虛幻的劃痕、凹陷和其他不雅的特徵來減半它看起來的價值。任何檢查物件的人，可以通過智力（{@skill 調查}）檢定對抗你的法術DC，若成功將會確定它的真實價值。 "
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "升環施法效果",
+					"ENG_name": "At Higher Levels",
+					"entries": [
+						"當你使用2環或更高的法術位施放該法術時，使用的法術位每高一環，目標物件的最大尺寸就可以增加1尺。"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "快速交友",
+			"ENG_name": "Fast Friends",
+			"source": "AI",
+			"page": 75,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"如果你想要確保某件事情完成，你不能依賴於含糊不清的承諾、宣誓或僱傭合同。當你施展此法術時，選擇一個能看見、能聽見、並且能理解你的，在施法距離內的類人生物。這個生物必須通過一次感知豁免，否則將會在持續期間內被你{@condition 魅惑}。當生物因為這種方式被{@condition 魅惑}時，它將承諾盡其所能地以友好的方式履行你所要求的任何服務或者是活動。",
+				"在這個生物之前的任務完成時，或者你決定中止它的當前任務時，你可以為它佈置一個新任務。如果這項活動或任務可能傷害這個生物，或者與這個生物的正常活動和慾望相違背時，生物可以進行另一次感知豁免來嘗試中止這個效果。如果你或者你的同伴正在與這個生物交戰，他對此豁免具有優勢。如果你要求的活動在結果上會確實地導致這個生物死亡，法術將會結束。",
+				"當法術結束時，這個生物知道他曾經被你所{@condition 魅惑}。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "升環施法效果",
+					"ENG_name": "At Higher Levels",
+					"entries": [
+						"當你使用4環或更高的法術位施放該法術時，使用的法術位每高一環，你就可以多指定一個額外的目標。"
+					]
+				}
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "巧舌如簧",
+			"ENG_name": "Gift of Gab",
+			"source": "AI",
+			"page": 76,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "當你與另一個生物說話時採取"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"r": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我最開始見到吉姆·黑法 Jim Darkmagic 那時，我就在想他是怎麼穿著這身搞定那麼多事的。後來我才知道他最大的天賦就是站著說話。那這身行頭確實完美。"
+					],
+					"by": "摩根 Môrgæn"
+				},
+				"據說是吉姆·黑法 Jim Darkmagic 發明了這個魔法，並且它最開始的名字叫{@i 我說啥來著？！}。你有沒有曾經在與當地領主開玩笑時，不小心提到他的兒子長得像你家農場里那隻你最喜歡的豬？我們過去都經歷過！不過你可以確保沒人知道這件事情，來假裝它從未發生過，以此來避免因為一次誠實的失言而丟掉腦袋。",
+				"當你施展這個法術時，你可以通過巧妙的操作修整你周圍聽眾的記憶，從而使在你周圍5尺內、每一個你所選擇的生物立即忘掉在最後六秒中你所說過的每一句話。之後，他們會記住你實際上說的是作為這個法術言語成分的那些話語。"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "鼓動貪慾",
+			"ENG_name": "Incite Greed",
+			"source": "AI",
+			"page": 76,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "一塊至少價值 50gp 的寶石",
+					"cost": 5000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"當你施展這個法術時，你將展現作為法術材料成分的寶石，並且選擇施法距離內能看見你的、任意數量的生物。每一個目標都必須成功通過一次感知豁免檢定，否則將會被你{@condition 魅惑}直到法術結束，或者直到你或你的同伴做了任何有害於他的事情。當生物被這種方式{@condition 魅惑}時，它們除了以安全的方式花費移動力來接近你以外，不能做任何其他的事情。當一個受影響的生物到達你的5尺之內，它將不能移動，只是貪婪地注視著你所展現的寶石。",
+				"受影響的目標每個回合結束時，可以再進行一次感知豁免檢定。如果它成功，對於那個目標的效果將結束。"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "吉姆的發光硬幣",
+			"source": "AI",
+			"page": 76,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "一枚硬幣",
+				"r": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"在魔術大師、大冒險家吉姆·黑法 Jim Darkmagic 運用過的許多騙術中，\"發光的舊硬幣\"是其中最為經典的。 當你施法時，你將作為法術材料成分的硬幣丟往法術距離內任意一點。這枚硬幣將會像處於{@spell 光亮術}法術影響一般閃閃發光。在硬幣周圍30尺內，你所能看到、並且由你選擇的每一個生物必須通過一次感知豁免檢定，否則將會在持續時間內被硬幣所分心。在被分心時，生物在感知（{@skill 察覺}）檢定和先攻檢定中具有劣勢。"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "吉姆的魔法飛彈",
+			"ENG_name": "Jim's Magic Missile",
+			"source": "AI",
+			"page": 76,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"r": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"吉姆的魔法飛彈是個久遠又強大的法術，也是我在法師學院裡的樂隊的的名字。"
+					],
+					"by": "吉姆·黑法 Jim Darkmagic"
+				},
+				"每一個法師學徒都會施展無聊的古董魔法飛彈。啊哈，它總是擊中目標。（哈欠）。別再幹你祖父流傳下來的苦差事了，來像吉姆·黑法 Jim Darkmagic 那樣，用這個改進版本的法術吧！",
+				"你創造了三個扭曲著的、尖嘯著的、低致敏的、無麩質的魔法力場飛鏢。每一枚飛彈都瞄準一個在法術距離內由你選擇的可見生物。為每一枚飛彈進行遠端攻擊檢定。若命中，飛彈將對這個目標造成{@damage 2d4}力場傷害。",
+				"如果這次攻擊檢定形成了一次重擊，取代正常重擊形成的兩次傷害骰的是，那枚飛彈的目標將直接受到{@damage 5d4}力場傷害。但是如果任何一個飛彈的攻擊檢定為1，所有飛彈都會丟失他們的目標並且在你的臉上爆炸，此時每一枚飛彈都會對你造成1點傷害。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "升環施法效果",
+					"ENG_name": "At Higher Levels",
+					"entries": [
+						"當你使用2環或更高的法術位施放該法術時，使用的法術位每高一環，法術就可以多創造一枚飛鏢，但是版權成分也會增加 1 gp。"
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "勵志演講",
+			"ENG_name": "Motivational Speech",
+			"source": "AI",
+			"page": 77,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"聽過吉姆的一次勵志演講，那是我人生最弱智的九十秒。真不知道歐米到底看中了他哪裡。"
+					],
+					"by": "沃爾納特·鄧格拉斯 Walnut Dankgrass"
+				},
+				"你向盟友、工作人員或是無辜的旁觀者發出勸誡，激勵他們嚮往崇高的目標，不管到底有沒有發生什麼讓他們興奮的事情。選擇施法距離內最多5個可以聽見你的生物。在持續時間中，每個生物都可以得到5點臨時生命值，並且在感知豁免中具有優勢。如果一個受影響的生物被一次攻擊擊中，它將在下一個它所進行的攻擊檢定中具有優勢。一旦一個受影響的生物失去了這個法術所提供的臨時生命值，這個法術就對它結束了。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "升環施法效果",
+					"ENG_name": "At Higher Levels",
+					"entries": [
+						"當你使用4環或更高的法術位施放該法術時，使用的法術位每高一環，提供的臨時生命值就增加5點。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"THP"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,200 @@
+{
+	"monster": [
+		{
+			"name": "死亡化身",
+			"ENG_name": "Avatar of Death",
+			"source": "DMG",
+			"page": 164,
+			"srd": true,
+			"otherSources": [
+				{
+					"source": "TCE"
+				}
+			],
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				20
+			],
+			"hp": {
+				"special": "其召喚者生命值最大值的一半"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": {
+					"number": 60,
+					"condition": "(浮空)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 16,
+			"wis": 16,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"所有其召喚者所知的語言"
+			],
+			"cr": "Unknown",
+			"trait": [
+				{
+					"name": "虛體移動",
+					"ENG_name": "Incorporeal Movement",
+					"entries": [
+						"死亡化身可以把其它生物和物體視作困難地形移動穿過它們。若它在一個物體內結束它的回合，則它將受到5 ({@damage 1d10})力場傷害。"
+					]
+				},
+				{
+					"name": "驅散免疫",
+					"ENG_name": "Turn Immunity",
+					"entries": [
+						"死亡化身免疫于驅散不死的效果。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "收割之鐮",
+					"ENG_name": "Reaping Scythe",
+					"entries": [
+						"死亡化身將它的靈體大鐮橫掃穿過一個距離它5尺內的生物，造成 7 ({@damage 1d8 + 3})揮砍傷害加上 4 ({@damage 1d8})黯蝕傷害。"
+					]
+				}
+			],
+			"hasToken": true,
+			"traitTags": [
+				"Incorporeal Movement",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"S"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "巨蒼蠅",
+			"ENG_name": "Giant Fly",
+			"source": "DMG",
+			"page": 169,
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 19,
+				"formula": "3d10 + 3"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 13,
+			"int": 2,
+			"wis": 10,
+			"cha": 3,
+			"senses": [
+				"黑暗視覺 60 尺"
+			],
+			"passive": 10,
+			"hasToken": true,
+			"senseTags": [
+				"D"
+			]
+		},
+		{
+			"name": "墮魂幼蟲",
+			"ENG_name": "Larva",
+			"source": "DMG",
+			"page": 63,
+			"otherSources": [
+				{
+					"source": "BGDIA"
+				}
+			],
+			"size": "M",
+			"type": "fiend",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				9
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 9,
+			"dex": 9,
+			"con": 10,
+			"int": 6,
+			"wis": 10,
+			"cha": 2,
+			"passive": 10,
+			"languages": [
+				"理解它生前所知的語言，但不會說"
+			],
+			"cr": "0",
+			"action": [
+				{
+					"name": "啃咬",
+					"ENG_name": "Bite",
+					"entries": [
+						"{@atk mw} 命中{@hit 1}，觸及5尺，單一目標。{@h}1 ({@damage 1d4 - 1})穿刺傷害。"
+					]
+				}
+			],
+			"hasToken": true,
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
