@@ -5768,6 +5768,123 @@
 				"你學會來自你族人們守護和尊崇的原初森林的魔法。你學會一個自選的德魯伊戲法。你也學會{@spell 大步奔行}和{@spell 行蹤無跡}法術，你可以各施放它們一次而無須消耗法術位。當你完成一次長休，你將重新獲得通過這個方式施放這兩個法術的能力。這三個法術的施法屬性是感知。"
 			],
 			"ENG_name": "Wood Elf Magic"
+		},
+		{
+			"name": "多彩龍之賜",
+			"ENG_name": "Gift of the Chromatic Dragon",
+			"source": "FTD",
+			"page": 17,
+			"entries": [
+				"你展現了多彩龍的部分力量，賦予你以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "多彩注入",
+							"ENG_name": "Chromatic Infusion",
+							"entries": [
+								"作為一個附加動作，你可以觸摸一個{@filter 簡易或軍用武器|items|source=phb|category=basic|type=martial weapon;simple weapon}，並賦予它以下傷害類型之一：酸、冷、火、電或毒。在接下來的一分鐘內，該武器在命中時會額外造成所選類型的{@damage 1d4}傷害。在你使用這個附加動作後，你需要完成一次長休息才能再次使用它。"
+							]
+						},
+						{
+							"type": "item",
+							"name": "反應抗性",
+							"ENG_name": "Reactive Resistance",
+							"entries": [
+								"當你受到酸、冷、火、電或毒傷害時，你可以用你的反應來給自己該次傷害的抗性。你可以使用這個反應次數等於你的熟練加值，並在完成一次長休息後恢復所有已使用的次數。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "寶石龍之賜",
+			"ENG_name": "Gift of the Gem Dragon",
+			"source": "FTD",
+			"page": 17,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你展現了寶石龍的部分力量，賦予你以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "念力報復",
+							"ENG_name": "Telekinetic Reprisal",
+							"entries": [
+								"當你從距離你10英尺以內的生物那裡受到傷害時，你可以用你的反應來釋放念力能量。對你造成傷害的生物必須進行一個力量豁免擲骰（DC等於8+你的熟練加值+這個專長增加的能力修正）。在失敗的豁免擲骰後，該生物會受到{@damage 2d8}的力量傷害，並被推離你最多10英尺。在成功的豁免擲骰後，該生物受到一半的傷害並不會被推開。你可以使用這個反應次數等於你的熟練加值，並在完成一次長休息後恢復所有已使用的次數。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "金屬龍之賜",
+			"ENG_name": "Gift of the Metallic Dragon",
+			"source": "FTD",
+			"page": 17,
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"治療傷口"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你展現了金屬龍的部分力量，賦予你以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "龍族治療",
+							"ENG_name": "Draconic Healing",
+							"entries": [
+								"你學會了{@spell 治療傷勢}法術。你可以在不消耗法術位的情況下施展此法術。一旦以此方式施展此法術，你將不能再次這樣做，直到你完成一次長休息。你也可以使用你有的法術位施放此法術。施放這個法術時，它的法術施法能力是智力、智慧或魅力（選擇此專長時選擇）。"
+							]
+						},
+						{
+							"type": "item",
+							"name": "保護之翼",
+							"ENG_name": "Protective Wings",
+							"entries": [
+								"你可以顯現保護翼來保護你或其他人。當你或另一個你能在距離你5英尺內看到的生物被攻擊擊中時，你可以用你的反應瞬間從你的背後顯現幽靈翼。你對該次攻擊的目標提供一個等於你熟練加值的AC加值，可能使其未被擊中。你可以使用這個反應次數等於你的熟練加值，並在完成一次長休息後恢復所有已使用的次數。"
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }

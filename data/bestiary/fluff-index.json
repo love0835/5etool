@@ -34,5 +34,6 @@
 	"VGM": "fluff-bestiary-vgm.json",
 	"VRGR": "fluff-bestiary-vrgr.json",
 	"WDH": "fluff-bestiary-wdh.json",
-	"WDMM": "fluff-bestiary-wdmm.json"
+	"WDMM": "fluff-bestiary-wdmm.json",
+	"FTD": "fluff-bestiary-ftd.json"
 }

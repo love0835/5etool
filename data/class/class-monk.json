@@ -706,6 +706,22 @@
 						"星我之軀|Monk||Astral Self|TCE|11",
 						"星我覺醒|Monk||Astral Self|TCE|17"
 					]
+				},
+				{
+					"name": "神龍宗",
+					"ENG_name": "Way of the Ascendant Dragon",
+					"shortName": "神龍宗",
+					"ENG_shortName": "Ascendant Dragon",
+					"source": "FTD",
+					"className": "Monk",
+					"classSource": "PHB",
+					"page": 13,
+					"subclassFeatures": [
+						"神龍門徒|Monk||Ascendant Dragon|FTD|3",
+						"巨龍展翅|Monk||Ascendant Dragon|FTD|6",
+						"巨龍儀態|Monk||Ascendant Dragon|FTD|11",
+						"神龍儀態|Monk||Ascendant Dragon|FTD|17"
+					]
 				}
 			],
 			"fluff": [
@@ -1605,6 +1621,209 @@
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "神龍宗",
+			"ENG_name": "Way of the Ascendant Dragon",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"entries": [
+				"龍神巴哈姆特以年輕僧侶的形象遊走於物質位面，傳說他以這種形象創立了第一座神龍宗的修道院。這一傳統的基本教導是，通過模仿龍，僧侶將更加融入世界和其魔法。通過改變他們的精神以與龍的力量產生共鳴，遵循這一傳統的僧侶增強了他們在戰鬥中的威力，增強了他們的盟友，甚至可以在龍的翅膀上飛翔。但所有這些力量都是為了實現一個更大的目標：與物質位面的本質達到精神統一。",
+				"作為神龍宗的追隨者，你決定了如何在自己體內解鎖龍的力量。神龍起源表提供了多種可能性。",
+				{
+					"type": "table",
+					"caption": "神龍起源",
+					"colLabels": [
+						"d6",
+						"起源"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"你通過將你的精神與龍的世界改變力量對齊來磨練你的能力。"
+						],
+						[
+							"2",
+							"一條龍親自積極地參與塑造你內在的能量。"
+						],
+						[
+							"3",
+							"你在一個修道院學習，該修道院的教導可以追溯到幾個世紀或更早以前一條龍的指導，或者是致力於龍神的修道院。"
+						],
+						[
+							"4",
+							"你在一條古老龍的巢穴周圍的區域裡長時間地冥想，吸收該巢穴的環境魔法。"
+						],
+						[
+							"5",
+							"你找到了一份用龍語寫的卷軸，其中包含了令人振奮的新技巧。"
+						],
+						[
+							"6",
+							"在一個夢中看到一個有五隻手的龍裔後，你醒來就擁有了龍的神秘氣息。"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "神龍門徒|Monk||Ascendant Dragon|FTD|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "神龍吐息|Monk||Ascendant Dragon|FTD|3"
+				}
+			]
+		},
+		{
+			"name": "神龍吐息",
+			"ENG_name": "Breath of the Dragon",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3級神龍宗特性}",
+				"你可以引導破壞性的能量波，就像你模仿的龍所創造的那樣。當你在你的回合採取{@action 攻擊}動作時，你可以用一個20英尺錐形或30英尺長、5英尺寬的龍類能量吐息（由你選擇）來替換其中一個攻擊。選擇一種傷害類型：酸性、寒冷、火焰、閃電或毒素。該區域內的每一個生物必須對你的氣節度（ki save DC）進行一個敏捷豁免擲骰，失敗則受到等於你武術骰兩次擲骰的所選類型傷害，成功則傷害減半。",
+				"在11級時，此特性的傷害增加到你的武術骰三次擲骰。",
+				"你可以使用此特性次數等於你的熟練加值，並在完成長休息後恢復所有已用次數。當你沒有可用次數時，你可以花費2個氣點再次使用此特性。"
+			]
+		},
+		{
+			"name": "神龍門徒",
+			"ENG_name": "Draconic Disciple",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3級神龍宗特性}",
+				"你可以引導龍類力量來放大你的氣場，並賦予你的徒手攻擊龍的吐息的精髓。你獲得以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "龍之威",
+							"entry": "如果你失敗了一個魅力（{@skill 威嚇}）或魅力（{@skill 說服}）檢定，你可以用你的反應來重新擲骰該檢定，因為你利用了龍的強大威力。一旦這一特性把失敗變成成功，你在完成一次長休息之前不能再使用它。"
+						},
+						{
+							"type": "item",
+							"name": "龍之擊",
+							"entry": "當你用徒手攻擊傷害一個目標時，你可以改變傷害類型為酸性、寒冷、火焰、閃電或毒素。"
+						},
+						{
+							"type": "item",
+							"name": "龍之舌",
+							"entry": "你學會說，讀，和寫{@language 龍語}或你選擇的另一種語言。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "巨龍展翅",
+			"ENG_name": "Wings Unfurled",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6級神龍宗特性}",
+				"當你使用你的\"飛檐走壁\"時，你可以從你的背部展開幽靈般的龍翼，這些翼在你的回合結束時消失。當翼存在時，你的飛行速度等於你的行走速度。",
+				"你可以使用這個特性次數等於你的熟練加值，並且你在完成長時間休息後會恢復所有已經使用的次數。"
+			]
+		},
+		{
+			"name": "巨龍儀態",
+			"ENG_name": "Aspect of the Wyrm",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11級神龍宗特性}",
+				"你的龍性精神的力量現在從你身上散發出來，保護你的盟友或在你的敵人中引發恐懼。作為一個附贈動作，你可以創造一個持續1分鐘的、從你身體散發出去10英尺的龍性能量光環。在此期間，你可以選擇以下一種效果：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "可怕的氣場",
+							"entry": "當你創建此光環，以及在後續回合作為一個附贈動作，你可以選擇光環內的一個生物。目標必須成功通過一次針對你的氣值豁免的智力豁免檢定，否則將因你而變得{@condition 恐懼}，持續1分鐘。目標可以在其每一個回合結束時重複豁免檢定，成功則結束這種效果。"
+						},
+						{
+							"type": "item",
+							"name": "抗性",
+							"entry": "當你啟動這個光環時，選擇一種傷害類型：酸性、寒冷、火焰、閃電或毒素。你和你的盟友在光環內對該種類型的傷害具有抗性。"
+						}
+					]
+				},
+				"一旦你創建了這個光環，除非你花費3點氣值再次創建它，否則你不能再創建它，直到你完成長時間休息。"
+			]
+		},
+		{
+			"name": "神龍儀態",
+			"ENG_name": "Ascendant Aspect",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17級神龍宗特性}",
+				"你的龍性精神達到了頂峰。你獲得以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "增強吐息",
+							"entry": "當你使用你的神龍吐息時，你可以花費1點氣值來增強其形狀和力量。龍性能量的呼出變成一個60英尺的錐體或者一個90英尺長5英尺寬的直線（由你選擇），並且該區域內的每個生物在未通過豁免檢定的情況下受到等於你的武術骰四次擲骰的傷害，成功則傷害減半。"
+						},
+						{
+							"type": "item",
+							"name": "盲視",
+							"entry": "你獲得10英尺範圍內的{@sense 盲視}。在這個範圍內，你可以有效地看到任何不在完全掩護後面的東西，即使你是{@condition 盲目的}或者在黑暗中。此外，你可以看到在該範圍內的{@condition 無形}生物，除非該生物成功地對你隱藏。"
+						},
+						{
+							"type": "item",
+							"name": "爆炸性狂怒",
+							"entry": "當你啟動你的巨龍儀態時，龍性的狂怒從你身上爆發出來。選擇你能在你的光環內看到的任何數量的生物。這些生物必須成功通過一個針對你的氣值豁免的敏捷豁免檢定，否則會受到{@damage 3d10}的酸性、寒冷、火焰、閃電或毒素傷害（由你選擇）。"
+						}
+					]
+				}
+			]
+		},
 		{
 			"name": "四象宗",
 			"ENG_name": "Way of the Four Elements",
