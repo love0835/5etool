@@ -1,0 +1,564 @@
+{
+	"spell": [
+		{
+			"name": "阿夏達隆的步伐",
+			"ENG_name": "Ashardalon's Stride",
+			"source": "FTD",
+			"page": 19,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"龍的熊熊火焰從你的腳下噴出，賦予你爆炸性的速度。在持續時間內，你的速度增加20英尺，移動不會觸發機會攻擊。",
+				"當你移動到距離一個生物或物體5英尺內，而該生物或物體不是被穿戴或攜帶時，它將受到你熱氣軌跡的{@damage 1d6}點火焰傷害。生物或物體在一個回合內只能受到這種傷害一次。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "在更高等級時",
+					"entries": [
+						"當你使用4級或更高級的法術位施放這個法術時，每超過3級的法術位等級都會使你的速度增加5英尺。法術每超過3級的法術位等級都會增加{@scaledamage 1d6|3-9|1d6}點火焰傷害。"
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"miscTags": [
+				"OBJ"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "龍之變身",
+			"ENG_name": "Draconic Transformation",
+			"source": "FTD",
+			"page": 19,
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "價值至少500金幣的龍雕像",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"隨著一聲咆哮，你借助龍的魔力來變身，呈現龍的特性。你在法術結束前獲得以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "盲視",
+							"entries": [
+								"你擁有30英尺的{@sense 盲視}範圍。在該範圍內，你能有效地看到任何不是在完全掩蔽後的東西，即使你處於{@condition 盲目}或黑暗中。此外，你能看到{@condition 隱形}的生物，除非該生物成功地躲避了你的視線。"
+							]
+						},
+						{
+							"type": "item",
+							"name": "吐息武器",
+							"entries": [
+								"當你施放這個法術，以及在持續時間內的後續回合中作為一個附贈動作，你可以吐出閃爍的能量，形成一個60英尺的錐形。在該區域內的每個生物都必須進行一次敏捷豁免，失敗者將受到{@damage 6d8}點力場傷害，成功者則只受到一半傷害。"
+							]
+						},
+						{
+							"type": "item",
+							"name": "翅膀",
+							"entries": [
+								"無形的翅膀從你的背部長出，賦予你60英尺的飛行速度。"
+							]
+						}
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "菲茲班的白金盾",
+			"ENG_name": "Fizban's Platinum Shield",
+			"source": "FTD",
+			"page": 20,
+			"level": 6,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "價值至少500金幣的鍍白金的龍鱗",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你在範圍內選擇一個生物（可以是你自己）周圍創造出一片銀白色的光域。這片光域向外散發出微弱的光，範圍達5英尺。被這片光域包圍的生物將獲得以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "掩護",
+							"entries": [
+								"該生物擁有半掩護。"
+							]
+						},
+						{
+							"type": "item",
+							"name": "傷害抗性",
+							"entries": [
+								"該生物對酸、寒冷、火、閃電和毒素傷害具有抗性。"
+							]
+						},
+						{
+							"type": "item",
+							"name": "迴避",
+							"entries": [
+								"如果該生物受到允許其進行敏捷豁免以僅受到一半傷害的效果影響，那麼該生物成功豁免則不受傷害，失敗則只受到一半傷害。"
+							]
+						}
+					]
+				},
+				"在後續回合中，作為一個附贈動作，你可以將這片光域移到距離該光域60英尺內的另一個生物身上。"
+			],
+			"miscTags": [
+				"UBA"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "納賽爾的惡作劇",
+			"ENG_name": "Nathair's Mischief",
+			"source": "FTD",
+			"page": 20,
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "一塊蘋果派的餅皮"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你用妖精和龍類的魔法填充你在射程內能看到的一個20英尺的立方體。根據 惡作劇激增 表來決定產生的魔法效果，並在你的每個回合開始時再次擲骰。你可以在擲骰之前將立方體移動最多10英尺。",
+				{
+					"type": "table",
+					"caption": "惡作劇激增",
+					"colLabels": [
+						"d4",
+						"效果"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"空氣中充滿了蘋果派的香味，立方體內的每個生物都必須成功進行一次智力豁免，否則將在你下一個回合開始前成為你的{@condition 魅惑}對象。"
+						],
+						[
+							"2",
+							"四周出現了花束，立方體內的每個生物都必須成功進行一次敏捷豁免，否則將在你下一個回合開始前因花朵噴水而變成{@condition 盲目}。"
+						],
+						[
+							"3",
+							"立方體內的每個生物都必須成功進行一次智力豁免，否則將在你下一個回合開始前開始咯咯地笑。咯咯笑的生物處於{@condition 無力}狀態，並將所有的移動用於隨機方向的移動。"
+						],
+						[
+							"4",
+							"立方體內出現了懸浮的糖漿滴，使其成為困難地形，直到你下一個回合開始。"
+						]
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity",
+				"wisdom"
+			],
+			"miscTags": [
+				"RO",
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "羅洛西姆的心靈長矛",
+			"ENG_name": "Raulothim's Psychic Lance",
+			"source": "FTD",
+			"page": 21,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你從你的前額釋放出一道閃爍的心靈力量長矛，射向你在射程內能看到的一個生物。或者，你可以喊出一個生物的名字。如果指名的目標在射程內，即使你看不到它，它也會成為這個咒語的目標。如果指名的目標不在射程內，長矛就會消失，沒有任何效果。",
+				"目標必須進行一次智力豁免。失敗的話，目標將受到{@damage 7d6}心靈傷害，並且在你下一個回合開始前處於{@condition 無力}狀態。成功的話，生物受到一半的傷害，並且不會處於{@condition 無力}狀態。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "在更高等級",
+					"entries": [
+						"當你使用5級或更高級的法術位施放這個咒語時，每超過第4級的法術位等級，傷害都會增加{@scaledamage 7d6|4-9|1d6}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "萊姆的束縛冰",
+			"ENG_name": "Rime's Binding Ice",
+			"source": "FTD",
+			"page": 21,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "一瓶融水"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"一陣冷能量從你身上散發出來，形成一個30英尺的錐形範圍。該區域內的每個生物都必須進行一次體質豁免。失敗的話，生物會受到{@damage 3d8}冷傷害，並會被冰塊困住1分鐘，或者直到它或另一個在它範圍內的生物用一個動作破碎冰塊。被冰塊困住的生物速度降為0。成功的話，生物受到一半的傷害，並且不會被冰塊困住。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "在更高等級",
+					"entries": [
+						"當你使用3級或更高級的法術位施放這個咒語時，冷傷害增加{@scaledamage 3d8|2-9|1d8}，對於每一個高於第2級的法術位等級。"
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"N"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "召喚龍族之靈",
+			"ENG_name": "Summon Draconic Spirit",
+			"source": "FTD",
+			"page": 21,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "一個至少價值500金幣，並且上面雕刻有龍形象的物品",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召喚一個{@creature 龍族之靈|FTD}。它出現在你能看到的，範圍內的一個空地上。這個有形體使用龍族之靈的屬性方塊。當你施放這個咒語時，選擇一個龍的家族：多彩，寶石，或金屬。生物會像你選擇的家族的一個龍，這決定了它屬性方塊中的某些特點。當生物的生命值降到0或咒語結束時，它會消失。",
+				"這個生物是你和你的同伴的盟友。在戰鬥中，生物分享你的先攻次序，但是它會在你之後立即採取行動。它會遵從你的口頭命令（你不需要採取任何動作）。如果你不發出任何命令，它會採取{@action 閃避}動作並用其移動來避開危險。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "在更高等級",
+					"entries": [
+						"當你使用6級或更高級的法術位施放這個咒語時，使用更高的等級來替代屬性方塊中出現的咒語等級。"
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
