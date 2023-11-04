@@ -2338,6 +2338,277 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "龍裔 (瑪瑙色)",
+			"ENG_name": "Dragonborn (Chromatic)",
+			"source": "FTD",
+			"page": 10,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"酸性",
+							"閃電",
+							"毒素",
+							"火焰",
+							"寒冷"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "多變的血統",
+					"ENG_name": "Chromatic Ancestry",
+					"entries": [
+						"你有一位瑪瑙色龍類祖先，賦予了你特殊的魔法親和力。從瑪瑙色血統表中選擇一種龍。這決定了你其他特徵的傷害類型，如表中所示。",
+						{
+							"type": "table",
+							"caption": "瑪瑙色血統",
+							"colLabels": [
+								"龍",
+								"傷害類型"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"黑色",
+									"酸性"
+								],
+								[
+									"藍色",
+									"閃電"
+								],
+								[
+									"綠色",
+									"毒素"
+								],
+								[
+									"紅色",
+									"火焰"
+								],
+								[
+									"白色",
+									"寒冷"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "吐息武器",
+					"ENG_name": "Breath Weapon",
+					"entries": [
+						"當你在你的回合採取{@action 攻擊}行動時，你可以用吐出魔法能量的方式取代你的其中一次攻擊，在一個30英尺長5英尺寬的線形範圍內。該區域內的每一個生物必須進行一次敏捷度拯救投擲（DC = 8 + 你的體質調整值 + 你的熟練加值）。在失敗的拯救投擲上，生物受到與你的瑪瑙色血統相關的傷害類型{@damage 1d10}傷害。成功的拯救投擲上，它受到一半的傷害。當你達到第5級（{@dice 2d10}）、第11級（{@dice 3d10}）和第17級（{@dice 4d10}）時，這個傷害增加{@dice 1d10}。",
+						"你可以使用你的吐息武器次數等同於你的熟練加值，並且當你完成一次長休息後，你恢復所有已耗盡的使用次數。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "龍裔抗性",
+					"ENG_name": "Draconic Resistance",
+					"entries": [
+						"你對與你的瑪瑙色血統相關的傷害類型具有抗性。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "瑪瑙色護盾",
+					"ENG_name": "Chromatic Warding",
+					"entries": [
+						"從第5級開始，作為一個行動，你可以引導你的龍裔能量保護自己。在1分鐘內，你對與你的瑪瑙色血統相關的傷害類型免疫。一旦你使用此特徵，直到你完成一次長休息之前，你不能再次使用它。"
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"_template": {
+						"name": "龍裔 (瑪瑙色; {{color}})",
+						"ENG_name": "Dragonborn (Chromatic; {{color}})",
+						"source": "FTD",
+						"_mod": {
+							"entries": [
+								{
+									"mode": "removeArr",
+									"names": "多變的血統"
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "吐息武器",
+									"items": {
+										"type": "entries",
+										"name": "吐息武器",
+										"entries": [
+											"當你在你的回合採取{@action 攻擊}行動時，你可以用吐出魔法能量的方式取代你的其中一次攻擊，在一個30英尺長5英尺寬的線形範圍內。該區域內的每一個生物必須進行一次敏捷度拯救投擲（DC = 8 + 你的體質調整值 + 你的熟練加值）。在失敗的拯救投擲上，生物受到{{damageType}}傷害。在成功的拯救投擲上，它受到一半的傷害。這個傷害在你達到第5級（{@dice 2d10}）、第11級（{@dice 3d10}）和第17級（{@dice 4d10}）時增加{@dice 1d10}。",
+											"你可以使用你的吐息武器次數等同於你的熟練加值，並且當你完成一次長休息後，你恢復所有已耗盡的使用次數。"
+										]
+									}
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "龍裔抗性",
+									"items": {
+										"type": "entries",
+										"name": "龍裔抗性",
+										"entries": [
+											"你對{{damageType}}傷害有抗性。"
+										]
+									}
+								}
+							]
+						}
+					},
+					"_implementations": [
+						{
+							"_variables": {
+								"color": "黑色",
+								"damageType": "酸性"
+							}
+						},
+						{
+							"_variables": {
+								"color": "藍色",
+								"damageType": "閃電"
+							}
+						},
+						{
+							"_variables": {
+								"color": "綠色",
+								"damageType": "毒素"
+							}
+						},
+						{
+							"_variables": {
+								"color": "紅色",
+								"damageType": "火焰"
+							}
+						},
+						{
+							"_variables": {
+								"color": "白色",
+								"damageType": "寒冷"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "龍裔 (寶石)",
+			"ENG_name": "Dragonborn (Gem)",
+			"source": "FTD",
+			"page": 11,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"force",
+							"radiant",
+							"psychic",
+							"thunder",
+							"necrotic"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "寶石血統",
+					"ENG_name": "Gem Ancestry",
+					"entries": [
+						"你擁有一個寶石龍祖先，賦予你特殊的魔法親和力。從寶石血統表中選擇一種龍。這將決定你其他特性的傷害類型，如表中所示。",
+						{
+							"type": "table",
+							"caption": "寶石血統",
+							"ENG_name": "Gem Ancestry",
+							"colLabels": [
+								"龍類",
+								"傷害類型"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"紫水晶",
+									"Force"
+								],
+								[
+									"水晶",
+									"Radiant"
+								],
+								[
+									"翡翠",
+									"Psychic"
+								],
+								[
+									"藍寶石",
+									"Thunder"
+								],
+								[
+									"黃玉",
+									"Necrotic"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "吐息武器",
+					"ENG_name": "Breath Weapon",
+					"entries": [
+						"當你在你的回合採取{@action 攻擊}行動時，你可以用吐出魔法能量的方式替代你的其中一次攻擊，在一個15英尺的錐形範圍內。該區域內的每個生物必須進行一次敏捷度拯救投擲（DC = 8 + 你的體質調整值 + 你的熟練加值）。在失敗的拯救投擲上，生物受到來自你的寶石血統相關的傷害類型的{@damage 1d10}傷害。在成功的拯救投擲上，它受到一半的傷害。這個傷害在你達到第5級（{@dice 2d10}）、第11級（{@dice 3d10}）、和第17級（{@dice 4d10}）時增加{@dice 1d10}。",
+						"你可以使用你的吐息武器次數等同於你的熟練加值，並且當你完成一次長休息後，你恢復所有已耗盡的使用次數。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "龍裔抗性",
+					"ENG_name": "Draconic Resistance",
+					"entries": [
+						"你對你的寶石血統相關的傷害類型有抗性。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "靈能心智",
+					"ENG_name": "Psionic Mind",
+					"entries": [
+						"你可以向你能看見的30英尺範圍內的任何生物發送心靈訊息。你不需要與生物共享一種語言以便它理解這些訊息，但它必須至少能理解一種語言以理解它們。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "寶石飛行",
+					"ENG_name": "Gem Flight",
+					"entries": [
+						"從第5級開始，你可以使用一個附贈動作在你的身體上顯現出鬼魂翅膀。這些翅膀持續1分鐘。在此期間，你獲得一個等同於你步行速度的飛行速度並且可以盤旋。一旦你使用了這個特性，你在完成一次長休息前不能再次使用。"
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "矮人",
 			"source": "PHB",
 			"page": 18,
