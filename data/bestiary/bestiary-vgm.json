@@ -282,7 +282,7 @@
 			"page": 172,
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"ENG_name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
 						"懾心魔的天生施法屬性為智力（法術豁免DC 16）。它天生就可以施展以下法術，且無需任何構材："
@@ -4118,7 +4118,7 @@
 				},
 				{
 					"name": "黑暗術 (短休或長休之後充能)",
-					"ENG_name": "Darkness",
+					"ENG_name": "Darkness (Recharges after a Short or Long Rest)",
 					"entries": [
 						"暗靈長老施放{@spell 黑暗術}而無須任何構材。它的施法屬性為感知。"
 					]
@@ -5245,7 +5245,7 @@
 			"page": 173,
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"ENG_name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
 						"主腦的天生施法屬性為智力（法術豁免DC 18）。它天生就可以施展以下法術，且無需任何構材："
@@ -8171,7 +8171,7 @@
 			"page": 172,
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"ENG_name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
 						"奪心魔巫妖的天生施法屬性為智力（法術豁免DC 20）。它天生就可以施展以下法術，且無需任何構材："
@@ -8357,7 +8357,7 @@
 			"trait": [
 				{
 					"name": "位移幻象 (幻術師施放一個一環或更高環的幻術系法術之後充能)",
-					"ENG_name": "Displacement",
+					"ENG_name": "Displacement (Recharges after the Illusionist Casts an Illusion Spell of 1st Level or Higher)",
 					"entries": [
 						"以一個附贈動作，幻術師投射出一個魔法幻象，使其看起來像是站在它實際位置的附近，並讓任何生物在對它進行的攻擊檢定因此承受劣勢。若幻術師受到傷害、陷入{@condition 無力}狀態、或移動速度歸零時，這個效果將會結束。"
 					]
@@ -10016,7 +10016,7 @@
 			"page": 71,
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"ENG_name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
 						"奪心魔是10級的施法者。它的施法屬性為智力（法術豁免DC 15，法術攻擊命中{@hit 7}）。它天生就可以施展以下法術，且無需任何構材："
@@ -11115,7 +11115,7 @@
 			"page": 181,
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"ENG_name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
 						"奪心巨蟲的天生施法屬性為感知（法術豁免DC 16）。它天生就可以施展以下法術，且無需任何構材："
@@ -14411,7 +14411,7 @@
 			"page": 175,
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"ENG_name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
 						"噬魂魔的天生施法屬性為智力（法術豁免DC 17）。它天生就可以施展以下法術，且無需任何構材："
@@ -15076,7 +15076,7 @@
 			"reaction": [
 				{
 					"name": "霧遁 (短休或長休之後充能)",
-					"ENG_name": "Misty Escape",
+					"ENG_name": "Misty Escape (Recharges after a Short or Long Rest)",
 					"entries": [
 						"當契術師受到傷害時，它可以變得{@condition 隱形}並傳送最遠60尺距離到一處它所能看見的未被佔據空間。它將保持{@condition 隱形}狀態直到它的下個回合開始，或直到它攻擊、擲傷害骰、或施放法術。"
 					]

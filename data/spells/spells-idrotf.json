@@ -86,7 +86,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用2環或更高法術位施展該法術時，你使用的法術位每比1環高一環，法術傷害就增加{@dice 1d8}。"

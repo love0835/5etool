@@ -116,7 +116,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用三環或更高法術位施展該法術時，每比二環高一環的法術位可以令你指定一個額外的生物。"
@@ -244,7 +244,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用七環或更高環位的法術位施展該法術時，每比六環高出一環的法術位能使該法術的傷害增加{@scaledamage 8d8|6-9|1d8} 。"
@@ -311,7 +311,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用五環或者更高環位的法術位施展該法術時， 每比四環高出一環的法術位可以使該法術的傷害增加{@scaledamage 5d10|4-9|1d10} 。"
@@ -389,7 +389,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"若你使用四環或五環法術位施展該法術，使該物件移動的檢定DC增加5，並且它能夠承載8000磅重的負載並持續24小時。如果你用六環或者更高環的法術位施展該法術，那麼使該物件移動的檢定DC增加10，並且它能夠承載20000磅重的負載並一直持續到法術被解除。"
@@ -457,7 +457,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"每當你使用二環或更高的法術位施展該法術時，每比一環多一的法術位能使該法術的傷害增加{@scaledamage 2d8|1-9|1d8}。"
@@ -527,7 +527,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用四環或更高環的法術位施展該法術時，每比三環高出一環的法術位就能使法術的傷害增加{@scaledamage 6d6|3-9|1d6}，並使推拉的距離增加5尺。"
@@ -872,7 +872,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用六環或更高環位的法術位施展該法術時，每比五環高出一環的法術位可以使你多指定一個目標。 所有的目標都需要在互相的30尺內。"

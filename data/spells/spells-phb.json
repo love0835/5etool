@@ -131,7 +131,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，目標的生命值就可以額外再增加5點。"
@@ -570,7 +570,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外影響一頭野獸作為目標。"
@@ -681,7 +681,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，法術的持續時間就再增加48小時。"
@@ -819,7 +819,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外喚起或延續控制二個不死生物。每個生物都必須來自不同的屍體或骨骸。"
@@ -1004,7 +1004,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外活化二個物體。"
@@ -1755,7 +1755,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，臨時生命值和冷凍傷害都會增加5點。"
@@ -1875,7 +1875,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 2d6|1-9|1d6}。"
@@ -2678,7 +2678,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -2911,7 +2911,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -3444,7 +3444,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你可以維持你在此法術的專注最多10分鐘。當你使用5環或更高的法術位施放此法術時，持續時間為8小時。當你使用7環或更高的法術位施放此法術時，持續時間為24小時。當你使用9環法術位施放此法術時，此法術將持續直到被解消。使用5環或更高的法術位施放此法術將會讓它的持續時間不再需要專注。"
@@ -3613,7 +3613,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，金剛拳選項造成的傷害便會再增加{@scaledice 4d8|5-9|2d8}，且擒拿掌所造成的傷害也會再增加{@scaledice 2d6|5-9|2d6}。"
@@ -3848,7 +3848,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -3951,7 +3951,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 8d8|4-9|1d8}。"
@@ -4238,7 +4238,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -4620,7 +4620,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，額外傷害便會再增加{@scaledice 2d6|2-9|1d6}。"
@@ -4749,7 +4749,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 3d6|1-9|1d6}。"
@@ -4968,7 +4968,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 3d10|3-9|1d10}。"
@@ -5208,7 +5208,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，從第一個目標躍向另一個目標的閃電束便會再額外增加一條。"
@@ -5281,7 +5281,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。當你選擇這些生物時，它們彼此之間的距離必須在30尺內。"
@@ -5575,7 +5575,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 3d8|1-9|1d8}。"
@@ -5664,7 +5664,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 8d6|6-9|2d6}。"
@@ -6007,7 +6007,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 4d4|2-9|2d4}。"
@@ -6084,7 +6084,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 5d8|5-9|1d8}。"
@@ -6265,7 +6265,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，就可以再額外骰{@scaledice 6d10|1-9|2d10}。"
@@ -6378,7 +6378,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外影響一個生物。當你選擇這些生物時，它們彼此之間的距離必須在30尺內。"
@@ -7143,7 +7143,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 8d8|5-9|1d8}。"
@@ -7415,7 +7415,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，該球體範圍的半徑就會再增加5尺。"
@@ -7594,7 +7594,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用特定更高環階的法術位施放此法術時，你從上述召喚選項中選擇一項，並讓更多生物出現：使用5環法術位時出現兩倍、7環法術位時出現三倍、使用9環法術位時出現四倍。"
@@ -7771,7 +7771,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用9環法術位施放此法術時，你可以改為召喚一個{@filter 挑戰等級5或以下的天界生物|bestiary|challenge rating=[&0;&5]|type=celestial|miscellaneous=!swarm}."
@@ -7836,7 +7836,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你所能召喚生物的挑戰等級便會再增加1。"
@@ -7956,7 +7956,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你所能召喚生物的挑戰等級便會再增加1。"
@@ -8033,7 +8033,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用特定更高環階的法術位施放此法術時，你從上述召喚選項中選擇一項，並讓更多生物出現：使用6環法術位時出現兩倍、8環法術位時出現三倍。"
@@ -8201,7 +8201,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用特定更高環階的法術位施放此法術時，你從上述召喚選項中選擇一項，並讓更多生物出現：使用6環法術位時出現兩倍、8環法術位時出現三倍。"
@@ -8985,7 +8985,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，可以被影響的彈藥數量就會再增加2枝。"
@@ -9046,7 +9046,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，如果被中斷法術的環階等於或低於你所使用的法術位，則該法術不會產生任何效果。"
@@ -9308,7 +9308,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再多創造或消滅10加侖的水，或者增加立方體空間的邊長5尺。"
@@ -9412,7 +9412,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環法術位施放此法術時，你可以活化或延續控制四個{@creature 食尸鬼}。當你使用8環法術位施放此法術時，你可以活化或延續控制五個{@creature 食尸鬼}或二個{@creature 妖鬼}或{@creature 尸妖}。當你使用9環法術位施放此法術時，你可以活化或延續控制六個{@creature 食尸鬼}或三個{@creature 妖鬼}或{@creature 尸妖}或二個{@creature 木乃伊}。"
@@ -9513,7 +9513,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你所能創造物體的立方體邊長便會再增加5尺。"
@@ -9819,7 +9819,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，治療量便會再增加{@scaledice 1d8|1-9|1d8}。"
@@ -10664,7 +10664,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用8環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，基礎傷害便會再增加{@scaledice 12d6|7-9|1d6}。"
@@ -11640,7 +11640,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 10d6 + 40|6-9|3d6}。"
@@ -11783,7 +11783,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，如果作用於目標上的法術的環階等於或低於你所使用的法術位，則你將自動結束該法術的效果。"
@@ -11960,7 +11960,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 3d6|1-9|1d6}。"
@@ -12350,7 +12350,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環法術位施放此法術時，持續時間變為專注,至多10分鐘。當你使用6環法術位施放此法術時，持續時間變為專注,至多1小時。當你使用7環或更高的法術位施放此法術時，持續時間變為專注,至多8小時。"
@@ -12524,7 +12524,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用9環法術位施放此法術時，持續時間變為專注,至多8小時。"
@@ -12608,7 +12608,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環法術位施放此法術時，持續時間變為專注,至多10分鐘。當你使用7環法術位施放此法術時，持續時間變為專注,至多1小時。當你使用8環或更高的法術位施放此法術時，持續時間變為專注,至多8小時。"
@@ -13195,7 +13195,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環或6環法術位施放此法術時，加值增加至+2且額外傷害增加至{@scaledice 1d4|3-9|2d4}。當你使用7環或更高的法術位施放此法術時，加值增加至+3且額外傷害增加至{@scaledice 1d4|3-9|3d4}。"
@@ -13392,7 +13392,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -13720,7 +13720,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 1d6|1-9|1d6}。"
@@ -14025,7 +14025,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用8環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇最多三個自願生物作為目標。這些生物在你施放此法術時必須距離你10尺內。"
@@ -14703,7 +14703,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以額外再獲得5點臨時生命值。"
@@ -15909,7 +15909,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 8d6|3-9|1d6}。"
@@ -16091,7 +16091,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高二環，傷害便會再增加{@scaledice 3d6|2,4,6,8|1d6}。"
@@ -16173,7 +16173,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，火焰傷害或光耀傷害（由你選擇）便會再增加{@scaledice 4d6|5-9|1d6}。"
@@ -16399,7 +16399,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 2d6|2-9|1d6}。"
@@ -16651,7 +16651,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -16743,7 +16743,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，霧氣的半徑就再增加20尺。"
@@ -17714,7 +17714,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或8環法術位施放此法術時，此法術的持續時間為1年。當你使用9環法術位施放此法術時，此法術將持續直到它被上面提及的法術給結束。"
@@ -18082,7 +18082,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，屏障所能阻擋的法術環階便會再提升一環。"
@@ -18167,7 +18167,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，爆炸符文的傷害便會再增加{@scaledice 5d8|3-9|1d8}。如果你選擇創造法術銘文，你可以儲存任何環階最高等同於你用於施放守衛銘文的法術位的法術。"
@@ -19231,7 +19231,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 4d6|1-9|1d6}。"
@@ -19528,7 +19528,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 1d10|1-9|1d10}（傷害最高為{@scaledice 1d10|1-9|6d10}）。"
@@ -20099,7 +20099,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，治療量便會再增加10。"
@@ -20161,7 +20161,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，治療量便會再增加{@scaledice 1d4|1-9|1d4}。"
@@ -20255,7 +20255,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 2d8|2-9|1d8}。"
@@ -20380,7 +20380,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 2d10|1-9|1d10}。"
@@ -20559,7 +20559,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -20727,7 +20727,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或4環法術位施放此法術時，你可以維持你在此法術的專注最多8小時。當你使用5環或更高的法術位施放此法術時，你可以維持你在此法術的專注最多24小時。"
@@ -20808,7 +20808,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。當你選擇這些生物時，它們彼此之間的距離必須在30尺內。"
@@ -20988,7 +20988,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個類人生物作為目標。當你選擇這些類人生物時，它們彼此之間的距離必須在30尺內。"
@@ -21348,7 +21348,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或4環法術位施放此法術時，你可以維持你在此法術的專注最多8小時。當你使用5環或更高的法術位施放此法術時，你可以維持你在此法術的專注最多24小時。"
@@ -21569,7 +21569,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，鈍擊傷害便會再增加{@scaledice 2d8|4-9|1d8}。"
@@ -22091,7 +22091,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 3d10|1-9|1d10}。"
@@ -22181,7 +22181,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 4d10|5-9|1d10}。"
@@ -22429,7 +22429,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -23495,7 +23495,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，此法術的兩個傷害都會再增加{@scaledice 4d8;2d8|3-9|1d8}。"
@@ -23558,7 +23558,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 8d6|3-9|1d6}。"
@@ -24050,7 +24050,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以再額外選擇一個生物作為目標。"
@@ -24418,7 +24418,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，法術的持續時間就會再增加1小時。"
@@ -24618,7 +24618,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，此法術就可以再額外創造一支箭矢。"
@@ -24812,7 +24812,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，加值增加至+2。當你使用6環或更高的法術位施放此法術時，加值增加至+3。"
@@ -24995,7 +24995,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，此法術將持續直到被解消，且不再需要你的專注。"
@@ -25073,7 +25073,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，治療量便會再增加{@scaledice 3d8|5-9|1d8}。"
@@ -25240,7 +25240,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，治療量便會再增加{@scaledice 1d4|3-9|1d4}。"
@@ -25358,7 +25358,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環法術位施放此法術時，此法術的持續時間變為10天。當你使用8環法術位施放此法術時，持續時間變為30天。當你使用9環法術位施放此法術時，持續時間變為1年又1天。"
@@ -25626,7 +25626,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，初始傷害和後續傷害都會再增加{@scaledice 4d4;2d4|2-9|1d4}。"
@@ -26692,7 +26692,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用6環或更高的法術位施放此法術時，你可以修改目標記憶中最多7天前(6環)、30天前(7環)、1年前(8環)、或在過去任何時候(9環)所發生事件的記憶。"
@@ -26826,7 +26826,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 2d10|2-9|1d10}。"
@@ -27078,7 +27078,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以讓立方體的大小再增加100尺。因此你可以藉由使用5環法術位來保護一個各邊長最多200尺的立方體區域。"
@@ -27487,7 +27487,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 10d6|6-9|1d6}。"
@@ -28135,7 +28135,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 4d10|4-9|1d10}。"
@@ -28409,7 +28409,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用更高的法術位施放此法術時，此法術的持續時間將在使用6環法術位時增加至10天，7環法術位時增加至30天，8環法術位時增加至180天，且9環法術位時增加至1年又1天。"
@@ -29144,7 +29144,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，治療量便會再增加{@scaledice 2d8|2-9|1d8}。"
@@ -30921,7 +30921,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 2d8|1-9|1d8}。"
@@ -32099,7 +32099,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就能再額外創造一條射線。"
@@ -32488,7 +32488,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，攻擊所造成的初始傷害便會再增加{@scaledice 1d6|1-9|1d6}。"
@@ -33127,7 +33127,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 3d8|2-9|1d8}。"
@@ -33990,7 +33990,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，就可以再額外骰{@scaledice 5d8|1-9|2d8}。"
@@ -35127,7 +35127,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 3d8|3-9|1d8}。"
@@ -35233,7 +35233,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高二環，傷害便會再增加{@scaledice 1d8|2,4,6,8|1d8}。"
@@ -37349,7 +37349,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 2d8|1-9|1d8}。"
@@ -38259,7 +38259,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 3d6|3-9|1d6}。"
@@ -38467,7 +38467,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用5環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，傷害便會再增加{@scaledice 5d8|4-9|1d8}。"
@@ -38793,7 +38793,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，這道墻出現時所造成的傷害便會再增加{@scaledice 10d6|6-9|2d6}，且穿過刺骨寒氣所受到的傷害也會再增加{@scaledice 5d6|6-9|1d6}。"
@@ -39016,7 +39016,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用7環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，兩種傷害都會再增加{@scaledice 7d8|6-9|1d8}。"
@@ -40012,7 +40012,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用2環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，初始傷害便會再增加{@scaledice 1d12|1-9|1d12}。"

@@ -412,7 +412,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用四環或更高法術位施展該法術時，你使用的法術位每比三環高1環，就可以多選擇一個生物作為目標。而各目標之間距離不能超過30尺。"
@@ -694,7 +694,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用四環或更高法術位施展該法術時，你使用的法術位每比三環高2環，其傷害就增加{@scaledamage 1d8|3,5,7,9|1d8}。"
@@ -779,7 +779,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用五環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -862,7 +862,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用三環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -933,7 +933,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用六環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -1005,7 +1005,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用六環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -1089,7 +1089,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用五環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -1177,7 +1177,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用四環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -1258,7 +1258,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用七環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -1329,7 +1329,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用四環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -1401,7 +1401,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用四環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。"
@@ -1568,7 +1568,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用二環或更高法術位施展該法術時，你使用的法術位每比一環高1環，法術的傷害就增加{@dice 2d4}。"
@@ -1640,7 +1640,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"使用三環或更高的法術位施展該法術時，你使用的法術位每比二環高1環就可以額外指定一個生物。被你選為目標的生物互相之間的距離不能超過30尺。"

@@ -2537,6 +2537,7 @@
 						{
 							"type": "table",
 							"caption": "寶石血統",
+							"name": "寶石血統",
 							"ENG_name": "Gem Ancestry",
 							"colLabels": [
 								"龍類",
@@ -18101,6 +18102,2382 @@
 				}
 			],
 			"ENG_name": "Zombie"
+		},
+		{
+			"name": "阿蘭寇拉鷹人",
+			"source": "MPMM",
+			"page": 5,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": [
+							"gust of wind"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "飛行",
+					"entries": [
+						"由於你的翅膀，你的飛行速度等於你的行走速度。如果你穿戴中型或重型裝甲，則無法使用這種飛行速度。"
+					],
+					"ENG_name": "Flight"
+				},
+				{
+					"type": "entries",
+					"name": "禽爪",
+					"entries": [
+						"您有爪子可以用來進行徒手攻擊。當您用它們擊中時，這次攻擊會造成{@damage 1d6} + 你的力量修正值的斬擊傷害，而不是徒手攻擊通常的錘擊傷害。"
+					],
+					"ENG_name": "Talons"
+				},
+				{
+					"type": "entries",
+					"name": "風之召喚者",
+					"entries": [
+						"從第三級開始，你可以使用這個特徵來施放{@spell 造風術}，不需要材料成分。一旦你用這個特徵施放了這個法術，你就不能再這樣做，直到你完成一次長時間的休息。你也可以用你擁有的二級或更高級的法術位來施放這個法術。",
+						"智力，智慧或魅力是您施放{@spell 造風術}的法術施放能力，當您選擇這個種族時選擇（選擇時）。"
+					],
+					"ENG_name": "Wind Caller"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Aarakocra"
+		},
+		{
+			"name": "阿斯莫",
+			"source": "MPMM",
+			"page": 7,
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"max": 180
+			},
+			"darkvision": 60,
+			"resist": [
+				"壞死的",
+				"光芒四射"
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"light#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"您是中型或小型。在選擇此種族時，您選擇大小。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "天界抵抗",
+					"entries": [
+						"你對亡靈之力與光輝之力有抵抗力。"
+					],
+					"ENG_name": "Celestial Resistance"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以將60英尺內的微光看作明亮的光線，在黑暗中也能看得如微光般清楚。你在這種黑暗中只能區分出灰色的陰影。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "治療之手",
+					"entries": [
+						"作為一個動作，你可以觸碰一個生物並擲出等於你熟練加值的數量的d4。該生物恢復的生命值等於你總擲出的積分。一旦你使用了這個特性，你不能再使用它，除非你完成了長時間的休息。"
+					],
+					"ENG_name": "Healing Hands"
+				},
+				{
+					"type": "entries",
+					"name": "光之使者",
+					"entries": [
+						"你知道 {@spell 光亮術} 前導咒語。此咒語的施法能力源於你的魅力。"
+					],
+					"ENG_name": "Light Bearer"
+				},
+				{
+					"type": "entries",
+					"name": "天界的啟示",
+					"entries": [
+						"當你達到第三級時，選擇以下的啟示選項之一。此後，你可以使用額外動作來釋放自己內在的天界能量，獲得該項啟示的好處。你的變身持續1分鐘，或者直到你用額外動作結束它。一旦你使用以下的啟示進行變身，你必須完成一次長期休息後才能再次使用。",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "死靈障幕",
+									"entry": "Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become {@condition frightened} of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
+									"ENG_name": "Necrotic Shroud"
+								},
+								{
+									"type": "item",
+									"name": "光輝焚化",
+									"entry": "Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
+									"ENG_name": "Radiant Consumption"
+								},
+								{
+									"type": "item",
+									"name": "光輝靈魂",
+									"entry": "Two luminous, spectral wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
+									"ENG_name": "Radiant Soul"
+								}
+							],
+							"style": "list-hang-notitle"
+						}
+					],
+					"ENG_name": "Celestial Revelation"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Aasimar"
+		},
+		{
+			"name": "熊地精",
+			"source": "MPMM",
+			"page": 8,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"goblinoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"traitTags": [
+				"Powerful Build"
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個人形生物。對於任何前提或效果要求你是哥布林類生物的情況，你也被視為哥布林類生物。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以在你周圍60英尺內的微光中看得像璀璨的明光一樣，並在黑暗中看得彷彿微光一樣。在那黑暗中，你只能辨識出色彩的灰色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "精類血統",
+					"entries": [
+						"你在進行豁免擲骰以避免或結束你自身的{@condition 魅惑}狀態時具有優勢。"
+					],
+					"ENG_name": "Fey Ancestry"
+				},
+				{
+					"type": "entries",
+					"name": "長肢",
+					"entries": [
+						"當你在你的回合進行近戰攻擊時，你的攻擊範圍比正常情況下多出5英尺。"
+					],
+					"ENG_name": "Long-Limbed"
+				},
+				{
+					"type": "entries",
+					"name": "強大的建構",
+					"entries": [
+						"在確定你的負重能力和你可以推，拖，或舉起的重量時，你的體積會被算作大一號。"
+					],
+					"ENG_name": "Powerful Build"
+				},
+				{
+					"type": "entries",
+					"name": "狡猾",
+					"entries": [
+						"您精通於{@skill 隱匿}技能。此外，您無需擠壓，可以通過並停在足夠小型生物通過的空間中。"
+					],
+					"ENG_name": "Sneaky"
+				},
+				{
+					"type": "entries",
+					"name": "突襲攻擊",
+					"entries": [
+						"如果你對一個生物進行攻擊擲骰並擊中，如果該生物在當前的戰鬥中還沒有行動過，它將會承受額外的{@damage 2d6}傷害。"
+					],
+					"ENG_name": "Surprise Attack"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Bugbear"
+		},
+		{
+			"name": "半人馬",
+			"source": "MPMM",
+			"page": 9,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 40,
+			"traitTags": [
+				"Natural Weapon",
+				"Powerful Build"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"medicine",
+							"nature",
+							"survival"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個精靈。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "衝鋒",
+					"entries": [
+						"如果您直線移動至少30英尺接近目標，然後在同一輪中用近戰武器攻擊它，您可以立即在該攻擊之後進行一個額外動作，用您的蹄子對目標進行一次攻擊。"
+					],
+					"ENG_name": "Charge"
+				},
+				{
+					"type": "entries",
+					"name": "馬的建設",
+					"entries": [
+						"在確定您的負載能力以及您可以推動或拖曳的重量時，您視為大一號。",
+						"此外，由於你的馬腿，任何需要手腳一起爬的攀登對你來說都特別困難。當你進行這樣的攀登時，每移動一英尺將消耗你4英尺的額外移動距離，而不是正常的1英尺。"
+					],
+					"ENG_name": "Equine Build"
+				},
+				{
+					"type": "entries",
+					"name": "蹄擊",
+					"entries": [
+						"你有蹄子，你可以用來進行徒手打擊。當你用它們打擊時，打擊造成的傷害為{@damage 1d6}加上你的力量修正值的鈍傷，而不是一般徒手打擊的鈍傷。"
+					],
+					"ENG_name": "Hooves"
+				},
+				{
+					"type": "entries",
+					"name": "自然親和力",
+					"entries": [
+						"你的仙靈與大自然的連結使你對自然世界和其中的動物有直覺的理解。因此，你可以選擇以下的技能中的一項作為你的專長：{@skill 馴獸}，{@skill 醫療}，{@skill 自然}，或是{@skill 生存}。"
+					],
+					"ENG_name": "Natural Affinity"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Centaur"
+		},
+		{
+			"name": "變形怪",
+			"source": "MPMM",
+			"page": 10,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"insight",
+							"intimidation",
+							"performance",
+							"persuasion"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個精靈。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"你是中型或小型。你在選定這個種族時選擇大小。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "變形怪本能",
+					"entries": [
+						"由於你與仙境的連接，你可以在下列技能中選擇兩項獲得熟練度：{@skill 欺瞞}，{@skill 洞悉}，{@skill 威嚇}，{@skill 表演}，或者{@skill 說服}。"
+					],
+					"ENG_name": "Changeling Instincts"
+				},
+				{
+					"type": "entries",
+					"name": "變形者",
+					"entries": [
+						"作為一個行動，你改變了你的外表和聲音。你決定變化的細節，包括你的膚色，頭髮長度，和性別。你也可以調整你的身高在中等和小之間。你可以使自己看起來像另一種種族的成員，雖然你的遊戲統計數據不會改變。你不能複製你從未見過的個人的樣子，你必須採用一種與你有相同基本肢體配置的形式。你的衣物和裝備不會因此特徵而改變。",
+						"你會保持在新的形態，直到你用一個行動恢復你的真實形態或你死亡。"
+					],
+					"ENG_name": "Shapechanger"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Changeling"
+		},
+		{
+			"name": "深地侏儒",
+			"source": "MPMM",
+			"page": 11,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"gnome"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"age": {
+				"max": 500
+			},
+			"darkvision": 120,
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"disguise self"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"nondetection"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個人形生物。對於任何需要你是侏儒的前提或效果，你也被視為侏儒。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以看到自己周圍120英尺內的昏暗光線，仿佛它是明亮的光線，並在黑暗中，仿佛它是昏暗的光線。你只能將那黑暗中的顏色辨識為灰色的陰影。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "斯維爾夫尼布林的禮物",
+					"entries": [
+						"從第三級開始，你可以用這個特性來施放{@spell 易容術}法術。從第五級開始，你也可以不需要材料成分就可以用它施放{@spell 迴避偵測}法術。一旦你用這個特性施放了這兩個法術中的任何一個，你就不能再用它來施放那個法術，直到你完成一次長時間的休息。你也可以使用你有的相應等級的法術位來施放這些法術。",
+						"當您使用此種族特性施展這些咒語時，智力、智慧或魅力是您的施法能力（選擇此種族時選擇）。"
+					],
+					"ENG_name": "Gift of the Svirfneblin"
+				},
+				{
+					"type": "entries",
+					"name": "地精魔法抵抗力",
+					"entries": [
+						"您在對抗法術的智力，智慧，和魅力豁免擲骰上具有優勢。"
+					],
+					"ENG_name": "Gnomish Magic Resistance"
+				},
+				{
+					"type": "entries",
+					"name": "Svirfneblin偽裝",
+					"entries": [
+						"當你進行一次敏捷性({@skill 隱匿})檢定時，你可以帶著優勢進行此檢定。您可以使用此特性的次數等於您的熟練加成，並在完成長時間休息後恢復所有已用次數。"
+					],
+					"ENG_name": "Svirfneblin Camouflage"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Deep Gnome"
+		},
+		{
+			"name": "灰矮人",
+			"source": "MPMM",
+			"page": 12,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"dwarf"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"max": 350
+			},
+			"darkvision": 120,
+			"resist": [
+				"毒藥"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"enlarge/reduce"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"invisibility"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個人形生物。對於任何需要你是矮人的先決條件或效果，你也被視為一個矮人。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"您可以將您120英尺內的昏暗光線看得如同明亮的光線，並將黑暗處看作是昏暗的光線。在這黑暗中，你只能分辨出各種灰色調的顏色。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "灰矮人魔法",
+					"entries": [
+						"從第三級開始，您可以使用此特性對自己施放{@spell 變巨/縮小術}法術，而不需要材料成分。從第五級開始，您也可以使用此特性對自己施放{@spell 隱形術}法術，而不需要材料成分。一旦您使用此特性施放了這兩種法術中的任何一種，您將無法再使用它施放該法術，直到您完成長時間的休息。您也可以使用您擁有的適當等級的法術插槽施放這些法術。",
+						"當你使用此特質施放這些法術時，智力、智慧或魅力是你的施法能力（選擇此種族時選擇）。"
+					],
+					"ENG_name": "Duergar Magic"
+				},
+				{
+					"type": "entries",
+					"name": "矮人韌性",
+					"entries": [
+						"你對自己進行避免或結束{@condition 中毒}狀況的豁免擲骰具有優勢。你對毒素傷害也有抵抗力。"
+					],
+					"ENG_name": "Dwarven Resilience"
+				},
+				{
+					"type": "entries",
+					"name": "靈能堅韌",
+					"entries": [
+						"你在進行儲存擲骰以避免或結束在你自身上的{@condition 魅惑}或{@condition 震懾}狀態時擁有優勢。"
+					],
+					"ENG_name": "Psionic Fortitude"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Duergar"
+		},
+		{
+			"name": "雅靈",
+			"source": "MPMM",
+			"page": 13,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"elf"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"max": 750
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				"{@i 選擇你的艾拉德林的季節：秋天、冬天、春天或夏天。完成一次長時間休息後，你可以變換你的季節。參閱\"資訊\"標籤以獲取更多信息。}",
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個人形。 對於任何需要你是精靈的先決條件或效果，你也被視為精靈。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"您可以將視線範圍內60英尺的昏暗光線視為明亮的光，並將黑暗視為昏暗的光。您只能在那黑暗中辨識出灰色的色彩。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "精類血統",
+					"entries": [
+						"當你試圖避免或結束自身的{@condition 魅惑}條件時，你在豁免擲骰上具有優勢。"
+					],
+					"ENG_name": "Fey Ancestry"
+				},
+				{
+					"type": "entries",
+					"name": "妖精步",
+					"entries": [
+						"作為一個額外的動作，你可以神奇地傳送到你能看到的最遠30英尺的空地上。你可以使用這一種族特徵次數等於你的熟練加值，並在完成長休息後恢復所有使用過的次數。",
+						"當你達到第三級時，你的\"精靈步伐\"將根據你的季節獲得額外的效果；如果這個效果需要進行豁免擲骰，DC等於8 + 你的熟練加值 + 你的智力，智慧或魅力修正值（在你選擇這個種族時選擇）。",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "秋",
+									"entry": "Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition charmed} by you for 1 minute, or until you or your companions deal any damage to the creatures.",
+									"ENG_name": "Autumn"
+								},
+								{
+									"type": "item",
+									"name": "冬",
+									"entry": "When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn.",
+									"ENG_name": "Winter"
+								},
+								{
+									"type": "item",
+									"name": "春",
+									"entry": "When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.",
+									"ENG_name": "Spring"
+								},
+								{
+									"type": "item",
+									"name": "夏",
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your proficiency bonus.",
+									"ENG_name": "Summer"
+								}
+							],
+							"style": "list-hang-notitle"
+						}
+					],
+					"ENG_name": "Fey Step"
+				},
+				{
+					"type": "entries",
+					"name": "敏銳感官",
+					"entries": [
+						"您精通於{@skill 察覺}技能。"
+					],
+					"ENG_name": "Keen Senses"
+				},
+				{
+					"type": "entries",
+					"name": "恍惚",
+					"entries": [
+						"你不需要睡覺，而且魔法不能讓你入睡。如果你花4個小時進入像冥想的恍惚狀態，你可以完成一次長時間的休息，期間你保持著意識。",
+						"當你完成這種恍惚狀態後，你可以改變你的季節，並可以獲得兩個你還沒有的熟練技能，每一個都是你從玩家手冊中選擇的武器或工具。你通過從共享的精靈記憶中取得這些熟練技能，並在你完成你的下一次長期休息後保留它們。"
+					],
+					"ENG_name": "Trance"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Eladrin"
+		},
+		{
+			"name": "妖精",
+			"source": "MPMM",
+			"page": 14,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"faerie fire"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"enlarge/reduce"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"druidcraft#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個精靈。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "仙女魔法",
+					"entries": [
+						"你瞭解{@spell 德魯伊伎倆}奧義。從第三級開始，你可以使用此特性施放{@spell 妖火術}法術。從第五級開始，你也可以使用此特性施放{@spell 變巨/縮小術}法術。一旦你使用此特性施放了{@spell 妖火術}或{@spell 變巨/縮小術}，在你完成一次長時間的休息之前，你不能再次使用它來施放該法術。你也可以使用你對應級數的任何法術位來施放這兩種法術之一。",
+						"當您以此特徵施放這些法術時，智力，智慧或魅力是您的法術施放能力（選擇此種族時選擇）。"
+					],
+					"ENG_name": "Fairy Magic"
+				},
+				{
+					"type": "entries",
+					"name": "飛行",
+					"entries": [
+						"因為你的翅膀，你的飛行速度等於你的走路速度。如果您穿著中型或重型裝甲，則無法使用此飛行速度。"
+					],
+					"ENG_name": "Flight"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Fairy"
+		},
+		{
+			"name": "費爾伯格",
+			"source": "MPMM",
+			"page": 15,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"max": 500
+			},
+			"traitTags": [
+				"Powerful Build"
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"1": [
+							"detect magic",
+							"disguise self"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "精靈巨人魔法",
+					"entries": [
+						"你可以使用這個特質來施放{@spell 偵測魔法}和{@spell 易容術}法術。當你使用這個版本的{@spell 易容術}時，你可以顯得縮短或增長最多3英呎。一旦你使用這個特質施放了這兩種法術中的任何一種，你就不能再使用它來施放該法術，直到你完成一次長時間的休息。你也可以使用你擁有的任何法術欄位來施放這些法術。",
+						"智力，智慧，或魅力是你施放這些法術時，用這個特質的法術施法能力（選擇此種族時選擇）。"
+					],
+					"ENG_name": "Firbolg Magic"
+				},
+				{
+					"type": "entries",
+					"name": "隱藏的步驟",
+					"entries": [
+						"作為一個獎勵動作，您可以神奇地變成 {@condition 隱形}，直到您下一個回合開始或者您攻擊，造成傷害擲骰，或強迫某人進行豁免擲骰。你可以使用這個特質多次，次數等於你的熟練奖勵，並且當你完成一次長時間休息時，你將恢復所有消耗的使用次數。"
+					],
+					"ENG_name": "Hidden Step"
+				},
+				{
+					"type": "entries",
+					"name": "強大的建構",
+					"entries": [
+						"在確定您的攜帶能力和您可以推、拖、提起的重量時，您被視為大一號的大小。"
+					],
+					"ENG_name": "Powerful Build"
+				},
+				{
+					"type": "entries",
+					"name": "野獸與葉子的語言",
+					"entries": [
+						"您具有與野獸、植物和植物群落進行有限溝通的能力。他們可以理解您的話語的含義，儘管你並沒有特殊的能力去理解他們。您在進行影響他們的所有魅力檢查時都具有優勢。"
+					],
+					"ENG_name": "Speech of Beast and Leaf"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Firbolg"
+		},
+		{
+			"name": "元素裔",
+			"source": "MPMM",
+			"page": 16,
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"max": 120
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"你是中型或小型。選擇這個種族時，你選擇大小。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"您可以清楚地看到60英尺內的微光，好像它是明亮的燈光，並且在黑暗中也如同微光一樣。在那黑暗中，您只能辨識出灰色的色調。"
+					],
+					"ENG_name": "Darkvision"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Genasi"
+		},
+		{
+			"name": "吉斯洋基",
+			"source": "MPMM",
+			"page": 18,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Weapon Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"resist": [
+				"心靈術士"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"jump"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"misty step"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "星界知識",
+					"entries": [
+						"您可以神秘地接触到與星界相連實體的經驗儲藏。每當您完成一次長時間的休息，您可以從{Player's Handbook}中選擇獲得一種技能以及一種武器或工具的熟練度，因為您的意識暫時投射到星界。這些熟練度將持續到您下一次長時間休息結束。"
+					],
+					"ENG_name": "Astral Knowledge"
+				},
+				{
+					"type": "entries",
+					"name": "吉斯洋基靈能",
+					"entries": [
+						"你知道{@spell 法師之手}這個小咒，並且當你用這個特征施放小咒時，那隻手是{@condition 隱形}的。",
+						"從第三級開始，你可以用這個特性來施放{@spell 跳躍術}。從第五級開始，你還可以用它來施放{@spell 迷蹤步}。一旦你用這個特性施放了{@spell 跳躍術}或{@spell 迷蹤步}，在完成一次長時間休息之前，你不能再用它來施放該法術。你也可以使用任何你有的適當級別的法術位來施放那些法術。",
+						"智力、智慧或魅力是你使用這種特質施放這些法術時的施法能力（選擇此種族時選擇）。當你使用這種特質施放這些法術時，這些法術不需要法術組件。"
+					],
+					"ENG_name": "Githyanki Psionics"
+				},
+				{
+					"type": "entries",
+					"name": "心靈韌性",
+					"entries": [
+						"你對心靈傷害有抵抗力。"
+					],
+					"ENG_name": "Psychic Resilience"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Githyanki"
+		},
+		{
+			"name": "吉斯澤萊",
+			"source": "MPMM",
+			"page": 19,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"resist": [
+				"心靈術士"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"shield"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"detect thoughts"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "吉斯澤萊靈能",
+					"entries": [
+						"你知道{@spell 法師之手}這個小咒，並且當你使用這種特性施放小咒時，手會{@condition 隱形}。",
+						"從第三級開始，你可以用這個特徵來施放{@spell 護盾術}。從第五級開始，你也可以用它來施放{@spell 偵測思想}。一旦你用這個特徵施放了{@spell 護盾術}或{@spell 偵測思想}，在你完成一次長時間的休息之前，你就不能再用它來施放這個咒語。你也可以用你擁有的任何適合等級的法術位來施放這兩個咒語中的任何一個。",
+						"當你使用此特性施放這些法術時，你的法術施放能力可以是智力、智慧或魅力（選擇此種族時選擇）。當你使用此特性施放這些法術時，無需法術組件。"
+					],
+					"ENG_name": "Githzerai Psionics"
+				},
+				{
+					"type": "entries",
+					"name": "心靈紀律",
+					"entries": [
+						"你天生的心靈防禦賦予你對避免或結束自身的{@condition 魅惑}和{@condition 恐懼}條件的豁免擲骰優勢。"
+					],
+					"ENG_name": "Mental Discipline"
+				},
+				{
+					"type": "entries",
+					"name": "心靈韌性",
+					"entries": [
+						"你對心靈傷害具有抵抗力。"
+					],
+					"ENG_name": "Psychic Resilience"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Githzerai"
+		},
+		{
+			"name": "地精",
+			"source": "MPMM",
+			"page": 20,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"goblinoid"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個人型生物。對於任何需要你是哥布林型生物的先決條件或效果，你也被視為哥布林型生物。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以在你周圍60英尺範圍內的昏暗光線中看得如同在明亮的光線下，並且在黑暗中看得究如在昏暗光線下。你只能在那黑暗中分辨出灰色的色彩。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "精類血統",
+					"entries": [
+						"你在進行豁免擲骰以避免或結束自己的{@condition 魅惑}狀態時有優勢。"
+					],
+					"ENG_name": "Fey Ancestry"
+				},
+				{
+					"type": "entries",
+					"name": "小小的狂怒",
+					"entries": [
+						"當你以攻擊或法術傷害一個生物，且該生物的體型大於你的體型時，你可以使該攻擊或法術對該生物造成額外傷害。額外的傷害等於你的熟練加值。",
+						"你可以使用這個特性次數等於你的熟練加值，每當你完成一次長時間休息後，你可以恢復所有用完的次數，但你每輪最多只能使用一次。"
+					],
+					"ENG_name": "Fury of the Small"
+				},
+				{
+					"type": "entries",
+					"name": "靈敏脫逃",
+					"entries": [
+						"你可以在你的每一回合中，將{@action Disengage}或{@action Hide}行動作為額外行動。"
+					],
+					"ENG_name": "Nimble Escape"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Goblin"
+		},
+		{
+			"name": "歌利亞",
+			"source": "MPMM",
+			"page": 21,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Powerful Build"
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"resist": [
+				"寒冷"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "小巨人",
+					"entries": [
+						"您精通{@skill 運動}技能，並在確定您的負載重量以及您能推，拖或舉重的重量時，被視為比您實際大小大一號。"
+					],
+					"ENG_name": "Little Giant"
+				},
+				{
+					"type": "entries",
+					"name": "山之生",
+					"entries": [
+						"你對寒冷傷害有抵抗力。你也會自然地適應高海拔地區，即使你從未去過。這包括超過20,000英尺的海拔。"
+					],
+					"ENG_name": "Mountain Born"
+				},
+				{
+					"type": "entries",
+					"name": "石頭的耐力",
+					"entries": [
+						"您可以超自然地利用堅不可摧的石頭來輕鬆抵擋傷害。當您受到傷害時，您可以用您的反應來擲出一個{@dice d12}。將您的體質修正值加到擲出的數字上，並將傷害減少該總數。",
+						"你可以使用這個特性的次數等於你的熟練加值，並在你完成長時間休息後，取回所有已消耗的使用次數。"
+					],
+					"ENG_name": "Stone's Endurance"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Goliath"
+		},
+		{
+			"name": "兔人",
+			"source": "MPMM",
+			"page": 22,
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"您是中型或小型。當您選擇這個種族時，您可以選擇大小。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "觸發的兔子",
+					"entries": [
+						"你可以將你的熟練度加值加到你的先攻骰上。"
+					],
+					"ENG_name": "Hare-Trigger"
+				},
+				{
+					"type": "entries",
+					"name": "兔子感官",
+					"entries": [
+						"您擁有{@skill 察覺}技能的熟練度。"
+					],
+					"ENG_name": "Leporine Senses"
+				},
+				{
+					"type": "entries",
+					"name": "幸運的腳步",
+					"entries": [
+						"當你在敏捷度檢定中失敗時，你可以使用你的反應來擲出一個{@dice d4}並將其加到檢定結果中，這可能會將失敗變為成功。如果你處於{@condition 伏地}狀態，或者你的移動速度為0，則不能使用這一反應。"
+					],
+					"ENG_name": "Lucky Footwork"
+				},
+				{
+					"type": "entries",
+					"name": "兔子跳",
+					"entries": [
+						"作為一個獎勵行動，你可以跳躍相當於五倍你熟練加值的距離，且不會引發機會攻擊。只有當你的速度大於0時，你才能使用此特性。你可以使用次數相當於你的熟練度加值，並且當你完成一次長時間休息後，你將恢復所有已消耗的使用次數。"
+					],
+					"ENG_name": "Rabbit Hop"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Harengon"
+		},
+		{
+			"name": "大地精",
+			"source": "MPMM",
+			"page": 23,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"goblinoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個人型生物。對於任何需要你是哥布林型生物的先決條件或效果，你也被視為哥布林型生物。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以看到在你周圍60英尺內的昏暗照明，就如同它是明亮的光，並在黑暗中看到就如同它是昏暗的燈光。在那黑暗中，你只能辨認出灰色的色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "精類血統",
+					"entries": [
+						"在嘗試避免或結束你自己的{@condition 魅惑}狀態時，你可以獲得優勢擲骰。"
+					],
+					"ENG_name": "Fey Ancestry"
+				},
+				{
+					"type": "entries",
+					"name": "妖精的禮物",
+					"entries": [
+						"您可以使用此特性作為額外動作進行{@action Help}，並且您可以依據其熟練度獎勵進行等量次數的使用。當你完成一次長時間休息後，您將恢復所有已使用的次數。",
+						"從第三級開始，每次你用這個特質採取{@action Help}行動時，選擇以下選項之一：",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "款待",
+									"entry": "You and the creature you help each gain a number of temporary hit points equal to {@dice 1d6} plus your proficiency bonus.",
+									"ENG_name": "Hospitality"
+								},
+								{
+									"type": "item",
+									"name": "通道",
+									"entry": "You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.",
+									"ENG_name": "Passage"
+								},
+								{
+									"type": "item",
+									"name": "怨恨",
+									"entry": "Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.",
+									"ENG_name": "Spite"
+								}
+							],
+							"style": "list-hang-notitle"
+						}
+					],
+					"ENG_name": "Fey Gift"
+				},
+				{
+					"type": "entries",
+					"name": "眾多的財富",
+					"entries": [
+						"如果你的攻擊擲骰失敗，或者能力檢定或節省投擲失敗，你可以依靠你的互惠關系得到一個等於你在30英尺內能看到的盟友數量的擲骰加成（最高加成為+3）。你可以使用這個特性次數等於你的熟練度加成，並在完成長時間的休息後恢復所有消耗的使用次數。"
+					],
+					"ENG_name": "Fortune from the Many"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Hobgoblin"
+		},
+		{
+			"name": "天狗",
+			"source": "MPMM",
+			"page": 24,
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"您的體型是中等或小型。當您選擇這個種族時，您可以選擇體型。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "專家複製",
+					"entries": [
+						"當你複製自己或他人的寫作或工藝品時，你在製作完全相同的副本時，對任何能力檢查都有優勢。"
+					],
+					"ENG_name": "Expert Duplication"
+				},
+				{
+					"type": "entries",
+					"name": "Kenku回憶",
+					"entries": [
+						"多虧了你超自然的好記憶力，你可以精通自選的兩種技能。",
+						"此外，當你使用任何你熟練的技能進行能力檢定時，你可以在擲 {@dice d20} 前給自己獲得優勢。你可以這樣獲得優勢的次數為你的熟練加成次數，並在完成長時間休息後恢復所有消耗的使用次數。"
+					],
+					"ENG_name": "Kenku Recall"
+				},
+				{
+					"type": "entries",
+					"name": "擬聲",
+					"entries": [
+						"你可以精準地模仿你曾聽過的聲音，包括人聲。只有通過成功的智力({@skill 洞悉})檢查，並且對抗的DC值為8+你的熟練獎勵+你的魅力修正值，生物才能察覺你製作的聲音是模仿的。"
+					],
+					"ENG_name": "Mimicry"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Kenku"
+		},
+		{
+			"name": "狗頭人",
+			"source": "MPMM",
+			"page": 25,
+			"lineage": "VRGR",
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"investigation",
+							"medicine",
+							"sleight of hand",
+							"survival"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Sorcerer",
+								"count": 1
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以將60英尺以內的昏暗光線看得如同明亮的光線，並且將黑暗視為昏暗的光。你只能將那黑暗中的色彩識別為各種灰色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "龍族的哭喊",
+					"entries": [
+						"作為額外行動，你對在你周圍10英尺內的敵人發出嘶吼。直到你下一回合開始，你和你的盟友對任何能聽到你的敵人進行攻擊時將具有優勢。你可以根據你的熟練加值使用這一特性的次數，並在完成長時間休息之後恢復所有已使用的次數。"
+					],
+					"ENG_name": "Draconic Cry"
+				},
+				{
+					"type": "entries",
+					"name": "科布爾德的遺產",
+					"entries": [
+						"柯伯特與龍的聯繫可能以個別柯伯特無法預料的方式顯現出來。為您的柯伯特選擇以下的一種遺產選項。",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "狡猾",
+									"entry": "You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill Investigation}, {@skill Medicine}, {@skill Sleight of Hand}, or {@skill Survival}.",
+									"ENG_name": "Craftiness"
+								},
+								{
+									"type": "item",
+									"name": "抗拒",
+									"entry": "You have advantage on saving throws to avoid or end the {@condition frightened} condition on yourself.",
+									"ENG_name": "Defiance"
+								},
+								{
+									"type": "item",
+									"name": "龍之魔法",
+									"entry": "You know one {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).",
+									"ENG_name": "Draconic Sorcery"
+								}
+							],
+							"style": "list-hang-notitle"
+						}
+					],
+					"ENG_name": "Kobold Legacy"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Kobold"
+		},
+		{
+			"name": "蜥蜴人",
+			"source": "MPMM",
+			"page": 26,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"traitTags": [
+				"Natural Armor",
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"medicine",
+							"nature",
+							"perception",
+							"stealth",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "速度",
+					"entries": [
+						"你的步行速度是30英尺，你的游泳速度等同於你的步行速度。"
+					],
+					"ENG_name": "Speed"
+				},
+				{
+					"type": "entries",
+					"name": "啃咬",
+					"entries": [
+						"你擁有一個帶有牙齒的大嘴，可以用它來進行徒手攻擊。當你用它擊中時，這次攻擊會造成{@damage 1d6} + 你的力量修正值的劈砍傷害，而不是徒手攻擊通常所造成的碾壓傷害。"
+					],
+					"ENG_name": "Bite"
+				},
+				{
+					"type": "entries",
+					"name": "屏息",
+					"entries": [
+						"您可以一次最多屏氣15分鐘。"
+					],
+					"ENG_name": "Hold Breath"
+				},
+				{
+					"type": "entries",
+					"name": "饑餓的下顎",
+					"entries": [
+						"你可以將自己投入一場瘋狂的食物大戰。作為一個額外的行動，你可以用你的咬擊進行特殊攻擊。如果這次攻擊命中，它會造成正常的傷害，並且你將獲得等同於你的熟練度加成的臨時生命點數。你可以使用一次這種特性，次數等於你的熟練度加成，並且當你完成一次長時間的休息時，你將恢復所有已經消耗的使用次數。"
+					],
+					"ENG_name": "Hungry Jaws"
+				},
+				{
+					"type": "entries",
+					"name": "自然護甲",
+					"entries": [
+						"你的皮膚堅硬且有鱗片。當你沒有穿著防具時，你的基礎防禦等級是 13 + {Dexterity modifier}。如果你穿著的防具會讓你的防禦等級降低，你可以用你的天賦護甲來決定你的防禦等級。當你使用你的天賦護甲時，盾牌的效益如常適用。"
+					],
+					"ENG_name": "Natural Armor"
+				},
+				{
+					"type": "entries",
+					"name": "自然的直覺",
+					"entries": [
+						"由於您與自然的神秘連結，您可以熟練掌握以下您選擇的兩項技能：{@skill 馴獸}、{@skill 醫療}、{@skill 自然}、{@skill 察覺}、{@skill 隱匿}或{@skill 生存}。"
+					],
+					"ENG_name": "Nature's Intuition"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Lizardfolk"
+		},
+		{
+			"name": "米諾陶",
+			"source": "MPMM",
+			"page": 27,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "角擊",
+					"entries": [
+						"你擁有可以用來進行非武裝攻擊的角。當你用它們攻擊時，攻擊會造成 {@damage 1d6} + 你的力量修正值的刺穿傷害，而非一般非武裝攻擊的錘擊傷害。"
+					],
+					"ENG_name": "Horns"
+				},
+				{
+					"type": "entries",
+					"name": "猛衝",
+					"entries": [
+						"在你的回合中，一旦你採取{@action Dash}行動並移動至少20英尺，你可以作為一個額外行動使用你的角進行一次近戰攻擊。"
+					],
+					"ENG_name": "Goring Rush"
+				},
+				{
+					"type": "entries",
+					"name": "錘打的角",
+					"entries": [
+						"當你在你的回合中以{@action Attack}行動作為一部分，對一個生物進行近戰攻擊後立即，你可以使用一個額外行動試圖以你的角為該目標施加壓力。目標必須在你周围5英尺內，且不能比你大超過一個尺寸。除非它成功的對抗一個等於8 + 你的熟練獎勵 + 你的力量修飾者的力量拯救，否則你可以將其推開至多10英尺。"
+					],
+					"ENG_name": "Hammering Horns"
+				},
+				{
+					"type": "entries",
+					"name": "迷宮回憶",
+					"entries": [
+						"您總是知道哪個方向是北方，並且在您進行導航或追蹤的任何智慧（{@skill 生存））檢定時，您都有優勢。"
+					],
+					"ENG_name": "Labyrinthine Recall"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Minotaur"
+		},
+		{
+			"name": "獸人",
+			"source": "MPMM",
+			"page": 28,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"traitTags": [
+				"Powerful Build"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "腎上腺素衝刺",
+					"entries": [
+						"你可以將{@action Dash}行動作為一個附加行動。這項特質的使用次數等於你的熟練加值，並在完成長時間的休息後恢復所有消耗的使用次數。",
+						"每當你使用這個特性，你會獲得與你的熟練加值等量的臨時生命值。"
+					],
+					"ENG_name": "Adrenaline Rush"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"您可以看到在您周圍60英尺內的昏暗光線，就仿佛它是明亮的光線，並且在黑暗中也仿佛是昏暗的光線。您只能將那暗中的顏色辨別為灰色的色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "強大的建構",
+					"entries": [
+						"在確定你的負重能力和你可以推，拉或舉起的重量時，你被視為比實際大一號。"
+					],
+					"ENG_name": "Powerful Build"
+				},
+				{
+					"type": "entries",
+					"name": "頑強耐性",
+					"entries": [
+						"當你的生命值減少到0，但並未直接死亡時，你可以將生命值降到1點。一旦你使用了這種特性，你就不能再這麼做，直到你完成長時間的休息。"
+					],
+					"ENG_name": "Relentless Endurance"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Orc"
+		},
+		{
+			"name": "薩特羊人",
+			"source": "MPMM",
+			"page": 29,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 35,
+			"traitTags": [
+				"Magic Resistance",
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"performance": true,
+					"persuasion": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"musical instrument": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個精靈。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "羊",
+					"entries": [
+						"你可以使用你的頭部和角來進行徒手打擊。當你用它們擊中時，該次打擊造成的傷害為{@damage 1d6}+你的力量修正值的碾壓傷害，而不是正常徒手打擊的碾壓傷害。"
+					],
+					"ENG_name": "Ram"
+				},
+				{
+					"type": "entries",
+					"name": "魔法抗性",
+					"entries": [
+						"您在對抗咒語的豁免擲骰上具有優勢。"
+					],
+					"ENG_name": "Magic Resistance"
+				},
+				{
+					"type": "entries",
+					"name": "歡樂的躍躍",
+					"entries": [
+						"每當你進行長跳或高跳時，你可以擲一個{@dice d8}，並將擲出的數字加到你跳躍覆蓋的英尺數量上，即使是在原地跳躍也可以。這額外的距離會像平常一樣消耗移動力。"
+					],
+					"ENG_name": "Mirthful Leaps"
+				},
+				{
+					"type": "entries",
+					"name": "歡慶者",
+					"entries": [
+						"作為狂歡的體現，你對{@skill 表演}和{@skill 說服}技能有精通之能力，並且你對自選的一種{@item musical instrument|PHB}也有精通之能力。"
+					],
+					"ENG_name": "Reveler"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Satyr"
+		},
+		{
+			"name": "海洋精靈",
+			"source": "MPMM",
+			"page": 30,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"elf"
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"age": {
+				"max": 750
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Amphibious",
+				"Improved Resting",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"resist": [
+				"冷"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個人形生物。對於任何需要你是精靈的先決條件或效果，你也被視為精靈。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "速度",
+					"entries": [
+						"你的行走速度是30英尺，你的游泳速度等於你的行走速度。"
+					],
+					"ENG_name": "Speed"
+				},
+				{
+					"type": "entries",
+					"name": "海洋之子",
+					"entries": [
+						"你可以呼吸空氣和水，並且你對冷傷害有抵抗力。"
+					],
+					"ENG_name": "Child of the Sea"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"您可以看見在您60英尺範圍內的昏暗光線，就像它是明亮的光線一樣，並且在黑暗中就如同它是昏暗的光線一樣。你只能在那黑暗中辨別出灰色的色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "精類血統",
+					"entries": [
+						"您在進行豁免投擲以避免或結束在自身上产生的{@condition 魅惑}狀態時具有優勢。"
+					],
+					"ENG_name": "Fey Ancestry"
+				},
+				{
+					"type": "entries",
+					"name": "海洋之友",
+					"entries": [
+						"水生動物與你的人民有著非凡的親和力。你可以與任何具有游泳速度的野獸傳達簡單的想法。它可以理解你的話，儘管你沒有特殊能力去理解它的回答。"
+					],
+					"ENG_name": "Friend of the Sea"
+				},
+				{
+					"type": "entries",
+					"name": "敏銳感官",
+					"entries": [
+						"你對{@skill 察覺}技能有熟練的掌握力。"
+					],
+					"ENG_name": "Keen Senses"
+				},
+				{
+					"type": "entries",
+					"name": "恍惚",
+					"entries": [
+						"你不需要睡覺，魔法也無法讓你入睡。如果你花4小時進行如同冥想的恍惚狀態，你就可以完成一次長時間的休息，期間你的意識依舊清醒。",
+						"當你完成這種冥想後，你可以獲得兩種你不具備的熟練度，每一種都可以從{Player's Handbook}中選擇一種武器或工具。你透過從共享的精靈記憶中提取它們神秘地獲得這些熟練度，並保留它們直到你完成下一次的長期休息。"
+					],
+					"ENG_name": "Trance"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Sea Elf"
+		},
+		{
+			"name": "影靈",
+			"source": "MPMM",
+			"page": 31,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"elf"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"max": 750
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"resist": [
+				"壞死的"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個人型生物。對於任何需要你是精靈的先決條件或效果，你也被視為精靈。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "鴉后的祝福",
+					"entries": [
+						"作為一個額外的行動，您可以魔法般地瞬間移動最多30英尺到一個您可以看見的未佔據的空間。您可以使用這個特點次數等於您的熟練加值，並且當您完成一次長時間休息後，您可以恢復所有消耗的使用次數。",
+						"從第三級開始，當你使用此特徵進行瞬移時，你還能獲得對所有傷害的抵抗。此抵抗持續到你下一個輪次開始。在此期間，你會呈現出鬼魅而半透明的形象。"
+					],
+					"ENG_name": "Blessing of the Raven Queen"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"您可以將視為亮光的暗光內的60英尺看得如視為暗光的黑暗，並且只能以灰色調辨識該黑暗中的顏色。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "精類血統",
+					"entries": [
+						"你在進行儲蓄投擲以避免或結束你自身的{@condition 魅惑}狀態時具有優勢。"
+					],
+					"ENG_name": "Fey Ancestry"
+				},
+				{
+					"type": "entries",
+					"name": "敏銳感官",
+					"entries": [
+						"您擅長使用{@skill 察覺}技能。"
+					],
+					"ENG_name": "Keen Senses"
+				},
+				{
+					"type": "entries",
+					"name": "黯蝕抗性",
+					"entries": [
+						"你對亡靈系傷害有抵抗力。"
+					],
+					"ENG_name": "Necrotic Resistance"
+				},
+				{
+					"type": "entries",
+					"name": "恍惚",
+					"entries": [
+						"你無需睡眠，魔法也無法使你入睡。如果你花4小時進行如冥想般的冥思，你可以完成一次長時間的休息，期間你保持清醒。",
+						"每當你完成此次冥想，你可以獲得兩種你原本不具備的熟練技能，每一種都可以從《玩家手冊》中選擇一種武器或工具。你通過從共享的精靈記憶中繪製這些熟練技能來神祕地獲得它們，並且在你完成下一次長時間休息之前，你能夠保持這些技能。"
+					],
+					"ENG_name": "Trance"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Shadar-Kai"
+		},
+		{
+			"name": "化獸者",
+			"source": "MPMM",
+			"page": 32,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"athletics",
+							"intimidation",
+							"survival"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "野獸本能",
+					"entries": [
+						"讓內在的野獸甦醒，你可以在以下選擇的一個技能中熟練：{@skill 體操}，{@skill 運動}，{@skill 威嚇}，或{@skill 生存}。"
+					],
+					"ENG_name": "Bestial Instincts"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"您可以看到在您周圍60英尺內的昏暗光線，就如同它是明亮的光線一樣，並且在黑暗中也如同在昏暗光線中一樣。在那種黑暗中，您只能辨別出灰色的色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "轉移",
+					"entries": [
+						"作為一個額外行動，您可以假設更為野性的外觀。這種變化持續1分鐘，直到您死亡，或直到您作為一個額外行動恢復到您的正常外觀。當您變換時，您獲得等於2×您的熟練加成的臨時生命值。您可以變換次數等於您的熟練加成，並且您在完成長時間休息後恢復所有消耗的使用次數。",
+						"無論何時您轉換，根據以下選項之一（選擇此種族時選擇），您將獲得額外的好處：",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "野獸皮",
+									"entry": "You gain {@dice 1d6} additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.",
+									"ENG_name": "Beasthide"
+								},
+								{
+									"type": "item",
+									"name": "長牙",
+									"entry": "When you shift and as a bonus action on your other turns while shifted, you can use your elongated fangs to make an unarmed strike. If you hit with your fangs, you can deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+									"ENG_name": "Longtooth"
+								},
+								{
+									"type": "item",
+									"name": "迅步",
+									"entry": "While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks.",
+									"ENG_name": "Swiftstride"
+								},
+								{
+									"type": "item",
+									"name": "野獵",
+									"entry": "While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you unless you're {@condition incapacitated}.",
+									"ENG_name": "Wildhunt"
+								}
+							],
+							"style": "list-hang-notitle"
+						}
+					],
+					"ENG_name": "Shifting"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Shifter"
+		},
+		{
+			"name": "斑貓人",
+			"source": "MPMM",
+			"page": 33,
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true,
+					"stealth": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"你是中等或小型。當你選擇這個種族時，你可以選擇大小。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "速度",
+					"entries": [
+						"你的行走速度為30英尺，並且你的攀爬速度等於你的行走速度。"
+					],
+					"ENG_name": "Speed"
+				},
+				{
+					"type": "entries",
+					"name": "貓的爪子",
+					"entries": [
+						"您可以使用您的爪子進行徒手攻擊。當你用它們擊中時，該攻擊會造成{@damage 1d6} +你的力量修正數的斬擊傷害，而不是徒手攻擊通常的鈍傷。"
+					],
+					"ENG_name": "Cat's Claws"
+				},
+				{
+					"type": "entries",
+					"name": "貓的天賦",
+					"entries": [
+						"你在{@skill 察覺}和{@skill 隱匿}技能上有熟練力。"
+					],
+					"ENG_name": "Cat's Talent"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以在60英尺的昏暗光線中看得如同在明亮的光線中一樣，而在黑暗中也能看得如同在昏暗的光線中。在那黑暗中，你只能辨認出灰色的色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "貓之敏捷",
+					"entries": [
+						"你的反射和敏捷讓你能夠以迅雷不及掩耳之勢移動。當你在戰鬥中輪到你移動時，你可以在該輪結束前將你的速度提高一倍。一旦你使用了這個特質，你就不能再使用它，直到你在你的一個回合中移動0英尺。"
+					],
+					"ENG_name": "Feline Agility"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Tabaxi"
+		},
+		{
+			"name": "龜人",
+			"source": "MPMM",
+			"page": 34,
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Armor",
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"medicine",
+							"nature",
+							"perception",
+							"stealth",
+							"survival"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"你是中型或小型。選擇這個種族時，你選擇大小。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "爪抓",
+					"entries": [
+						"你擁有可以用來進行徒手攻擊的爪子。當你用它們攻擊時，該攻擊會造成{@damage 1d6} + 你的力量修正值的劃破傷害，而不是徒手攻擊的常規的碾壓傷害。"
+					],
+					"ENG_name": "Claws"
+				},
+				{
+					"type": "entries",
+					"name": "屏息",
+					"entries": [
+						"你可以屏住呼吸長達一個小時。"
+					],
+					"ENG_name": "Hold Breath"
+				},
+				{
+					"type": "entries",
+					"name": "自然護甲",
+					"entries": [
+						"你的殼體為你提供17點基礎護甲類別（你的敏捷加值不會影響這個數字）。你不能穿著輕型、中型或重型護甲，但如果你正在使用盾牌，你可以正常應用盾牌的加值。"
+					],
+					"ENG_name": "Natural Armor"
+				},
+				{
+					"type": "entries",
+					"name": "自然的直覺",
+					"entries": [
+						"由於你與大自然的神秘聯繫，你可以熟練掌握以下你選擇的一種技能：{@skill 馴獸}，{@skill 醫療}，{@skill 自然}，{@skill 察覺}，{@skill 隱匿}，或者{@skill 生存}。"
+					],
+					"ENG_name": "Nature's Intuition"
+				},
+				{
+					"type": "entries",
+					"name": "蝸殼防禦",
+					"entries": [
+						"您可以作為一個行動退回您的殼中。在您出現之前，您的AC獲得+4的獎勵，並且您在力量和體質的拯救投擲上擁有優勢。當在您的殼裡，您是{@condition 伏地}，你的速度為0並且不能增加，你在敏捷的拯救投擲上有不利，你不能採取反應，並且你唯一可以採取的行動是作為一個獎勵行動出現從你的殼。"
+					],
+					"ENG_name": "Shell Defense"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Tortle"
+		},
+		{
+			"name": "梭螺魚人",
+			"source": "MPMM",
+			"page": 35,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Amphibious"
+			],
+			"resist": [
+				"寒冷"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": {
+							"daily": {
+								"1": [
+									"fog cloud"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"gust of wind"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"water walk"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "速度",
+					"entries": [
+						"你的步行速度是30英尺，你的游泳速度等於你的步行速度。"
+					],
+					"ENG_name": "Speed"
+				},
+				{
+					"type": "entries",
+					"name": "兩棲",
+					"entries": [
+						"你可以呼吸空氣和水。"
+					],
+					"ENG_name": "Amphibious"
+				},
+				{
+					"type": "entries",
+					"name": "控制空气和水",
+					"entries": [
+						"你可以使用這個特質來施展{@spell 雲霧術}。從第三等級開始，你可以用這個特質施展{@spell 造風術}。在達到第五等級時，你也能用它來施展{@spell 水面行走}。一旦你用這個特質施展這些咒語中的任何一個，你將無法再用此特質施展該咒語，直到你完成長時間的休息。你也可以用任何合適等級的咒語槽來施展這些咒語。",
+						"智力，智慧或魅力是你選擇這個種族時，選擇這種特性並施放這些法術時的法術施放能力。"
+					],
+					"ENG_name": "Control Air and Water"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"您可以看到您周圍60英尺範圍內的微光，就像是明亮的燈光，並且在黑暗中也能像在微光中一樣看見。在那黑暗中，您只能辨識出灰色的色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "海洋的使者",
+					"entries": [
+						"您可以向任何具有游泳速度的野獸、元素或怪獸傳達簡單的想法。它可以理解你的話，儘管你無法特殊地理解它的回應。"
+					],
+					"ENG_name": "Emissary of the Sea"
+				},
+				{
+					"type": "entries",
+					"name": "深淵的守護者",
+					"entries": [
+						"適應了寒冷的海洋深處，你對寒冷傷害有抵抗力。"
+					],
+					"ENG_name": "Guardian of the Depths"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Triton"
+		},
+		{
+			"name": "蛇人",
+			"source": "MPMM",
+			"page": 36,
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"resist": [
+				"毒藥"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"animal friendship"
+						],
+						"3": {
+							"daily": {
+								"1": [
+									"suggestion"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"poison spray#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"你屬於中型或小型。選擇這個種族時，你可以選擇自己的大小。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以看到在你60英尺範圍內的昏暗光線，好像它是明亮的光線，並在黑暗中好像它是昏暗的光線。你在那黑暗中只能分辨出灰色的色調。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "魔法抗性",
+					"entries": [
+						"你對抵抗法術的豁免擲骰具有優勢。"
+					],
+					"ENG_name": "Magic Resistance"
+				},
+				{
+					"type": "entries",
+					"name": "毒性抵抗力",
+					"entries": [
+						"你對自己進行的避免或結束{@condition 中毒}狀態的節能擲骰具有優勢。你也對毒性傷害具有抗性。"
+					],
+					"ENG_name": "Poison Resilience"
+				},
+				{
+					"type": "entries",
+					"name": "蛇形施法",
+					"entries": [
+						"你知道{@spell 毒氣噴灑}的初級咒語。你可以用這個特點無限次數地施展{@spell 化獸為友}，但是你只能將其目標設為蛇。從第三級開始，你也可以用這種特點施展{@spell 暗示術}。一旦你施展了這個咒語，除非你完成了一次長時間的休息，否則你將無法再次施展它。你也可以使用你擁有的二級或更高級的咒語空位來施展這個咒語。",
+						"當您用此特性施展這些魔法時，智力、智慧或魅力是你的施法能力（選擇此種族時選擇）。"
+					],
+					"ENG_name": "Serpentine Spellcasting"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Yuan-Ti"
 		}
 	]
 }

@@ -2257,7 +2257,6 @@ Parser.vehicleTypeToFull = function (vehicleType) {
 };
 
 SRC_5ETOOLS_TMP = "SRC_5ETOOLS_TMP"; // Temp source, used as a placeholder value
-SRC_Mag = "Mag";
 
 
 SRC_CoS = "CoS";
@@ -2266,6 +2265,7 @@ SRC_EEPC = "EEPC";
 SRC_EET = "EET";
 SRC_HotDQ = "HotDQ";
 SRC_LMoP = "LMoP";
+SRC_Mag = "Mag";
 SRC_MM = "MM";
 SRC_OotA = "OotA";
 SRC_PHB = "PHB";
@@ -2275,7 +2275,6 @@ SRC_RoTOS = "RoTOS";
 SRC_SCAG = "SCAG";
 SRC_SKT = "SKT";
 SRC_ToA = "ToA";
-SRC_TLK = "TLK";
 SRC_ToD = "ToD";
 SRC_TTP = "TTP";
 SRC_TYP = "TftYP";
@@ -2295,7 +2294,6 @@ SRC_WDMM = "WDMM";
 SRC_GGR = "GGR";
 SRC_KKW = "KKW";
 SRC_LLK = "LLK";
-SRC_AZfyT = "AZfyT";
 SRC_GoS = "GoS";
 SRC_AI = "AI";
 SRC_OoW = "OoW";
@@ -2327,61 +2325,11 @@ SRC_IDRotF = "IDRotF";
 SRC_TCE = "TCE";
 SRC_VRGR = "VRGR";
 SRC_HoL = "HoL";
-SRC_XMtS = "XMtS";
-SRC_RtG = "RtG";
-SRC_AitFR = "AitFR";
-SRC_AitFR_ISF = "AitFR-ISF";
-SRC_AitFR_THP = "AitFR-THP";
-SRC_AitFR_AVT = "AitFR-AVT";
-SRC_AitFR_DN = "AitFR-DN";
-SRC_AitFR_FCD = "AitFR-FCD";
-SRC_WBtW = "WBtW";
-SRC_DoD = "DoD";
-SRC_MaBJoV = "MaBJoV";
-SRC_FTD = "FTD";
-SRC_SCC = "SCC";
-SRC_SCC_CK = "SCC-CK";
-SRC_SCC_HfMT = "SCC-HfMT";
-SRC_SCC_TMM = "SCC-TMM";
-SRC_SCC_ARiR = "SCC-ARiR";
-SRC_MPMM = "MPMM";
-SRC_CRCotN = "CRCotN";
-SRC_JttRC = "JttRC";
-SRC_SAiS = "SAiS";
-SRC_AAG = "AAG";
-SRC_BAM = "BAM";
-SRC_LoX = "LoX";
-SRC_DoSI = "DoSI";
-SRC_DSotDQ = "DSotDQ";
-SRC_KftGV = "KftGV";
-SRC_BGG = "BGG";
-SRC_TDCSR = "TDCSR";
-SRC_PaBTSO = "PaBTSO";
-SRC_PAitM = "PAitM";
-SRC_SatO = "SatO";
-SRC_ToFW = "ToFW";
-SRC_MPP = "MPP";
 SRC_SCREEN = "Screen";
 SRC_SCREEN_WILDERNESS_KIT = "ScreenWildernessKit";
-SRC_SCREEN_DUNGEON_KIT = "ScreenDungeonKit";
-SRC_SCREEN_SPELLJAMMER = "ScreenSpelljammer";
 SRC_HEROES_FEAST = "HF";
 SRC_CM = "CM";
-SRC_NRH = "NRH";
-SRC_NRH_TCMC = "NRH-TCMC";
-SRC_NRH_AVitW = "NRH-AVitW";
-SRC_NRH_ASS = "NRH-ASS"; // lmao
-SRC_NRH_CoI = "NRH-CoI";
-SRC_NRH_TLT = "NRH-TLT";
-SRC_NRH_AWoL = "NRH-AWoL";
-SRC_NRH_AT = "NRH-AT";
-SRC_MGELFT = "MGELFT";
-SRC_VD = "VD";
-SRC_SjA = "SjA";
-SRC_HAT_TG = "HAT-TG";
-SRC_HAT_LMI = "HAT-LMI";
-SRC_GotSF = "GotSF";
-SRC_LK = "LK";
+SRC_FTD = "FTD";
 
 SRC_AL_PREFIX = "AL";
 
@@ -2551,28 +2499,6 @@ Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN] = "地下城主帷幕";
 Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN_WILDERNESS_KIT] = "DM屏風：荒野套件";
 Parser.SOURCE_JSON_TO_FULL[SRC_HEROES_FEAST] = "英雄盛宴";
 Parser.SOURCE_JSON_TO_FULL[SRC_CM] = "燭堡秘辛";
-
-//新增
-Parser.SOURCE_JSON_TO_FULL[SRC_MPMM] = "魔鄧肯：多元宇宙的怪物(MPMM)";
-Parser.SOURCE_JSON_TO_FULL[SRC_BGG] = "畢格比呈現：巨人的榮耀 (BPGotG)";
-Parser.SOURCE_JSON_TO_FULL[SRC_SCC] = "斯翠海文：混沌課程 (SCC)";
-Parser.SOURCE_JSON_TO_FULL[SRC_SCC_CK] = "斯翠海文：校園風波 (SCC-CK)";
-Parser.SOURCE_JSON_TO_FULL[SRC_SCC_HfMT] = "斯翠海文：尋找法師塔 (SCC_HfMT)";
-Parser.SOURCE_JSON_TO_FULL[SRC_SCC_TMM] = "斯翠海文：大法師的假面舞會(SCC_TMM)";
-Parser.SOURCE_JSON_TO_FULL[SRC_SCC_ARiR] = "斯翠海文：廢墟中的清算(SCC_ARiR)";
-
-Parser.SOURCE_JSON_TO_FULL[SRC_SAiS] = "魔法船：太空歷險記 (SAiS)";
-Parser.SOURCE_JSON_TO_FULL[SRC_PAitM] = "異域鎮魂曲：多元宇宙歷險記 (PAitM)";
-Parser.SOURCE_JSON_TO_FULL[SRC_WBtW] = "巫光之外的荒野(TWBTW)";
-
-Parser.SOURCE_JSON_TO_FULL[SRC_CRCotN] = "Critical Role:幽冥的召喚 (CRCotN)";
-Parser.SOURCE_JSON_TO_FULL[SRC_JttRC] = "光輝城堡之旅 (JTtRC)";
-Parser.SOURCE_JSON_TO_FULL[SRC_DoSI] = "入門套裝：風暴沉船島之龍 (DoSI)";
-Parser.SOURCE_JSON_TO_FULL[SRC_DSotDQ] = "龍槍：龍后之影 (DSotDQ)";
-Parser.SOURCE_JSON_TO_FULL[SRC_KftGV] = "金庫鑰匙 (KftGV)";
-Parser.SOURCE_JSON_TO_FULL[SRC_PaBTSO] = "凡達林以下：破碎的方尖碑 (PaBTSO)";
-
-
 Parser.SOURCE_JSON_TO_FULL[SRC_ALCoS] = `${AL_PREFIX}施特拉德的詛咒`;
 Parser.SOURCE_JSON_TO_FULL[SRC_ALEE] = `${AL_PREFIX}邪惡元素`;
 Parser.SOURCE_JSON_TO_FULL[SRC_ALRoD] = `${AL_PREFIX}惡魔狂怒`;
@@ -2801,16 +2727,6 @@ Parser.SOURCE_JSON_TO_ABV[SRC_UA2021GL] = "UA21GL";
 Parser.SOURCE_JSON_TO_ABV[SRC_UA2021FF] = "UA21FF";
 Parser.SOURCE_JSON_TO_ABV[SRC_UA2021DO] = "UA21DO";
 
-//新增
-Parser.SOURCE_JSON_TO_ABV[SRC_MPMM] = "MPMM";
-
-Parser.SOURCE_JSON_TO_ABV[SRC_SCC] = "SCC";
-Parser.SOURCE_JSON_TO_ABV[SRC_SCC_CK] = "SCC-CK";
-Parser.SOURCE_JSON_TO_ABV[SRC_SCC_HfMT] = "SCC-HfMT";
-Parser.SOURCE_JSON_TO_ABV[SRC_SCC_TMM] = "SCC-TMM";
-Parser.SOURCE_JSON_TO_ABV[SRC_SCC_ARiR] = "SCC-ARiR";
-
-
 Parser.SOURCE_JSON_TO_DATE = {};
 Parser.SOURCE_JSON_TO_DATE[SRC_CoS] = "2016-03-15";
 Parser.SOURCE_JSON_TO_DATE[SRC_DMG] = "2014-12-09";
@@ -2958,14 +2874,6 @@ Parser.SOURCE_JSON_TO_DATE[SRC_UA2021GL] = "2020-01-26";
 Parser.SOURCE_JSON_TO_DATE[SRC_UA2021FF] = "2020-03-12";
 Parser.SOURCE_JSON_TO_DATE[SRC_UA2021DO] = "2020-04-14";
 
-//new
-Parser.SOURCE_JSON_TO_DATE[SRC_SCC] = "2021-12-07";
-Parser.SOURCE_JSON_TO_DATE[SRC_SCC_CK] = "2021-12-07";
-Parser.SOURCE_JSON_TO_DATE[SRC_SCC_HfMT] = "2021-12-07";
-Parser.SOURCE_JSON_TO_DATE[SRC_SCC_TMM] = "2021-12-07";
-Parser.SOURCE_JSON_TO_DATE[SRC_SCC_ARiR] = "2021-12-07";
-Parser.SOURCE_JSON_TO_DATE[SRC_MPMM] = "2022-01-25";
-
 Parser.SOURCES_ADVENTURES = new Set([
 	SRC_LMoP,
 	SRC_HotDQ,
@@ -3039,7 +2947,6 @@ Parser.SOURCES_VANILLA = new Set([ // An opinionated set of source that could be
 	SRC_SCREEN,
 	SRC_SCREEN_WILDERNESS_KIT,
 	SRC_FTD,
-	SRC_MPMM,
 ]);
 Parser.SOURCES_AVAILABLE_DOCS_BOOK = {};
 [
@@ -3059,6 +2966,7 @@ Parser.SOURCES_AVAILABLE_DOCS_BOOK = {};
 	SRC_TCE,
 	SRC_VRGR,
 	SRC_FTD,
+	SRC_MPMM,
 ].forEach(src => {
 	Parser.SOURCES_AVAILABLE_DOCS_BOOK[src] = src;
 	Parser.SOURCES_AVAILABLE_DOCS_BOOK[src.toLowerCase()] = src;

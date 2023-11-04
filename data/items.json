@@ -19052,7 +19052,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "易容自我",
+					"name": "易容術",
 					"ENG_name": "Disguise Self",
 					"entries": [
 						"作為一個動作，你可以使用刺青施展 {@spell 易容術} 法術（識破DC 13）。使用刺青施展這道法術后，直到下次黎明前，不能再次用刺青施展。"
@@ -24997,7 +24997,7 @@
 				"當在微光或黑暗環境中穿戴此戒指時，你可以從這枚戒指隨意施放{@spell 舞光術}和{@spell 光亮術}。從這枚戒指施放其中任何一個都需要一個動作。",
 				"這枚戒指含有6發充能以用做下列用途。這枚戒指會在每天日出時恢復{@dice 1d6}發已消耗的充能。",
 				{
-					"name": "妖火",
+					"name": "妖火術",
 					"ENG_name": "Faerie Fire",
 					"type": "entries",
 					"entries": [
@@ -28560,7 +28560,7 @@
 			]
 		},
 		{
-			"name": "蘊法刺青(1st Level)",
+			"name": "蘊法刺青（1環）",
 			"ENG_name": "Spellwrought Tattoo (1st Level)",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
@@ -28612,7 +28612,7 @@
 			]
 		},
 		{
-			"name": "蘊法刺青(3rd Level)",
+			"name": "蘊法刺青（3環）",
 			"ENG_name": "Spellwrought Tattoo (3rd Level)",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
@@ -28638,7 +28638,7 @@
 			]
 		},
 		{
-			"name": "蘊法刺青(4th Level)",
+			"name": "蘊法刺青（4環）",
 			"ENG_name": "Spellwrought Tattoo (4th Level)",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,
@@ -28664,7 +28664,7 @@
 			]
 		},
 		{
-			"name": "蘊法刺青(5th Level)",
+			"name": "蘊法刺青（5環）",
 			"ENG_name": "Spellwrought Tattoo (5th Level)",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 11,

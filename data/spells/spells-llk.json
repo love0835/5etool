@@ -41,7 +41,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用3環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，你就可以召喚一個額外的魔寵。"
@@ -109,7 +109,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用8環法術位施放此法術時，你可以將箱子寄送給一名與你處於不同位面的生物。"
@@ -186,7 +186,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "升環施法效應",
+					"name": "升環施法效果",
 					"ENG_name": "At Higher Levels",
 					"entries": [
 						"當你使用4環或更高的法術位施放此法術時，你使用的法術位每比原本高一環，塔就可以額外多一層樓。"

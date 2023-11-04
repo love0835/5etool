@@ -5332,14 +5332,14 @@
 				},
 				{
 					"name": "傳送 (消耗 2動作)",
-					"ENG_name": "Teleport",
+					"ENG_name": "Teleport (Costs 2 Actions)",
 					"entries": [
 						"斯芬克斯用魔法將自己連同任何它所穿戴或攜帶的裝備一起傳送最多120尺距離到一處它所能看見的未被佔據空間。"
 					]
 				},
 				{
 					"name": "施放法術 (消耗 3動作)",
-					"ENG_name": "Cast a Spell",
+					"ENG_name": "Cast a Spell (Costs 3 Actions)",
 					"entries": [
 						"斯芬克斯施放一個它已經準備的法術，並如常消耗法術位。"
 					]
@@ -16105,7 +16105,7 @@
 				},
 				{
 					"name": "治癒之觸 (3/日)",
-					"ENG_name": "Healing Touch",
+					"ENG_name": "Healing Touch (3/Day)",
 					"entries": [
 						"梵天神侍觸碰另一個生物。目標被魔法回覆20 ({@dice 4d8 + 2})點生命值，且移除身上任何的詛咒、疾病、毒素、{@condition 目盲}或{@condition 耳聾}狀態。"
 					]
@@ -16327,7 +16327,7 @@
 					]
 				},
 				{
-					"name": "觸肢",
+					"name": "觸手",
 					"ENG_name": "Tentacle",
 					"entries": [
 						"{@atk mw} 命中{@hit 6}，觸及10尺，單一目標。{@h}7 ({@damage 1d6 + 4})鈍擊傷害加 3 ({@damage 1d6})穿刺傷害。"
@@ -26760,7 +26760,7 @@
 			"cr": "8",
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"headerEntries": [
 						"吉斯洋基人的天生施法屬性為智力（法術豁免DC 13，法術攻擊命中{@hit 5}）。它天生就可以施展以下法術，且無需任何構材："
 					],
@@ -26876,7 +26876,7 @@
 			"cr": "3",
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"headerEntries": [
 						"吉斯洋基人的天生施法屬性為智力。它天生就可以施展以下法術，且無需任何構材："
 					],
@@ -26983,7 +26983,7 @@
 			"cr": "2",
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"headerEntries": [
 						"吉斯澤萊人的天生施法屬性為感知。它天生就可以施展以下法術，且無需任何構材："
 					],
@@ -27104,7 +27104,7 @@
 			"cr": "6",
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"headerEntries": [
 						"吉斯澤萊人的天生施法屬性為感知。它天生就可以施展以下法術，且無需任何構材："
 					],
@@ -30727,14 +30727,14 @@
 				},
 				{
 					"name": "傳送 (消耗 2動作)",
-					"ENG_name": "Teleport",
+					"ENG_name": "Teleport (Costs 2 Actions)",
 					"entries": [
 						"斯芬克斯用魔法將自己連同任何它所穿戴或攜帶的裝備一起傳送最多120尺距離到一處它所能看見的未被佔據空間。"
 					]
 				},
 				{
 					"name": "施放法術 (消耗 3動作)",
-					"ENG_name": "Cast a Spell",
+					"ENG_name": "Cast a Spell (Costs 3 Actions)",
 					"entries": [
 						"斯芬克斯施放一個它已經準備的法術，並如常消耗法術位。"
 					]
@@ -35116,7 +35116,7 @@
 					]
 				},
 				{
-					"name": "行動自如",
+					"name": "行動自如術",
 					"ENG_name": "Freedom of Movement",
 					"entries": [
 						"克拉肯無視困難地形，且魔法效果無法降低它的速度或使它被{@condition 束縛}。它可以消耗5尺移動速度以從任何非魔法束縛或{@condition 被擒}狀態中解脫。"
@@ -35145,7 +35145,7 @@
 					]
 				},
 				{
-					"name": "觸肢",
+					"name": "觸手",
 					"ENG_name": "Tentacle",
 					"entries": [
 						"{@atk mw} 命中{@hit 17}，觸及30尺，單一目標。{@h}20 ({@damage 3d6 + 10})鈍擊傷害，且目標{@condition 被擒}(逃脫DC 18)。直到擒抱結束前，目標被{@condition 束縛}。克拉肯擁有十條觸肢，各自只能擒抱一個目標。"
@@ -35176,7 +35176,7 @@
 				},
 				{
 					"name": "閃電風暴 (消耗 2動作)",
-					"ENG_name": "Lightning Storm",
+					"ENG_name": "Lightning Storm (Costs 2 Actions)",
 					"entries": [
 						"克拉肯使用閃電風暴。"
 					]
@@ -36400,7 +36400,7 @@
 				},
 				{
 					"name": "麻痹之觸 (消耗 2動作)",
-					"ENG_name": "Paralyzing Touch",
+					"ENG_name": "Paralyzing Touch (Costs 2 Actions)",
 					"entries": [
 						"巫妖使用它的麻痹之觸。"
 					]
@@ -39397,7 +39397,7 @@
 			"cr": "7",
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"headerEntries": [
 						"奪心魔的天生施法屬性為智力（法術豁免DC 15）。它天生就可以施展以下法術，且無需任何構材："
 					],
@@ -39555,7 +39555,7 @@
 			"cr": "8",
 			"spellcasting": [
 				{
-					"name": "天生施法（靈能）",
+					"name": "天生施法 (靈能)",
 					"headerEntries": [
 						"奪心魔的天生施法屬性為智力（法術豁免DC 15）。它天生就可以施展以下法術，且無需任何構材："
 					],
@@ -51517,7 +51517,7 @@
 					]
 				},
 				{
-					"name": "凌空劍刃",
+					"name": "飛行劍",
 					"ENG_name": "Flying Sword",
 					"entries": [
 						"熾天神侍釋放它的巨劍以使其魔法性的飄浮在一處距離它5尺內的未被佔據空間。若熾天神侍可以看見該劍刃，則熾天神侍能夠以一個附贈動作以心靈命令它飛行最多50尺距離，並對一個目標進行一次攻擊或返回熾天神侍的手中。若這把漂浮劍刃被作為任何效果的目標，它將視作被熾天神侍所持握。若熾天神侍死亡，這把漂浮劍刃也將摔落。"
@@ -56934,7 +56934,7 @@
 				},
 				{
 					"name": "治癒之觸 (3/日)",
-					"ENG_name": "Healing Touch",
+					"ENG_name": "Healing Touch (3/Day)",
 					"entries": [
 						"獨角獸用它的角觸碰另一個生物。目標被魔法回覆11 ({@dice 2d8 + 2})點生命值。此外，這個觸碰將移除目標身上所有的疾病，並中和目標身上所有的毒素。"
 					]
@@ -57222,7 +57222,7 @@
 				},
 				{
 					"name": "啃咬 (消耗 2動作)",
-					"ENG_name": "Bite",
+					"ENG_name": "Bite (Costs 2 Actions)",
 					"entries": [
 						"吸血鬼進行一次啃咬攻擊。"
 					]
@@ -57675,7 +57675,7 @@
 				},
 				{
 					"name": "啃咬 (消耗 2動作)",
-					"ENG_name": "Bite",
+					"ENG_name": "Bite (Costs 2 Actions)",
 					"entries": [
 						"吸血鬼進行一次啃咬攻擊。"
 					]
@@ -57910,7 +57910,7 @@
 				},
 				{
 					"name": "啃咬 (消耗 2動作)",
-					"ENG_name": "Bite",
+					"ENG_name": "Bite (Costs 2 Actions)",
 					"entries": [
 						"吸血鬼進行一次啃咬攻擊。"
 					]
