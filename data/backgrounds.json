@@ -20921,6 +20921,384 @@
 			],
 			"hasFluff": true,
 			"ENG_name": "Waterdhavian Noble"
+		},
+		{
+			"name": "巨人的遺孤",
+			"source": "BGG",
+			"feats": [
+				{
+					"strike of the giants|bgg": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"giant": true,
+					"anyStandard": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"backpack|phb",
+						"traveler's clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				},
+				{
+					"a": [
+						{
+							"special": "讓你想起家的小石頭"
+						}
+					],
+					"b": [
+						{
+							"special": "讓你想起家的小枝條"
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練度：",
+							"entry": "{@skill 威嚇}, {@skill 生存}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言：",
+							"entry": "巨人語以及你選擇的另一種語言",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備:",
+							"entry": "一個 {@item 背包|phb}, 一套 {@item 旅行者服裝|phb},一塊讓你想起家的小石頭或是一根小樹枝，以及一個包含10金幣的{@item 囊袋|phb}",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "起源故事",
+					"entries": [
+						"你如何在巨大生物中生活是由你來決定的，但是棄嬰的起源表格提供了各種可能性。",
+						{
+							"type": "table",
+							"caption": "棄嬰的起源",
+							"colLabels": [
+								"d6",
+								"起源"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"你被一家流浪巨人家庭在嬰兒時期找到，並將你視為他們自己的一員養大。"
+								],
+								[
+									"2",
+									"當你跌入山谷深淵時，一家石頭巨人救了你，並且從那時起你就一直與他們在地下一起生活。"
+								],
+								[
+									"3",
+									"當你還是個孩子時，你在一個充滿飢餓恐龍的叢林中迷路或被遺棄。在那裡，你遇到了一個同樣迷路的霜巨人;你們一起倖存下來。"
+								],
+								[
+									"4",
+									"你的農場在巨人間的戰鬥中被破壞，你的家人在其中喪生。受到摧毀的內疚，一個有同情心的巨人士兵答應照顧你。"
+								],
+								[
+									"5",
+									"在你小時候有一系列奇怪的夢後，你迷信的父母將你送去與一位強大但冷漠的風暴巨人神諭學習。"
+								],
+								[
+									"6",
+									"當你和朋友們玩捉迷藏的時候，你無意間闖進了一個雲巨人的城堡，他立刻收養了你。"
+								]
+							]
+						}
+					],
+					"ENG_name": "Origin Stories"
+				},
+				{
+					"type": "entries",
+					"name": "建立一個巨人的遺孤角色",
+					"entries": [
+						"你在巨人中的生活給了你獨特的視角。雖然你對你的種類來說異常的大，但你並不比一個巨人的孩子大，所以你可能對你的大小非常關心。"
+					],
+					"ENG_name": "Building a Giant Foundling Character"
+				},
+				{
+					"name": "特性：巨人之擊",
+					"type": "entries",
+					"entries": [
+						"你獲得了{@feat 巨人之擊|BGG}特技。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Strike of the Giants"
+				},
+				{
+					"name": "建議特徵",
+					"type": "entries",
+					"entries": [
+						"巨人的遺孤個性特徵表提出了您可能為角色採用的各種特徵。",
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"個性特質"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"與巨人相比，我所缺乏的身材，我用純粹的惡意來彌補。"
+								],
+								[
+									"2",
+									"我堅持要被視為一個成年人來嚴肅對待。沒有人可以對我說話輕蔑！"
+								],
+								[
+									"3",
+									"擁擠的空間讓我感到不舒服。我寧願在開闊的田野中，也不願在繁忙的酒館裡。"
+								],
+								[
+									"4",
+									"我接受我較矮的身高。 它幫助我保持不被注意 - 和被低估。"
+								],
+								[
+									"5",
+									"每場雪崩都始於一顆小石頭。"
+								],
+								[
+									"6",
+									"這個世界總是感覺太大，我擔心我永遠找不到我在其中的位置。"
+								]
+							]
+						}
+					],
+					"ENG_name": "Suggested Characteristics"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Giant Foundling"
+		},
+		{
+			"name": "符文雕刻師",
+			"source": "BGG",
+			"feats": [
+				{
+					"rune shaper|bgg": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true,
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"giant": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"equipmentType": "toolArtisan"
+						},
+						{
+							"special": "small knife"
+						},
+						"whetstone|phb",
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練度：",
+							"entry": "{@skill 歷史}, {@skill 察覺}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "工具熟練度:",
+							"entry": "One set of {@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=artisan's tools}",
+							"ENG_name": "Tool Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言：",
+							"entry": "巨人語",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備:",
+							"entry": "一套{@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=artisan's tools}（你選擇的一種）、一把小刀、一個{@item 磨刀石|phb}、一套{@item 尋常服裝|phb}，以及一個含有10金幣的{@item 囊袋|phb}",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "符文風格",
+					"entries": [
+						"每個符文雕刻師都有其獨特的風格和首選的媒介。為了確定你如何製作你的符文，你可以在符文風格表上選擇。",
+						{
+							"type": "table",
+							"caption": "符文風格",
+							"colLabels": [
+								"d6",
+								"風格"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"您用細金屬針在蠟或黏土上刻寫符文。"
+								],
+								[
+									"2",
+									"你將木頭削成小塑像，並用符文標記。"
+								],
+								[
+									"3",
+									"您在玻璃珠子上雕刻符文，並將它們串在項鍊和手鐲上。"
+								],
+								[
+									"4",
+									"您將符文縫入衣物的邊緣。"
+								],
+								[
+									"5",
+									"你在一套動物骨頭上刻下符文，可以以不同的形式扔出。"
+								],
+								[
+									"6",
+									"您在蠟燭上畫符文，融化蠟來光滑刻痕。"
+								]
+							]
+						}
+					],
+					"ENG_name": "Rune Styles"
+				},
+				{
+					"type": "entries",
+					"name": "建立一個符文雕刻師角色",
+					"entries": [
+						"學術追求，古老的神秘，或是命運的相遇，都可能激勵一個角色去追尋符文雕刻者的秘密。"
+					],
+					"ENG_name": "Building a Rune Carver Character"
+				},
+				{
+					"name": "特性：符文塑形者",
+					"type": "entries",
+					"entries": [
+						"你獲得了{@feat 符文塑形者|BGG}特技。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Rune Shaper"
+				},
+				{
+					"name": "建議特徵",
+					"type": "entries",
+					"entries": [
+						"符文雕刻師人格特質表提議您可能采用的各种特質為您的角色。",
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"個性特徵"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"學習一種鮮少使用的古老語言實際嗎？不。但是它有趣嗎？非常。"
+								],
+								[
+									"2",
+									"我了解到我的一位祖先是一位受到讚揚的符文雕刻師，他的故事隨著時間的流逝而失落。我尋求重新點燃那個傳承。"
+								],
+								[
+									"3",
+									"那些古老的，傳統的符文工藝標記看起來如此無聊。為什麼不給我的符文一些獨特的特色呢？"
+								],
+								[
+									"4",
+									"在我研究符文的過程中，我努力去理解過去偉大文明的衰落，這樣我才能防止它發生在現在的社會上。"
+								],
+								[
+									"5",
+									"生活可能是一個混亂的旋風，但每當我創作我的符文時，我感到平静。"
+								],
+								[
+									"6",
+									"我的大腦辛苦地處理用墨水寫的文字，但刻在石頭上的符文卻使我的思緒飛揚。"
+								]
+							]
+						}
+					],
+					"ENG_name": "Suggested Characteristics"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Rune Carver"
 		}
 	]
 }

@@ -28,6 +28,7 @@ class PageFilterFeats extends PageFilter {
 					case "Race": 		return "種族";
 					case "Proficiency": return "熟練";
 					case "Spellcasting":return "施法";
+					case "feat":		return "專長";
 					default: return tag;
 				}
 			},

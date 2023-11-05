@@ -2984,6 +2984,7 @@ Renderer.utils = {
 	getPrerequisiteText: (prerequisites, isListMode = false, blacklistKeys = new Set()) => {
 		if (!prerequisites) return isListMode ? "\u2014" : "";
 
+		isTextOnly = false
 		const listOfChoices = prerequisites.map(pr => {
 			return Object.entries(pr)
 				.sort(([kA], [kB]) => Renderer.utils._prereqWeights[kA] - Renderer.utils._prereqWeights[kB])
@@ -3112,6 +3113,9 @@ Renderer.utils = {
 										case "weapon": {
 											return isListMode ? `熟練${Parser.weaponFullToAbv(prof)}武器` : `熟練于${Parser.weaponFullToAbv(prof)}武器`;
 										}
+										case "weaponGroup": {
+											return isListMode ? `熟練 ${Parser.weaponFullToAbv(prof.toLowerCase())} 武器` : `${Parser.weaponFullToAbv(prof.toLowerCase())}武器熟練`;
+										}
 										default: throw new Error(`Unhandled proficiency type: "${profType}"`);
 									}
 								})
@@ -3121,6 +3125,25 @@ Renderer.utils = {
 						case "spellcasting": return isListMode ? "施法能力" : "具有施展至少一種法術的能力";
 						case "spellcasting2020": return isListMode ? "施法能力" : "施法能力或契約魔法特性";
 						case "psionics": return isListMode ? "靈能" : Renderer.get().render("靈能天賦特性或{@feat Wild Talent|UA2020PsionicOptionsRevisited}特性");
+						case "spellcastingFeature": return isListMode ? "施法能力" : "具有施展至少一種法術的能力";
+						case "feat": {
+							return isListMode
+							? v.map(x => x.split("|")[0].toTitleCase()).join("/")
+							: v.map(it => (isTextOnly ? Renderer.stripTags.bind(Renderer) : Renderer.get().render.bind(Renderer.get()))(`{@feat ${it}} 專長`)).joinConjunct(", ", " or ");
+
+						}
+						case "background":
+							{
+								const parts = v.map((it, i) => {
+									if (isListMode) {
+										return `${it.name.toTitleCase()}`;
+									} else {
+										return it.displayEntry ? (isTextOnly ? Renderer.stripTags(it.displayEntry) : Renderer.get().render(it.displayEntry)) : i === 0 ? it.name.toTitleCase() : it.name;
+									}
+								});
+								return isListMode ? parts.join("/") : parts.joinConjunct(", ", " or ");
+
+							}
 						default: throw new Error(`Unhandled key: ${k}`);
 					}
 				})

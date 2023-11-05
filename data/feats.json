@@ -5885,6 +5885,505 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "火巨人的灰燼",
+			"source": "BGG",
+			"page": 17,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人之擊|BGG|巨人之擊（火焰之力）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"resist": [
+				"火"
+			],
+			"entries": [
+				"您已經展現了火巨人標誌性的熾熱戰鬥，給您帶來以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "火焰之子",
+							"entries": [
+								"你對火焰傷害有抗性。"
+							],
+							"ENG_name": "Born of Flame"
+						},
+						{
+							"type": "item",
+							"name": "灼熱點火",
+							"entries": [
+								"當你在你的回合採取{@action 攻擊}行動時，你可以將一次攻擊替換為魔法的火焰爆炸。選擇在你周邊15英尺半徑範圍內的每一個生物都必須進行一個敏捷度的持久性檢定（DC等於8 + 你的熟練加值 + 這個特質提升的能力加值）。如果持久性檢定失敗，生物將受到等於{@dice 1d8} + 你的熟練加值的火焰傷害，並且在你的下一回合開始之前，生物處于盲狀態。如果檢定成功，生物只受到一半的傷害。你可以根據你的熟練加值（但每回合最多一次）使用你的灼熱點火，當你完成長時間休息時，你可以恢復所有已經使用過的次數。"
+							],
+							"ENG_name": "Searing Ignition"
+						}
+					]
+				}
+			],
+			"ENG_name": "Ember of the Fire Giant"
+		},
+		{
+			"name": "霜巨人的狂怒",
+			"source": "BGG",
+			"page": 17,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人之擊|BGG|巨人之擊(寒霜之力)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"resist": [
+				"冷"
+			],
+			"entries": [
+				"您已經展現了象徵冰霜巨人的冰冷威力，賦予你以下的優勢：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "冰之誕生",
+							"entries": [
+								"你對寒冷傷害有抗性。"
+							],
+							"ENG_name": "Born of Ice"
+						},
+						{
+							"type": "item",
+							"name": "冷酷的反擊",
+							"entries": [
+								"當你能看到的生物在30英尺內的你攻擊你並造成傷害後，你可以立即使用你的反應來以一道召喚的冰霜炮擊回擊。該生物必須進行一次憑體質進行的豁免擲骰（難度類別等於8 + 你的熟練加值 + 這個專長提升的能力修正）。如果豁免失敗，該生物受到等於{@dice 1d8} + 你的熟練加值的寒冷傷害，並且其速度在其下一輪結束之前變為0。你可以使用這個反應次數等於你的熟練加值，並且在完成長時間休息后，你可以回復所有已經使用過的次數。"
+							],
+							"ENG_name": "Frigid Retaliation"
+						}
+					]
+				}
+			],
+			"hasFluffImages": true,
+			"ENG_name": "Fury of the Frost Giant"
+		},
+		{
+			"name": "雲巨人的狡猾",
+			"source": "BGG",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人之擊|BGG|巨人之擊(雲之力)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"您已經展現了象徵雲巨人的混亂魔法標誌，賜予您以下的利益：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "多雲逃逸",
+							"entries": [
+								"當一個你能看見的生物用攻擊骰擊中你時，你能使用你的反應來給你自己提供對該攻擊傷害的抵抗。然後你會傳送到你能看見的、在你自己30英尺之內的一個無人佔據的空間。你能使用等同於你的熟練獎勵的次數來進行這個反應，並在完成長時間休息後回復所有已經耗盡的使用次數。"
+							],
+							"ENG_name": "Cloudy Escape"
+						}
+					]
+				}
+			],
+			"ENG_name": "Guile of the Cloud Giant"
+		},
+		{
+			"name": "石巨人的敏锐",
+			"source": "BGG",
+			"page": 18,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人之擊|BGG|巨人之擊 (巨石之力)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已經展示出象徵石巨人的物理才能，給予你以下的好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "巨大視野",
+							"entries": [
+								"你獲得了60英尺範圍的{@sense 黑暗視覺}。如果你已經從另一個來源獲得了{@sense 黑暗視覺}，那麼它的範圍將增加60英尺。"
+							],
+							"ENG_name": "Cavernous Sight"
+						},
+						{
+							"type": "item",
+							"name": "投石",
+							"entries": [
+								"作為一個附贈動作，你可以拿起一塊石頭並進行魔法攻擊。這次攻擊是一個射程為60英尺的遠程法術攻擊，並使用你通過這項技能提高的能力值作為法術施法能力。在命中時，石頭會造成{@damage 1d10}力量傷害，並且目標必須成功進行力量檢定（DC等於8 + 你的熟練加值 + 法術施法能力加值）否則將陷入俯臥狀態。你可以使用這個獎金行動次數等於你的熟練加值，並且在完成長時間休息後，你可以恢復所有消耗的使用次數。"
+							],
+							"ENG_name": "Stone Throw"
+						}
+					]
+				}
+			],
+			"ENG_name": "Keenness of the Stone Giant"
+		},
+		{
+			"name": "符文塑形者",
+			"source": "BGG",
+			"page": 18,
+			"prerequisite": [
+				{
+					"spellcastingFeature": true
+				},
+				{
+					"background": [
+						{
+							"name": "Rune Carver",
+							"displayEntry": "{@background 符文雕刻師|BGG}",
+							"ENG_name": "Rune Carver"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"comprehend languages"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你已研究了巨人符文的魔法，賦予你以下的益處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "理解語言",
+							"entries": [
+								"你學會了{@spell 通曉語言}這個咒語。你可以施放這個咒語而不消耗任何咒語位，並且你必須完成一次長時間的休息才能再次以這種方式施放它。你也可以使用你有的任何咒語位來施放這個咒語。"
+							],
+							"ENG_name": "Comprehend Languages"
+						},
+						{
+							"type": "item",
+							"name": "符文魔法",
+							"entries": [
+								"您知道相當於您熟練加成的一半（向下取整）的符文數量，選擇自符文法術表。每當您完成一次長期休息，您都可以將您知道的每一個符文鐫刻在您接觸的一個非魔法武器，盔甲，衣物或其他物品上。您暫時學會與您鐫刻的符文相對應的1級法術，如符文法術表上所指定的，並且您知道這些法術直到您完成一次長期休息，當符文消失。當您穿著或攜帶任何帶有符文標記的物品時，您可以使用您擁有的任何法術欄位施放與這些符文相關的法術。",
+								"您也可以喚醒您所佩戴或攜帶的物品上刻有的符文，並施放其相關的法術，而不需要消耗法術位或使用材料組件。一旦您以這種方式施放了法術，則直到您完成長時間的休息後，都不能再這樣做。您選擇這項特技時，這項特技的施法能力是智力，智慧，或魅力，可選擇其一。",
+								"每次你提升一級時，你可以將你所知的其中一個符文替換為來自符文法術表的另一個符文。",
+								{
+									"type": "table",
+									"colStyles": [
+										"col-2",
+										"col-10"
+									],
+									"colLabels": [
+										"符文",
+										"法術"
+									],
+									"rows": [
+										[
+											"雲",
+											"{@spell 雲霧術}"
+										],
+										[
+											"死亡",
+											"{@spell 造成傷勢}"
+										],
+										[
+											"龍",
+											"{@spell 幻色法球}"
+										],
+										[
+											"敵人",
+											"{@spell 易容術}"
+										],
+										[
+											"火焰",
+											"{@spell 燃燒之手}"
+										],
+										[
+											"朋友",
+											"{@spell 動物交談術}"
+										],
+										[
+											"霜",
+											"{@spell 艾嘉西斯之鎧}"
+										],
+										[
+											"山丘",
+											"{@spell 神莓術}"
+										],
+										[
+											"旅程",
+											"{大步奔行}"
+										],
+										[
+											"國王",
+											"{@spell 命令術}"
+										],
+										[
+											"山",
+											"{@spell 糾纏術}"
+										],
+										[
+											"石頭",
+											"{@spell 聖域術}"
+										],
+										[
+											"風暴",
+											"{@spell 雷鳴波}"
+										]
+									]
+								}
+							],
+							"ENG_name": "Rune Magic"
+						}
+					]
+				}
+			],
+			"ENG_name": "Rune Shaper"
+		},
+		{
+			"name": "風暴巨人之魂",
+			"source": "BGG",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人之擊|BGG|巨人之擊（風暴之力）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已經顯現出風暴巨人象徵的暴風魔法紋章，賦予你以下的利益:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Maelstrom Aura",
+							"entries": [
+								"作為一個附贈動作，你將自己環繞在一圈神奇的風和閃電的光環中，它從你身邊的每個方向延伸出10英尺，但不能穿過完全的遮蔽物。此光環會一直持續到你下一回合開始或你無法行動為止。當光環處於活躍狀態時，你具有對雷電傷害的抗性。另外，對你的攻擊擲骰具有劣勢，並且每當其他生物在它的回合開始時在你的光環內，你可以強制該生物進行力量豁免擲骰（DC等於8 + 你的熟練獎勵 + 此特技提高的能力的修正）。如果擲骰失敗，該生物的速度將在其下一回合開始前減半。你可以使用這額外的行動次數等於你的熟練獎勵，並在你完成一次長時間休息時恢復所有耗盡的使用次數。"
+							],
+							"ENG_name": "Maelstrom Aura"
+						}
+					]
+				}
+			],
+			"ENG_name": "Soul of the Storm Giant"
+		},
+		{
+			"name": "巨人之擊",
+			"source": "BGG",
+			"page": 19,
+			"prerequisite": [
+				{
+					"proficiency": [
+						{
+							"weaponGroup": "martial"
+						}
+					]
+				},
+				{
+					"background": [
+						{
+							"name": "Giant Foundling",
+							"displayEntry": "{@background 巨人的遺孤|BGG}",
+							"ENG_name": "Giant Foundling"
+						}
+					]
+				}
+			],
+			"entries": [
+				"您已經吸收了源始的魔法，給您帶來了巨人的力量的迴音。當你獲得這個專長時，選擇下面列出的一種效益。每回合一次，當你用近戰武器攻擊敵人或者用投擲武器進行遠程攻擊時，你可以給攻擊加上根據你所選擇的效益而變化的附加效果：",
+				{
+					"type": "entries",
+					"name": "雲之力",
+					"entries": [
+						"目標將會額外受到{@damage 1d4}的雷霆傷害。如果目標是生物，它必須成功進行智慧豁免擲骰，否則你將對它隱形，直到你下一輪開始或者你立即進行攻擊擲骰或施放魔法之後。"
+					],
+					"ENG_name": "Cloud Strike"
+				},
+				{
+					"type": "entries",
+					"name": "火焰之力",
+					"entries": [
+						"目標將承受額外的{@damage 1d10}火焰傷害。"
+					],
+					"ENG_name": "Fire Strike"
+				},
+				{
+					"type": "entries",
+					"name": "霜寒之力",
+					"entries": [
+						"目標將承受額外的{@damage 1d6}冷傷害。 如果目標是生物，它必須在體質豁免投擲中成功，否則其速度將在你下一次回合開始前降為0。"
+					],
+					"ENG_name": "Frost Strike"
+				},
+				{
+					"type": "entries",
+					"name": "山丘之力",
+					"entries": [
+						"目標將受到額外的{@damage 1d6}之武器類型的傷害。如果目標是生物，它必須成功進行力量豁免擲骰，否則將會變為趴下狀態。"
+					],
+					"ENG_name": "Hill Strike"
+				},
+				{
+					"type": "entries",
+					"name": "巨石之力",
+					"entries": [
+						"目標將承受額外的{@damage 1d6}力量傷害。如果目標是生物，它必須成功進行力量豁免擲骰，否則將被你直接推開10英尺。"
+					],
+					"ENG_name": "Stone Strike"
+				},
+				{
+					"type": "entries",
+					"name": "風暴之力",
+					"entries": [
+						"目標將承受額外的{@damage 1d6}閃電傷害。如果目標是一個生物，它必須成功進行體質豁免擲骰，否則在你下一個回合開始之前，它的攻擊擲骰將處於劣勢。",
+						"這些效果的擲骰儲存DC等於8 + 你的熟練度獎勵 + 你的力量或體質修正值。",
+						"你可以使用這項特技等同於你的熟練加值的次數，並在完成長時間休息後，你將恢復所有已用過的次數。"
+					],
+					"ENG_name": "Storm Strike"
+				}
+			],
+			"ENG_name": "Strike of the Giants"
+		},
+		{
+			"name": "丘陵巨人的活力",
+			"source": "BGG",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"巨人之擊|BGG|巨人之擊（山丘之力）"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你已經體現出象徵山巨人的堅韌標誌，給予你以下的好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "壁壘",
+							"entries": [
+								"當您受到一種效果影響，該效果會使您移動至少5英尺或使您處於臥倒狀態時，您可以使用您的反應來穩定自己。您不會移動且不會有臥倒狀態。"
+							],
+							"ENG_name": "Bulwark"
+						},
+						{
+							"type": "item",
+							"name": "鐵胃",
+							"entries": [
+								"每當你在短暫休息中食用食物並且花費一個或多個生命骰來恢復生命值時，你將可獲得額外的生命值，數值等於你的體質修正值 + 你的熟練獎勵。"
+							],
+							"ENG_name": "Iron Stomach"
+						}
+					]
+				}
+			],
+			"ENG_name": "Vigor of the Hill Giant"
 		}
 	]
 }
