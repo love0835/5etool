@@ -1,0 +1,59 @@
+[
+    {
+        "name": "梟人",
+        "source": "SCC",
+        "page": 29,
+        "lineage": "VRGR",
+        "size": [
+            "S",
+            "M"
+        ],
+        "speed": {
+            "walk": 30,
+            "fly": true
+        },
+        "darkvision": 120,
+        "skillProficiencies": [
+            {
+                "stealth": true
+            }
+        ],
+        "entries": [
+            {
+                "type": "entries",
+                "name": "體型",
+                "entries": [
+                    "你是中型或小型。當你選擇這個種族時，你選擇了體型。"
+                ],
+                "ENG_name": "Size"
+            },
+            {
+                "type": "entries",
+                "name": "黑暗視覺",
+                "entries": [
+                    "你可以在距離自己120英尺內的昏暗光線中好像在明亮光線下一樣看到事物，並且在黑暗中似乎在昏暗的光線下一樣看到。你只能在該黑暗中將顏色認為是灰色的陰影。"
+                ],
+                "ENG_name": "Darkvision"
+            },
+            {
+                "type": "entries",
+                "name": "飛行",
+                "entries": [
+                    "由於你的翅膀，你的飛行速度等於你的步行速度。如果你穿著中型或重型護甲，則不能使用這種飛行速度。"
+                ],
+                "ENG_name": "Flight"
+            },
+            {
+                "type": "entries",
+                "name": "寂靜羽毛",
+                "entries": [
+                    "你擅長{@skill 隱匿}技能。"
+                ],
+                "ENG_name": "Silent Feathers"
+            }
+        ],
+        "hasFluff": true,
+        "hasFluffImages": true,
+        "ENG_name": "Owlin"
+    }
+]

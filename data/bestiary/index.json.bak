@@ -1,6 +1,7 @@
 {
 	"AI": "bestiary-ai.json",
 	"BGDIA": "bestiary-bgdia.json",
+	"BGG": "bestiary-bgg.json",
 	"CM": "bestiary-cm.json",
 	"CoS": "bestiary-cos.json",
 	"DC": "bestiary-dc.json",
@@ -40,6 +41,7 @@
 	"RMBRE": "bestiary-rmbre.json",
 	"RoT": "bestiary-rot.json",
 	"SADS": "bestiary-sads.json",
+	"SCC": "bestiary-scc.json",
 	"SDW": "bestiary-sdw.json",
 	"SKT": "bestiary-skt.json",
 	"SLW": "bestiary-slw.json",

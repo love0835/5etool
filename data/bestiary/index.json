@@ -41,6 +41,7 @@
 	"RMBRE": "bestiary-rmbre.json",
 	"RoT": "bestiary-rot.json",
 	"SADS": "bestiary-sads.json",
+	"SCC": "bestiary-scc.json",
 	"SDW": "bestiary-sdw.json",
 	"SKT": "bestiary-skt.json",
 	"SLW": "bestiary-slw.json",
@@ -58,6 +59,7 @@
 	"UAArtificerRevisited": "bestiary-ua-ar.json",
 	"UAClassFeatureVariants": "bestiary-ua-cfv.json",
 	"UAClericDruidWizard": "bestiary-ua-cdw.json",
+	"WBtW": "bestiary-wbtw.json",
 	"WDH": "bestiary-wdh.json",
 	"WDMM": "bestiary-wdmm.json"
 }

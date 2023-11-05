@@ -4432,6 +4432,104 @@
 					}
 				}
 			]
+		},
+		{
+			"name": "Feywild Trinket",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Feywild Trinket.webp"
+					},
+					"credit": "Claudio Pozas"
+				}
+			],
+			"ENG_name": "Feywild Trinket"
+		},
+		{
+			"name": "Iggwilv's Cauldron",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Iggwilvs Cauldron.webp"
+					},
+					"credit": "Olga Drebas"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Iggwilvs Cauldron (Iron).webp"
+					},
+					"credit": "Olga Drebas"
+				}
+			],
+			"ENG_name": "Iggwilv's Cauldron"
+		},
+		{
+			"name": "Ornithopter of Flying",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Ornithopter of Flying.webp"
+					},
+					"credit": "Matt Stewart"
+				}
+			],
+			"ENG_name": "Ornithopter of Flying"
+		},
+		{
+			"name": "Snicker-Snack",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Snicker-Snack.webp"
+					},
+					"credit": "Filip Burburan"
+				}
+			],
+			"ENG_name": "Snicker-Snack"
+		},
+		{
+			"name": "Steel",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Steel.webp"
+					},
+					"credit": "Daarken"
+				}
+			],
+			"ENG_name": "Steel"
+		},
+		{
+			"name": "Witchlight Vane",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Witchlight Vane.webp"
+					},
+					"credit": "Nikki Dawes"
+				}
+			],
+			"ENG_name": "Witchlight Vane"
 		}
 	]
 }

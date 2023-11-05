@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Alchemist's Doom",
+        "source": "SCC",
+        "page": 179,
+        "_copy": {
+            "name": "Alchemist's Fire (flask)",
+            "source": "PHB",
+            "ENG_name": "Alchemist's Fire (flask)"
+        },
+        "type": "G",
+        "rarity": "unknown",
+        "value": null,
+        "entries": [
+            "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's doom as an improvised weapon. On a hit, the target takes 7 ({@dice 2d6}) fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+        ],
+        "ENG_name": "Alchemist's Doom"
+    },
+    {
+        "name": "Bottle of Boundless Coffee",
+        "source": "SCC",
+        "page": 38,
+        "rarity": "common",
+        "wondrous": true,
+        "entries": [
+            "This metal bottle carries delicious, warm coffee. The bottle comes with a stopper, which is attached to the bottle by a little chain. Even when open, the bottle won't accept any liquid other than the coffee it produces. The coffee inside is always comfortably warm, and none of the heat can be felt through the bottle.",
+            "Each time you drink the coffee, roll a {@dice d20}. On a 1, the bottle refuses to dispense coffee for the next hour. If you pour coffee from the bottle, rather than drinking from it, the coffee vanishes the moment it leaves the bottle."
+        ],
+        "ENG_name": "Bottle of Boundless Coffee"
+    },
+    {
+        "name": "Catapult Munition",
+        "source": "SCC",
+        "page": 174,
+        "type": "G",
+        "rarity": "unknown",
+        "entries": [
+            "A catapult munition roughly the size and weight of a cannonball.",
+            "The munition can be thrown up to 30 feet and explodes on impact. Any creature within a 15-foot-radius sphere centered on the point of impact must make a DC 14 Dexterity saving throw, taking 35 ({@damage 10d6}) fire damage on a failed save, or half as much damage on a successful one. In addition, each object in that area that isn't being worn or carried takes 35 ({@damage 10d6}) fire damage."
+        ],
+        "ENG_name": "Catapult Munition"
+    },
+    {
+        "name": "Cuddly Strixhaven Mascot",
+        "source": "SCC",
+        "page": 38,
+        "rarity": "common",
+        "wondrous": true,
+        "entries": [
+            "Representing one of the mascots of Strixhaven, this soft, Tiny, magic toy is perfect for cuddling. If you press it to your arm, shoulder, or leg as an action, the toy stays attached there for 1 hour or until you use an action to remove it.",
+            "The toy can also be used to fight off fear. When you make a saving throw to avoid or end the {@condition frightened} condition on yourself, you can give yourself advantage on the roll if the toy is on your person. You must decide to do so before rolling the {@dice d20}. If the save succeeds, you can't use the toy in this way until you finish a long rest."
+        ],
+        "ENG_name": "Cuddly Strixhaven Mascot"
+    },
+    {
+        "name": "Lorehold Primer",
+        "source": "SCC",
+        "page": 39,
+        "rarity": "uncommon",
+        "reqAttune": "by a spellcaster",
+        "reqAttuneTags": [
+            {
+                "spellcasting": true
+            }
+        ],
+        "wondrous": true,
+        "recharge": "dawn",
+        "rechargeAmount": "{@dice 1d3}",
+        "charges": 3,
+        "entries": [
+            "The Lorehold Primer is a magic textbook created at Strixhaven's Lorehold College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make an Intelligence ({@skill History}) or Intelligence ({@skill Religion}) check while holding the primer, you can expend 1 charge to give yourself {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
+            "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the cleric or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "ENG_name": "Lorehold Primer"
+    },
+    {
+        "name": "Masque Charm",
+        "source": "SCC",
+        "page": 127,
+        "rarity": "common",
+        "wondrous": true,
+        "entries": [
+            "A masque charm is a small silver pin. While wearing this charm, you can use an action to cast the {@spell disguise self} spell (DC 13 to discern the disguise). Once the spell is cast, it can't be cast from the charm again until the next sunset. When casting the spell, you can have the spell last for its normal 1 hour duration or for 6 hours. If you choose the 6-hour duration, the charm becomes nonmagical when the spell ends. In either case, the spell ends if the charm is removed from you."
+        ],
+        "attachedSpells": [
+            "disguise self"
+        ],
+        "ENG_name": "Masque Charm"
+    },
+    {
+        "name": "Murgaxor's Elixir of Life",
+        "source": "SCC",
+        "page": 179,
+        "type": "G",
+        "rarity": "unknown",
+        "entries": [
+            "Whoever drinks this concoction gains advantage on death saving throws for 24 hours."
+        ],
+        "ENG_name": "Murgaxor's Elixir of Life"
+    },
+    {
+        "name": "Murgaxor's Orb",
+        "source": "SCC",
+        "page": 126,
+        "rarity": "legendary",
+        "reqAttune": true,
+        "wondrous": true,
+        "curse": true,
+        "sentient": true,
+        "entries": [
+            "Roiling green mist fills this glass orb, which the exiled Strixhaven mage {@creature Murgaxor|SCC} once used in foul magical experiments. Murgaxor's spirit has infused the orb, which he uses to spread a terrible curse among Strixhaven's students.",
+            {
+                "type": "entries",
+                "name": "Sentience",
+                "entries": [
+                    "Murgaxor's orb is a sentient, chaotic evil magic item with the following properties:",
+                    {
+                        "type": "list",
+                        "items": [
+                            "The orb has an Intelligence of 20, a Wisdom of 16, and a Charisma of 16, as well as hearing and {@sense darkvision} out to a range of 30 feet.",
+                            "The orb can speak, read, and understand Common, and it can communicate telepathically with any creature touching it.",
+                            "At any time during your turn, the orb can cast the {@spell suggestion} spell (save DC 17), targeting you or one other creature that touched the orb within the last 24 hours. This isn't a power of the orb that you control."
+                        ]
+                    }
+                ],
+                "ENG_name": "Sentience"
+            },
+            {
+                "type": "entries",
+                "name": "Curse",
+                "entries": [
+                    "Any Humanoid you touch while holding the orb must succeed on a DC 10 Wisdom saving throw or become cursed. Each creature cursed by the orb bears an echo of Murgaxor's hateful thoughts, and that creature suffers from headaches that are persistent but not debilitating until the curse ends. On your turn, the orb can use an action to produce one of the following effects, targeting one or more creatures it has cursed:"
+                ],
+                "ENG_name": "Curse"
+            },
+            {
+                "type": "entries",
+                "name": "Unconsciousness",
+                "entries": [
+                    "The cursed creature falls {@condition unconscious} for 1 hour. The creature is roused if it takes damage or someone uses an action to shake or slap it awake."
+                ],
+                "ENG_name": "Unconsciousness"
+            },
+            {
+                "type": "entries",
+                "name": "Visions of Terror",
+                "entries": [
+                    "The cursed creature sees terrifying visions, causing it to view all creatures that aren't also cursed as dangerous monsters for 10 minutes. The cursed creature must use its action each round to make one attack against the nearest non-cursed creature. If the cursed creature has multiple possible targets, it attacks one at random. This effect ends if the cursed creature is {@condition incapacitated}.",
+                    "After either of these effects ends, the affected creature is no longer cursed. The curse can also be removed from a creature with a {@spell remove curse} spell or similar magic. All cases of the curse end if Murgaxor's orb is destroyed."
+                ],
+                "ENG_name": "Visions of Terror"
+            },
+            {
+                "type": "entries",
+                "name": "Magical Signature",
+                "entries": [
+                    "As a side effect of the orb's curse, the spell {@spell detect magic} reveals an aura of enchantment surrounding creatures bearing the curse. This aura is distinctive, but in a way {@spell detect magic} offers no further details about."
+                ],
+                "ENG_name": "Magical Signature"
+            },
+            {
+                "type": "entries",
+                "name": "Destroying the Orb",
+                "entries": [
+                    "Murgaxor's orb has AC 18; 20 hit points; immunity to necrotic, poison, and psychic damage; and resistance to all other types of damage. If reduced to 0 hit points, the orb shatters."
+                ],
+                "ENG_name": "Destroying the Orb"
+            }
+        ],
+        "attachedSpells": [
+            "suggestion"
+        ],
+        "ENG_name": "Murgaxor's Orb"
+    },
+    {
+        "name": "Prismari Primer",
+        "source": "SCC",
+        "page": 39,
+        "rarity": "uncommon",
+        "reqAttune": "by a spellcaster",
+        "reqAttuneTags": [
+            {
+                "spellcasting": true
+            }
+        ],
+        "wondrous": true,
+        "recharge": "dawn",
+        "rechargeAmount": "{@dice 1d3}",
+        "charges": 3,
+        "entries": [
+            "The Prismari Primer is a magic textbook created at Strixhaven's Prismari College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make a Dexterity ({@skill Acrobatics}) or a Charisma ({@skill Performance}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
+            "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or sorcerer spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "ENG_name": "Prismari Primer"
+    },
+    {
+        "name": "Quandrix Primer",
+        "source": "SCC",
+        "page": 39,
+        "rarity": "uncommon",
+        "reqAttune": "by a spellcaster",
+        "reqAttuneTags": [
+            {
+                "spellcasting": true
+            }
+        ],
+        "wondrous": true,
+        "recharge": "dawn",
+        "rechargeAmount": "{@dice 1d3}",
+        "charges": 3,
+        "entries": [
+            "The Quandrix Primer is a magic textbook created at Strixhaven's Quandrix College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make an Intelligence ({@skill Arcana}) or an Intelligence ({@skill Nature}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
+            "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the druid or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "ENG_name": "Quandrix Primer"
+    },
+    {
+        "name": "Silverquill Primer",
+        "source": "SCC",
+        "page": 39,
+        "rarity": "uncommon",
+        "reqAttune": "by a spellcaster",
+        "reqAttuneTags": [
+            {
+                "spellcasting": true
+            }
+        ],
+        "wondrous": true,
+        "recharge": "dawn",
+        "rechargeAmount": "{@dice 1d3}",
+        "charges": 3,
+        "entries": [
+            "The Silverquill Primer is a magic textbook created at Strixhaven's Silverquill College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make a Charisma ({@skill Intimidation}) or a Charisma ({@skill Persuasion}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
+            "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or cleric spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "ENG_name": "Silverquill Primer"
+    },
+    {
+        "name": "Strixhaven Pennant",
+        "source": "SCC",
+        "page": 39,
+        "rarity": "common",
+        "wondrous": true,
+        "entries": [
+            "This magic pennant bears the symbol of Strixhaven or one of its colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. While you wave the pennant, the symbol on it glitters, and the pennant sheds bright light in a 10-foot-radius and dim light for an additional 10 feet."
+        ],
+        "ENG_name": "Strixhaven Pennant"
+    },
+    {
+        "name": "Witherbloom Primer",
+        "source": "SCC",
+        "page": 39,
+        "rarity": "uncommon",
+        "reqAttune": "by a spellcaster",
+        "reqAttuneTags": [
+            {
+                "spellcasting": true
+            }
+        ],
+        "wondrous": true,
+        "recharge": "dawn",
+        "rechargeAmount": "{@dice 1d3}",
+        "charges": 3,
+        "entries": [
+            "The Witherbloom Primer is a magic textbook created at Strixhaven's Witherbloom College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make an Intelligence ({@skill Nature}) or Wisdom ({@skill Survival}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
+            "In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the druid or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+        ],
+        "ENG_name": "Witherbloom Primer"
+    }
+]

@@ -18813,7 +18813,7 @@
 			"ENG_name": "Eladrin"
 		},
 		{
-			"name": "妖精",
+			"name": "仙靈",
 			"source": "MPMM",
 			"page": 14,
 			"lineage": "VRGR",
@@ -19328,7 +19328,7 @@
 					"type": "entries",
 					"name": "兔子跳",
 					"entries": [
-						"作為一個獎勵行動，你可以跳躍相當於五倍你熟練加值的距離，且不會引發機會攻擊。只有當你的速度大於0時，你才能使用此特性。你可以使用次數相當於你的熟練度加值，並且當你完成一次長時間休息後，你將恢復所有已消耗的使用次數。"
+						"作為一個獎勵行動，你可以跳躍相當於五倍你熟練加值的距離，且不會引發藉機攻擊。只有當你的速度大於0時，你才能使用此特性。你可以使用次數相當於你的熟練度加值，並且當你完成一次長時間休息後，你將恢復所有已消耗的使用次數。"
 					],
 					"ENG_name": "Rabbit Hop"
 				}
@@ -20478,6 +20478,209 @@
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"ENG_name": "Yuan-Ti"
+		},
+		{
+			"name": "梟人",
+			"source": "SCC",
+			"page": 29,
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"darkvision": 120,
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"你是中型或小型。當你選擇這個種族時，你選擇了體型。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你可以在距離自己120英尺內的昏暗光線中好像在明亮光線下一樣看到事物，並且在黑暗中似乎在昏暗的光線下一樣看到。你只能在該黑暗中將顏色認為是灰色的陰影。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "飛行",
+					"entries": [
+						"由於你的翅膀，你的飛行速度等於你的步行速度。如果你穿著中型或重型護甲，則不能使用這種飛行速度。"
+					],
+					"ENG_name": "Flight"
+				},
+				{
+					"type": "entries",
+					"name": "寂靜羽毛",
+					"entries": [
+						"你擅長{@skill 隱匿}技能。"
+					],
+					"ENG_name": "Silent Feathers"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Owlin"
+		},
+		{
+			"name": "仙靈",
+			"source": "WBtW",
+			"page": 12,
+			"reprintedAs": [
+				"Fairy|MPMM"
+			],
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"druidcraft#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"faerie fire"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"enlarge/reduce"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "生物型別",
+					"entries": [
+						"你是一個仙靈。"
+					],
+					"ENG_name": "Creature Type"
+				},
+				{
+					"type": "entries",
+					"name": "飛行",
+					"entries": [
+						"由於你擁有翅膀，你的飛行速度等於你的步行速度。如果你穿著中型或重型護甲，你將無法使用這種飛行速度。"
+					],
+					"ENG_name": "Flight"
+				},
+				{
+					"type": "entries",
+					"name": "仙女魔法",
+					"entries": [
+						"你知道{@spell 德魯伊伎倆} 戲法。",
+						"從第三級開始，你可以使用這個特性施放{@spell 妖火術}法術。從第五級開始，你也可以使用這個特性施放{@spell 變巨/縮小術}法術。一旦你使用這個特性施放了{@spell 妖火術}或{@spell 變巨/縮小術}法術，你無法再使用它再次施放該法術，直到你完成一次長時間休息。你也可以使用任何你擁有的對應等級的法術位施放這兩種法術之一。",
+						"當你使用此種族特性施放這些咒語時，智力、智慧或魅力是你的施法能力（選擇當你選擇此種族時）。"
+					],
+					"ENG_name": "Fairy Magic"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Fairy"
+		},
+		{
+			"name": "兔人",
+			"source": "WBtW",
+			"page": 13,
+			"reprintedAs": [
+				"Harengon|MPMM"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "體型",
+					"entries": [
+						"你是中型或小型。當你選擇此種族時，你會選擇體型。"
+					],
+					"ENG_name": "Size"
+				},
+				{
+					"type": "entries",
+					"name": "觸發的兔子",
+					"entries": [
+						"你可以在你的先攻擲骰上加上你的熟練加值。"
+					],
+					"ENG_name": "Hare-Trigger"
+				},
+				{
+					"type": "entries",
+					"name": "兔子感官",
+					"entries": [
+						"你擁有{@skill 察覺}技能的熟練度。"
+					],
+					"ENG_name": "Leporine Senses"
+				},
+				{
+					"type": "entries",
+					"name": "幸運的腳步",
+					"entries": [
+						"當你未能成功於敏捷度{@豁免檢定}時，你可以使用你的反應來擲出一個{@dice d4}並加上它到儲存值，可能將失敗轉為成功。如果你處於{@condition 伏地}狀態或者你的速度為0，你將不能使用此反應。"
+					],
+					"ENG_name": "Lucky Footwork"
+				},
+				{
+					"type": "entries",
+					"name": "兔子跳",
+					"entries": [
+						"作為一個附贈動作，您可以跳躍相等於五倍專精加值的英尺數量，並且不會引發藉機攻擊。只有當您的移動速度大於0時，才能使用這個特徵。您可以使用次數等於專精加值，並且在完成長時間休息後，您會恢復所有消耗掉的使用次數。"
+					],
+					"ENG_name": "Rabbit Hop"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Harengon"
 		}
 	]
 }

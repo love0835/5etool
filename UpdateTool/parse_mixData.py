@@ -12,6 +12,11 @@ outpath = "./parse_mixData/result"
 class_outpath = "./parse_mixData/result/class/"
 
 top_keys ={"feats":"feat" , "items":"item" , "legendarygroups":"legendaryGroup" , "races":"race" , "backgrounds":"background"}
+top_keys["fluff-feats"] = "featFluff"
+top_keys["fluff-items"] = "itemFluff"
+top_keys["fluff-races"] = "raceFluff"
+top_keys["fluff-backgrounds"] = "backgroundFluff"
+
 class_top_keys = ["subclassFeature"]
 
 

@@ -49,6 +49,7 @@ single_files[RC_Feat] = "D:/5etool_web/5etool/data/feats.json"
 
 
 
+
 TOP_C = {}
 TOP_C[RC_SPELL] = 0
 TOP_C[RC_ITEM] = 0
@@ -133,15 +134,12 @@ def ParseAllDiction():
                     else:
                         ParseAction_Name(data , filename)
 
-def main():
-    #第一步
-    #parse所有資料夾
-    ParseAllDiction()
-    #parese所有單檔
-    ParseAllSingleFile()
-    #寫出資料
-    with open(sources_filepath, 'w',encoding='utf-8') as f:
-        json.dump(out_data, f, indent=4, ensure_ascii=False)
-        
-        
-main()
+
+#第一步
+#parse所有資料夾
+ParseAllDiction()
+#parese所有單檔
+ParseAllSingleFile()
+#寫出資料
+with open(sources_filepath, 'w',encoding='utf-8') as f:
+    json.dump(out_data, f, indent=4, ensure_ascii=False)

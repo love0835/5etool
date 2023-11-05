@@ -394,6 +394,11 @@
         "word of recall": "回返真言",
         "wrathful smite": "激憤斬",
         "zone of truth": "誠實之域",
+        "borrowed knowledge": "借用知識",
+        "kinetic jaunt": "動力遁行",
+        "silvery barbs": "銀色倒刺",
+        "vortex warp": "漩渦扭曲",
+        "wither and bloom": "凋零與綻放",
         "blade of disaster": "災厄之刃",
         "booming blade": "轟雷劍",
         "dream of the blue veil": "藍紗一夢",
@@ -2037,7 +2042,7 @@
         "psionic fortitude": "靈能堅韌",
         "trance": "恍惚",
         "fairy magic": "仙女魔法",
-        "fairy": "妖精",
+        "fairy": "仙靈",
         "firbolg magic": "精靈巨人魔法",
         "hidden step": "隱藏的步驟",
         "speech of beast and leaf": "野獸與葉子的語言",
@@ -2092,6 +2097,8 @@
         "poison resilience": "毒性抵抗力",
         "serpentine spellcasting": "蛇形施法",
         "yuan-ti": "蛇人",
+        "silent feathers": "寂靜羽毛",
+        "owlin": "梟人",
         "vanish": "消失",
         "warp terrain": "扭曲地形",
         "sense desires": "感知欲望",
@@ -3068,7 +3075,20 @@
         "wyvern poison": "飛龍毒液",
         "yellow sapphire": "黃寶石",
         "yew wand": "紫杉魔杖",
-        "zircon": "鋯石"
+        "zircon": "鋯石",
+        "alchemist's doom": "Alchemist's Doom",
+        "bottle of boundless coffee": "Bottle of Boundless Coffee",
+        "catapult munition": "Catapult Munition",
+        "cuddly strixhaven mascot": "Cuddly Strixhaven Mascot",
+        "lorehold primer": "Lorehold Primer",
+        "masque charm": "Masque Charm",
+        "murgaxor's elixir of life": "Murgaxor's Elixir of Life",
+        "murgaxor's orb": "Murgaxor's Orb",
+        "prismari primer": "Prismari Primer",
+        "quandrix primer": "Quandrix Primer",
+        "silverquill primer": "Silverquill Primer",
+        "strixhaven pennant": "Strixhaven Pennant",
+        "witherbloom primer": "Witherbloom Primer"
     },
     "feat": {
         "actor": "演員",
@@ -3155,6 +3175,8 @@
         "rune shaper": "符文塑形者",
         "soul of the storm giant": "風暴巨人之魂",
         "strike of the giants": "巨人之擊",
-        "vigor of the hill giant": "丘陵巨人的活力"
+        "vigor of the hill giant": "丘陵巨人的活力",
+        "strixhaven initiate": "斯翠海文新進生",
+        "strixhaven mascot": "斯翠海文吉祥物"
     }
 }

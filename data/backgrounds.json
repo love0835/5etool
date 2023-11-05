@@ -20923,7 +20923,7 @@
 			"ENG_name": "Waterdhavian Noble"
 		},
 		{
-			"name": "巨人的遺孤",
+			"name": "巨人養子",
 			"source": "BGG",
 			"feats": [
 				{
@@ -21042,7 +21042,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建立一個巨人的遺孤角色",
+					"name": "建立一個巨人養子角色",
 					"entries": [
 						"你在巨人中的生活給了你獨特的視角。雖然你對你的種類來說異常的大，但你並不比一個巨人的孩子大，所以你可能對你的大小非常關心。"
 					],
@@ -21063,7 +21063,7 @@
 					"name": "建議特徵",
 					"type": "entries",
 					"entries": [
-						"巨人的遺孤個性特徵表提出了您可能為角色採用的各種特徵。",
+						"巨人養子個性特徵表提出了您可能為角色採用的各種特徵。",
 						{
 							"type": "table",
 							"colLabels": [
@@ -21299,6 +21299,2044 @@
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"ENG_name": "Rune Carver"
+		},
+		{
+			"name": "衡鑑學院學生",
+			"source": "SCC",
+			"page": 31,
+			"feats": [
+				{
+					"strixhaven initiate|scc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true,
+					"religion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"ink (1-ounce bottle)|phb",
+						"ink pen|phb",
+						"hammer|phb",
+						"hooded lantern|phb",
+						"tinderbox|phb",
+						{
+							"special": "tome of history"
+						},
+						{
+							"special": "school uniform"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1500
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"comprehend languages",
+							"identify"
+						],
+						"s2": [
+							"borrowed knowledge|scc",
+							"locate object"
+						],
+						"s3": [
+							"speak with dead",
+							"spirit guardians"
+						],
+						"s4": [
+							"arcane eye",
+							"stone shape"
+						],
+						"s5": [
+							"flame strike",
+							"legend lore"
+						]
+					}
+				}
+			],
+			"fromFeature": {
+				"additionalSpells": true,
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練度：",
+							"entry": "{@skill 歷史}, {@skill 宗教}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言：",
+							"entry": "你可以選擇的兩項",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備:",
+							"entry": "一瓶{@item 墨水(1盎司小瓶裝)}，一支{@item 墨水筆}，一把{@item 鐵錘}，一個{@item 附蓋提燈}，一個{@item 打火匣}，一本歷史書冊，一套學校制服，以及一個裝有15金幣的{@item 囊袋}。",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "特性：衡鑑學院启蒙者",
+					"entries": [
+						"你獲得了{@feat 斯翠海文新進生|SCC} 專長，並必須在其中選擇衡鑑學院。",
+						"此外，如果您擁有法術施展或契約魔法等功能，衡鑑學院法術表上的法術將被新增至您的法術施展職業的法術列表中。 （如果您是個多職業角色並擁有多個法術列表，這些法術將被添加到所有列表中。）",
+						{
+							"type": "table",
+							"caption": "衡鑑學院法術",
+							"colLabels": [
+								"法術等級",
+								"法術"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1級",
+									"{@spell 通曉語言}, {@spell 鑑定術}"
+								],
+								[
+									"第二",
+									"{@spell 借來的知識|SCC}, {@spell 物品定位術}"
+								],
+								[
+									"第三",
+									"{@spell 死者交談術}, {@spell 靈體守衛}"
+								],
+								[
+									"第四",
+									"{@spell 秘法眼}, {@spell 塑石術}"
+								],
+								[
+									"第五版",
+									"{@spell 焰擊術}, {@spell 通曉傳奇}"
+								]
+							]
+						},
+						"考慮自定義你施放咒語時的外觀。你的衡鑑學院咒語可能會產生金光閃閃的現象。你可能會使用秘典或卷軸作為施法焦點，而你的咒語效果可能會反映你研讀的參考書的外觀。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Lorehold Initiate"
+				},
+				{
+					"type": "entries",
+					"name": "創建一個衡鑑學院角色",
+					"entries": [
+						"任何與過去知識相關的職業或子職業，都非常適合在衡鑑學院中。吟遊詩人在衡鑑學院裡如魚得水，並且許多巫師（特別是那些來自於 {@class Wizard|PHB|School of Divination|Divination|PHB}的法師）在學生中十分普遍。聖職者（常常來自{@class Cleric|PHB|Knowledge|Knowledge|PHB} 或 {@class Cleric|PHB|Light|光明|PHB} 領域）也相當常見。",
+						"對於一個更不尋常的衡鑑學院學生的角色詮釋，您可以考慮扮演一個與過去有原始連接的野蠻人（也許採用來自 {@book Xanathar's Guide to Everything|XGE}的{@class Barbarian|PHB|Path of the Ancestral Guardian|Ancestral Guardian|XGE}），或者是一個其 {@class Paladin|PHB|Oath of the Ancients|Ancients|PHB} 給予實質歷史連結的聖騎士。",
+						{
+							"type": "entries",
+							"name": "建議特徵",
+							"entries": [
+								"紀實的歷史學家和大膽的冒險家同樣可以在衡鑑學院學院的名冊中找到。衡鑑學院個性特質表建議了您可以為角色采用的各種特質。",
+								{
+									"type": "table",
+									"caption": "衡鑑學院個性特徵",
+									"colLabels": [
+										"六面骰",
+										"性格特徵"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"我熱衷於深奧的學問。每日對話中，能夠包含越多晦澀的歷史參考，我就越感興趣。"
+										],
+										[
+											"2",
+											"透過尋找這些失落的文物，我希望在此過程中找到真正的自我。"
+										],
+										[
+											"3",
+											"我幾乎無法閒置一分鐘不談論我的研究。我的腦中充滿了知識，需要找個地方宣泄出來！"
+										],
+										[
+											"4",
+											"與生前的同學相比，與死者的靈魂交談要有趣得多。"
+										],
+										[
+											"5",
+											"我可以雄辯地講述一場古代戰爭的歷史影響。但讓我加兩位數的數字，我就會一團糟。"
+										],
+										[
+											"6",
+											"最後，這都只是熵。每樣事物終有瓦解的一天。"
+										]
+									]
+								}
+							],
+							"ENG_name": "Suggested Characteristics"
+						},
+						{
+							"type": "entries",
+							"name": "衡鑑學院小飾物",
+							"entries": [
+								"當你創建角色時，你可以選擇在衡鑑學院小玩意表上擲骰子一次，而不是在{@book 玩家手冊|PHB}內的{@item 小玩意|phb|小玩意表}上擲骰子，來選擇你的初始小玩意。",
+								{
+									"type": "table",
+									"caption": "衡鑑學院小飾品",
+									"colLabels": [
+										"六面骰",
+										"小飾品"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"由同心圓組成的地圖，可以圍繞著頁面旋轉"
+										],
+										[
+											"2",
+											"鑲嵌琥珀的謎盒"
+										],
+										[
+											"3",
+											"一個有紅色指針的凹陷銅質羅盤"
+										],
+										[
+											"4",
+											"一個破碎雕像的頭部，裡面寄宿著一個嘲諷般明智的賢者的意識"
+										],
+										[
+											"5",
+											"一張印有觸感文字的羊皮紙，發出紅色的光芒"
+										],
+										[
+											"6",
+											"一把破損的匕首，配以波浪形刃和蛇形握柄"
+										]
+									],
+									"data": {
+										"tableInclude": true
+									}
+								}
+							],
+							"ENG_name": "Lorehold Trinkets"
+						}
+					],
+					"ENG_name": "Building a Lorehold Character"
+				}
+			],
+			"hasFluff": true,
+			"ENG_name": "Lorehold Student"
+		},
+		{
+			"name": "粹麗學院學生",
+			"source": "SCC",
+			"page": 32,
+			"feats": [
+				{
+					"strixhaven initiate|scc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true,
+					"performance": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"anyArtisansTool",
+							"musical instrument"
+						]
+					}
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"ink (1-ounce bottle)|phb",
+						"ink pen|phb"
+					]
+				},
+				{
+					"a": [
+						{
+							"equipmentType": "toolArtisan"
+						}
+					],
+					"b": [
+						{
+							"equipmentType": "instrumentMusical"
+						}
+					]
+				},
+				{
+					"_": [
+						{
+							"special": "school uniform"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"chromatic orb",
+							"thunderwave"
+						],
+						"s2": [
+							"flaming sphere",
+							"kinetic jaunt|scc"
+						],
+						"s3": [
+							"haste",
+							"water walk"
+						],
+						"s4": [
+							"freedom of movement",
+							"wall of fire"
+						],
+						"s5": [
+							"cone of cold",
+							"conjure elemental"
+						]
+					}
+				}
+			],
+			"fromFeature": {
+				"additionalSpells": true,
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練:",
+							"entry": "{@skill 體操}, {@skill 表演}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "工具熟練度：",
+							"entry": "一種{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}或{@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=工匠工具}",
+							"ENG_name": "Tool Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言：",
+							"entry": "你的選擇之一",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備:",
+							"entry": "一瓶{@item 墨水(1盎司小瓶裝)|PHB|墨水(1盎司小瓶裝)}，一隻{@item 墨水筆}，一套{@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=工匠工具} 或 一個{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}（你的選擇），一套學校制服，和一個裝有 10 gp的{@item pouch|phb|小袋子}。",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "特性：粹麗學院初級",
+					"entries": [
+						"您獲得了{@feat 斯翠海文新進生|SCC}專長，並必須在其中選擇粹麗學院。",
+						"此外，如果你具有法術施放或契約魔法特性，則粹麗學院法術表上的法術會被添加到你的法術施放類別的法術列表中。(如果你是一個具有多種法術列表的多類角色，這些法術將被添加到所有法術列表中。)",
+						{
+							"type": "table",
+							"caption": "粹麗學院法術",
+							"colLabels": [
+								"法術等級",
+								"法術"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1級",
+									"{@spell 幻色法球}, {@spell 雷鳴波}"
+								],
+								[
+									"第二",
+									"{@spell 熾焰法球}，{@spell 動力遁行}"
+								],
+								[
+									"第三",
+									"{@spell 加速術}, {@spell 水面行走}"
+								],
+								[
+									"第四代",
+									"{@spell 行動自如術}, {@spell 火墻術}"
+								],
+								[
+									"第五代",
+									"{@spell 寒冰錐}，{@spell 召喚元素生物}"
+								]
+							]
+						},
+						"考慮自訂你施放魔法時的表現方式。你可能以動態的、模擬的動作揮舞你的粹麗學院法術\u2014\u2014這些動作既是舞蹈也是肢體成分。即使只是你手中的一股火焰也是一件雕塑的藝術作品;元素力量在你施放魔法時產生宏大的設計。這些力量可能在你的魔法消散後仍繼續在你的身體或衣服上逗留作為裝飾元素，火花在你的頭髮中跳舞，你的觸摸在你觸摸的任何事物上留下霜的痕跡。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Prismari Initiate"
+				},
+				{
+					"type": "entries",
+					"name": "創建一個粹麗學院角色",
+					"entries": [
+						"任何擁有掌控冷、火、雷、風等元素力量的職業或子職業，都可以在粹麗學院中發揮得淋漓盡致。德魯伊與巫師在粹麗學院中相當常見，研究{@class Wizard|PHB|Evocation|秘法學派|PHB}或{@class Wizard|PHB|Transmutation|變形必修學派|PHB}的巫師也頗受歡迎。僧侶在這個學派中並不常見，但有些擁有{@class Cleric|PHB|Tempest domain|風暴領域|PHB}的僧侶最終也會來到這裡。",
+						"除了傳統法術施法者的階級之外，粹麗學院的學生還包括追隨{@class Monk|PHB|Way of the Four Elements|Four Elements|PHB}的僧侶。一些敏捷的盜賊和鬥士（包括那些模仿{@class Fighter|PHB|Eldritch Knight|Eldritch Knight|PHB}的原型）也喜愛粹麗學院表演的體能。",
+						{
+							"type": "entries",
+							"name": "建議特徵",
+							"entries": [
+								"儘管粹麗學院學院的課程吸引了許多熱情洋溢和有野心的藝術家，但學校中並不缺乏害羞的學者和悠閒的吹牛者。 粹麗學院性格特點表建議了您可能會為您的角色採用的各種特性。",
+								{
+									"type": "table",
+									"caption": "粹麗學院性格特征",
+									"colLabels": [
+										"六面骰",
+										"個性特徵"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"我是派對的靈魂人物，每當我走進一個房間，我期望所有人的關注。"
+										],
+										[
+											"2",
+											"兩週前，我被我的最新項目深深吸引。現在，我認為它是垃圾，應該被毀滅。"
+										],
+										[
+											"3",
+											"我相信每個人都有通過藝術來表達他們最真實的自我的能力，而我很樂意靜靜地推動他們朝正確的方向前進。"
+										],
+										[
+											"4",
+											"每個人都是評論家，而我努力去贏得他們所有人的心。"
+										],
+										[
+											"5",
+											"我對我的藝術感受到強烈的無聊和厭倦感。沒有什麼能再引起我的注意。"
+										],
+										[
+											"6",
+											"我並不直接面對我自己的負面情緒，反而將其轉化為爆炸性的藝術展現。"
+										]
+									]
+								}
+							],
+							"ENG_name": "Suggested Characteristics"
+						},
+						{
+							"type": "entries",
+							"name": "粹麗學院小飾品",
+							"entries": [
+								"當你創建角色時，你可以在粹麗學院小飾品表上擲骰一次，而不是在{@book Player's Handbook |PHB}的{@item trinket|phb|Trinkets table}上為你的起始小飾品擲骰。",
+								{
+									"type": "table",
+									"caption": "粹麗學院小飾品",
+									"colLabels": [
+										"六面骰",
+										"小飾品"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"一副框架閃亮的玫瑰色眼鏡"
+										],
+										[
+											"2",
+											"當打開的時候，會播放銅管樂團樂章的封塞玻璃瓶。"
+										],
+										[
+											"3",
+											"一瓶中四個懸浮的水元素點"
+										],
+										[
+											"4",
+											"一帶的水彩畫顏料"
+										],
+										[
+											"5",
+											"一頂冠以閃爍無害閃電的水晶的頭冠"
+										],
+										[
+											"6",
+											"五彩斑斕的羽毛筆"
+										]
+									],
+									"data": {
+										"tableInclude": true
+									}
+								}
+							],
+							"ENG_name": "Prismari Trinkets"
+						}
+					],
+					"ENG_name": "Building a Prismari Character"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Prismari Student"
+		},
+		{
+			"name": "量析學院學生",
+			"source": "SCC",
+			"page": 33,
+			"feats": [
+				{
+					"strixhaven initiate|scc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"nature": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"ink (1-ounce bottle)|phb",
+						"ink pen|phb",
+						"abacus|phb",
+						{
+							"special": "book of arcane theory"
+						},
+						{
+							"special": "school uniform"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1500
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"entangle",
+							"guiding bolt"
+						],
+						"s2": [
+							"enlarge/reduce",
+							"vortex warp|scc"
+						],
+						"s3": [
+							"aura of vitality",
+							"haste"
+						],
+						"s4": [
+							"control water",
+							"freedom of movement"
+						],
+						"s5": [
+							"circle of power",
+							"passwall"
+						]
+					}
+				}
+			],
+			"fromFeature": {
+				"additionalSpells": true,
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練度:",
+							"entry": "{@skill 奧秘}, {@skill 自然}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "工具熟練：",
+							"entry": "一種{@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=工匠工具}種類的工匠工具",
+							"ENG_name": "Tool Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言：",
+							"entry": "你的選擇之一",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備:",
+							"entry": "一瓶{@item 墨水(1盎司小瓶裝)|PHB|墨水(1盎司小瓶裝)}，一支{@item ink pen|PHB|墨水筆}，一個{@item abacus|PHB|算盤}，一本秘法理論書，一套學校制服，以及一個裝有15金幣的{@item pouch|phb|小袋子}。",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "特性：量析學院的新手",
+					"entries": [
+						"你獲得了{@feat 斯翠海文新進生|SCC}的專長，並且必須在其中選擇 量析學院。",
+						"此外，如果你具備法術施放或契約魔法特點，則量析學院法術表中的法術將被添加到你的法術施放類別的法術列表中。(如果你是多職業角色並具有多個法術列表，這些法術將被添加到所有的列表中。)",
+						{
+							"type": "table",
+							"caption": "量析學院法術",
+							"colLabels": [
+								"法術等級",
+								"法術"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1級",
+									"{@spell 糾纏術}，{@spell 光導箭}"
+								],
+								[
+									"第二",
+									"{@spell 變巨/縮小術}，{@spell Vortex Warp|SCC}"
+								],
+								[
+									"第三",
+									"{@spell 活力靈光}, {@spell 加速術}"
+								],
+								[
+									"第四",
+									"{@spell 操控水體}, {@spell 行動自如術}"
+								],
+								[
+									"第五版",
+									"{@spell 威能法環}, {@spell 穿墻術}"
+								]
+							]
+						},
+						"考慮自訂你施放咒語時的外觀。你的量析學院咒語可能在五彩斑斕的分形圖案中顯現，放大你的肢體組件的微小動作。當你的魔法創造或改變生物時，它可能會短暫地用閃閃發光的分形設計或鑲嵌圖案圍繞目標。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Quandrix Initiate"
+				},
+				{
+					"type": "entries",
+					"name": "創建一個量析學院角色",
+					"entries": [
+						"任何施法職業或子職業都適合於量析學院的角色。巫師的學術專注（尤其是那些研究{@class Wizard|PHB|Abjuration|Abjuration|PHB}（防護系）、{@class Wizard|PHB|Illusion|Illusion|PHB}（幻象系）或{@class Wizard|PHB|Transmutation|Transmutation|PHB}（變形系）的人）、以及術士的變魔法操控，在量析學院都受到歡迎，並且許多德魯伊也在量析學院中探索自然的規律。少數的神職人員，尤其是那些選擇{@class Cleric|PHB|Knowledge|Knowledge|PHB}（知識神域）或{@class Cleric|PHB|Nature|Nature|PHB}（自然神域）的人，也會在量析學院裡進行學習。",
+						"除了傳統的法術施放者外，還有一些其他職業的角色選擇在量析學院中駐紮。一些戰士、僧侶、遊俠、和盜賊在這裡研究，利用量析學院的原則來訓練他們的思維。",
+						{
+							"type": "entries",
+							"name": "建議特徵",
+							"entries": [
+								"學科範疇從實物及有形的事物到矛盾和奇特的事物，量析學院學院的學生群體包括了相當多元的個體。量析學院性格特點表提議你可以為你的角色選擇多種性格特點。",
+								{
+									"type": "table",
+									"caption": "量析學院個性特徵",
+									"colLabels": [
+										"六面骰",
+										"個性特徵"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"當我找到我感興趣的主題時，我將不停止研究，直到我知道它的一切。這使我整夜無法入睡。"
+										],
+										[
+											"2",
+											"我希望有一天我能完全懂這些。在那之前，我會繼續假裝懂。"
+										],
+										[
+											"3",
+											"等式和模式對我來說自然而然。我希望友誼也能如此輕易地來。"
+										],
+										[
+											"4",
+											"我相信我總是房間裡最聰明的人。即使沒有人要求，我也會證明這一點。"
+										],
+										[
+											"5",
+											"如果這些職業教給我什麼，那就是現實是一個謊言，而且什麼都不重要。那麼，為什麼要滿足呢?"
+										],
+										[
+											"6",
+											"在我畢業之前，我希望完成一項數學上的不可能任務。我必須留下一項遺產！"
+										]
+									]
+								}
+							],
+							"ENG_name": "Suggested Characteristics"
+						},
+						{
+							"type": "entries",
+							"name": "量析學院小飾品",
+							"entries": [
+								"當你建立角色時，可以選擇在量析學院小物品表上擲骰子一次，而不是在{@book 玩家手冊|PHB} 上的 {@item 小物品|phb|小物品表} 進行擲骰選擇你的起始小物品。",
+								{
+									"type": "table",
+									"caption": "量析學院小玩意",
+									"colLabels": [
+										"六面骰",
+										"小飾品"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"一個存放於十二面體陶罐中的小型多肉植物"
+										],
+										[
+											"2",
+											"看起來有點像瓶子內摺的藍色針織帽"
+										],
+										[
+											"3",
+											"由綠色水晶雕刻的超立方體模型，展示了第四維度。"
+										],
+										[
+											"4",
+											"一張關於重力操作理論的皺巴巴的考卷，前面寫著不及格的成績，以及一個著名的量析學院教授的名字"
+										],
+										[
+											"5",
+											"一個藍色的四面體，當敲擊兩次時，它會投射出一場舊數學課的錄影。"
+										],
+										[
+											"6",
+											"一種圓形的麵包卷，被割成兩半，以便人們可以在兩半上塗抹奶油而無需抬起刀子。"
+										]
+									],
+									"data": {
+										"tableInclude": true
+									}
+								}
+							],
+							"ENG_name": "Quandrix Trinkets"
+						}
+					],
+					"ENG_name": "Building a Quandrix Character"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Quandrix Student"
+		},
+		{
+			"name": "銀毫學院學生",
+			"source": "SCC",
+			"page": 35,
+			"feats": [
+				{
+					"strixhaven initiate|scc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true,
+					"persuasion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"ink (1-ounce bottle)|phb",
+						"ink pen|phb",
+						{
+							"special": "book of poetry"
+						},
+						{
+							"special": "school uniform"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1500
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"dissonant whispers",
+							"silvery barbs|scc"
+						],
+						"s2": [
+							"calm emotions",
+							"darkness"
+						],
+						"s3": [
+							"beacon of hope",
+							"daylight"
+						],
+						"s4": [
+							"compulsion",
+							"confusion"
+						],
+						"s5": [
+							"dominate person",
+							"rary's telepathic bond"
+						]
+					}
+				}
+			],
+			"fromFeature": {
+				"additionalSpells": true,
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練度:",
+							"entry": "{@skill 威嚇}, {@skill 說服}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言:",
+							"entry": "你自由選擇的兩項",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備",
+							"entry": "一瓶{@item 墨水(1盎司小瓶裝)|PHB|黑色墨水}，一支{@item ink pen|PHB|墨水筆}，一本詩集，一套學校制服，以及一個裝有15金幣的{@item pouch|phb|小袋}",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "特徵：銀毫學院信徒",
+					"entries": [
+						"您獲得了{@feat 斯翠海文新進生|SCC} 專長，並必須在其中選擇銀毫學院。",
+						"此外，如果您擁有咒法施展或契約魔法的特質，銀毫學院咒法表上的咒法將新增至您咒法施展職業的咒法列表中。(如果您是多職業角色且擁有多個咒法列表，這些咒法將新增至所有列表中。)",
+						{
+							"type": "table",
+							"caption": "銀毫學院法術",
+							"colLabels": [
+								"法術等級",
+								"法術"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1級",
+									"{@spell 噪音暗語}, {@spell 銀色倒刺}"
+								],
+								[
+									"第二",
+									"{@spell 安定心神}, {@spell 黑暗術}"
+								],
+								[
+									"第三",
+									"{@spell 希望信標}, {@spell 晝明術}"
+								],
+								[
+									"第四",
+									"{@spell 強迫術}, {@spell 困惑術}"
+								],
+								[
+									"第五",
+									"{@spell 支配人類}, {@spell 拉瑞心靈聯結}"
+								]
+							]
+						},
+						"考慮自訂您施展法術時的樣貌。您的銀毫學院法術可能伴隨著墨水斑點或金色輻射光影的視覺效果。您的法術的任何聽覺效果常常聽起來就像是您自己的聲音在說法術的語言組成部分的放大回音\u2014\u2014即使在雷電碰撞或火焰爆發之中也是如此。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Silverquill Initiate"
+				},
+				{
+					"type": "entries",
+					"name": "創建一個 銀毫學院角色",
+					"entries": [
+						"許多吟遊詩人在銀毫學院找到了家，他們使用銀毫學院魔法，將自己的聲音力量發揮到極致。巫師（特別是學習{@class Wizard|PHB|Illusion|Illusion|PHB}和{@class Wizard|PHB|Enchantment|Enchantment|PHB}學派的人）在銀毫學院地區很常見，同樣，術士也很常見。在神聖領域中專攻{@class Cleric|PHB|Light|Light|PHB}和{@class Cleric|PHB|Trickery|Trickery|PHB}的牧師也非常適合在銀毫學院的法師之中。",
+						"同樣有一些聖騎士和盜賊也在銀毫學院學院學習，凸顯了學生群體的多元性。",
+						{
+							"type": "entries",
+							"name": "建議特徵",
+							"entries": [
+								"面臨著學院嚴格的標準，銀毫學院的學生們從自大且冷酷，到完美主義者被壓垮。銀毫學院的性格特徵表建議了您可以為您的角色選擇的各種特徵。",
+								{
+									"type": "table",
+									"caption": "銀毫學院性格特徵",
+									"colLabels": [
+										"六面骰",
+										"個性特征"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"我會說出任何需要的話來維持我的高社交地位。"
+										],
+										[
+											"2",
+											"我更喜歡說出直接的事實，而不是美麗的謊言，我並不特別在乎我傷害了誰的感情。"
+										],
+										[
+											"3",
+											"我相信提升我的同伴是成功的最佳途徑。"
+										],
+										[
+											"4",
+											"我已精通以幽默作為防禦的技巧，並且我總是準備了迷人的笑話。"
+										],
+										[
+											"5",
+											"我總是在說話之前等待，分析情況以找出最有利於我目標的角度。"
+										],
+										[
+											"6",
+											"沒有人知道我為了使我的魔法看起來毫不費力而熬夜不眠，我將保持這種狀況。"
+										]
+									]
+								}
+							],
+							"ENG_name": "Suggested Characteristics"
+						},
+						{
+							"type": "entries",
+							"name": "銀毫學院小飾品",
+							"entries": [
+								"當你創建角色時，你可以選擇在銀毫學院鎮物表上擲一次骰子，而不是在{@book Player's Handbook|PHB}的{@item trinket|phb|鎮物表}上獲得你的起始鎮物。",
+								{
+									"type": "table",
+									"caption": "銀毫學院小飾品",
+									"colLabels": [
+										"六面骰",
+										"小飾品"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"一本裝滿半成品詩歌的黑色皮革筆記本"
+										],
+										[
+											"2",
+											"一套闡述不同口語詞語及其含義的閃卡組"
+										],
+										[
+											"3",
+											"讓從中喝下的任何液體都變甜的水壺"
+										],
+										[
+											"4",
+											"一份偽造的許可證，允許進入Strixhaven圖書館的特殊檔案室"
+										],
+										[
+											"5",
+											"一枚時尚的銀質別針，引用了一系列關於術士的知名小說"
+										],
+										[
+											"6",
+											"一堆小羊皮紙片，每一片都被施了咒語，使其可以黏附在壓上去的任何表面，並可以很容易地剝落下來。"
+										]
+									],
+									"data": {
+										"tableInclude": true
+									}
+								}
+							],
+							"ENG_name": "Silverquill Trinkets"
+						}
+					],
+					"ENG_name": "Building a Silverquill Character"
+				}
+			],
+			"hasFluff": true,
+			"ENG_name": "Silverquill Student"
+		},
+		{
+			"name": "靡華學院學生",
+			"source": "SCC",
+			"page": 36,
+			"feats": [
+				{
+					"strixhaven initiate|scc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"nature": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"ink (1-ounce bottle)|phb",
+						"ink pen|phb",
+						{
+							"special": "book about plant identification"
+						},
+						"iron pot|phb",
+						"herbalism kit|phb",
+						{
+							"special": "school uniform"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1500
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"cure wounds",
+							"inflict wounds"
+						],
+						"s2": [
+							"lesser restoration",
+							"wither and bloom|scc"
+						],
+						"s3": [
+							"revivify",
+							"vampiric touch"
+						],
+						"s4": [
+							"blight",
+							"death ward"
+						],
+						"s5": [
+							"antilife shell",
+							"greater restoration"
+						]
+					}
+				}
+			],
+			"fromFeature": {
+				"additionalSpells": true,
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練度:",
+							"entry": "{@skill 自然}, {@skill 生存}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "工具熟練：",
+							"entry": "{@item 草藥學工具包|phb}",
+							"ENG_name": "Tool Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言:",
+							"entry": "你的一個選擇",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備",
+							"entry": "一瓶{@item 墨水(1盎司小瓶裝)|PHB|黑色墨水}、一支{@item ink pen|PHB|墨水筆}、一本關於植物識別的書、一個{@item iron pot|PHB|鐵鍋}、一套{@item herbalism kit|PHB|草藥學工具包}、一套學校制服，以及一個裝有15 gp的{@item pouch|phb|小袋}。",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "特徵：靡華學院新手",
+					"entries": [
+						"你獲得了{@feat 斯翠海文新進生|SCC} 專長，並且必須在其中選擇靡華學院。",
+						"此外，如果你擁有法術施放或契約魔法的特性，靡華學院法術表的法術將被加入你的施法類別的法術列表。（如果你是一個多職業的角色，並有多個法術列表，這些法術將被加入全部的列表中。）",
+						{
+							"type": "table",
+							"caption": "靡華學院法術",
+							"colLabels": [
+								"法術等級",
+								"法術"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1級",
+									"{@spell 治療傷勢}, {@spell 造成傷勢}"
+								],
+								[
+									"第二",
+									"{@spell 次級復原術}, {@spell 枯萎與盛開|SCC}"
+								],
+								[
+									"第三",
+									"{@spell 回生術}，{@spell 吸血鬼之觸}"
+								],
+								[
+									"第四",
+									"{@spell 枯萎術}，{@spell 防死護咒}"
+								],
+								[
+									"第五版",
+									"{@spell 反活物護罩}，{@spell 高等復原術}"
+								]
+							]
+						},
+						"在施放法術時，考慮自定義你的法術外觀。你的靡華學院法術可能依賴於物質成分或來自靡華學院沼澤環境的法術施放焦點，而你的法術可能會呈現出那些自然元素的外觀。當你的法術效果產生時，可能會形成沼澤動物或植物的幽靈形狀。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Witherbloom Initiate"
+				},
+				{
+					"type": "entries",
+					"name": "建立一個靡華學院角色",
+					"entries": [
+						"德魯伊和術士組成了靡華學院的大部分學生群體。一些巫師（主要是那些研究{@class Wizard|PHB|School of Necromancy|Necromancy|PHB}的人）和牧師（包括那些與{@class Cleric|PHB|Life|Life|PHB} 或 {@class Cleric|PHB|Nature|Nature|PHB} 有神聖領域關係的人）也在靡華學院找到了他們的歸屬。",
+						"一些遊俠和野蠻人也在靡華學院學習，還有一些盜賊在這個學院學習如何製造和使用毒藥。",
+						{
+							"type": "entries",
+							"name": "建議特徵",
+							"entries": [
+								"靡華學院學院的學生同樣可能會被發現正在採集草藥製作治療性煎劑，或駕馭著被變為僵屍的沼澤生物在沼澤中奔馳。靡華學院性格特質表提供了你可以為你的角色採納的各種特質。",
+								{
+									"type": "table",
+									"caption": "靡華學院人格特質",
+									"colLabels": [
+										"六面骰",
+										"個性特徵"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"我喜歡研製新的配方，即使有人可能對我選擇的材料或最終產品感到厭惡。或者兩者都是。"
+										],
+										[
+											"2",
+											"我的時尚觀念就像我的花園：枯萎、黑暗和怪異。"
+										],
+										[
+											"3",
+											"如果這是我最後一件要做的事，我將親近在這個沼澤裡的每一個怪獸。"
+										],
+										[
+											"4",
+											"這個世界上的一切終將死亡。問題是，你將如何利用你剩餘的時間？"
+										],
+										[
+											"5",
+											"我知道我們剛剛見面，但是當你死了，我可以拿你的骨頭嗎？為了研究。"
+										],
+										[
+											"6",
+											"不要打擾我；我正默思當中。"
+										]
+									]
+								}
+							],
+							"ENG_name": "Suggested Characteristics"
+						},
+						{
+							"type": "entries",
+							"name": "靡華學院小飾品",
+							"entries": [
+								"當您創建角色時，您可以在靡華學院珍品表上擲骰一次，而不是在{@book Player's Handbook|PHB}中的{@item trinket|phb|Trinkets table}上擲骰，選擇你的起始珍品。",
+								{
+									"type": "table",
+									"caption": "靡華學院小玩意",
+									"colLabels": [
+										"6面骰",
+										"小飾品"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"一個呈黑鳥型態的面具,邊緣用發光的綠色線條修飾"
+										],
+										[
+											"2",
+											"一套兔子骨頭"
+										],
+										[
+											"3",
+											"一雙厚重的膝高蓑衣褲，上面沾滿了泥濘和苔蘚"
+										],
+										[
+											"4",
+											"一根滑溜溜的綠色觸手，偶爾會扭動"
+										],
+										[
+											"5",
+											"一本包含防水紙的筆記本"
+										],
+										[
+											"6",
+											"一條五小瓶的項鍊，每個都裝滿了發光的白色液體"
+										]
+									],
+									"data": {
+										"tableInclude": true
+									}
+								}
+							],
+							"ENG_name": "Witherbloom Trinkets"
+						}
+					],
+					"ENG_name": "Building a Witherbloom Character"
+				}
+			],
+			"hasFluff": true,
+			"ENG_name": "Witherbloom Student"
+		},
+		{
+			"name": "精界迷失者",
+			"source": "WBtW",
+			"page": 9,
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1,
+					"choose": {
+						"from": [
+							"elvish",
+							"gnomish",
+							"goblin",
+							"sylvan"
+						]
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"musical instrument": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"equipmentType": "instrumentMusical"
+						},
+						"traveler's clothes|phb",
+						{
+							"item": "feywild trinket|wbtw",
+							"quantity": 3
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 800
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練度：",
+							"entry": "{@skill 欺瞞}, {@skill 生存}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "工具熟練度：",
+							"entry": "一種{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}的類型",
+							"ENG_name": "Tool Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言：",
+							"entry": "你可以選擇一種 {@language Elvish}、{@language Gnomish}、{@language Goblin} 或 {@language Sylvan}",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備:",
+							"entry": "一個{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}（你的選擇），一套{@item 旅行者服裝|PHB|旅行者的衣物}，三個小飾品（每個都由滾動在{@item 妖精荒野 Trinket|WBtW|妖精荒野 Trinkets}表上來決定），以及一個{@item 囊袋|phb}，裡面裝有8個金幣",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"name": "特徵：妖精荒野連接",
+					"type": "entries",
+					"entries": [
+						"你的行為舉止和對妖精習俗的了解被妖精荒野的本地人認可，他們將你視為他們自己人。因此，友好的妖精生物傾向於在你迷路或需要在妖精荒野中求助時來到你身邊。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Feywild Connection"
+				},
+				{
+					"type": "entries",
+					"name": "精靈標記",
+					"entries": [
+						"你在妖精荒野的停留中某種程度上被轉化，並獲得了一個精靈標記，這是通過在精靈標記表上擲骰子決定的。",
+						{
+							"type": "table",
+							"caption": "精靈標記",
+							"colLabels": [
+								"d8",
+								"精靈標記"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"你的眼睛盪漾出彩虹般的色彩。"
+								],
+								[
+									"2",
+									"你身上有一股甜香，就像花蜜或蜂蜜的味道。"
+								],
+								[
+									"3",
+									"你有著像貓一樣的長鬚。"
+								],
+								[
+									"4",
+									"你的耳朵上覆蓋著柔軟的毛茸茸。"
+								],
+								[
+									"5",
+									"你的皮膚在月光下閃閃發光。"
+								],
+								[
+									"6",
+									"在你的存在下，花朵要么盛開，要么凋零(你的選擇)。"
+								],
+								[
+									"7",
+									"你的頭髮由藤蔓或荊棘組成，並且在被剪短後1小時內會恢復到正常長度。"
+								],
+								[
+									"8",
+									"你有一條像狗或其他動物的尾巴。"
+								]
+							]
+						}
+					],
+					"ENG_name": "Fey Mark"
+				},
+				{
+					"type": "entries",
+					"name": "妖精荒野來訪者",
+					"entries": [
+						"無論你在長時間休息時是熟睡還是沉浸在深度冥想中，如果DM希望，妖精荒野的精靈可能會來訪。通過在妖精荒野來訪者表上擲骰來決定精靈的形狀。這種訪問無論持續幾分鐘或幾小時，都不會對你造成任何傷害，而且你在醒來時會記得每次訪問的情況。與訪客的對話可以包含從信息和洞察到胡言亂語和混淆視聽的任何事物，由DM自行決定。這種對話總是用你能理解的語言進行，即使妖精荒野來訪者通常無法說出那種語言。",
+						{
+							"type": "table",
+							"caption": "妖精荒野來訪者",
+							"colLabels": [
+								"八面體骰子",
+								"訪客"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"覺醒生物（一種獸類或普通植物，已對其施放了{@spell 啓蒙術}法術）"
+								],
+								[
+									"2",
+									"{@生物 半人馬}"
+								],
+								[
+									"3",
+									"{@生物 乾樹精靈}"
+								],
+								[
+									"4",
+									"{@creature 妖精龍 (紫色)||妖精龍}"
+								],
+								[
+									"5",
+									"{@creature 妖精}"
+								],
+								[
+									"6",
+									"{@creature 山羊人}"
+								],
+								[
+									"7",
+									"{@creature 精靈}"
+								],
+								[
+									"8",
+									"{@creature 獨角獸}"
+								]
+							]
+						}
+					],
+					"ENG_name": "Feywild Visitor"
+				},
+				{
+					"type": "section",
+					"name": "角色特性",
+					"entries": [
+						"當玩家為其角色選擇背景時，他們可以使用以下的表格來決定他們的角色的性格特點、理想、聯繫和缺陷。玩家可以使用這些表格代替在《玩家手冊》中出現的表格，或者他們可以混合匹配他們。如果一個擲骰結果對角色來說並不合理，玩家可以重新擲骰或在表格上選擇一個更合適的入口。",
+						"這些表格雖然是可選用的，但非常適合妖精荒野主題的冒險，對於擁有精界迷失者或巫光背景的角色而言是理想的選擇。",
+						{
+							"type": "table",
+							"caption": "個性特徵",
+							"colLabels": [
+								"d8",
+								"特性"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我被只有我能聽見的精靈笑聲所困擾，儘管我知道這只是我的思想在耍弄我。"
+								],
+								[
+									"2",
+									"就像一個遊牧者，我無法在一個地方長時間定居。"
+								],
+								[
+									"3",
+									"好音樂讓我像嬰兒一樣哭泣。"
+								],
+								[
+									"4",
+									"無論我走到哪裡，我都試圖帶著一點家的溫暖和寧靜。"
+								],
+								[
+									"5",
+									"我從未失去我的孩童般的驚奇感。"
+								],
+								[
+									"6",
+									"當我有新的點子時，我會非常興奮，直到我想出另一個更好的點子。"
+								],
+								[
+									"7",
+									"我按照我自己的一套奇怪而美妙的規則生活。"
+								],
+								[
+									"8",
+									"我無法強迫自己去信任大部分的成年人。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "理想",
+							"colLabels": [
+								"d8",
+								"理想"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"友誼。我絕不會把朋友拋下。 (善良)"
+								],
+								[
+									"2",
+									"同理心。沒有生物應該被迫受苦。(善良)"
+								],
+								[
+									"3",
+									"漂泊之心。我偏好選擇較少人走的路。(混亂)"
+								],
+								[
+									"4",
+									"變動性。變化是好的，這就是為什麼我根據不斷變動的規則來生活。(混亂)"
+								],
+								[
+									"5",
+									"榮譽。合約就是合約，我絕不會違背。 (守序)"
+								],
+								[
+									"6",
+									"三原則。多元宇宙中的一切都是成三的。我看到\"三原則\"無所不在。(守序)"
+								],
+								[
+									"7",
+									"著迷。我不會放過一個恩怨。(邪惡)"
+								],
+								[
+									"8",
+									"貪婪。我將不擇手段地去取得我想要的，不管這可能會造成多大的傷害。（邪惡）"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "羈絆",
+							"colLabels": [
+								"d8",
+								"羈絆"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我絕不會背棄我的誓言。"
+								],
+								[
+									"2",
+									"我覺得所有形式的魔法都很吸引人。一個地方的魔法越多，我就越被吸引。"
+								],
+								[
+									"3",
+									"我盡我所能保護大自然世界。"
+								],
+								[
+									"4",
+									"對我來說，最重要的事物在多元宇宙中就是一位值得信賴的朋友。"
+								],
+								[
+									"5",
+									"我無法下手傷害一個精靈生物，無論是因為我自認為同類，或是我擔心其後果。"
+								],
+								[
+									"6",
+									"對我來說，巫光 Carnival像是我的家。"
+								],
+								[
+									"7",
+									"我被妖精荒野吸引，嚮往能回到那裡，即使只是短暫的時間。"
+								],
+								[
+									"8",
+									"我感到欠{@creature Mister Witch|WBtW}和{@creature Mister Light|WBtW}一個人情，他們給了我一個家和一個目標。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "缺點",
+							"colLabels": [
+								"d8",
+								"缺點"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我很容易失去時間感。我的時間感很差，所以我总是遲到。"
+								],
+								[
+									"2",
+									"我認為整個多元宇宙都在對付我。"
+								],
+								[
+									"3",
+									"我總是在緊迫的時間表下運作，並且我對按時完成所有事情有著強烈的迷戀。"
+								],
+								[
+									"4",
+									"我是一個貪婪閃亮，閃爍的寶藏的盜竊狂。"
+								],
+								[
+									"5",
+									"我健忘。有時候我甚至連最基本的事情都記不住。"
+								],
+								[
+									"6",
+									"我從不會免費給出任何東西，總是期待有所回報。"
+								],
+								[
+									"7",
+									"我有很多壞習慣且傾向於沉溺其中。"
+								],
+								[
+									"8",
+									"我總是在改變我的想法-嗯，幾乎總是這樣。"
+								]
+							]
+						}
+					],
+					"ENG_name": "Character Traits"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Feylost"
+		},
+		{
+			"name": "巫光僱工",
+			"source": "WBtW",
+			"page": 11,
+			"skillProficiencies": [
+				{
+					"performance": true,
+					"sleight of hand": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"disguise kit",
+							"musical instrument"
+						]
+					}
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						"disguise kit|phb"
+					],
+					"b": [
+						{
+							"equipmentType": "instrumentMusical"
+						}
+					]
+				},
+				{
+					"_": [
+						{
+							"special": "deck of cards"
+						},
+						"costume clothes|phb",
+						"feywild trinket|wbtw",
+						{
+							"item": "pouch|phb",
+							"containsValue": 800
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練度：",
+							"entry": "{@skill 表演}, {@skill 巧手}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "工具熟練度：",
+							"entry": "{易容工具|phb} 或一種 {樂器|items|source=phb|miscellaneous=mundane|type=樂器} 類型的物品",
+							"ENG_name": "Tool Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言：",
+							"entry": "你自由選擇的一個",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備:",
+							"entry": "一個{@item 易容工具|PHB}或是你選擇的一種{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}，一副紙牌，馬戲團制服或{@item 戲服|phb|costume}，一件小飾物（由{@item 妖精荒野 Trinket|WBtW|妖精荒野 Trinkets}的擲骰子決定），以及一個裝有8金幣的{@item 囊袋|phb}。",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"name": "特性：嘉年華班底",
+					"type": "entries",
+					"entries": [
+						"巫光嘉年華會向您提供免費的適中住宿和食物。此外，只要您不破壞其表演或導致其他麻煩，您可以無成本地在嘉年華中漫步並參與其眾多的精彩活動。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Carnival Fixture"
+				},
+				{
+					"type": "entries",
+					"name": "嘉年華伙伴",
+					"entries": [
+						"多年來，您贏得了另一個馬戲團常客的友誼。擲一個 {@dice d8} 並參照 嘉年華伙伴 表單，確定你結交了誰或什麼為你的朋友，或者你可以選擇你喜歡的選項。與你的地下城主一起深化這段友誼。這位伙伴會在你進馬戲團時跟隨在你身邊，但它不會自願離開馬戲團。",
+						"DM可以使用{@adventure chapter 1|WBtW|1}中的{@creature 巫光 Hand (Medium)|WBtW|巫光 hand}數據塊來代表作為嘉年華伙伴s的手、表演者和動物訓練師。其他伙伴的統計數據出現在{@book Monster Manual|MM}中。",
+						{
+							"type": "table",
+							"caption": "嘉年華伙伴",
+							"colLabels": [
+								"八面體骰子",
+								"同伴"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"老舊的，愛抱怨的巫光之手"
+								],
+								[
+									"2",
+									"年輕，易受影閣的巫光之手"
+								],
+								[
+									"3",
+									"表演者（如雜技藝人、小丑或音樂家）"
+								],
+								[
+									"4",
+									"退役表演者"
+								],
+								[
+									"5",
+									"經驗豐富的動物訓練師"
+								],
+								[
+									"6",
+									"老{@creature blink dog}"
+								],
+								[
+									"7",
+									"快樂的{@creature sprite}"
+								],
+								[
+									"8",
+									"無害的魔法光點（無需統計數據），飛行速度為30英尺，能懸浮，並在5英尺的半徑內投射出亮光，在額外的5英尺內投射出暗光。"
+								]
+							]
+						}
+					],
+					"ENG_name": "Carnival Companion"
+				},
+				{
+					"type": "section",
+					"name": "角色特性",
+					"entries": [
+						"當玩家為他們的角色選擇背景時，他們可以使用以下的表格來幫助確定角色的性格特質、理想、羈絆和缺陷。玩家可以使用這些表格來替代在{@book Player's Handbook|PHB}中出現的表格，或者他們可以混合配對它們。如果一個擲骰結果對角色來說沒有意義，玩家可以再次擲骰或在表格上選擇一個更適合的項目。",
+						"這些表格，雖然是選擇性的，但非常適合於妖精荒野主題的冒險，並且對於具有精界迷失者或巫光背景的角色來說是理想的。",
+						{
+							"type": "table",
+							"caption": "個性特徵",
+							"colLabels": [
+								"八面體骰",
+								"特性"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我被只有我能聽到的精靈笑聲困擾，儘管我知道那只是我的腦海玩弄我。"
+								],
+								[
+									"2",
+									"像一個遊牧民族，我不能在一個地方待太久。"
+								],
+								[
+									"3",
+									"好的音樂讓我像嬰兒一樣哭泣。"
+								],
+								[
+									"4",
+									"無論我走到哪裡，我都嘗試帶著一點家的溫暖與寧靜。"
+								],
+								[
+									"5",
+									"我從未失去我那種孩子般的好奇心。"
+								],
+								[
+									"6",
+									"當我想到新的主意時，我會非常激動，直到我想出另一個更好的主意。"
+								],
+								[
+									"7",
+									"我按照自己一套奇異且美好的規則生活。"
+								],
+								[
+									"8",
+									"我無法逼自己去信任大部分的成年人。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "理想",
+							"colLabels": [
+								"八面骰",
+								"理想"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"友誼。我絕不會拋下我的朋友。(善良)"
+								],
+								[
+									"2",
+									"同理心。沒有生物應當被制造痛苦。（善良）"
+								],
+								[
+									"3",
+									"漫遊之心。我偏好選擇走得較少的路。(混亂)"
+								],
+								[
+									"4",
+									"變動性。變動是好的，這就是為什麼我按照一套常變的規則生活。(混沌)"
+								],
+								[
+									"5",
+									"榮譽。一樁交易就是一樁交易，我絕不會違背。 (守法)"
+								],
+								[
+									"6",
+									"三法則。多元宇宙中的一切事物都以三為律。我看到\"三法則\"存在於一切之中。(守序)"
+								],
+								[
+									"7",
+									"執念。我絕不會放過一次怨恨。(邪惡)"
+								],
+								[
+									"8",
+									"貪婪。我將無所不用其極地去得到我想要的，不管這可能會造成什麼傷害。（邪惡）"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "羈絆",
+							"colLabels": [
+								"d8",
+								"羈絆"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我永遠不會違背我的誓言。"
+								],
+								[
+									"2",
+									"我發現所有形式的魔法都非常吸引人。一個地方的魔法越多，我對它的吸引力就越強。"
+								],
+								[
+									"3",
+									"我盡我所能保護自然世界。"
+								],
+								[
+									"4",
+									"對我來說，信賴的朋友是多元宇宙中最重要的事物。"
+								],
+								[
+									"5",
+									"我無法下手傷害一個仙境生物，可能是因為我認為我自己是一個，或者是我害怕會有不良的反彈。"
+								],
+								[
+									"6",
+									"對我來說，巫光 狂歡節就像家一樣。"
+								],
+								[
+									"7",
+									"我被妖精荒野吸引，渴望能夠回去，哪怕只是短暫的時間。"
+								],
+								[
+									"8",
+									"我感到欠{@creature Mister Witch|WBtW}和{@creature Mister Light|WBtW}一份情，他們給了我一個家和一個目標。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "缺點",
+							"colLabels": [
+								"八面骰",
+								"缺點"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我很容易迷失在時間裡。我的時間感非常差，總是讓我遲到。"
+								],
+								[
+									"2",
+									"我覺得整個多元宇宙都在對我不利。"
+								],
+								[
+									"3",
+									"我始終處於嚴密的時間表中，且我對維持所有事物按照計劃進行有著強烈的執著。"
+								],
+								[
+									"4",
+									"我是一個病態的偷竊狂，對閃亮的寶藏有著無比的渴望。"
+								],
+								[
+									"5",
+									"我很健忘。有時候，我甚至記不住最簡單的事情。"
+								],
+								[
+									"6",
+									"我從不免費給予任何東西，總是期待有所回報。"
+								],
+								[
+									"7",
+									"我有很多惡習，且傾向於放縱它们。"
+								],
+								[
+									"8",
+									"我總是在改變主意-嗯，幾乎總是。"
+								]
+							]
+						}
+					],
+					"ENG_name": "Character Traits"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Witchlight Hand"
 		}
 	]
 }

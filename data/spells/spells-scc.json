@@ -1,0 +1,324 @@
+{
+	"spell": [
+		{
+			"name": "借用知識",
+			"source": "SCC",
+			"page": 37,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "一本至少值25金幣的書",
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你從過去的靈魂獲取知識。選擇一項你缺乏熟練的技能。於此法術持續期間，你對選擇的技能擁有熟練。如果你再次施放此法術，則法術提前結束。"
+			],
+			"ENG_name": "Borrowed Knowledge",
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "動力遁行",
+			"source": "SCC",
+			"page": 37,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"您透過舞蹈般的步伐魔法地增強您的移動，為自己在持續時間內提供以下好處。",
+				{
+					"type": "list",
+					"items": [
+						"你的步行速度增加10英尺。",
+						"你不會引發藉機攻擊。",
+						"你可以穿越其他生物的空間，且它不會被計算為困難地形。如果你在其他生物的空間中結束你的回合，你將被彈回你佔據過的最後一個空置空間，並且你將受到{@damage 1d8}的力量傷害。"
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"ENG_name": "Kinetic Jaunt",
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "銀色倒刺",
+			"source": "SCC",
+			"page": 38,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "當你能看見的、在自己60英尺範圍內的生物成功進行一次攻擊擲骰、能力檢定或者豁免擲骰時，你可以採取的行動。"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你魔法般地使觸發此效果的生物分散了注意力，並將其短暫的不確定感轉化為對另一個生物的激勵。觸發此效果的生物必須重新投擲{@dice d20}並且選用較低的結果。",
+				"然後你可以選擇你視線範圍內的另一個生物（你可以選擇自己）。被選擇的生物在1分鐘內進行下一次攻擊骰、能力檢定、或豁免檢定時有優勢。一個生物一次只能被這個法術的一次使用賦予力量。"
+			],
+			"miscTags": [
+				"ADV",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"ENG_name": "Silvery Barbs",
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "漩渦扭曲",
+			"source": "SCC",
+			"page": 38,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你魔法般地扭曲了你範圍內可以看到的其他生物周圍的空間。目標必須成功進行一次體質豁免（目標可以選擇失敗），否則目標將被傳送到你選擇的，你範圍內可以看到的未佔據的空間。選定的空間必須位於一個表面或足以支撐目標、讓目標不必擠壓的液體中。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "在更高等級",
+					"entries": [
+						"當你使用第三級或更高級的法術位施放此法術時，每超過第二級的位階，法術的範圍就增加30英尺。"
+					],
+					"ENG_name": "At Higher Levels"
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT",
+				"TP"
+			],
+			"ENG_name": "Vortex Warp",
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "凋零與綻放",
+			"source": "SCC",
+			"page": 38,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "一條枯萎的藤蔓扭成了一個環形"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你在範圍內的一個點上，召喚死亡與生命於一個半徑十英尺的球體中。在該區域內，你選擇的每一個生物都必須進行體質豁免擲骰，失敗的話將會受到{@damage 2d6}壞死傷害，成功則只受到一半的傷害。該區域內的非魔法植被將會枯萎。",
+				"此外，你可以選擇該區域內的一個生物，讓其使用並擲出一個未使用的生命骰並根據擲出的點數再加上你的施法能力修正值，恢復相等的生命值。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "在更高等級",
+					"entries": [
+						"當你使用第三級或更高級的法術位施展此咒語時，每超出第二級的一級法術位，傷害增加{@scaledamage 2d6|2-9|1d6}，可用來付出並加到治療骰的生命骰數量也每超出第二級的一級法術位增加一個。"
+					],
+					"ENG_name": "At Higher Levels"
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"ENG_name": "Wither and Bloom",
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}

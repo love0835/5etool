@@ -25,7 +25,9 @@ parse_key["colLabels"] = 0
 parse_key["caption"] = 0
 parse_key["rows"] = 0
 
-
+parse_key["spell"] = 0
+parse_key["time"] = 0
+parse_key["condition"] = 0
 # 指定要掃描的資料夾
 folder_path = "./parse_skill/result"
 outpath = "./parse_skill/translate_result"

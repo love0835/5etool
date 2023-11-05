@@ -11,6 +11,11 @@ SRC_C_LENG = "leng"
 SRC_C_RACE = "race"
 SRC_C_BACKGROUND = "background"
 
+SRC_C_fluf_race = "frace"
+SRC_C_fluf_item = "fitem"
+SRC_C_fluf_feat = "ffeat"
+SRC_C_fluf_bg = "fbg"
+
 S_FILENAME = "filename"
 S_TOPKEY = "topkey"
 S_OUTPUT = "output"
@@ -48,7 +53,26 @@ out_path[SRC_C_BACKGROUND][S_FILENAME] = "backgrounds.json"
 out_path[SRC_C_BACKGROUND][S_OUTPUT] = "backgrounds.json"
 out_path[SRC_C_BACKGROUND][S_TOPKEY] = "background"
 
+out_path[SRC_C_fluf_race]={}
+out_path[SRC_C_fluf_race][S_FILENAME] = "fluff-races.json"
+out_path[SRC_C_fluf_race][S_OUTPUT] = "fluff-races.json"
+out_path[SRC_C_fluf_race][S_TOPKEY] = "raceFluff"
 
+out_path[SRC_C_fluf_item]={}
+out_path[SRC_C_fluf_item][S_FILENAME] = "fluff-items.json"
+out_path[SRC_C_fluf_item][S_OUTPUT] = "fluff-items.json"
+out_path[SRC_C_fluf_item][S_TOPKEY] = "itemFluff"
+
+out_path[SRC_C_fluf_feat]={}
+out_path[SRC_C_fluf_feat][S_FILENAME] = "fluff-feats.json"
+out_path[SRC_C_fluf_feat][S_OUTPUT] = "fluff-feats.json"
+out_path[SRC_C_fluf_feat][S_TOPKEY] = "featFluff"
+
+
+out_path[SRC_C_fluf_bg]={}
+out_path[SRC_C_fluf_bg][S_FILENAME] = "fluff-backgrounds.json"
+out_path[SRC_C_fluf_bg][S_OUTPUT] = "fluff-backgrounds.json"
+out_path[SRC_C_fluf_bg][S_TOPKEY] = "backgroundFluff"
 
 
 def CombineSource(out_data,topkey_name,out_put_name):

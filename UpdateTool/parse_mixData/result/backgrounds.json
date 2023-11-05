@@ -1,236 +1,50 @@
 [
     {
-        "name": "Giant Foundling",
-        "source": "BGG",
-        "feats": [
-            {
-                "strike of the giants|bgg": true
-            }
-        ],
+        "name": "Feylost",
+        "source": "WBtW",
+        "page": 9,
         "skillProficiencies": [
             {
-                "intimidation": true,
+                "deception": true,
                 "survival": true
             }
         ],
         "languageProficiencies": [
             {
-                "giant": true,
-                "anyStandard": 1
-            }
-        ],
-        "startingEquipment": [
-            {
-                "_": [
-                    "backpack|phb",
-                    "traveler's clothes|phb",
-                    {
-                        "item": "pouch|phb",
-                        "containsValue": 1000
-                    }
-                ]
-            },
-            {
-                "a": [
-                    {
-                        "special": "small stone that reminds you of home"
-                    }
-                ],
-                "b": [
-                    {
-                        "special": "sprig that reminds you of home"
-                    }
-                ]
-            }
-        ],
-        "fromFeature": {
-            "feats": true
-        },
-        "entries": [
-            {
-                "type": "list",
-                "style": "list-hang-notitle",
-                "items": [
-                    {
-                        "type": "item",
-                        "name": "Skill Proficiencies:",
-                        "entry": "{@skill Intimidation}, {@skill Survival}",
-                        "ENG_name": "Skill Proficiencies:"
-                    },
-                    {
-                        "type": "item",
-                        "name": "Languages:",
-                        "entry": "Giant and one other language of your choice",
-                        "ENG_name": "Languages:"
-                    },
-                    {
-                        "type": "item",
-                        "name": "Equipment:",
-                        "entry": "A {@item backpack|phb}, a set of {@item traveler's clothes|phb}, a small stone or sprig that reminds you of home, and a {@item pouch|phb} containing 10 gp",
-                        "ENG_name": "Equipment:"
-                    }
-                ]
-            },
-            {
-                "type": "entries",
-                "name": "Origin Stories",
-                "entries": [
-                    "How you came to live among colossal creatures is up to you to determine, but the Foundling Origin table suggests a variety of possibilities.",
-                    {
-                        "type": "table",
-                        "caption": "Foundling Origin",
-                        "colLabels": [
-                            "d6",
-                            "Origin"
-                        ],
-                        "colStyles": [
-                            "col-2 text-center",
-                            "col-10"
-                        ],
-                        "rows": [
-                            [
-                                "1",
-                                "You were found as a baby by a family of nomadic giants who raised you as one of their own."
-                            ],
-                            [
-                                "2",
-                                "A family of stone giants rescued you when you fell into a mountain chasm, and you have lived with them underground ever since."
-                            ],
-                            [
-                                "3",
-                                "You were lost or abandoned as a child in a jungle that teemed with ravenous dinosaurs. There, you found an equally lost frost giant; together, you survived."
-                            ],
-                            [
-                                "4",
-                                "Your farm was crushed and your family killed in a battle between warring groups of giants. Racked with guilt over the destruction, a sympathetic giant soldier promised to care for you."
-                            ],
-                            [
-                                "5",
-                                "After you had a series of strange dreams as a child, your superstitious parents sent you to study with a powerful but aloof storm giant oracle."
-                            ],
-                            [
-                                "6",
-                                "While playing hide-and-seek with your friends, you stumbled into the castle of a cloud giant, who immediately adopted you."
-                            ]
-                        ]
-                    }
-                ],
-                "ENG_name": "Origin Stories"
-            },
-            {
-                "type": "entries",
-                "name": "Building a Giant Foundling Character",
-                "entries": [
-                    "Your life among giants has given you a unique perspective. Though you are unusually large for your kind, you're no larger than a giant child, so you might be very mindful of your size."
-                ],
-                "ENG_name": "Building a Giant Foundling Character"
-            },
-            {
-                "name": "Feature: Strike of the Giants",
-                "type": "entries",
-                "entries": [
-                    "You gain the {@feat Strike of the Giants|BGG} feat."
-                ],
-                "data": {
-                    "isFeature": true
-                },
-                "ENG_name": "Feature: Strike of the Giants"
-            },
-            {
-                "name": "Suggested Characteristics",
-                "type": "entries",
-                "entries": [
-                    "The Giant Foundling Personality Traits table suggests a variety of traits you might adopt for your character.",
-                    {
-                        "type": "table",
-                        "colLabels": [
-                            "d6",
-                            "Personality Trait"
-                        ],
-                        "colStyles": [
-                            "col-2 text-center",
-                            "col-10"
-                        ],
-                        "rows": [
-                            [
-                                "1",
-                                "What I lack in stature compared to giants, I make up for with sheer spite."
-                            ],
-                            [
-                                "2",
-                                "I insist on being taken seriously as a full-grown adult. Nobody talks down to me!"
-                            ],
-                            [
-                                "3",
-                                "Crowded spaces make me uncomfortable. I'd much rather be in an open field than a bustling tavern."
-                            ],
-                            [
-                                "4",
-                                "I embrace my shorter stature. It helps me stay unnoticed—and underestimated."
-                            ],
-                            [
-                                "5",
-                                "Every avalanche begins as a single pebble."
-                            ],
-                            [
-                                "6",
-                                "The world always feels too big, and I'm afraid I'll never find my place in it."
-                            ]
-                        ]
-                    }
-                ],
-                "ENG_name": "Suggested Characteristics"
-            }
-        ],
-        "hasFluff": true,
-        "hasFluffImages": true,
-        "ENG_name": "Giant Foundling"
-    },
-    {
-        "name": "Rune Carver",
-        "source": "BGG",
-        "feats": [
-            {
-                "rune shaper|bgg": true
-            }
-        ],
-        "skillProficiencies": [
-            {
-                "history": true,
-                "perception": true
-            }
-        ],
-        "languageProficiencies": [
-            {
-                "giant": true
+                "anyStandard": 1,
+                "choose": {
+                    "from": [
+                        "elvish",
+                        "gnomish",
+                        "goblin",
+                        "sylvan"
+                    ]
+                }
             }
         ],
         "toolProficiencies": [
             {
-                "anyArtisansTool": 1
+                "musical instrument": true
             }
         ],
         "startingEquipment": [
             {
                 "_": [
                     {
-                        "equipmentType": "toolArtisan"
+                        "equipmentType": "instrumentMusical"
                     },
+                    "traveler's clothes|phb",
                     {
-                        "special": "small knife"
+                        "item": "feywild trinket|wbtw",
+                        "quantity": 3
                     },
-                    "whetstone|phb",
-                    "common clothes|phb",
                     {
                         "item": "pouch|phb",
-                        "containsValue": 1000
+                        "containsValue": 800
                     }
                 ]
             }
         ],
-        "fromFeature": {
-            "feats": true
-        },
         "entries": [
             {
                 "type": "list",
@@ -239,104 +53,51 @@
                     {
                         "type": "item",
                         "name": "Skill Proficiencies:",
-                        "entry": "{@skill History}, {@skill Perception}",
+                        "entry": "{@skill Deception}, {@skill Survival}",
                         "ENG_name": "Skill Proficiencies:"
                     },
                     {
                         "type": "item",
                         "name": "Tool Proficiencies:",
-                        "entry": "One set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}",
+                        "entry": "One type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}",
                         "ENG_name": "Tool Proficiencies:"
                     },
                     {
                         "type": "item",
                         "name": "Languages:",
-                        "entry": "Giant",
+                        "entry": "One of your choice of {@language Elvish}, {@language Gnomish}, {@language Goblin}, or {@language Sylvan}",
                         "ENG_name": "Languages:"
                     },
                     {
                         "type": "item",
                         "name": "Equipment:",
-                        "entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice), a small knife, a {@item whetstone|phb}, a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 10 gp",
+                        "entry": "A {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} (one of your choice), a {@item Traveler's Clothes|PHB|set of traveler's clothes}, three trinkets (each determined by rolling on the {@item Feywild Trinket|WBtW|Feywild Trinkets} table), and a {@item pouch|phb} containing 8 gp",
                         "ENG_name": "Equipment:"
                     }
                 ]
             },
             {
-                "type": "entries",
-                "name": "Rune Styles",
-                "entries": [
-                    "Each rune carver has a unique style and preferred medium. To determine how you make your runes, you can roll on the Rune Style table.",
-                    {
-                        "type": "table",
-                        "caption": "Rune Style",
-                        "colLabels": [
-                            "d6",
-                            "Style"
-                        ],
-                        "colStyles": [
-                            "col-2 text-center",
-                            "col-10"
-                        ],
-                        "rows": [
-                            [
-                                "1",
-                                "You inscribe runes in wax or clay with a fine metal needle."
-                            ],
-                            [
-                                "2",
-                                "You whittle pieces of wood into small figurines you mark with runes."
-                            ],
-                            [
-                                "3",
-                                "You engrave runes onto glass beads and thread them onto necklaces and bracelets."
-                            ],
-                            [
-                                "4",
-                                "You stitch runes into the hems of clothing."
-                            ],
-                            [
-                                "5",
-                                "You carve runes on a set of animal bones you can throw in different formations."
-                            ],
-                            [
-                                "6",
-                                "You draw runes into candles, melting the wax to smooth over the engravings."
-                            ]
-                        ]
-                    }
-                ],
-                "ENG_name": "Rune Styles"
-            },
-            {
-                "type": "entries",
-                "name": "Building a Rune Carver Character",
-                "entries": [
-                    "Scholarly pursuits, ancient mysteries, or a fateful encounter might inspire a character to pursue the secrets of a rune carver."
-                ],
-                "ENG_name": "Building a Rune Carver Character"
-            },
-            {
-                "name": "Feature: Rune Shaper",
+                "name": "Feature: Feywild Connection",
                 "type": "entries",
                 "entries": [
-                    "You gain the {@feat Rune Shaper|BGG} feat."
+                    "Your mannerisms and knowledge of fey customs are recognized by natives of the Feywild, who see you as one of their own. Because of this, friendly Fey creatures are inclined to come to your aid if you are lost or need help in the Feywild."
                 ],
                 "data": {
                     "isFeature": true
                 },
-                "ENG_name": "Feature: Rune Shaper"
+                "ENG_name": "Feature: Feywild Connection"
             },
             {
-                "name": "Suggested Characteristics",
                 "type": "entries",
+                "name": "Fey Mark",
                 "entries": [
-                    "The Rune Carver Personality Traits table suggests a variety of traits you might adopt for your character.",
+                    "You were transformed in some small way by your stay in the Feywild and gained a fey mark, determined by rolling on the Fey Mark table.",
                     {
                         "type": "table",
+                        "caption": "Fey Mark",
                         "colLabels": [
-                            "d6",
-                            "Personality Trait"
+                            "d8",
+                            "Fey Mark"
                         ],
                         "colStyles": [
                             "col-2 text-center",
@@ -345,36 +106,636 @@
                         "rows": [
                             [
                                 "1",
-                                "Is it practical to learn an ancient language that is rarely spoken? No. But is it fun? Very."
+                                "Your eyes swirl with iridescent colors."
                             ],
                             [
                                 "2",
-                                "I learned one of my ancestors was a lauded rune carver whose story was lost to time. I seek to rekindle that legacy."
+                                "You have a sweet scent, like that of nectar or honey."
                             ],
                             [
                                 "3",
-                                "The old, traditional markings of runecraft look so boring. Why not give my runes some flair?"
+                                "You have long whiskers like those of a cat."
                             ],
                             [
                                 "4",
-                                "In my studies of runes, I strive to understand how great civilizations of the past fell, so I can prevent it from happening to societies of the present."
+                                "Your ears are covered with soft tufts of fur."
                             ],
                             [
                                 "5",
-                                "Life may be a whirlwind of chaos, but whenever I create my runes, I feel at peace."
+                                "Your skin sparkles in moonlight."
                             ],
                             [
                                 "6",
-                                "My brain struggles to process words written in ink, but the feeling of carved runes makes my mind sing."
+                                "Flowers either bloom or wilt (your choice) in your presence."
+                            ],
+                            [
+                                "7",
+                                "Your hair is made of vines or brambles and grows back to normal length within 1 hour of being cut."
+                            ],
+                            [
+                                "8",
+                                "You have a tail like that of a dog or another animal."
                             ]
                         ]
                     }
                 ],
-                "ENG_name": "Suggested Characteristics"
+                "ENG_name": "Fey Mark"
+            },
+            {
+                "type": "entries",
+                "name": "Feywild Visitor",
+                "entries": [
+                    "Whenever you're sound asleep or in a deep trance during a long rest, a spirit of the Feywild might pay you a visit, if the DM wishes it. Determine the spirit's form by rolling on the Feywild Visitor table. No harm ever comes to you as a result of such visits, which can last for minutes or hours, and you remember each visit when you wake up. Conversations that occur with a visitor can contain any number of things, from messages and insights to nonsense and red herrings, at the DM's discretion. Such conversations are always conducted in a language you can understand, even if the Feywild visitor can't speak that language normally.",
+                    {
+                        "type": "table",
+                        "caption": "Feywild Visitor",
+                        "colLabels": [
+                            "d8",
+                            "Visitor"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "Awakened creature (a Beast or an ordinary plant that has had the {@spell awaken} spell cast on it)"
+                            ],
+                            [
+                                "2",
+                                "{@creature Centaur}"
+                            ],
+                            [
+                                "3",
+                                "{@creature Dryad}"
+                            ],
+                            [
+                                "4",
+                                "{@creature Faerie Dragon (Violet)||Faerie dragon}"
+                            ],
+                            [
+                                "5",
+                                "{@creature Pixie}"
+                            ],
+                            [
+                                "6",
+                                "{@creature Satyr}"
+                            ],
+                            [
+                                "7",
+                                "{@creature Sprite}"
+                            ],
+                            [
+                                "8",
+                                "{@creature Unicorn}"
+                            ]
+                        ]
+                    }
+                ],
+                "ENG_name": "Feywild Visitor"
+            },
+            {
+                "type": "section",
+                "name": "Character Traits",
+                "entries": [
+                    "As the players choose backgrounds for their characters, they can use the following tables to help determine their characters' personality traits, ideals, bonds, and flaws. Players can use these tables instead of the ones that appear in the {@book Player's Handbook|PHB}, or they can mix and match them. If a rolled result doesn't make sense for a character, the player can roll again or choose a more appropriate entry on the table.",
+                    "These tables, while optional, are well suited to Feywild-themed adventures and are ideal for any character who has the feylost or Witchlight hand background.",
+                    {
+                        "type": "table",
+                        "caption": "Personality Traits",
+                        "colLabels": [
+                            "d8",
+                            "Trait"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "I'm haunted by fey laughter that only I can hear, though I know it's just my mind playing tricks on me."
+                            ],
+                            [
+                                "2",
+                                "Like a nomad, I can't settle down in one place for very long."
+                            ],
+                            [
+                                "3",
+                                "Good music makes me weep like a baby."
+                            ],
+                            [
+                                "4",
+                                "Wherever I go, I try to bring a little of the warmth and tranquility of home with me."
+                            ],
+                            [
+                                "5",
+                                "I have never lost my childlike sense of wonder."
+                            ],
+                            [
+                                "6",
+                                "When I have a new idea, I get wildly excited about it until I come up with another, better idea."
+                            ],
+                            [
+                                "7",
+                                "I live by my own set of weird and wonderful rules."
+                            ],
+                            [
+                                "8",
+                                "I can't bring myself to trust most adults."
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "Ideals",
+                        "colLabels": [
+                            "d8",
+                            "Ideal"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "Friendship. I never leave a friend behind. (Good)"
+                            ],
+                            [
+                                "2",
+                                "Empathy. No creature should be made to suffer. (Good)"
+                            ],
+                            [
+                                "3",
+                                "Wanderlust. I prefer to take the less traveled path. (Chaotic)"
+                            ],
+                            [
+                                "4",
+                                "Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)"
+                            ],
+                            [
+                                "5",
+                                "Honor. A deal is a deal, and I would never break one. (Lawful)"
+                            ],
+                            [
+                                "6",
+                                "Rule of Three. Everything in the multiverse happens in threes. I see the \"rule of three\" everywhere. (Lawful)"
+                            ],
+                            [
+                                "7",
+                                "Obsession. I won't let go of a grudge. (Evil)"
+                            ],
+                            [
+                                "8",
+                                "Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "Bonds",
+                        "colLabels": [
+                            "d8",
+                            "Bond"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "I would never break my word."
+                            ],
+                            [
+                                "2",
+                                "I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it."
+                            ],
+                            [
+                                "3",
+                                "I do what I can to protect the natural world."
+                            ],
+                            [
+                                "4",
+                                "A trusted friend is the most important thing in the multiverse to me."
+                            ],
+                            [
+                                "5",
+                                "I can't bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions."
+                            ],
+                            [
+                                "6",
+                                "The Witchlight Carnival feels like home to me."
+                            ],
+                            [
+                                "7",
+                                "I'm drawn to the Feywild and long to return there, if only for a short while."
+                            ],
+                            [
+                                "8",
+                                "I feel indebted to {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} for giving me a home and a purpose."
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "Flaws",
+                        "colLabels": [
+                            "d8",
+                            "Flaw"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "I easily lose track of time. My poor sense of time means I'm always late."
+                            ],
+                            [
+                                "2",
+                                "I think the whole multiverse is out to get me."
+                            ],
+                            [
+                                "3",
+                                "I'm always operating under a tight timeline, and I'm obsessed with keeping everything on schedule."
+                            ],
+                            [
+                                "4",
+                                "I'm a kleptomaniac who covets shiny, sparkling treasure."
+                            ],
+                            [
+                                "5",
+                                "I'm forgetful. Sometimes I can't remember even the simplest things."
+                            ],
+                            [
+                                "6",
+                                "I never give away anything for free and always expect something in return."
+                            ],
+                            [
+                                "7",
+                                "I have many vices and tend to indulge them."
+                            ],
+                            [
+                                "8",
+                                "I'm always changing my mind—well, almost always."
+                            ]
+                        ]
+                    }
+                ],
+                "ENG_name": "Character Traits"
             }
         ],
         "hasFluff": true,
         "hasFluffImages": true,
-        "ENG_name": "Rune Carver"
+        "ENG_name": "Feylost"
+    },
+    {
+        "name": "Witchlight Hand",
+        "source": "WBtW",
+        "page": 11,
+        "skillProficiencies": [
+            {
+                "performance": true,
+                "sleight of hand": true
+            }
+        ],
+        "languageProficiencies": [
+            {
+                "anyStandard": 1
+            }
+        ],
+        "toolProficiencies": [
+            {
+                "choose": {
+                    "from": [
+                        "disguise kit",
+                        "musical instrument"
+                    ]
+                }
+            }
+        ],
+        "startingEquipment": [
+            {
+                "a": [
+                    "disguise kit|phb"
+                ],
+                "b": [
+                    {
+                        "equipmentType": "instrumentMusical"
+                    }
+                ]
+            },
+            {
+                "_": [
+                    {
+                        "special": "deck of cards"
+                    },
+                    "costume clothes|phb",
+                    "feywild trinket|wbtw",
+                    {
+                        "item": "pouch|phb",
+                        "containsValue": 800
+                    }
+                ]
+            }
+        ],
+        "entries": [
+            {
+                "type": "list",
+                "style": "list-hang-notitle",
+                "items": [
+                    {
+                        "type": "item",
+                        "name": "Skill Proficiencies:",
+                        "entry": "{@skill Performance}, {@skill Sleight of Hand}",
+                        "ENG_name": "Skill Proficiencies:"
+                    },
+                    {
+                        "type": "item",
+                        "name": "Tool Proficiencies:",
+                        "entry": "{@item Disguise kit|phb} or one type of {@filter musical Instrument|items|source=phb|miscellaneous=mundane|type=instrument}",
+                        "ENG_name": "Tool Proficiencies:"
+                    },
+                    {
+                        "type": "item",
+                        "name": "Languages:",
+                        "entry": "One of your choice",
+                        "ENG_name": "Languages:"
+                    },
+                    {
+                        "type": "item",
+                        "name": "Equipment:",
+                        "entry": "A {@item disguise kit|PHB} or a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} of your choice, a deck of cards, a carnival uniform or {@item costume clothes|phb|costume}, one trinket (determined by rolling on the {@item Feywild Trinket|WBtW|Feywild Trinkets}), and a {@item pouch|phb} containing 8 gp",
+                        "ENG_name": "Equipment:"
+                    }
+                ]
+            },
+            {
+                "name": "Feature: Carnival Fixture",
+                "type": "entries",
+                "entries": [
+                    "The Witchlight Carnival provides you with free, modest lodging and food. In addition, you may wander about the carnival and partake of its many wonders at no cost to you, provided you don't disrupt its shows or cause any other trouble."
+                ],
+                "data": {
+                    "isFeature": true
+                },
+                "ENG_name": "Feature: Carnival Fixture"
+            },
+            {
+                "type": "entries",
+                "name": "Carnival Companion",
+                "entries": [
+                    "Over the years, you have earned the friendship of another carnival fixture. Roll a {@dice d8} and consult the Carnival Companion table to determine whom or what you've befriended, or you can choose an option that you like. Work with your DM to flesh out this friendship. This companion hangs around you while you're in the carnival, but it won't voluntarily leave the carnival.",
+                    "The DM can use the {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} stat block in {@adventure chapter 1|WBtW|1} to represent hands, performers, and animal trainers who serve as carnival companions. Statistics for the other companions appear in the {@book Monster Manual|MM}.",
+                    {
+                        "type": "table",
+                        "caption": "Carnival Companion",
+                        "colLabels": [
+                            "d8",
+                            "Companion"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "Old, cantankerous Witchlight hand"
+                            ],
+                            [
+                                "2",
+                                "Young, impressionable Witchlight hand"
+                            ],
+                            [
+                                "3",
+                                "Performer (such as an acrobat, a clown, or a musician)"
+                            ],
+                            [
+                                "4",
+                                "Retired performer"
+                            ],
+                            [
+                                "5",
+                                "Seasoned animal trainer"
+                            ],
+                            [
+                                "6",
+                                "Old {@creature blink dog}"
+                            ],
+                            [
+                                "7",
+                                "Cheery {@creature sprite}"
+                            ],
+                            [
+                                "8",
+                                "Harmless, magical wisp of light (no stat block required) that has a flying speed of 30 feet, can hover, and sheds bright light in a 5-foot radius and dim light for an additional 5 feet"
+                            ]
+                        ]
+                    }
+                ],
+                "ENG_name": "Carnival Companion"
+            },
+            {
+                "type": "section",
+                "name": "Character Traits",
+                "entries": [
+                    "As the players choose backgrounds for their characters, they can use the following tables to help determine their characters' personality traits, ideals, bonds, and flaws. Players can use these tables instead of the ones that appear in the {@book Player's Handbook|PHB}, or they can mix and match them. If a rolled result doesn't make sense for a character, the player can roll again or choose a more appropriate entry on the table.",
+                    "These tables, while optional, are well suited to Feywild-themed adventures and are ideal for any character who has the feylost or Witchlight hand background.",
+                    {
+                        "type": "table",
+                        "caption": "Personality Traits",
+                        "colLabels": [
+                            "d8",
+                            "Trait"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "I'm haunted by fey laughter that only I can hear, though I know it's just my mind playing tricks on me."
+                            ],
+                            [
+                                "2",
+                                "Like a nomad, I can't settle down in one place for very long."
+                            ],
+                            [
+                                "3",
+                                "Good music makes me weep like a baby."
+                            ],
+                            [
+                                "4",
+                                "Wherever I go, I try to bring a little of the warmth and tranquility of home with me."
+                            ],
+                            [
+                                "5",
+                                "I have never lost my childlike sense of wonder."
+                            ],
+                            [
+                                "6",
+                                "When I have a new idea, I get wildly excited about it until I come up with another, better idea."
+                            ],
+                            [
+                                "7",
+                                "I live by my own set of weird and wonderful rules."
+                            ],
+                            [
+                                "8",
+                                "I can't bring myself to trust most adults."
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "Ideals",
+                        "colLabels": [
+                            "d8",
+                            "Ideal"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "Friendship. I never leave a friend behind. (Good)"
+                            ],
+                            [
+                                "2",
+                                "Empathy. No creature should be made to suffer. (Good)"
+                            ],
+                            [
+                                "3",
+                                "Wanderlust. I prefer to take the less traveled path. (Chaotic)"
+                            ],
+                            [
+                                "4",
+                                "Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)"
+                            ],
+                            [
+                                "5",
+                                "Honor. A deal is a deal, and I would never break one. (Lawful)"
+                            ],
+                            [
+                                "6",
+                                "Rule of Three. Everything in the multiverse happens in threes. I see the \"rule of three\" everywhere. (Lawful)"
+                            ],
+                            [
+                                "7",
+                                "Obsession. I won't let go of a grudge. (Evil)"
+                            ],
+                            [
+                                "8",
+                                "Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "Bonds",
+                        "colLabels": [
+                            "d8",
+                            "Bond"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "I would never break my word."
+                            ],
+                            [
+                                "2",
+                                "I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it."
+                            ],
+                            [
+                                "3",
+                                "I do what I can to protect the natural world."
+                            ],
+                            [
+                                "4",
+                                "A trusted friend is the most important thing in the multiverse to me."
+                            ],
+                            [
+                                "5",
+                                "I can't bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions."
+                            ],
+                            [
+                                "6",
+                                "The Witchlight Carnival feels like home to me."
+                            ],
+                            [
+                                "7",
+                                "I'm drawn to the Feywild and long to return there, if only for a short while."
+                            ],
+                            [
+                                "8",
+                                "I feel indebted to {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} for giving me a home and a purpose."
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "Flaws",
+                        "colLabels": [
+                            "d8",
+                            "Flaw"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "I easily lose track of time. My poor sense of time means I'm always late."
+                            ],
+                            [
+                                "2",
+                                "I think the whole multiverse is out to get me."
+                            ],
+                            [
+                                "3",
+                                "I'm always operating under a tight timeline, and I'm obsessed with keeping everything on schedule."
+                            ],
+                            [
+                                "4",
+                                "I'm a kleptomaniac who covets shiny, sparkling treasure."
+                            ],
+                            [
+                                "5",
+                                "I'm forgetful. Sometimes I can't remember even the simplest things."
+                            ],
+                            [
+                                "6",
+                                "I never give away anything for free and always expect something in return."
+                            ],
+                            [
+                                "7",
+                                "I have many vices and tend to indulge them."
+                            ],
+                            [
+                                "8",
+                                "I'm always changing my mind—well, almost always."
+                            ]
+                        ]
+                    }
+                ],
+                "ENG_name": "Character Traits"
+            }
+        ],
+        "hasFluff": true,
+        "hasFluffImages": true,
+        "ENG_name": "Witchlight Hand"
     }
 ]

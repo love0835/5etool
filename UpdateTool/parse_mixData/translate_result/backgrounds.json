@@ -1,236 +1,50 @@
 [
     {
-        "name": "巨人的遺孤",
-        "source": "BGG",
-        "feats": [
-            {
-                "strike of the giants|bgg": true
-            }
-        ],
+        "name": "精界迷失者",
+        "source": "WBtW",
+        "page": 9,
         "skillProficiencies": [
             {
-                "intimidation": true,
+                "deception": true,
                 "survival": true
             }
         ],
         "languageProficiencies": [
             {
-                "giant": true,
-                "anyStandard": 1
-            }
-        ],
-        "startingEquipment": [
-            {
-                "_": [
-                    "backpack|phb",
-                    "traveler's clothes|phb",
-                    {
-                        "item": "pouch|phb",
-                        "containsValue": 1000
-                    }
-                ]
-            },
-            {
-                "a": [
-                    {
-                        "special": "small stone that reminds you of home"
-                    }
-                ],
-                "b": [
-                    {
-                        "special": "sprig that reminds you of home"
-                    }
-                ]
-            }
-        ],
-        "fromFeature": {
-            "feats": true
-        },
-        "entries": [
-            {
-                "type": "list",
-                "style": "list-hang-notitle",
-                "items": [
-                    {
-                        "type": "item",
-                        "name": "技能熟練度：",
-                        "entry": "{@skill Intimidation}, {@skill Survival}",
-                        "ENG_name": "Skill Proficiencies:"
-                    },
-                    {
-                        "type": "item",
-                        "name": "語言：",
-                        "entry": "Giant and one other language of your choice",
-                        "ENG_name": "Languages:"
-                    },
-                    {
-                        "type": "item",
-                        "name": "裝備:",
-                        "entry": "A {@item backpack|phb}, a set of {@item traveler's clothes|phb}, a small stone or sprig that reminds you of home, and a {@item pouch|phb} containing 10 gp",
-                        "ENG_name": "Equipment:"
-                    }
-                ]
-            },
-            {
-                "type": "entries",
-                "name": "起源故事",
-                "entries": [
-                    "你如何在巨大生物中生活是由你來決定的，但是Foundling Origin表格提供了各種可能性。",
-                    {
-                        "type": "table",
-                        "caption": "棄嬰的起源",
-                        "colLabels": [
-                            "d6",
-                            "起源"
-                        ],
-                        "colStyles": [
-                            "col-2 text-center",
-                            "col-10"
-                        ],
-                        "rows": [
-                            [
-                                "1",
-                                "你被一家流浪巨人家庭在嬰兒時期找到，並將你視為他們自己的一員養大。"
-                            ],
-                            [
-                                "2",
-                                "當你跌入山谷深淵時，一家石頭巨人救了你，並且從那時起你就一直與他們在地下一起生活。"
-                            ],
-                            [
-                                "3",
-                                "當你還是個孩子時，你在一個充滿飢餓恐龍的叢林中迷路或被遺棄。在那裡，你遇到了一個同樣迷路的霜巨人; 一起，你們倖存下來。"
-                            ],
-                            [
-                                "4",
-                                "你的農場在巨人間的戰鬥中被破壞，你的家人在其中喪生。受到摧毀的內疚，一個有同情心的巨人士兵答應照顧你。"
-                            ],
-                            [
-                                "5",
-                                "在你小時候有一系列奇怪的夢後，你迷信的父母將你送去與一位強大但冷漠的風暴巨人神諭學習。"
-                            ],
-                            [
-                                "6",
-                                "當你和朋友們玩捉迷藏的時候，你無意間闖進了一個雲巨人的城堡，他立刻收養了你。"
-                            ]
-                        ]
-                    }
-                ],
-                "ENG_name": "Origin Stories"
-            },
-            {
-                "type": "entries",
-                "name": "建立一個巨人的遺孤角色",
-                "entries": [
-                    "你在巨人中的生活給了你獨特的視角。雖然你對你的種類來說異常的大，但你並不比一個巨人的孩子大，所以你可能對你的大小非常關心。"
-                ],
-                "ENG_name": "Building a Giant Foundling Character"
-            },
-            {
-                "name": "特性：巨人的罷工",
-                "type": "entries",
-                "entries": [
-                    "你獲得了{@feat 巨人之擊|BGG}特技。"
-                ],
-                "data": {
-                    "isFeature": true
-                },
-                "ENG_name": "Feature: Strike of the Giants"
-            },
-            {
-                "name": "建議特徵",
-                "type": "entries",
-                "entries": [
-                    "巨人的遺孤個性特徵表提出了您可能為角色採用的各種特徵。",
-                    {
-                        "type": "table",
-                        "colLabels": [
-                            "d6",
-                            "個性特質"
-                        ],
-                        "colStyles": [
-                            "col-2 text-center",
-                            "col-10"
-                        ],
-                        "rows": [
-                            [
-                                "1",
-                                "與巨人相比，我所缺乏的身材，我用純粹的惡意來彌補。"
-                            ],
-                            [
-                                "2",
-                                "我堅持要被視為一個成年人來嚴肅對待。沒有人可以對我說話輕蔑！"
-                            ],
-                            [
-                                "3",
-                                "擁擠的空間讓我感到不舒服。我寧願在開闊的田野中，也不願在繁忙的酒館裡。"
-                            ],
-                            [
-                                "4",
-                                "我接受我較矮的身高。 它幫助我保持不被注意 - 和被低估。"
-                            ],
-                            [
-                                "5",
-                                "每場雪崩都始於一顆小石頭。"
-                            ],
-                            [
-                                "6",
-                                "這個世界總是感覺太大，我擔心我永遠找不到我在其中的位置。"
-                            ]
-                        ]
-                    }
-                ],
-                "ENG_name": "Suggested Characteristics"
-            }
-        ],
-        "hasFluff": true,
-        "hasFluffImages": true,
-        "ENG_name": "Giant Foundling"
-    },
-    {
-        "name": "符文雕刻师",
-        "source": "BGG",
-        "feats": [
-            {
-                "rune shaper|bgg": true
-            }
-        ],
-        "skillProficiencies": [
-            {
-                "history": true,
-                "perception": true
-            }
-        ],
-        "languageProficiencies": [
-            {
-                "giant": true
+                "anyStandard": 1,
+                "choose": {
+                    "from": [
+                        "elvish",
+                        "gnomish",
+                        "goblin",
+                        "sylvan"
+                    ]
+                }
             }
         ],
         "toolProficiencies": [
             {
-                "anyArtisansTool": 1
+                "musical instrument": true
             }
         ],
         "startingEquipment": [
             {
                 "_": [
                     {
-                        "equipmentType": "toolArtisan"
+                        "equipmentType": "instrumentMusical"
                     },
+                    "traveler's clothes|phb",
                     {
-                        "special": "small knife"
+                        "item": "feywild trinket|wbtw",
+                        "quantity": 3
                     },
-                    "whetstone|phb",
-                    "common clothes|phb",
                     {
                         "item": "pouch|phb",
-                        "containsValue": 1000
+                        "containsValue": 800
                     }
                 ]
             }
         ],
-        "fromFeature": {
-            "feats": true
-        },
         "entries": [
             {
                 "type": "list",
@@ -239,104 +53,51 @@
                     {
                         "type": "item",
                         "name": "技能熟練度：",
-                        "entry": "{@skill History}, {@skill Perception}",
+                        "entry": "{@skill 欺瞞}, {@skill 生存}",
                         "ENG_name": "Skill Proficiencies:"
                     },
                     {
                         "type": "item",
-                        "name": "工具熟練度:",
-                        "entry": "One set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}",
+                        "name": "工具熟練度：",
+                        "entry": "一種{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}的類型",
                         "ENG_name": "Tool Proficiencies:"
                     },
                     {
                         "type": "item",
                         "name": "語言：",
-                        "entry": "Giant",
+                        "entry": "你可以選擇一種 {@language Elvish}、{@language Gnomish}、{@language Goblin} 或 {@language Sylvan}",
                         "ENG_name": "Languages:"
                     },
                     {
                         "type": "item",
                         "name": "裝備:",
-                        "entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice), a small knife, a {@item whetstone|phb}, a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 10 gp",
+                        "entry": "一個{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}（你的選擇），一套{@item 旅行者服裝|PHB|旅行者的衣物}，三個小飾品（每個都由滾動在{@item 妖精荒野 Trinket|WBtW|妖精荒野 Trinkets}表上來決定），以及一個{@item 囊袋|phb}，裡面裝有8個金幣",
                         "ENG_name": "Equipment:"
                     }
                 ]
             },
             {
-                "type": "entries",
-                "name": "符文風格",
-                "entries": [
-                    "每個符文雕刻師都有其獨特的風格和首選的媒介。為了確定你如何製作你的符文，你可以在{Rune Style}表上滾動。",
-                    {
-                        "type": "table",
-                        "caption": "符文風格",
-                        "colLabels": [
-                            "d6",
-                            "風格"
-                        ],
-                        "colStyles": [
-                            "col-2 text-center",
-                            "col-10"
-                        ],
-                        "rows": [
-                            [
-                                "1",
-                                "您用細金屬針在蠟或黏土上刻寫符文。"
-                            ],
-                            [
-                                "2",
-                                "你將木頭削成小塑像，並用符文標記。"
-                            ],
-                            [
-                                "3",
-                                "您在玻璃珠子上雕刻符文，並將它們串在項鍊和手鐲上。"
-                            ],
-                            [
-                                "4",
-                                "您將符文縫入衣物的邊緣。"
-                            ],
-                            [
-                                "5",
-                                "你在一套動物骨頭上刻下符文，可以以不同的形式扔出。"
-                            ],
-                            [
-                                "6",
-                                "您在蠟燭上畫符文，融化蠟來光滑刻痕。"
-                            ]
-                        ]
-                    }
-                ],
-                "ENG_name": "Rune Styles"
-            },
-            {
-                "type": "entries",
-                "name": "建立一個符文雕刻師角色",
-                "entries": [
-                    "學術追求，古老的神秘，或是命運的相遇，都可能激勵一個角色去追尋符文雕刻者的秘密。"
-                ],
-                "ENG_name": "Building a Rune Carver Character"
-            },
-            {
-                "name": "特性：符文塑造者",
+                "name": "特徵：妖精荒野連接",
                 "type": "entries",
                 "entries": [
-                    "你獲得了{@feat Rune Shaper|BGG}特技。"
+                    "你的行為舉止和對妖精習俗的了解被妖精荒野的本地人認可，他們將你視為他們自己人。因此，友好的妖精生物傾向於在你迷路或需要在妖精荒野中求助時來到你身邊。"
                 ],
                 "data": {
                     "isFeature": true
                 },
-                "ENG_name": "Feature: Rune Shaper"
+                "ENG_name": "Feature: Feywild Connection"
             },
             {
-                "name": "建議特徵",
                 "type": "entries",
+                "name": "精靈標記",
                 "entries": [
-                    "符文雕刻師人格特質表提議您可能采用的各种特質為您的角色。",
+                    "你在妖精荒野的停留中某種程度上被轉化，並獲得了一個精靈標記，這是通過在精靈標記表上擲骰子決定的。",
                     {
                         "type": "table",
+                        "caption": "精靈標記",
                         "colLabels": [
-                            "d6",
-                            "個性特徵"
+                            "d8",
+                            "精靈標記"
                         ],
                         "colStyles": [
                             "col-2 text-center",
@@ -345,36 +106,636 @@
                         "rows": [
                             [
                                 "1",
-                                "學習一種鮮少使用的古老語言實際嗎？不。但是它有趣嗎？非常。"
+                                "你的眼睛盪漾出彩虹般的色彩。"
                             ],
                             [
                                 "2",
-                                "我了解到我的一位祖先是一位受到讚揚的符文雕刻師，他的故事隨著時間的流逝而失落。我尋求重新點燃那個傳承。"
+                                "你身上有一股甜香，就像花蜜或蜂蜜的味道。"
                             ],
                             [
                                 "3",
-                                "那些古老的，傳統的符文工藝標記看起來如此無聊。為什麼不給我的符文一些獨特的特色呢？"
+                                "你有著像貓一樣的長鬚。"
                             ],
                             [
                                 "4",
-                                "在我研究符文的過程中，我努力去理解過去偉大文明的衰落，這樣我才能防止它發生在現在的社會上。"
+                                "你的耳朵上覆蓋著柔軟的毛茸茸。"
                             ],
                             [
                                 "5",
-                                "生活可能是一個混亂的旋風，但每當我創作我的符文時，我感到平静。"
+                                "你的皮膚在月光下閃閃發光。"
                             ],
                             [
                                 "6",
-                                "我的大腦辛苦地處理用墨水寫的文字，但刻在石頭上的符文卻使我的思緒飛揚。"
+                                "在你的存在下，花朵要么盛開，要么凋零(你的選擇)。"
+                            ],
+                            [
+                                "7",
+                                "你的頭髮由藤蔓或荊棘組成，並且在被剪短後1小時內會恢復到正常長度。"
+                            ],
+                            [
+                                "8",
+                                "你有一條像狗或其他動物的尾巴。"
                             ]
                         ]
                     }
                 ],
-                "ENG_name": "Suggested Characteristics"
+                "ENG_name": "Fey Mark"
+            },
+            {
+                "type": "entries",
+                "name": "妖精荒野來訪者",
+                "entries": [
+                    "無論你在長時間休息時是熟睡還是沉浸在深度冥想中，如果DM希望，妖精荒野的精靈可能會來訪。通過在妖精荒野來訪者表上擲骰來決定精靈的形狀。這種訪問無論持續幾分鐘或幾小時，都不會對你造成任何傷害，而且你在醒來時會記得每次訪問的情況。與訪客的對話可以包含從信息和洞察到胡言亂語和混淆視聽的任何事物，由DM自行決定。這種對話總是用你能理解的語言進行，即使妖精荒野來訪者通常無法說出那種語言。",
+                    {
+                        "type": "table",
+                        "caption": "妖精荒野來訪者",
+                        "colLabels": [
+                            "八面體骰子",
+                            "訪客"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "覺醒生物（一種獸類或普通植物，已對其施放了{@spell 啓蒙術}法術）"
+                            ],
+                            [
+                                "2",
+                                "{@生物 半人馬}"
+                            ],
+                            [
+                                "3",
+                                "{@生物 乾樹精靈}"
+                            ],
+                            [
+                                "4",
+                                "{@creature 妖精龍 (紫色)||妖精龍}"
+                            ],
+                            [
+                                "5",
+                                "{@creature 妖精}"
+                            ],
+                            [
+                                "6",
+                                "{@creature 山羊人}"
+                            ],
+                            [
+                                "7",
+                                "{@creature 精靈}"
+                            ],
+                            [
+                                "8",
+                                "{@creature 獨角獸}"
+                            ]
+                        ]
+                    }
+                ],
+                "ENG_name": "Feywild Visitor"
+            },
+            {
+                "type": "section",
+                "name": "角色特性",
+                "entries": [
+                    "當玩家為其角色選擇背景時，他們可以使用以下的表格來決定他們的角色的性格特點、理想、聯繫和缺陷。玩家可以使用這些表格代替在《玩家手冊》中出現的表格，或者他們可以混合匹配他們。如果一個擲骰結果對角色來說並不合理，玩家可以重新擲骰或在表格上選擇一個更合適的入口。",
+                    "這些表格雖然是可選用的，但非常適合妖精荒野主題的冒險，對於擁有精界迷失者或巫光背景的角色而言是理想的選擇。",
+                    {
+                        "type": "table",
+                        "caption": "個性特徵",
+                        "colLabels": [
+                            "d8",
+                            "特性"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "我被只有我能聽見的精靈笑聲所困擾，儘管我知道這只是我的思想在耍弄我。"
+                            ],
+                            [
+                                "2",
+                                "就像一個遊牧者，我無法在一個地方長時間定居。"
+                            ],
+                            [
+                                "3",
+                                "好音樂讓我像嬰兒一樣哭泣。"
+                            ],
+                            [
+                                "4",
+                                "無論我走到哪裡，我都試圖帶著一點家的溫暖和寧靜。"
+                            ],
+                            [
+                                "5",
+                                "我從未失去我的孩童般的驚奇感。"
+                            ],
+                            [
+                                "6",
+                                "當我有新的點子時，我會非常興奮，直到我想出另一個更好的點子。"
+                            ],
+                            [
+                                "7",
+                                "我按照我自己的一套奇怪而美妙的規則生活。"
+                            ],
+                            [
+                                "8",
+                                "我無法強迫自己去信任大部分的成年人。"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "理想",
+                        "colLabels": [
+                            "d8",
+                            "理想"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "友誼。我絕不會把朋友拋下。 (善良)"
+                            ],
+                            [
+                                "2",
+                                "同理心。沒有生物應該被迫受苦。(善良)"
+                            ],
+                            [
+                                "3",
+                                "漂泊之心。我偏好選擇較少人走的路。(混亂)"
+                            ],
+                            [
+                                "4",
+                                "變動性。變化是好的，這就是為什麼我根據不斷變動的規則來生活。(混亂)"
+                            ],
+                            [
+                                "5",
+                                "榮譽。合約就是合約，我絕不會違背。 (守序)"
+                            ],
+                            [
+                                "6",
+                                "三原則。多元宇宙中的一切都是成三的。我看到\"三原則\"無所不在。(守序)"
+                            ],
+                            [
+                                "7",
+                                "著迷。我不會放過一個恩怨。(邪惡)"
+                            ],
+                            [
+                                "8",
+                                "貪婪。我將不擇手段地去取得我想要的，不管這可能會造成多大的傷害。（邪惡）"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "羈絆",
+                        "colLabels": [
+                            "d8",
+                            "羈絆"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "我絕不會背棄我的誓言。"
+                            ],
+                            [
+                                "2",
+                                "我覺得所有形式的魔法都很吸引人。一個地方的魔法越多，我就越被吸引。"
+                            ],
+                            [
+                                "3",
+                                "我盡我所能保護大自然世界。"
+                            ],
+                            [
+                                "4",
+                                "對我來說，最重要的事物在多元宇宙中就是一位值得信賴的朋友。"
+                            ],
+                            [
+                                "5",
+                                "我無法下手傷害一個精靈生物，無論是因為我自認為同類，或是我擔心其後果。"
+                            ],
+                            [
+                                "6",
+                                "對我來說，巫光 Carnival像是我的家。"
+                            ],
+                            [
+                                "7",
+                                "我被妖精荒野吸引，嚮往能回到那裡，即使只是短暫的時間。"
+                            ],
+                            [
+                                "8",
+                                "我感到欠{@creature Mister Witch|WBtW}和{@creature Mister Light|WBtW}一個人情，他們給了我一個家和一個目標。"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "缺點",
+                        "colLabels": [
+                            "d8",
+                            "缺點"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "我很容易失去時間感。我的時間感很差，所以我总是遲到。"
+                            ],
+                            [
+                                "2",
+                                "我認為整個多元宇宙都在對付我。"
+                            ],
+                            [
+                                "3",
+                                "我總是在緊迫的時間表下運作，並且我對按時完成所有事情有著強烈的迷戀。"
+                            ],
+                            [
+                                "4",
+                                "我是一個貪婪閃亮，閃爍的寶藏的盜竊狂。"
+                            ],
+                            [
+                                "5",
+                                "我健忘。有時候我甚至連最基本的事情都記不住。"
+                            ],
+                            [
+                                "6",
+                                "我從不會免費給出任何東西，總是期待有所回報。"
+                            ],
+                            [
+                                "7",
+                                "我有很多壞習慣且傾向於沉溺其中。"
+                            ],
+                            [
+                                "8",
+                                "我總是在改變我的想法-嗯，幾乎總是這樣。"
+                            ]
+                        ]
+                    }
+                ],
+                "ENG_name": "Character Traits"
             }
         ],
         "hasFluff": true,
         "hasFluffImages": true,
-        "ENG_name": "Rune Carver"
+        "ENG_name": "Feylost"
+    },
+    {
+        "name": "巫光僱工",
+        "source": "WBtW",
+        "page": 11,
+        "skillProficiencies": [
+            {
+                "performance": true,
+                "sleight of hand": true
+            }
+        ],
+        "languageProficiencies": [
+            {
+                "anyStandard": 1
+            }
+        ],
+        "toolProficiencies": [
+            {
+                "choose": {
+                    "from": [
+                        "disguise kit",
+                        "musical instrument"
+                    ]
+                }
+            }
+        ],
+        "startingEquipment": [
+            {
+                "a": [
+                    "disguise kit|phb"
+                ],
+                "b": [
+                    {
+                        "equipmentType": "instrumentMusical"
+                    }
+                ]
+            },
+            {
+                "_": [
+                    {
+                        "special": "deck of cards"
+                    },
+                    "costume clothes|phb",
+                    "feywild trinket|wbtw",
+                    {
+                        "item": "pouch|phb",
+                        "containsValue": 800
+                    }
+                ]
+            }
+        ],
+        "entries": [
+            {
+                "type": "list",
+                "style": "list-hang-notitle",
+                "items": [
+                    {
+                        "type": "item",
+                        "name": "技能熟練度：",
+                        "entry": "{@skill 表演}, {@skill 巧手}",
+                        "ENG_name": "Skill Proficiencies:"
+                    },
+                    {
+                        "type": "item",
+                        "name": "工具熟練度：",
+                        "entry": "{易容工具|phb} 或一種 {樂器|items|source=phb|miscellaneous=mundane|type=樂器} 類型的物品",
+                        "ENG_name": "Tool Proficiencies:"
+                    },
+                    {
+                        "type": "item",
+                        "name": "語言：",
+                        "entry": "你自由選擇的一個",
+                        "ENG_name": "Languages:"
+                    },
+                    {
+                        "type": "item",
+                        "name": "裝備:",
+                        "entry": "一個{@item 易容工具|PHB}或是你選擇的一種{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}，一副紙牌，馬戲團制服或{@item 戲服|phb|costume}，一件小飾物（由{@item 妖精荒野 Trinket|WBtW|妖精荒野 Trinkets}的擲骰子決定），以及一個裝有8金幣的{@item 囊袋|phb}。",
+                        "ENG_name": "Equipment:"
+                    }
+                ]
+            },
+            {
+                "name": "特性：嘉年華班底",
+                "type": "entries",
+                "entries": [
+                    "巫光嘉年華會向您提供免費的適中住宿和食物。此外，只要您不破壞其表演或導致其他麻煩，您可以無成本地在嘉年華中漫步並參與其眾多的精彩活動。"
+                ],
+                "data": {
+                    "isFeature": true
+                },
+                "ENG_name": "Feature: Carnival Fixture"
+            },
+            {
+                "type": "entries",
+                "name": "嘉年華伙伴",
+                "entries": [
+                    "多年來，您贏得了另一個馬戲團常客的友誼。擲一個 {@dice d8} 並參照 嘉年華伙伴 表單，確定你結交了誰或什麼為你的朋友，或者你可以選擇你喜歡的選項。與你的地下城主一起深化這段友誼。這位伙伴會在你進馬戲團時跟隨在你身邊，但它不會自願離開馬戲團。",
+                    "DM可以使用{@adventure chapter 1|WBtW|1}中的{@creature 巫光 Hand (Medium)|WBtW|巫光 hand}數據塊來代表作為嘉年華伙伴s的手、表演者和動物訓練師。其他伙伴的統計數據出現在{@book Monster Manual|MM}中。",
+                    {
+                        "type": "table",
+                        "caption": "嘉年華伙伴",
+                        "colLabels": [
+                            "八面體骰子",
+                            "同伴"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "老舊的，愛抱怨的巫光之手"
+                            ],
+                            [
+                                "2",
+                                "年輕，易受影閣的巫光之手"
+                            ],
+                            [
+                                "3",
+                                "表演者（如雜技藝人、小丑或音樂家）"
+                            ],
+                            [
+                                "4",
+                                "退役表演者"
+                            ],
+                            [
+                                "5",
+                                "經驗豐富的動物訓練師"
+                            ],
+                            [
+                                "6",
+                                "老{@creature blink dog}"
+                            ],
+                            [
+                                "7",
+                                "快樂的{@creature sprite}"
+                            ],
+                            [
+                                "8",
+                                "無害的魔法光點（無需統計數據），飛行速度為30英尺，能懸浮，並在5英尺的半徑內投射出亮光，在額外的5英尺內投射出暗光。"
+                            ]
+                        ]
+                    }
+                ],
+                "ENG_name": "Carnival Companion"
+            },
+            {
+                "type": "section",
+                "name": "角色特性",
+                "entries": [
+                    "當玩家為他們的角色選擇背景時，他們可以使用以下的表格來幫助確定角色的性格特質、理想、羈絆和缺陷。玩家可以使用這些表格來替代在{@book Player's Handbook|PHB}中出現的表格，或者他們可以混合配對它們。如果一個擲骰結果對角色來說沒有意義，玩家可以再次擲骰或在表格上選擇一個更適合的項目。",
+                    "這些表格，雖然是選擇性的，但非常適合於妖精荒野主題的冒險，並且對於具有精界迷失者或巫光背景的角色來說是理想的。",
+                    {
+                        "type": "table",
+                        "caption": "個性特徵",
+                        "colLabels": [
+                            "八面體骰",
+                            "特性"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "我被只有我能聽到的精靈笑聲困擾，儘管我知道那只是我的腦海玩弄我。"
+                            ],
+                            [
+                                "2",
+                                "像一個遊牧民族，我不能在一個地方待太久。"
+                            ],
+                            [
+                                "3",
+                                "好的音樂讓我像嬰兒一樣哭泣。"
+                            ],
+                            [
+                                "4",
+                                "無論我走到哪裡，我都嘗試帶著一點家的溫暖與寧靜。"
+                            ],
+                            [
+                                "5",
+                                "我從未失去我那種孩子般的好奇心。"
+                            ],
+                            [
+                                "6",
+                                "當我想到新的主意時，我會非常激動，直到我想出另一個更好的主意。"
+                            ],
+                            [
+                                "7",
+                                "我按照自己一套奇異且美好的規則生活。"
+                            ],
+                            [
+                                "8",
+                                "我無法逼自己去信任大部分的成年人。"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "理想",
+                        "colLabels": [
+                            "八面骰",
+                            "理想"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "友誼。我絕不會拋下我的朋友。(善良)"
+                            ],
+                            [
+                                "2",
+                                "同理心。沒有生物應當被制造痛苦。（善良）"
+                            ],
+                            [
+                                "3",
+                                "漫遊之心。我偏好選擇走得較少的路。(混亂)"
+                            ],
+                            [
+                                "4",
+                                "變動性。變動是好的，這就是為什麼我按照一套常變的規則生活。(混沌)"
+                            ],
+                            [
+                                "5",
+                                "榮譽。一樁交易就是一樁交易，我絕不會違背。 (守法)"
+                            ],
+                            [
+                                "6",
+                                "三法則。多元宇宙中的一切事物都以三為律。我看到\"三法則\"存在於一切之中。(守序)"
+                            ],
+                            [
+                                "7",
+                                "執念。我絕不會放過一次怨恨。(邪惡)"
+                            ],
+                            [
+                                "8",
+                                "貪婪。我將無所不用其極地去得到我想要的，不管這可能會造成什麼傷害。（邪惡）"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "羈絆",
+                        "colLabels": [
+                            "d8",
+                            "羈絆"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "我永遠不會違背我的誓言。"
+                            ],
+                            [
+                                "2",
+                                "我發現所有形式的魔法都非常吸引人。一個地方的魔法越多，我對它的吸引力就越強。"
+                            ],
+                            [
+                                "3",
+                                "我盡我所能保護自然世界。"
+                            ],
+                            [
+                                "4",
+                                "對我來說，信賴的朋友是多元宇宙中最重要的事物。"
+                            ],
+                            [
+                                "5",
+                                "我無法下手傷害一個仙境生物，可能是因為我認為我自己是一個，或者是我害怕會有不良的反彈。"
+                            ],
+                            [
+                                "6",
+                                "對我來說，巫光 狂歡節就像家一樣。"
+                            ],
+                            [
+                                "7",
+                                "我被妖精荒野吸引，渴望能夠回去，哪怕只是短暫的時間。"
+                            ],
+                            [
+                                "8",
+                                "我感到欠{@creature Mister Witch|WBtW}和{@creature Mister Light|WBtW}一份情，他們給了我一個家和一個目標。"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "caption": "缺點",
+                        "colLabels": [
+                            "八面骰",
+                            "缺點"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "我很容易迷失在時間裡。我的時間感非常差，總是讓我遲到。"
+                            ],
+                            [
+                                "2",
+                                "我覺得整個多元宇宙都在對我不利。"
+                            ],
+                            [
+                                "3",
+                                "我始終處於嚴密的時間表中，且我對維持所有事物按照計劃進行有著強烈的執著。"
+                            ],
+                            [
+                                "4",
+                                "我是一個病態的偷竊狂，對閃亮的寶藏有著無比的渴望。"
+                            ],
+                            [
+                                "5",
+                                "我很健忘。有時候，我甚至記不住最簡單的事情。"
+                            ],
+                            [
+                                "6",
+                                "我從不免費給予任何東西，總是期待有所回報。"
+                            ],
+                            [
+                                "7",
+                                "我有很多惡習，且傾向於放縱它们。"
+                            ],
+                            [
+                                "8",
+                                "我總是在改變主意-嗯，幾乎總是。"
+                            ]
+                        ]
+                    }
+                ],
+                "ENG_name": "Character Traits"
+            }
+        ],
+        "hasFluff": true,
+        "hasFluffImages": true,
+        "ENG_name": "Witchlight Hand"
     }
 ]
