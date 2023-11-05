@@ -5,8 +5,9 @@ import re
 import ctext
 import common
 import get_c_key
+import OPENAI_KEY
 
-openai.api_key = "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"
+openai.api_key = OPENAI_KEY.key
 
 
 
