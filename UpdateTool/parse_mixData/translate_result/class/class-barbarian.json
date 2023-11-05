@@ -1,0 +1,161 @@
+{
+    "subclassFeature": [
+        {
+            "name": "巨人之力",
+            "source": "BGG",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Giant",
+            "subclassSource": "BGG",
+            "level": 3,
+            "entries": [
+                "{@i 3級 巨人道途特性}",
+                "當您選擇這條路徑時，您會學習說話，閱讀和寫巨人語或者您已經知道的另一種語言。此外，你會學會你選擇的一個小戲法:不管是{@spell 德魯伊伎倆}還是{@spell 奇術}。智慧是你施放這種法術的能力。"
+            ],
+            "ENG_name": "Giant Power"
+        },
+        {
+            "name": "巨人之災",
+            "source": "BGG",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Giant",
+            "subclassSource": "BGG",
+            "level": 3,
+            "entries": [
+                "{@i 3rd-Level Path of the Giant Feature}",
+                "你的狂暴從巨人的原始力量中吸取力量，將你變成一個破壞的重型力量。在狂暴中，你獲得以下好處:",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "破碎投擲",
+                            "entry": "當你使用力量成功進行一次遠程投擲武器攻擊時，你可以將你的狂暴傷害加值加到攻擊的傷害骰上。",
+                            "ENG_name": "Crushing Throw"
+                        },
+                        {
+                            "type": "item",
+                            "name": "巨人體型",
+                            "entry": "你的範圍增加5英尺，如果你小於大型，你將變成大型，包括你穿的任何東西。如果沒有足夠的空間讓你增大你的體型，那麼你的體型就不會改變。",
+                            "ENG_name": "Giant Stature"
+                        }
+                    ]
+                }
+            ],
+            "ENG_name": "Giant's Havoc"
+        },
+        {
+            "name": "巨人道途",
+            "source": "BGG",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Giant",
+            "subclassSource": "BGG",
+            "level": 3,
+            "entries": [
+                "在巨人道途上行走的野蠻人從與巨人相同的原始力量中汲取力量。當他們憤怒時，這些野蠻人充滿元素力量並變大，採取了喚起巨人榮耀的形式。有些野蠻人看起來像他們自己的超大版本，可能眼睛和武器周圍閃現元素能量的迹象。其他人變化更為劇烈，變成了實際的巨人或類似元素生物的形態，被火焰，霜凍或閃電環繞。",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "巨人之力|Barbarian||Giant|BGG|3"
+                    
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "巨人之災|Barbarian||Giant|BGG|3"
+                    
+                }
+            ],
+            "ENG_name": "Path of the Giant"
+        },
+        {
+            "name": "元素戰刃",
+            "source": "BGG",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Giant",
+            "subclassSource": "BGG",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "{@i 6級 巨人道途}",
+                "你與巨人的元素力量的關職性增長，你學會將原始的能量注入武器中。",
+                "當你進入你的狂怒時，你可以選擇你手中的一種武器，並將其注入以下傷害類型之一：酸性，寒冷，火焰，雷霆或閃電。當你在你的狂暴中揮舞著被注入的武器時，武器的傷害類型變成所選類型，它在擊中時造成額外的{@dice 1d6}所選類型的傷害，並獲得投擲特性，正常範圍為20英尺，最長範圍為60英尺。如果你把武器扔出去，它在擊中或錯過目標後立即重新出現在你的手中。當除你之外的生物揮舞被注入的武器時，其效果將被壓制。",
+                "當狂暴並握持著注能武器時，你可以使用附贈動作將注能武器的當前傷害類型更改為上述傷害類型選項中的另一種。"
+            ],
+            "ENG_name": "Elemental Cleaver"
+        },
+        {
+            "name": "偉力推動",
+            "source": "BGG",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Giant",
+            "subclassSource": "BGG",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "{@i 10級 巨人道途}",
+                "您與巨人力量的連接讓你可以在戰場上投擲盟友與敵人。作為狂暴中的附贈動作，您可以選擇您範圍內的一個中型或更小的生物，並將其移至您可以看到並且在您自己30英尺內的未被佔據的空間。不情願的生物必須成功進行力量豁免 (DC等於8 +你的熟練度獎金+你的力量調整值), 才能避免該效果。",
+                "如果在此動作結束時，被拋出的生物不在可以支持它的表面或液體上，那麼該生物會掉落，像平常一樣受到傷害並落在{@condition 伏地}。"
+            ],
+            "ENG_name": "Mighty Impel"
+        },
+        {
+            "name": "創世巨像",
+            "source": "BGG",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Giant",
+            "subclassSource": "BGG",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "{@i 14級 巨人道途}",
+                "你的原始之怒的力量加劇。當你狂暴時，你的範圍增加了10英尺，你的體型可以增加到大型或巨型（你的選擇），並且你可以使用你的偉力推動來移動大型或更小的生物。",
+                "此外，你的元素戰刃功能造成的額外傷害增加到{@dice 2d6}。"
+            ],
+            "ENG_name": "Demiurgic Colossus"
+        }
+    ],
+    "class": [
+        {
+            "subclasses": [
+                {
+                    "name": "巨人道途",
+                    "shortName": "巨人",
+                    "source": "BGG",
+                    "className": "Barbarian",
+                    "classSource": "PHB",
+                    "page": 1,
+                    "spellcastingAbility": "wis",
+                    "additionalSpells": [
+                        {
+                            "innate": {
+                                "3": [
+                                    "druidcraft#c"
+                                ]
+                            }
+                        },
+                        {
+                            "innate": {
+                                "3": [
+                                    "thaumaturgy#c"
+                                ]
+                            }
+                        }
+                    ],
+                    "subclassFeatures": [
+                        "巨人道途|Barbarian||Giant|BGG|3",
+                        "元素戰刃|Barbarian||Giant|BGG|6",
+                        "偉力推動|Barbarian||Giant|BGG|10",
+                        "創世巨像|Barbarian||Giant|BGG|14"
+                    ],
+                    "ENG_name": "Path of the Giant",
+                    "ENG_shortName": "Giant"
+                }
+            ]
+        }
+    ]
+}
