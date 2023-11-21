@@ -564,7 +564,8 @@
 										"Wherever humans live, changelings reside also; the question is whether their presence is known.",
 										"Changelings are born to one of three paths. A few are raised in stable communities where changelings are true to their nature and deal openly with the people around them. Some are orphans, raised by other races, who find their way in the world without ever knowing another like themselves. Others are part of nomadic changeling clans spread across the Five Nations, families who keep their true nature hidden from the single-skins. Some clans maintain safe havens in major cities and communities, but most prefer to wander the unpredictable path of the god known as the Traveler.",
 										"In creating a changeling adventurer, consider the character's relationships with people around them. Does the character conceal their true changeling nature? Do they embrace it? Do they have connections to other changelings or are they alone and in search of companions?"
-									]
+									],
+									"ENG_name": "A Hidden People"
 								},
 								{
 									"type": "entries",
@@ -572,7 +573,8 @@
 									"entries": [
 										"In their true form, changelings are pale, with colorless eyes and silver-white hair. It is rare to see a changeling in that form, for a typical changeling changes their shape the way others might change clothes. A casual shape\u2014one created on the spur of the moment, with no depth or history\u2014is called a mask. A mask can be used to express a mood or to serve a specific purpose and then might never be used again. However, many changelings develop identities that have more depth. They build an identity over time, crafting a persona with a history and beliefs. This focused identity helps a changeling pinpoint a particular skill or emotion. A changeling adventurer might have personas for many situations, including negotiation, investigation, and combat.",
 										"Personas can be shared by multiple changelings; there might be three healers in a community, but whoever is on duty will adopt the persona of Tek, the kindly old medic. Personas can even be passed down through a family, allowing a younger changeling to take advantage of contacts established by the persona's previous users."
-									]
+									],
+									"ENG_name": "Masks and Personas"
 								},
 								{
 									"type": "entries",
@@ -581,7 +583,8 @@
 										"A changeling might use a different name for each mask and persona and adopt new names as easily as they change faces. The true name of a changeling tends to be simple and monosyllabic; however, there are often accents to a changeling's name that are expressed through shapeshifting, something single-skins will likely miss. So, two changelings might have the name {@i Jin}, but one is {@i Jin-with-vivid-blue-eyes} and one is {@i Jin-with-golden-nails}.",
 										"Changelings have a fluid relationship with gender, seeing it as one characteristic to change among many.",
 										"{@b Changeling Names}: Aunn, Bin, Cas, Dox, Fie, Hars, Jin, Lam, Mas, Nix, Ot, Paik, Ruz, Sim, Toox, Vil, Yug"
-									]
+									],
+									"ENG_name": "Changeling Names"
 								}
 							]
 						}
@@ -603,7 +606,8 @@
 						"path": "races/ERLW/Changeling 001.png"
 					}
 				}
-			]
+			],
+			"ENG_name": "Changeling"
 		},
 		{
 			"name": "Chromatic Dragonborn",
@@ -3896,7 +3900,8 @@
 												]
 											]
 										}
-									]
+									],
+									"ENG_name": "Bound to Spirits"
 								},
 								{
 									"type": "entries",
@@ -3904,7 +3909,8 @@
 									"entries": [
 										"The virtuous spirits tied to the kalashtar fled from the dream-realm of Dal Quor to escape evil spirits that dominate it. The rebel quori believe that through meditation and devotion, they can change the fundamental nature of Dal Quor, shifting the balance from darkness to light. Most kalashtar communities focus on acts of devotion known as the Path of Light. But the dark powers of Dal Quor have their own plans for Eberron. Through the force known as the Dreaming Dark, these monsters manipulate the folk of Khorvaire to eliminate kalashtar whenever possible.",
 										"Many kalashtar defend themselves from the Dreaming Dark by focusing on devotion to the Path of Light. Others, though, seek out the agents of the Dreaming Dark and oppose their plans, or protect the innocent however they can. Still other kalashtar grow up isolated, knowing nothing about Dal Quor or the Dreaming Dark. Such orphans might use their abilities for personal gain or otherwise act against the virtuous instincts of their quori spirits; this can cause internal conflicts and violent mood swings."
-									]
+									],
+									"ENG_name": "Hunted by Nightmares"
 								},
 								{
 									"type": "entries",
@@ -3914,7 +3920,8 @@
 										"Kalashtar orphans are unlikely to know the name of their spirit and take names from another source.",
 										"{@b Quori Names}: Ashana, Ashtai, Ishara, Hareth, Khad, Kosh, Melk, Nari, Tana, Tari, Tash, Ulad, Vakri, Vash",
 										"{@b Kalashtar Names}: Coratash, Dalavash, Dolishara, Halakosh, Khoratari, Koratana, Lanhareth, Molavakri, Nevitash, Sorashana, Torashtai, Valakhad, Vishara"
-									]
+									],
+									"ENG_name": "Kalashtar Names"
 								}
 							]
 						}
@@ -3936,7 +3943,8 @@
 						"path": "races/ERLW/Kalashtar 001.png"
 					}
 				}
-			]
+			],
+			"ENG_name": "Kalashtar"
 		},
 		{
 			"name": "天狗",
@@ -5195,7 +5203,8 @@
 										"{@b Swiftstride} are often predatory and feline, but a swiftstride could also be a cunning rat who darts through the shadows.",
 										"{@b Wildhunt} shifters are born from any creature that tracks its prey.",
 										"While the beast within certainly has a physical impact on a shifter, it has a spiritual and psychological effect, as well. Two beasthide shifters share the same special ability, but if one has the aspect of the boar and the other is more like a bear, they'll be quite different in personality. With any shifter, identifying the beast within is a crucial part of understanding the character."
-									]
+									],
+									"ENG_name": "The Beast Within"
 								},
 								{
 									"type": "entries",
@@ -5203,7 +5212,8 @@
 									"entries": [
 										"Shifters are similar to humans in height and build but are typically more lithe and flexible. Their facial features have a bestial cast, often with large eyes, flat noses, and pointed ears; most shifters also have prominent canine teeth. They grow fur-like hair on nearly every part of their bodies.",
 										"The traits of the beast within affect a shifter's appearance as well. A swiftstride shifter may have catlike eyes and delicate build, while a beasthide shifter might be a massive brute built like a bear. While a shifter's appearance might remind an onlooker of an animal, they remain clearly identifiable as shifters even when at their most feral."
-									]
+									],
+									"ENG_name": "Similar and Diverse"
 								},
 								{
 									"type": "entries",
@@ -5211,7 +5221,8 @@
 									"entries": [
 										"Shifters have a strong presence in the Eldeen Reaches but can be found in rural areas across Khorvaire, where they often live among humans. While they form powerful bonds to friends and kin, shifters place great value on self-reliance and freedom. It's a shifter proverb to \"always be prepared for the journey yet to come,\" and most shifters strive to be ready for change or opportunity.",
 										"Shifters have a natural inclination toward classes with a primal connection. A shifter barbarian draws their rage from the beast within. A shifter ranger indulges their urge to wander and hunt. A shifter rogue harnesses their own predatory instincts. But shifters can pursue any path or faith."
-									]
+									],
+									"ENG_name": "The Journey Yet to Come"
 								},
 								{
 									"type": "entries",
@@ -5219,7 +5230,8 @@
 									"entries": [
 										"Shifters have no language of their own and often live in blended communities. Their names typically overlap with the names of other cultures in their region. Many shifters prefer to keep their personal names for their friends and use \"wandering names\" with strangers. These are usually tied to a physical or personality trait.",
 										"{@b Shifter Names}: Badger, Bear, Cat, Fang, Grace, Grim, Moon, Rain, Red, Scar, Stripe, Swift, Talon, Wolf"
-									]
+									],
+									"ENG_name": "Shifter Names"
 								}
 							]
 						}
@@ -5234,7 +5246,8 @@
 						"path": "races/ERLW/Shifter 001.png"
 					}
 				}
-			]
+			],
+			"ENG_name": "Shifter"
 		},
 		{
 			"name": "Shifter (Beasthide)",
@@ -5257,8 +5270,10 @@
 							]
 						}
 					}
-				}
-			}
+				},
+				"ENG_name": "Shifter"
+			},
+			"ENG_name": "Shifter (Beasthide)"
 		},
 		{
 			"name": "Shifter (Longtooth)",
@@ -5281,8 +5296,10 @@
 							]
 						}
 					}
-				}
-			}
+				},
+				"ENG_name": "Shifter"
+			},
+			"ENG_name": "Shifter (Longtooth)"
 		},
 		{
 			"name": "Shifter (Swiftstride)",
@@ -5305,8 +5322,10 @@
 							]
 						}
 					}
-				}
-			}
+				},
+				"ENG_name": "Shifter"
+			},
+			"ENG_name": "Shifter (Swiftstride)"
 		},
 		{
 			"name": "Shifter (Wildhunt)",
@@ -5339,8 +5358,10 @@
 							}
 						}
 					}
-				}
-			}
+				},
+				"ENG_name": "Shifter"
+			},
+			"ENG_name": "Shifter (Wildhunt)"
 		},
 		{
 			"name": "析米克混合體",
@@ -6596,7 +6617,8 @@
 									"entries": [
 										"Warforged are formed from a blend of organic and inorganic materials. Root-like cords infused with alchemical fluids serve as their muscles, wrapped around a framework of steel, darkwood, or stone. Armored plates form a protective outer shell and reinforce joints. Warforged share a common facial design, with a hinged jaw and crystal eyes embedded beneath a reinforced brow ridge. Beyond these common elements of warforged design, the precise materials and build of a warforged vary based on the purpose for which it was designed.",
 										"Although they were manufactured, warforged are living humanoids. Resting, healing magic, and the {@skill 醫療} skill all provide the same benefits to warforged that they do to other humanoids."
-									]
+									],
+									"ENG_name": "Living Steel and Stone"
 								},
 								{
 									"type": "entries",
@@ -6606,7 +6628,8 @@
 										"The typical warforged shows little emotion. Many warforged embrace a concrete purpose\u2014such as protecting allies, completing a contract, or exploring a land\u2014and embrace this task as they once did war. However, there are warforged who delight in exploring their feelings, their freedom, and their relationships with others. Most warforged have no interest in religion, but some embrace faith and mysticism, seeking higher purpose and deeper meaning.",
 										"The typical warforged has a sexless body shape. Some warforged ignore the concept of gender entirely, while others adopt a gender identity.",
 										"The more a warforged develops its individuality, the more likely it is to modify its body, seeking out an artificer to customize the look of its face, limbs, and plating."
-									]
+									],
+									"ENG_name": "Warforged Personality"
 								},
 								{
 									"type": "entries",
@@ -6659,7 +6682,8 @@
 												]
 											]
 										}
-									]
+									],
+									"ENG_name": "Quirks"
 								},
 								{
 									"type": "entries",
@@ -6667,7 +6691,8 @@
 									"entries": [
 										"Most warforged were assigned numerical designations for use in military service. Many of them adopted nicknames, often given to them by their comrades. As independent individuals, some have chosen new names as a way to express their path in life. A few take on human names, often the name of a fallen friend or mentor.",
 										"{@b Warforged Names}: Anchor, Banner, Bastion, Blade, Blue, Bow, Cart, Church, Crunch, Crystal, Dagger, Dent, Five, Glaive, Hammer, Iron, Lucky, Mace, Oak, Onyx, Pants, Pierce, Red, Rod, Rusty, Scout, Seven, Shield, Slash, Smith, Spike, Temple, Vault, Wall"
-									]
+									],
+									"ENG_name": "Warforged Names"
 								}
 							]
 						}
@@ -6689,7 +6714,8 @@
 						"path": "races/ERLW/Warforged 001.png"
 					}
 				}
-			]
+			],
+			"ENG_name": "Warforged"
 		},
 		{
 			"name": "Yuan-ti Pureblood",

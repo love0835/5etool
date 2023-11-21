@@ -115,7 +115,8 @@
 						"path": "items/ERLW/Armblade.png"
 					}
 				}
-			]
+			],
+			"ENG_name": "Armblade"
 		},
 		{
 			"name": "Armor of Invulnerability",
@@ -1043,7 +1044,8 @@
 						}
 					]
 				}
-			]
+			],
+			"ENG_name": "Double-Bladed Scimitar"
 		},
 		{
 			"name": "Draakhorn",

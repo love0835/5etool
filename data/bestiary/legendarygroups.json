@@ -233,7 +233,8 @@
 					]
 				},
 				"If Belashyrra dies, these effects fade over the course of {@dice 1d10} days."
-			]
+			],
+			"ENG_name": "Belashyrra"
 		},
 		{
 			"name": "Black Dragon",
@@ -513,7 +514,8 @@
 					]
 				},
 				"If Dyrrn dies, these effects fade away after {@dice 1d10} days."
-			]
+			],
+			"ENG_name": "Dyrrn"
 		},
 		{
 			"name": "Elder Brain",

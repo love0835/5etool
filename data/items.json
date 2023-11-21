@@ -1531,7 +1531,8 @@
 						"The prosthetic is a magic melee weapon with which you're proficient. It deals {@dice 1d8} force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the prosthetic detaches and flies at the target of the attack, then immediately returns to you and reattaches."
 					]
 				}
-			]
+			],
+			"ENG_name": "Arcane Propulsion Arm"
 		},
 		{
 			"name": "堅不可摧護甲",
@@ -3226,7 +3227,8 @@
 					"entries": [
 						"The crown has 10 charges. While wearing it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 16): {@spell 魅惑人類} (1 charge), {@spell 解離術} (6 charges), {@spell 恐懼術} (3 charges), {@spell 死亡一指} (7 charges), {@spell 石化術} (6 charges), {@spell 人類定身術} (2 charges), {@spell 衰弱射線} (2 charges), {@spell 睡眠術} (1 charge), {@spell 緩速術} (3 charges), {@spell 心靈遙控} (5 charges).",
 						"The crown regains {@dice 1d6 + 3} expended charges daily at dawn."
-					]
+					],
+					"ENG_name": "Spells"
 				},
 				{
 					"type": "entries",
@@ -3234,7 +3236,8 @@
 					"entries": [
 						"The crown can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the crown ends, and it detaches from you.",
 						"The daelkyr {@creature Belashyrra|ERLW} made these crowns. While on the same plane of existence as the crown, Belashyrra can see through its eyestalks."
-					]
+					],
+					"ENG_name": "Symbiotic Nature"
 				}
 			],
 			"attachedSpells": [
@@ -3248,7 +3251,8 @@
 				"sleep",
 				"slow",
 				"telekinesis"
-			]
+			],
+			"ENG_name": "Belashyrra's Beholder Crown"
 		},
 		{
 			"name": "鈴鐺",
@@ -6435,7 +6439,8 @@
 			"entries": [
 				"A cleansing stone is a sphere 1 foot in diameter, engraved with mystic sigils. When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person.",
 				"Such stones are often embedded in pedestals in public squares in Aundair or in high-end Ghallanda inns."
-			]
+			],
+			"ENG_name": "Cleansing Stone"
 		},
 		{
 			"name": "攀爬工具組",
@@ -6928,7 +6933,8 @@
 			"wondrous": true,
 			"entries": [
 				"Glamerweave is clothing imbued with harmless illusory magic. While wearing the common version of these clothes, you can use a bonus action to create a moving illusory pattern within the cloth."
-			]
+			],
+			"ENG_name": "Common Glamerweave"
 		},
 		{
 			"name": "Common Wine (Pitcher)",
@@ -9639,14 +9645,16 @@
 					"name": "Sentience",
 					"entries": [
 						"A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see \"Random Properties\" below)."
-					]
+					],
+					"ENG_name": "Sentience"
 				},
 				{
 					"type": "entries",
 					"name": "Life Support",
 					"entries": [
 						"Whenever you end your turn with 0 hit points, the docent can make a Wisdom ({@skill 醫療}) check with a +6 bonus. If this check succeeds, the docent stabilizes you."
-					]
+					],
+					"ENG_name": "Life Support"
 				},
 				{
 					"type": "entries",
@@ -9656,20 +9664,23 @@
 						"{@b Languages}. The docent knows Common, Giant, and {@dice 1d4} additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.",
 						"{@b Skills}. The docent has a +7 bonus to one of the following skills (roll a {@dice d4}): (1) {@skill 奧秘}, (2) {@skill 歷史}, (3) {@skill 調查}, or (4) {@skill 自然}.",
 						"{@b Spells}. The docent knows one of the following spells and can cast it at will, requiring no components (roll a {@dice d6}): (1\u20132) {@spell 偵測善惡} or (3\u20136) {@spell 偵測魔法}. The docent decides when to cast the spell."
-					]
+					],
+					"ENG_name": "Random Properties"
 				},
 				{
 					"type": "entries",
 					"name": "Personality",
 					"entries": [
 						"A docent is designed to advise and assist the warforged it's attached to. One of the simple functions of a docent is to serve as a translator. The docent's properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you."
-					]
+					],
+					"ENG_name": "Personality"
 				}
 			],
 			"attachedSpells": [
 				"detect evil and good",
 				"detect magic"
-			]
+			],
+			"ENG_name": "Docent"
 		},
 		{
 			"name": "Documancy Satchel",
@@ -9888,7 +9899,8 @@
 			"rarity": "none",
 			"entries": [
 				"Introduced into Sharn by Daask, dragon's blood is a potent and highly addictive stimulant. In addition to inducing euphoria, it can enhance spellcasting ability or even temporarily imbue a user with the ability to cast sorcerer spells. The drug's effects are potentially dangerous and always unpredictable. This isn't something a player character should want to use; adventurers are more likely to interfere with Daask smugglers or deal with an addict who accidentally casts a {@spell 火球術} in a crowded street. The specific effects of dragon's blood are up to you, but you can take inspiration from the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB}."
-			]
+			],
+			"ENG_name": "Dragon's Blood"
 		},
 		{
 			"name": "龍棋套組",
@@ -10021,7 +10033,8 @@
 			"rarity": "none",
 			"entries": [
 				"A psychoactive liquid that smells and tastes like your favorite beverage, essence of dreamlily is a Sarlonan opiate. First imported to help manage pain during the Last War, it's now the most commonly abused substance in Sharn. Though dreamlily isn't illegal if used for medicinal purposes, it's heavily taxed, and thus most dreamlily is smuggled in and sold on the black market. Dreamlily dens can be found across the lower wards. Consuming dreamlily causes disorienting euphoria and brings about remarkable resistance to pain. A creature under the effects of dreamlily is {@condition 中毒} for 1 hour. While {@condition 中毒} in this way, the creature is immune to fear, and the first time it drops to 0 hit points without being killed outright, it drops to 1 hit point instead. A dose of dreamlily costs around 1 gp, or up to ten times that if purchased through legal channels. There are many varieties of the drug, however, and the duration or the price might vary accordingly."
-			]
+			],
+			"ENG_name": "Dreamlily"
 		},
 		{
 			"name": "漂浮光球",
@@ -10430,9 +10443,11 @@
 					"name": "Symbiotic Nature",
 					"entries": [
 						"The whip can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the whip ends, and it detaches from you."
-					]
+					],
+					"ENG_name": "Symbiotic Nature"
 				}
-			]
+			],
+			"ENG_name": "Dyrrn's Tentacle Whip"
 		},
 		{
 			"name": "Eagle Whistle",
@@ -10474,20 +10489,23 @@
 					"entries": [
 						"The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): {@spell 偵測思想} (2 charges) or {@spell 噪音暗語} (1 charge). Each time you use the earworm to cast the {@spell 偵測思想} spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr.",
 						"The earworm regains {@dice 1d4} expended charges daily at dawn."
-					]
+					],
+					"ENG_name": "Spells"
 				},
 				{
 					"type": "entries",
 					"name": "Symbiotic Nature",
 					"entries": [
 						"The earworm can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the earworm ends, and it exits your body."
-					]
+					],
+					"ENG_name": "Symbiotic Nature"
 				}
 			],
 			"attachedSpells": [
 				"dissonant whispers",
 				"detect thoughts"
-			]
+			],
+			"ENG_name": "Earworm"
 		},
 		{
 			"name": "火巨靈囚瓶",
@@ -11246,7 +11264,8 @@
 			"wondrous": true,
 			"entries": [
 				"This bullseye lantern contains an Eberron dragonshard that sheds light comparable to that produced by a {@spell 不滅明焰} spell. An everbright lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light."
-			]
+			],
+			"ENG_name": "Everbright Lantern"
 		},
 		{
 			"name": "無盡煙壺",
@@ -11636,7 +11655,8 @@
 			"wondrous": true,
 			"entries": [
 				"This small metal disk is inscribed with the image of a feather. When you fall at least 20 feet while the token is on your person, you descend 60 feet per round and take no damage from falling. The token's magic is expended after you land, whereupon the disk becomes nonmagical."
-			]
+			],
+			"ENG_name": "Feather Token"
 		},
 		{
 			"name": "Feathered mantle with emerald clasp (Sun Empire)",
@@ -11897,7 +11917,8 @@
 			],
 			"attachedSpells": [
 				"locate creature"
-			]
+			],
+			"ENG_name": "Finder's Goggles"
 		},
 		{
 			"name": "高級服裝",
@@ -17123,7 +17144,8 @@
 			"wondrous": true,
 			"entries": [
 				"This small stylized key plays a vital role in the work of House Kundarak. If you cast the {@spell 警報術}, {@spell 秘法鎖}, or {@spell 守衛銘文} spell, you can tie the effect to the keycharm so that whoever holds it receives the notification from the {@spell 警報術} spell, bypasses the lock of the {@spell 秘法鎖} spell, or avoids triggering the glyph placed by the {@spell 守衛銘文} spell. In addition, the holder (who needn't be attuned to the item) can take an action to end any one spell tied to it, provided the holder knows the command word you set for ending the tied spells. The keycharm can have up to three tied spells at one time."
-			]
+			],
+			"ENG_name": "Keycharm"
 		},
 		{
 			"name": "Khrusor, Spear of Heliod",
@@ -17304,21 +17326,24 @@
 					"name": "Resistant",
 					"entries": [
 						"While attuned to Kyrzin's ooze, you have resistance to poison and acid damage, and you're immune to the {@condition 中毒} condition."
-					]
+					],
+					"ENG_name": "Resistant"
 				},
 				{
 					"type": "entries",
 					"name": "Amorphous",
 					"entries": [
 						"As an action, you can speak a command word and cause your body to assume the amorphous qualities of an ooze. For the next minute, you (along with any equipment you're wearing or carrying) can move through a space as narrow as 1 inch wide without squeezing. Once you use this property, it can't be used again until the next dawn."
-					]
+					],
+					"ENG_name": "Amorphous"
 				},
 				{
 					"type": "entries",
 					"name": "Acid Breath",
 					"entries": [
 						"As an action, you can exhale acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 36 ({@dice 8d8}) acid damage on a failed save, or half as much damage on a successful one. Once you use this property, it can't be used again until the next dawn."
-					]
+					],
+					"ENG_name": "Acid Breath"
 				},
 				{
 					"type": "entries",
@@ -17326,9 +17351,11 @@
 					"entries": [
 						"The ooze can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the ooze ends, as it seeps out of you.",
 						"If you die while the ooze is inside you, it bursts out and engulfs you, turning your corpse into a {@creature black pudding} allied with the daelkyr."
-					]
+					],
+					"ENG_name": "Symbiotic Nature"
 				}
-			]
+			],
+			"ENG_name": "Kyrzin's Ooze"
 		},
 		{
 			"name": "長梯(10尺)",
@@ -17917,9 +17944,11 @@
 					"name": "Symbiotic Nature",
 					"entries": [
 						"The gloves can't be removed from you while you're attuned to them, and you can't voluntarily end your attunement to them. If you're targeted by a spell that ends a curse, your attunement to the gloves ends, and they can be removed."
-					]
+					],
+					"ENG_name": "Symbiotic Nature"
 				}
-			]
+			],
+			"ENG_name": "Living Gloves"
 		},
 		{
 			"name": "Living Loot Satchel",
@@ -26405,7 +26434,8 @@
 				"You can use this pen to write on any surface. You decide whether the writing is visible or {@condition 隱形}, but the writing is always visible to a person with the Mark of Scribing.",
 				"Any creature with the Mark of Scribing can use an action to touch the {@condition 隱形} writing, making it visible to all.",
 				"If you use the pen to write on a creature that isn't a construct, the writing fades after 7 days."
-			]
+			],
+			"ENG_name": "Scribe's Pen"
 		},
 		{
 			"name": "防護異怪卷軸",
@@ -27233,7 +27263,8 @@
 			"wondrous": true,
 			"entries": [
 				"When a suit of shiftweave is created, up to five different outfits can be embedded into the cloth. While wearing the clothing, you can speak its command word as a bonus action to transform your outfit into your choice of one of the other designs contained within it. Regardless of its appearance, the outfit can't be anything but clothing. Although it can duplicate the look of other magical clothing, it doesn't gain their magical properties."
-			]
+			],
+			"ENG_name": "Shiftweave"
 		},
 		{
 			"name": "鏟子",
@@ -28035,7 +28066,8 @@
 			],
 			"attachedSpells": [
 				"sending"
-			]
+			],
+			"ENG_name": "Speaking Stone"
 		},
 		{
 			"name": "Spear of Backbiting",
@@ -28544,7 +28576,8 @@
 				"This polished Eberron dragonshard fits in the hand and stores information similar to a book. The shard can hold the equivalent of one book that's no more than 320 pages long. A shard can be created blank or already filled with information. When the shard is created, the creator can set a passphrase that must be spoken to access the information stored within.",
 				"While holding the shard, you can use an action to open your mind to the shard, seeing its content in your mind. On subsequent rounds, reading the text or scribing new text on blank \"pages\" in the shard requires concentration (as if concentrating on a spell) and takes the same amount of time it takes you to read and write normally. Thinking of a particular phrase or topic draws you to the first section in the shard that addresses it.",
 				"A wizard can use a spellshard as a spellbook, with the usual cost in gold and time to \"scribe\" a spell into the shard."
-			]
+			],
+			"ENG_name": "Spellshard"
 		},
 		{
 			"name": "蘊法刺青（1環）",
@@ -34186,7 +34219,8 @@
 			"entries": [
 				"Glamerweave is clothing imbued with harmless illusory magic. While wearing these clothes, you can use a bonus action to create a moving illusory pattern within the cloth. Alternatively, you can have the pattern rise from the cloth. For example, a glamerweave gown might be wreathed in harmless, illusory flames, while a glamerweave hat might have illusory butterflies fluttering around it.",
 				"When you make a Charisma ({@skill 表演}) or Charisma ({@skill 說服}) check while wearing the glamerweave, you can roll a {@dice d4} and add the number rolled to the check. Once you use this property, it can't be used again until the next dawn."
-			]
+			],
+			"ENG_name": "Uncommon Glamerweave"
 		},
 		{
 			"name": "萬溶劑",
@@ -34245,7 +34279,8 @@
 			],
 			"attachedSpells": [
 				"gust of wind"
-			]
+			],
+			"ENG_name": "Ventilating Lungs"
 		},
 		{
 			"name": "Verminshroud",
@@ -35089,7 +35124,8 @@
 					]
 				},
 				"If a sheathed wand requires attunement, you must attune to the wand before you can use it. However, the wand sheath and the attached wand count as a single magic item with regard to the number of magic items you can attune to. If you remove the wand from the sheath, your attunement to the wand ends."
-			]
+			],
+			"ENG_name": "Wand Sheath"
 		},
 		{
 			"name": "Wargong",
@@ -35432,7 +35468,8 @@
 			"entries": [
 				"When mounted at the helm of an elemental galleon or airship, this wheel allows a creature that possesses the Mark of Storm to telepathically control the elemental bound inside the vessel.",
 				"If a wheel of wind and water is mounted on a mundane sailing ship, a creature with the Mark of Storm who is using the wheel can create an area of ideal conditions around the vessel, increasing its speed by 5 miles per hour."
-			]
+			],
+			"ENG_name": "Wheel of Wind and Water"
 		},
 		{
 			"name": "征服",

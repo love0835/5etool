@@ -1,7 +1,7 @@
 {
 	"feat": [
 		{
-			"name": "Aberrant Dragonmark",
+			"name": "異常龍印",
 			"source": "ERLW",
 			"page": 52,
 			"otherSources": [
@@ -42,21 +42,21 @@
 				}
 			],
 			"entries": [
-				"You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits:",
+				"你顯現了一個異常龍印。確定它的外觀以及與之相關的缺陷。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"You learn a {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. In addition, choose a {@filter 1st-level spell from the sorcerer spell list|spells|level=1|class=Sorcerer}. You learn that spell and can cast it through your mark. Once you cast it, you must finish a short or long rest before you can cast it again through the mark. Constitution is your spellcasting ability for these spells.",
-						"When you cast the 1st-level spell through your mark, you can expend one of your Hit Dice and roll it. If you roll an even number, you gain a number of temporary hit points equal to the number rolled. If you roll an odd number, one random creature within 30 feet of you (not including you) takes force damage equal to the number rolled. If no other creatures are in range, you take the damage."
+						"你從術士咒語列表中選擇一個你喜歡的戲法。此外，從術士咒語列表中選擇一個第1級咒語。你學會那個咒語，能夠透過你的印記施放它。一旦你施放它，你必須完成一個短休息或長休息才能再次通過印記施放它。體質是你施放這些咒語的能力基礎。",
+						"當你透過你的印記施放第一階法術時，你可以耗費一個你的生命骰並且擲出它。如果你擲出的是偶數，你獲得等於骰子數值的臨時生命點數。如果你擲出的是奇數，則距離你30英尺內的一個隨機生物（不包括你自己）將受到等於骰子數值的力量傷害。如果範圍內沒有其他生物，那麼這個傷害將由你自己承受。"
 					]
 				},
-				"You also develop a random flaw from the Aberrant Dragonmark Flaws table.",
+				"你同時也從\"異常龍印\"瑕疵表中隨機發展出一個瑕疵。",
 				{
 					"type": "table",
-					"caption": "Aberrant Dragonmark Flaws",
+					"caption": "異常龍印 缺陷",
 					"colLabels": [
 						"d8",
-						"Flaw"
+						"缺陷"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -65,35 +65,35 @@
 					"rows": [
 						[
 							"1",
-							"Your mark is a source of constant physical pain."
+							"你的印記是持續性肉體痛苦的來源。"
 						],
 						[
 							"2",
-							"Your mark whispers to you. Its meaning can be unclear."
+							"你的印記低聲地對你說話。它的意義可能不明確。"
 						],
 						[
 							"3",
-							"When you're stressed, the mark hisses audibly."
+							"當你感到壓力時，標記會發出可聽見的嘶嘶聲。"
 						],
 						[
 							"4",
-							"The skin around the mark is burned, scaly, or withered."
+							"標記周圍的皮膚燒傷了，呈現鱗片狀，或者枯萎。"
 						],
 						[
 							"5",
-							"Animals are uneasy around you."
+							"動物在你附近感到不安。"
 						],
 						[
 							"6",
-							"You have a mood swing any time you use your mark."
+							"你每次使用你的標記時都會情緒波動。"
 						],
 						[
 							"7",
-							"Your looks change slightly whenever you use the mark."
+							"你每次使用印記時，外貌都會略有改變。"
 						],
 						[
 							"8",
-							"You have horrific nightmares after you use your mark."
+							"使用你的印記後，你會有恐怖的夢魘。"
 						]
 					]
 				},
@@ -105,17 +105,19 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Option: Greater Aberrant Powers",
+									"name": "選項：強大的異常力量",
 									"entries": [
-										"At the DM's option, a character who has the Aberrant Dragonmark feat has a chance of manifesting greater power. Upon reaching 10th level, such a character has a 10 percent chance of gaining an {@filter epic boon|rewards|type=boon} from among the options in chapter 7 of the {@book Dungeon Master's Guide|DMG}. If the character fails to gain a boon, they have a 10 percent chance the next time they gain a level.",
-										"If the character gains a boon, the DM chooses it or determines it randomly. The character also permanently loses one of their Hit Dice, and their hit point maximum is reduced by an amount equal to a roll of that die plus their Constitution modifier (minimum reduction of 1). This reduction can't be reversed by any means."
-									]
+										"在DM的選擇下，擁有異常龍印特技的角色有機會展現出更強大的力量。當這樣的角色達到第10級時，他們有10%的機會從《Dungeon Master's Guide|DMG》第7章的選項中獲得一個{@filter epic boon|rewards|type=boon}。如果角色未能獲得恩賜，下次升級時他們將有10%的機會再次獲得。",
+										"如果角色獲得一項恩惠，DM 可以選擇它或隨機決定。角色也會永久性地失去一個他們的生命骰，並且他們的生命值上限會減少一個等同於擲那顆骰子的結果加上他們的體質修正值（最小減少為 1）的數字。這種減少無法藉由任何方法逆轉。"
+									],
+									"ENG_name": "Option: Greater Aberrant Powers"
 								}
 							]
 						}
 					]
 				}
-			]
+			],
+			"ENG_name": "Aberrant Dragonmark"
 		},
 		{
 			"name": "Acrobat",
@@ -4142,7 +4144,7 @@
 			"ENG_name": "Resilient"
 		},
 		{
-			"name": "Revenant Blade",
+			"name": "亡靈之刃",
 			"source": "ERLW",
 			"page": 22,
 			"otherSources": [
@@ -4155,7 +4157,8 @@
 				{
 					"race": [
 						{
-							"name": "elf"
+							"name": "elf",
+							"ENG_name": "elf"
 						}
 					]
 				}
@@ -4172,15 +4175,16 @@
 				}
 			],
 			"entries": [
-				"You are descended from a master of the {@item double-bladed scimitar|ERLW}, and some of that mastery has passed on to you. You gain the following benefits:",
+				"你是一名{@item double-bladed scimitar|ERLW}大師的後裔，部分精通技藝也遺傳給了你。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.",
-						"A double-bladed scimitar has the finesse property when you wield it."
+						"當你雙手持握雙刃彎刀時，你的護甲等級獲得+1加值。",
+						"當你揮舞雙刃彎刀時，它具有靈巧特性。"
 					]
 				}
-			]
+			],
+			"ENG_name": "Revenant Blade"
 		},
 		{
 			"name": "儀式施法者",
@@ -7649,168 +7653,6 @@
 				}
 			],
 			"ENG_name": "Squire of Solamnia"
-		},
-		{
-			"name": "Aberrant Dragonmark",
-			"source": "ERLW",
-			"page": 52,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 112
-				}
-			],
-			"prerequisite": [
-				{
-					"other": "No other dragonmark"
-				}
-			],
-			"ability": [
-				{
-					"con": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"ability": "con",
-					"innate": {
-						"_": {
-							"_": [
-								{
-									"choose": "level=0|class=Sorcerer"
-								}
-							],
-							"rest": {
-								"1": [
-									{
-										"choose": "level=1|class=Sorcerer"
-									}
-								]
-							}
-						}
-					}
-				}
-			],
-			"entries": [
-				"You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You learn a {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. In addition, choose a {@filter 1st-level spell from the sorcerer spell list|spells|level=1|class=Sorcerer}. You learn that spell and can cast it through your mark. Once you cast it, you must finish a short or long rest before you can cast it again through the mark. Constitution is your spellcasting ability for these spells.",
-						"When you cast the 1st-level spell through your mark, you can expend one of your Hit Dice and roll it. If you roll an even number, you gain a number of temporary hit points equal to the number rolled. If you roll an odd number, one random creature within 30 feet of you (not including you) takes force damage equal to the number rolled. If no other creatures are in range, you take the damage."
-					]
-				},
-				"You also develop a random flaw from the Aberrant Dragonmark Flaws table.",
-				{
-					"type": "table",
-					"caption": "Aberrant Dragonmark Flaws",
-					"colLabels": [
-						"d8",
-						"Flaw"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1",
-							"Your mark is a source of constant physical pain."
-						],
-						[
-							"2",
-							"Your mark whispers to you. Its meaning can be unclear."
-						],
-						[
-							"3",
-							"When you're stressed, the mark hisses audibly."
-						],
-						[
-							"4",
-							"The skin around the mark is burned, scaly, or withered."
-						],
-						[
-							"5",
-							"Animals are uneasy around you."
-						],
-						[
-							"6",
-							"You have a mood swing any time you use your mark."
-						],
-						[
-							"7",
-							"Your looks change slightly whenever you use the mark."
-						],
-						[
-							"8",
-							"You have horrific nightmares after you use your mark."
-						]
-					]
-				},
-				{
-					"type": "section",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Option: Greater Aberrant Powers",
-									"entries": [
-										"At the DM's option, a character who has the Aberrant Dragonmark feat has a chance of manifesting greater power. Upon reaching 10th level, such a character has a 10 percent chance of gaining an {@filter epic boon|rewards|type=boon} from among the options in chapter 7 of the {@book Dungeon Master's Guide|DMG}. If the character fails to gain a boon, they have a 10 percent chance the next time they gain a level.",
-										"If the character gains a boon, the DM chooses it or determines it randomly. The character also permanently loses one of their Hit Dice, and their hit point maximum is reduced by an amount equal to a roll of that die plus their Constitution modifier (minimum reduction of 1). This reduction can't be reversed by any means."
-									],
-									"ENG_name": "Option: Greater Aberrant Powers"
-								}
-							]
-						}
-					]
-				}
-			],
-			"ENG_name": "Aberrant Dragonmark"
-		},
-		{
-			"name": "Revenant Blade",
-			"source": "ERLW",
-			"page": 22,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 74
-				}
-			],
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "elf",
-							"ENG_name": "elf"
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex"
-						],
-						"amount": 1
-					}
-				}
-			],
-			"entries": [
-				"You are descended from a master of the {@item double-bladed scimitar|ERLW}, and some of that mastery has passed on to you. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.",
-						"A double-bladed scimitar has the finesse property when you wield it."
-					]
-				}
-			],
-			"ENG_name": "Revenant Blade"
 		}
 	]
 }
