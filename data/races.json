@@ -785,7 +785,7 @@
 					"ENG_name": "Age",
 					"type": "entries",
 					"entries": [
-						"Bugbears reach adulthood at age 16 and live up to 80 years."
+						"熊地精在16歲達到成年，壽命最長可達80年。"
 					]
 				},
 				{
@@ -793,7 +793,7 @@
 					"ENG_name": "Alignment",
 					"type": "entries",
 					"entries": [
-						"Bugbears live on the fringes of society even in Darguun, where they value self-sufficiency and violence. They are generally chaotic, organizing in loose tribes under charismatic and powerful leaders."
+						"熊地精即使在達爾古恩社會邊緣生活，也重視自給自足和暴力。他們通常是混亂的，組織成由有魅力和強大領袖領導的鬆散部落。"
 					]
 				},
 				{
@@ -801,50 +801,56 @@
 					"name": "體型",
 					"ENG_name": "Size",
 					"entries": [
-						"Your size is Medium."
+						"你的體型是中等。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"你可以在60英尺範圍內的微光中，如同在明亮光線下一般清晰地看見物體，並且在黑暗中的視覺能力就如同在微光中一樣。然而在黑暗中，你無法辨別顏色，只能看見灰色陰影。"
 					],
-					"type": "entries"
+					"type": "entries",
+					"ENG_name": "Darkvision"
 				},
 				{
-					"name": "Long-Limbed",
+					"name": "長肢",
 					"entries": [
-						"When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+						"當你在你的回合進行近戰攻擊時，你的攻擊範圍比正常情況下多5英尺。"
 					],
-					"type": "entries"
+					"type": "entries",
+					"ENG_name": "Long-Limbed"
 				},
 				{
-					"name": "Powerful Build",
+					"name": "強大的建構",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+						"在確定你的負重能力和你能推、拖、舉起的重量時，你被視為比你實際體型大一號。"
 					],
-					"type": "entries"
+					"type": "entries",
+					"ENG_name": "Powerful Build"
 				},
 				{
-					"name": "Sneaky",
+					"name": "狡猾",
 					"entries": [
-						"You are proficient in the {@skill 隱匿} skill."
+						"你精通隱匿技能。"
 					],
-					"type": "entries"
+					"type": "entries",
+					"ENG_name": "Sneaky"
 				},
 				{
-					"name": "Surprise Attack",
+					"name": "突襲攻擊",
 					"entries": [
-						"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra {@dice 2d6} damage to it. You can use this trait only once per combat."
+						"如果你在戰鬥的第一輪讓一個生物感到驚訝並且攻擊命中，該攻擊對它造成額外的2d6傷害。你每場戰鬥只能使用此特性一次。"
 					],
-					"type": "entries"
+					"type": "entries",
+					"ENG_name": "Surprise Attack"
 				},
 				{
 					"name": "語言",
 					"entries": [
-						"You can speak, read, and write Common and Goblin."
+						"你可以說、讀和寫流利語和哥布林語。"
 					],
-					"type": "entries"
+					"type": "entries",
+					"ENG_name": "語言"
 				}
 			]
 		},
@@ -1299,112 +1305,6 @@
 					"ENG_name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and Sylvan."
-					],
-					"type": "entries"
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Changeling",
-			"source": "ERLW",
-			"page": 17,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 60
-				}
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"cha": 2,
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis"
-						],
-						"count": 1
-					}
-				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 61,
-				"heightMod": "2d4",
-				"baseWeight": 115,
-				"weightMod": "2d4"
-			},
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"deception",
-							"insight",
-							"intimidation",
-							"persuasion"
-						],
-						"count": 2
-					}
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 2
-				}
-			],
-			"entries": [
-				{
-					"name": "年齡",
-					"ENG_name": "Age",
-					"entries": [
-						"Changelings mature slightly faster than humans but share a similar lifespan\u2014typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans."
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "陣營",
-					"ENG_name": "Alignment",
-					"entries": [
-						"Changelings tend toward pragmatic neutrality, and few changelings embrace evil."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "體型",
-					"ENG_name": "Size",
-					"entries": [
-						"Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Shapechanger",
-					"entries": [
-						"As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.",
-						"You stay in the new form until you use an action to revert to your true form or until you die."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Changeling Instincts",
-					"entries": [
-						"You gain proficiency with two of the following skills of your choice: {@skill 欺瞞}, {@skill 洞悉}, {@skill 威嚇}, and {@skill 說服}."
-					]
-				},
-				{
-					"name": "語言",
-					"ENG_name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and two other languages of your choice."
 					],
 					"type": "entries"
 				}
@@ -6485,7 +6385,7 @@
 								"ENG_name": "Alignment",
 								"type": "entries",
 								"entries": [
-									"In Eberron, goblins are usually neutral. They tend to look out for themselves, preferably without drawing unwanted attention from any larger, more powerful people."
+									"在艾伯倫，地精通常是中立的。他們傾向於照顧自己，最好不要引起任何更大、更強大的人的不必要注意。"
 								]
 							}
 						},
@@ -6497,12 +6397,13 @@
 								"ENG_name": "Size",
 								"type": "entries",
 								"entries": [
-									"Your size is Small."
+									"你的體型是小型。"
 								]
 							}
 						}
 					]
-				}
+				},
+				"ENG_name": "Goblin"
 			},
 			"size": [
 				"S"
@@ -8333,7 +8234,7 @@
 					"ENG_name": "Age",
 					"type": "entries",
 					"entries": [
-						"半獸人的成熟速度比人類略快一些，並在14歲左右便成年。他們的衰老速度明顯更快，且很少能活超過75歲。"
+						"半獸人的成熟速度比人類略快一些，在大約14歲便成年。他們衰老的速度顯著地更快，而且很少能活超過75歲。"
 					]
 				},
 				{
@@ -8341,7 +8242,7 @@
 					"ENG_name": "Alignment",
 					"type": "entries",
 					"entries": [
-						"獸人從其獸人先祖繼承了混亂以及非善良的陣營傾向。通常在獸人族群中成長，並自願生活在其中的半獸人都傾向於邪惡。"
+						"半獸人從其獸人祖先那裡繼承了混亂以及非善良的陣營傾向。通常在獸人族群中成長，並自願生活在其中的半獸人都傾向於邪惡。"
 					]
 				},
 				{
@@ -8349,7 +8250,7 @@
 					"name": "體型",
 					"ENG_name": "Size",
 					"entries": [
-						"半獸人比人類更魁梧更強壯。他們身高5尺到6尺以上。屬於中型體型。"
+						"半獸人比人類更魁梧更強壯。他們身高五呎到六呎以上，屬於中型體型。"
 					]
 				},
 				{
@@ -8357,7 +8258,7 @@
 					"name": "黑暗視覺",
 					"ENG_name": "Darkvision",
 					"entries": [
-						"你在黑暗和微光光照中有著超出常人的視力。在微光光照下，你身邊60尺內可以視為等同於明亮光照。而在黑暗中，該範圍內可視為等同於微光光照。你無法在黑暗中分辨顏色，只能看到有灰度的黑白畫面。"
+						"你在黑暗和微光照明中擁有超乎常人的視力。在微光照明下，你周圍60尺範圍的環境可被視作等同於完全明亮的光照環境。而在完全黑暗中，該範圍可視作等同於微光照明。你無法在黑暗中辨識顏色，只能看見灰階的黑白影像。"
 					]
 				},
 				{
@@ -8365,7 +8266,7 @@
 					"name": "獵人直覺",
 					"ENG_name": "Hunter's Intuition",
 					"entries": [
-						"龍紋讓你的感官變得敏銳，並能幫助你找到獵物。當你進行感知（{@skill 察覺}）或感知（{@skill 生存}）檢定時，你能擲一個{@dice d4}，並把結果加到屬性檢定的結果上。"
+						"龍紋讓你的感官變得敏銳，並能幫助你找到獵物。當你進行感知（察覺）或感知（生存）檢定時，你能擲一個d4，並把結果加到屬性檢定的結果上。"
 					]
 				},
 				{
@@ -8373,7 +8274,7 @@
 					"name": "尋者魔法",
 					"ENG_name": "Finder's Magic",
 					"entries": [
-						"你能通過此特性施展{@spell 獵人印記}法術。從第3級起，你還能施展{@spell 物品定位術}。一旦你使用此特性施展了前述法術，你將無法再次使用此特性，直到完成一次長休。感知是你在施展這些法術時的關鍵屬性。"
+						"你可以透過此特性施展{@spell 獵人印記}法術。從第三級起，你還能施展{@spell 物品定位術}。一旦你利用此特性施展了上述法術，你將無法再次利用此特性，直至完成一次長休止。感知是你施展這些法術時的關鍵屬性。"
 					]
 				},
 				{
@@ -8381,7 +8282,7 @@
 					"name": "語言",
 					"ENG_name": "Languages",
 					"entries": [
-						"你能夠說、讀、寫通用語和地精語。"
+						"你可以說、讀、寫Common和Goblin。"
 					]
 				},
 				{
@@ -8394,8 +8295,8 @@
 							"type": "table",
 							"caption": "探索龍紋法術",
 							"colLabels": [
-								"法術環位",
-								"法術"
+								"魔法環階",
+								"魔法"
 							],
 							"colStyles": [
 								"col-2 text-center",
@@ -8403,23 +8304,23 @@
 							],
 							"rows": [
 								[
-									"1st",
+									"首先",
 									"{@spell 妖火術}, {@spell 大步奔行}"
 								],
 								[
-									"2nd",
+									"第二",
 									"{@spell 動植物定位術}, {@spell 物品定位術}"
 								],
 								[
-									"3rd",
+									"第三",
 									"{@spell 銳眼術}, {@spell 植物交談術}"
 								],
 								[
-									"4th",
+									"第四",
 									"{@spell 預言術}, {@spell 生物定位術}"
 								],
 								[
-									"5th",
+									"第五",
 									"{@spell 問道自然}"
 								]
 							]
@@ -9133,7 +9034,7 @@
 								"name": "陣營",
 								"ENG_name": "Alignment",
 								"entries": [
-									"Hobgoblin society in Eberron is shaped by the ideal of a strict code of honor and rigid martial discipline. Most hobgoblins are lawful, tending toward harsh enforcement of their laws."
+									"在艾伯倫，大地精社會是由嚴格的榮譽守則和嚴格的軍事紀律塑造的。大多數大地精是守法的，傾向於嚴格執行他們的法律。"
 								],
 								"type": "entries"
 							}
@@ -9145,13 +9046,14 @@
 								"name": "體型",
 								"ENG_name": "Size",
 								"entries": [
-									"Your size is Medium."
+									"你的體型是中等。"
 								],
 								"type": "entries"
 							}
 						}
 					]
-				}
+				},
+				"ENG_name": "Hobgoblin"
 			}
 		},
 		{
@@ -10639,108 +10541,6 @@
 				}
 			],
 			"hasFluff": true
-		},
-		{
-			"name": "Kalashtar",
-			"source": "ERLW",
-			"page": 29,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 62
-				}
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"wis": 2,
-					"cha": 1
-				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 64,
-				"heightMod": "2d6",
-				"baseWeight": 110,
-				"weightMod": "1d6"
-			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"other": true,
-					"anyStandard": 1
-				}
-			],
-			"resist": [
-				"psychic"
-			],
-			"entries": [
-				{
-					"name": "年齡",
-					"ENG_name": "Age",
-					"entries": [
-						"Kalashtar mature and age at the same rate as humans."
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "陣營",
-					"ENG_name": "Alignment",
-					"entries": [
-						"The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all beings, but some kalashtar resist the virtuous influence of their spirit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "體型",
-					"ENG_name": "Size",
-					"entries": [
-						"Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dual Mind",
-					"entries": [
-						"You have advantage on all Wisdom saving throws."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mental Discipline",
-					"entries": [
-						"You have resistance to psychic damage."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mind Link",
-					"entries": [
-						"You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.",
-						"When you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Severed from Dreams",
-					"entries": [
-						"Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like {@spell 託夢術}, but not to spells and other magical effects that put you to sleep, like {@spell 睡眠術}."
-					]
-				},
-				{
-					"name": "語言",
-					"ENG_name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common, Quori, and one other language of your choice."
-					],
-					"type": "entries"
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
 		},
 		{
 			"name": "Kalashtar",
@@ -13291,7 +13091,7 @@
 					"ENG_name": "Age",
 					"type": "entries",
 					"entries": [
-						"Orcs reach adulthood at age 12 and live up to 50 years."
+						"獸人在12歲達到成年，壽命最長可達50年。"
 					]
 				},
 				{
@@ -13299,7 +13099,7 @@
 					"name": "陣營",
 					"ENG_name": "Alignment",
 					"entries": [
-						"The orcs of Eberron are a passionate people, given to powerful emotion and deep faith. They are generally chaotic, but can be any alignment."
+						"伊貝龍的獸人是一個充滿激情的民族，具有強烈的情感和深厚的信仰。他們通常是混亂的，但可以是任何陣營。"
 					]
 				},
 				{
@@ -13307,34 +13107,38 @@
 					"name": "體型",
 					"ENG_name": "Size",
 					"entries": [
-						"Your size is Medium."
+						"你的體型是中等。"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "黑暗視覺",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"你可以在60英尺內的微光中看見事物，就如同在明亮光線中一樣，而在完全黑暗中則如同在微光中一樣。你在黑暗中無法辨識顏色，只能看到灰色的陰影。"
 					],
-					"type": "entries"
+					"type": "entries",
+					"ENG_name": "Darkvision"
 				},
 				{
-					"name": "Aggressive",
+					"name": "侵略性",
+					"ENG_name": "Aggressive",
 					"entries": [
-						"As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started."
+						"作為一個附贈動作，你可以朝著你能看見或聽見的敵對生物移動，最多可移動你的行動速度。你必須在移動結束時比開始時更靠近敵人。"
 					],
 					"type": "entries"
 				},
 				{
 					"type": "entries",
-					"name": "Primal Intuition",
+					"name": "原初直覺",
+					"ENG_name": "Primal Intuition",
 					"entries": [
-						"You have proficiency in two of the following skills of your choice: {@skill 馴獸}, {@skill 洞悉}, {@skill 威嚇}, {@skill 醫療}, {@skill 自然}, {@skill 察覺}, and {@skill 生存}."
+						"你在以下七項技能中擁有熟練：馴獸、洞悉、威嚇、醫療、自然、察覺和生存。"
 					]
 				},
 				{
-					"name": "Powerful Build",
+					"name": "強大的建構",
+					"ENG_name": "Powerful Build",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+						"當確定你的負重能力以及你可以推、拉、舉起的重量時，你被視為比你實際體型大一號。"
 					],
 					"type": "entries"
 				},
@@ -13342,7 +13146,7 @@
 					"name": "語言",
 					"ENG_name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Orc."
+						"你可以說、讀和寫普通話和獸人語。"
 					],
 					"type": "entries"
 				}
@@ -14036,231 +13840,6 @@
 						"You can speak, read, and write Common and Sylvan."
 					],
 					"type": "entries"
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Shifter",
-			"source": "ERLW",
-			"page": 33,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 64
-				}
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"heightAndWeight": {
-				"baseHeight": 54,
-				"heightMod": "2d8",
-				"baseWeight": 90,
-				"weightMod": "2d4"
-			},
-			"darkvision": 60,
-			"languageProficiencies": [
-				{
-					"common": true
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "年齡",
-					"ENG_name": "Age",
-					"entries": [
-						"Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "陣營",
-					"ENG_name": "Alignment",
-					"entries": [
-						"Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "體型",
-					"ENG_name": "Size",
-					"entries": [
-						"Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Speed",
-					"entries": [
-						"Your base walking speed is 30 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Shifting",
-					"entries": [
-						"As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.",
-						"Once you shift, you can't do so again until you finish a short or long rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "語言",
-					"ENG_name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common."
-					]
-				}
-			],
-			"subraces": [
-				{
-					"name": "Beasthide",
-					"page": 34,
-					"ability": [
-						{
-							"con": 2,
-							"str": 1
-						}
-					],
-					"traitTags": [
-						"Natural Armor"
-					],
-					"skillProficiencies": [
-						{
-							"athletics": true
-						}
-					],
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Natural Athlete",
-							"entries": [
-								"You have proficiency in the {@skill 運動} skill."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Shifting Feature",
-							"entries": [
-								"Whenever you shift, you gain {@dice 1d6} additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class."
-							]
-						}
-					],
-					"hasFluff": true,
-					"hasFluffImages": true
-				},
-				{
-					"name": "Longtooth",
-					"page": 34,
-					"ability": [
-						{
-							"str": 2,
-							"dex": 1
-						}
-					],
-					"traitTags": [
-						"Unarmed Strike"
-					],
-					"skillProficiencies": [
-						{
-							"intimidation": true
-						}
-					],
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Fierce",
-							"entries": [
-								"You have proficiency in the {@skill 威嚇} skill."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-							]
-						}
-					],
-					"hasFluff": true,
-					"hasFluffImages": true
-				},
-				{
-					"name": "Swiftstride",
-					"page": 34,
-					"ability": [
-						{
-							"dex": 2,
-							"cha": 1
-						}
-					],
-					"skillProficiencies": [
-						{
-							"acrobatics": true
-						}
-					],
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Graceful",
-							"entries": [
-								"You have proficiency in the {@skill 體操} skill."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks."
-							]
-						}
-					],
-					"hasFluff": true,
-					"hasFluffImages": true
-				},
-				{
-					"name": "Wildhunt",
-					"page": 34,
-					"ability": [
-						{
-							"wis": 2,
-							"dex": 1
-						}
-					],
-					"skillProficiencies": [
-						{
-							"survival": true
-						}
-					],
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Natural Tracker",
-							"entries": [
-								"You have proficiency in the {@skill 生存} skill."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you, unless you're {@condition 無力}."
-							]
-						}
-					],
-					"hasFluff": true,
-					"hasFluffImages": true
 				}
 			],
 			"hasFluff": true,
@@ -17438,169 +17017,6 @@
 		},
 		{
 			"name": "Warforged",
-			"source": "ERLW",
-			"page": 35,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 67
-				}
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"con": 2,
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 1
-					}
-				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 70,
-				"heightMod": "2d6",
-				"baseWeight": 270,
-				"weightMod": "4"
-			},
-			"traitTags": [
-				"Improved Resting",
-				"Natural Armor"
-			],
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"athletics",
-							"acrobatics",
-							"sleight of hand",
-							"stealth",
-							"arcana",
-							"history",
-							"investigation",
-							"nature",
-							"religion",
-							"animal handling",
-							"insight",
-							"medicine",
-							"perception",
-							"survival",
-							"deception",
-							"intimidation",
-							"performance",
-							"persuasion",
-							{
-								"tool": true
-							}
-						],
-						"count": 2
-					}
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 1
-				}
-			],
-			"resist": [
-				"poison"
-			],
-			"conditionImmune": [
-				"disease"
-			],
-			"entries": [
-				{
-					"name": "年齡",
-					"ENG_name": "Age",
-					"entries": [
-						"A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects."
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "陣營",
-					"ENG_name": "Alignment",
-					"entries": [
-						"Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "體型",
-					"ENG_name": "Size",
-					"entries": [
-						"Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Constructed Resilience",
-					"entries": [
-						"You were created to have remarkable fortitude, represented by the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"You have advantage on saving throws against being {@condition 中毒}, and you have resistance to poison damage.",
-								"You don't need to eat, drink, or breathe.",
-								"You are immune to disease.",
-								"You don't need to sleep, and magic can't put you to sleep."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sentry's Rest",
-					"entries": [
-						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition 昏迷}, and you can see and hear as normal."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Integrated Protection",
-					"entries": [
-						"Your body has built-in defensive layers, which can be enhanced with armor:",
-						{
-							"type": "list",
-							"items": [
-								"You gain a +1 bonus to Armor Class.",
-								"You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.",
-								"While you live, the armor incorporated into your body can't be removed against your will."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Specialized Design",
-					"entries": [
-						"You gain one skill proficiency and one tool proficiency of your choice."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "語言",
-					"ENG_name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one other language of your choice."
-					]
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Warforged",
 			"source": "UAEberron",
 			"page": 3,
 			"size": [
@@ -20681,6 +20097,524 @@
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"ENG_name": "Harengon"
+		},
+		{
+			"name": "變形怪",
+			"source": "ERLW",
+			"page": 17,
+			"otherSources": [
+				{
+					"source": "UAWGE",
+					"page": 60
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 61,
+				"heightMod": "2d4",
+				"baseWeight": 115,
+				"weightMod": "2d4"
+			},
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"insight",
+							"intimidation",
+							"persuasion"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "年齡",
+					"ENG_name": "Age",
+					"entries": [
+						"變形者比人類稍微快速成熟，但壽命相似\u2014\u2014通常不超過一個世紀。儘管變形者可以變換外表來隱藏他們的年紀，但老化的影響對他們來說與人類相似。"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "陣營",
+					"ENG_name": "Alignment",
+					"entries": [
+						"變形者傾向於實用的中立，很少有變形者擁抱邪惡。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "體型",
+					"ENG_name": "Size",
+					"entries": [
+						"你的體型是中等。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "變形者",
+					"entries": [
+						"作為一項動作，你可以改變你的外觀和聲音。你可以決定要變化的細節，包括你的膚色、頭髮長度和性別。你也可以調整你的身高和體重，但這不會改變你的體型。你可以使自己看起來像是另一個種族的成員，儘管你的遊戲統計數據不會因此而改變。你無法複製你從未見過的生物的外觀，且你必須選擇一個基本四肢配置與你相同的形態。由於這項特性，你的衣物和裝備不會有所變化。",
+						"你保持新形態直到你使用一個動作恢復到你的真實形態，或直到你死亡。"
+					],
+					"ENG_name": "Shapechanger"
+				},
+				{
+					"type": "entries",
+					"name": "變形怪本能",
+					"entries": [
+						"你獲得以下兩項技能的熟練：欺瞞、洞悉、威嚇和說服中的任意選擇。"
+					],
+					"ENG_name": "Changeling Instincts"
+				},
+				{
+					"name": "語言",
+					"ENG_name": "Languages",
+					"entries": [
+						"你可以說、讀和寫普通話和其他兩種你選擇的語言。"
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Changeling"
+		},
+		{
+			"name": "化獸者",
+			"source": "ERLW",
+			"page": 33,
+			"otherSources": [
+				{
+					"source": "UAWGE",
+					"page": 64
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d8",
+				"baseWeight": 90,
+				"weightMod": "2d4"
+			},
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "年齡",
+					"ENG_name": "Age",
+					"entries": [
+						"化獸者們在身心上都能快速成熟，10歲時就已達到青年成年期。他們很少活到70歲以上。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "陣營",
+					"ENG_name": "Alignment",
+					"entries": [
+						"化獸者傾向於中立，他們更注重生存，而非善與惡的概念。對個人自由的熱愛會驅使化獸者們傾向於混亂的陣營。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "體型",
+					"ENG_name": "Size",
+					"entries": [
+						"你的體型是中號。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "速度",
+					"entries": [
+						"你的基本步行速度是30英尺。"
+					],
+					"ENG_name": "Speed"
+				},
+				{
+					"type": "entries",
+					"name": "黑暗視覺",
+					"entries": [
+						"你在黑暗和昏暗的環境中擁有優越的視力。在離你60英尺內的微光中，你能如同在明亮光線下一樣清晰地看見，而在黑暗中則能如同在微光下看見一樣。你在黑暗中無法分辨顏色，只能看到灰階的陰影。"
+					],
+					"ENG_name": "Darkvision"
+				},
+				{
+					"type": "entries",
+					"name": "轉移",
+					"entries": [
+						"作為一個附贈動作，你可以變得更具獸性的外表。這種轉變持續1分鐘，直到你死亡，或直到你作為一個附贈動作恢復你正常的外貌。當你變形時，你獲得臨時生命值，等於你的等級加上你的體質修正值（最少有1點臨時生命值）。你還會獲得額外的好處，這取決於你的化獸者亞種，具體內容如下所述。",
+						"一旦你轉換，你在完成短休息或長休息之前不能再次進行轉換。"
+					],
+					"ENG_name": "Shifting"
+				},
+				{
+					"type": "entries",
+					"name": "語言",
+					"ENG_name": "Languages",
+					"entries": [
+						"你可以講、讀和寫Common。"
+					]
+				}
+			],
+			"subraces": [
+				{
+					"name": "Beasthide",
+					"page": 34,
+					"ability": [
+						{
+							"con": 2,
+							"str": 1
+						}
+					],
+					"traitTags": [
+						"Natural Armor"
+					],
+					"skillProficiencies": [
+						{
+							"athletics": true
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Natural Athlete",
+							"entries": [
+								"You have proficiency in the {@skill 運動} skill."
+							],
+							"ENG_name": "Natural Athlete"
+						},
+						{
+							"type": "entries",
+							"name": "Shifting Feature",
+							"entries": [
+								"Whenever you shift, you gain {@dice 1d6} additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class."
+							],
+							"ENG_name": "Shifting Feature"
+						}
+					],
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"ENG_name": "Beasthide"
+				},
+				{
+					"name": "Longtooth",
+					"page": 34,
+					"ability": [
+						{
+							"str": 2,
+							"dex": 1
+						}
+					],
+					"traitTags": [
+						"Unarmed Strike"
+					],
+					"skillProficiencies": [
+						{
+							"intimidation": true
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Fierce",
+							"entries": [
+								"You have proficiency in the {@skill 威嚇} skill."
+							],
+							"ENG_name": "Fierce"
+						},
+						{
+							"type": "entries",
+							"name": "Shifting Feature",
+							"entries": [
+								"While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+							],
+							"ENG_name": "Shifting Feature"
+						}
+					],
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"ENG_name": "Longtooth"
+				},
+				{
+					"name": "Swiftstride",
+					"page": 34,
+					"ability": [
+						{
+							"dex": 2,
+							"cha": 1
+						}
+					],
+					"skillProficiencies": [
+						{
+							"acrobatics": true
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Graceful",
+							"entries": [
+								"You have proficiency in the {@skill 體操} skill."
+							],
+							"ENG_name": "Graceful"
+						},
+						{
+							"type": "entries",
+							"name": "Shifting Feature",
+							"entries": [
+								"While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks."
+							],
+							"ENG_name": "Shifting Feature"
+						}
+					],
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"ENG_name": "Swiftstride"
+				},
+				{
+					"name": "Wildhunt",
+					"page": 34,
+					"ability": [
+						{
+							"wis": 2,
+							"dex": 1
+						}
+					],
+					"skillProficiencies": [
+						{
+							"survival": true
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Natural Tracker",
+							"entries": [
+								"You have proficiency in the {@skill 生存} skill."
+							],
+							"ENG_name": "Natural Tracker"
+						},
+						{
+							"type": "entries",
+							"name": "Shifting Feature",
+							"entries": [
+								"While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you, unless you're {@condition 無力}."
+							],
+							"ENG_name": "Shifting Feature"
+						}
+					],
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"ENG_name": "Wildhunt"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Shifter"
+		},
+		{
+			"name": "戰爭鍛造體",
+			"source": "ERLW",
+			"page": 35,
+			"otherSources": [
+				{
+					"source": "UAWGE",
+					"page": 67
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 70,
+				"heightMod": "2d6",
+				"baseWeight": 270,
+				"weightMod": "4"
+			},
+			"traitTags": [
+				"Improved Resting",
+				"Natural Armor"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"acrobatics",
+							"sleight of hand",
+							"stealth",
+							"arcana",
+							"history",
+							"investigation",
+							"nature",
+							"religion",
+							"animal handling",
+							"insight",
+							"medicine",
+							"perception",
+							"survival",
+							"deception",
+							"intimidation",
+							"performance",
+							"persuasion",
+							{
+								"tool": true
+							}
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"resist": [
+				"毒藥"
+			],
+			"conditionImmune": [
+				"disease"
+			],
+			"entries": [
+				{
+					"name": "年齡",
+					"ENG_name": "Age",
+					"entries": [
+						"一個典型的戰爭鍛造體年齡在兩歲到三十歲之間。戰爭鍛造體最長壽命仍是一個謎；到目前為止，戰爭鍛造體沒有顯示出因年齡而衰退的跡象。你對魔法老化效應有免疫力。"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "陣營",
+					"ENG_name": "Alignment",
+					"entries": [
+						"大多數戰爭鍛造體在秩序與紀律中找到安慰，傾向於法律與中立。但有些則吸收了它們所服務的生物的道德觀，或其缺乏的道德。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "體型",
+					"ENG_name": "Size",
+					"entries": [
+						"您的體型是中等。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "建構韌性",
+					"entries": [
+						"您被賦予了非凡的堅韌，這由以下好處所代表：",
+						{
+							"type": "list",
+							"items": [
+								"您在對抗中毒{@condition}的豁免檢定上具有優勢，並且對毒素傷害有抵抗力。",
+								"你不需要吃飯、喝水或呼吸。",
+								"你對疾病有免疫力。",
+								"你不需要睡覺，魔法也無法讓你入睡。"
+							]
+						}
+					],
+					"ENG_name": "Constructed Resilience"
+				},
+				{
+					"type": "entries",
+					"name": "哨兵的安息",
+					"entries": [
+						"當你進行一次長休息時，你必須至少花六小時處於不活動、靜止的狀態，而不是睡眠。在這種狀態下，你看起來似乎無生氣，但這並不會讓你{@condition 昏迷}，而你可以正常看見和聽到。"
+					],
+					"ENG_name": "Sentry's Rest"
+				},
+				{
+					"type": "entries",
+					"name": "綜合保護",
+					"entries": [
+						"您的身體具有內建的防禦層，可以通過裝甲來加強：",
+						{
+							"type": "list",
+							"items": [
+								"你獲得+1裝甲等級的加成。",
+								"你只能穿戴你熟練的盔甲。要穿上除了盾牌以外的盔甲，你必須在1小時內將其融入你的身體，期間你必須與盔甲保持接觸。要脫下盔甲，你必須花費1小時來移除它。你可以在以這種方式穿上或脫下盔甲時休息。",
+								"在你活著的時候，嵌入你身體內的裝甲無法違反你的意願被移除。"
+							]
+						}
+					],
+					"ENG_name": "Integrated Protection"
+				},
+				{
+					"type": "entries",
+					"name": "專業設計",
+					"entries": [
+						"你獲得一項你選擇的技能熟練度和一項工具熟練度。"
+					],
+					"ENG_name": "Specialized Design"
+				},
+				{
+					"type": "entries",
+					"name": "語言",
+					"ENG_name": "Languages",
+					"entries": [
+						"你可以說、讀和寫\"通用語\"以及你選擇的另一種語言。"
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Warforged"
 		}
 	]
 }

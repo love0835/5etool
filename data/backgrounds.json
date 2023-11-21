@@ -347,7 +347,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -631,7 +631,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -937,7 +937,7 @@
 					]
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -1254,7 +1254,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"Members of the Azorius Senate tend toward a demeanor of cold dignity and a pragmatic, orderly nature. Steeped in the law as they are, their ideals and priorities revolve around legal issues.",
@@ -2276,7 +2276,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -2579,7 +2579,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"The Boros Legion is a zealous army, full of righteous energy tempered with military discipline. Its members share its leadership's devotion to the ideals of justice, or they find satisfaction in the more warfare-oriented aspects of the legion's work.",
@@ -2970,7 +2970,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -3209,7 +3209,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -4725,7 +4725,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"Skilled at infiltration, disguise, and deception, members of House Dimir appear inscrutable. Your true personality and ideals might never manifest, or they might mark you as a quirky member of your secondary guild.",
@@ -5202,7 +5202,7 @@
 					]
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -6087,7 +6087,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -6417,7 +6417,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -7005,7 +7005,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"漁民只有專注在他們的工作上才能成功。因此，大部分的漁民都有很強烈的職業道德，他們欽佩那些誠實謀生的人。漁民往往會有些迷信，會對特定的魚餌和特別的打漁點充滿信念。他們與他們捕魚的水域有關聯，他們也很不待見那些對他們的生計有不利行為的人。",
@@ -7546,7 +7546,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -8099,7 +8099,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"Members of the Golgari Swarm are unmistakably products of the undercity, ill at ease amid the comforts of civilization. They bring about the same discomfort in others by reminding them of death's inevitable approach.",
@@ -8473,7 +8473,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -8760,7 +8760,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"Gruul ways aren't the ways of civilized folk, and the Gruul have little patience for social niceties. But they do have cherished traditions and values, just as important to them as the different values held by the urban, cosmopolitan culture of Ravnica.",
@@ -10897,411 +10897,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "House Agent",
-			"source": "ERLW",
-			"page": 53,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 94
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "技能熟練",
-							"entry": "{@skill 調查}, {@skill 說服}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiency",
-							"entries": [
-								"Two proficiencies from the House Tool Proficiencies table"
-							]
-						},
-						{
-							"type": "item",
-							"name": "裝備",
-							"entry": "A set of {@item fine clothes|phb}, house {@item signet ring|phb}, identification papers, and a purse containing 20 gp."
-						}
-					]
-				},
-				{
-					"type": "table",
-					"caption": "House Tool Proficiencies",
-					"colLabels": [
-						"Your House",
-						"Proficiencies"
-					],
-					"colStyles": [
-						"col-2",
-						"col-10"
-					],
-					"rows": [
-						[
-							"Cannith",
-							"{@item 鍊金工具|phb} and {@item 修理工具|phb}"
-						],
-						[
-							"Deneith",
-							"One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
-						],
-						[
-							"Ghallanda",
-							"{@item 釀酒工具|phb} and {@item 廚師工具|phb}"
-						],
-						[
-							"Jorasco",
-							"{@item 鍊金工具|phb} and {@item 草藥工具|phb}"
-						],
-						[
-							"Kundarak",
-							"{@item 盜賊工具|phb} and {@item 修理工具|phb}"
-						],
-						[
-							"Lyrandar",
-							"{@item 領航工具|phb} and {@filter vehicles (sea and air)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water);vehicle (air)}"
-						],
-						[
-							"Medani",
-							"{@item 易容工具|phb} and {@item 盜賊工具|phb}"
-						],
-						[
-							"Orien",
-							"One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
-						],
-						[
-							"Phiarlan",
-							"{@item 易容工具|phb} and one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
-						],
-						[
-							"Sivis",
-							"{@item 書法工具|phb} and {@item 文書偽造工具|phb}"
-						],
-						[
-							"Tharashk",
-							"One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} and {@item 盜賊工具|phb}"
-						],
-						[
-							"Thuranni",
-							"One {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} and {@item 製毒工具|phb}"
-						],
-						[
-							"Vadalis",
-							"{@item 草藥工具|phb} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
-						]
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Role",
-					"entries": [
-						"You always gather information for your house, but when a baron give you a specific mission, what sort of work do you do? The House Agent Role table gives possibilities.",
-						{
-							"type": "table",
-							"caption": "House Agent Role",
-							"colLabels": [
-								"d8",
-								"Role"
-							],
-							"colStyles": [
-								"col-6 text-center",
-								"col-6 text-center"
-							],
-							"rows": [
-								[
-									"1",
-									"Acquisition"
-								],
-								[
-									"2",
-									"Investigation"
-								],
-								[
-									"3",
-									"Research & Development"
-								],
-								[
-									"4",
-									"Security"
-								],
-								[
-									"5",
-									"Intimidation"
-								],
-								[
-									"6",
-									"Exploration"
-								],
-								[
-									"7",
-									"Negotiation"
-								],
-								[
-									"8",
-									"Covert Operations"
-								]
-							]
-						}
-					]
-				},
-				{
-					"name": "Feature: House Connections",
-					"type": "entries",
-					"entries": [
-						"As an agent of your house, you can always get food and lodging for yourself and your friends at a house enclave. When the house assigns you a mission, it will usually provide you with the necessary supplies and transportation. Beyond this, you have many old friends, mentors, and rivals in your house, and you may encounter one of them when you interact with a house business. The degree to which such acquaintances are willing to help you depends on your current standing in your house."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "建議特徵",
-					"ENG_name": "Suggested Characteristics",
-					"type": "entries",
-					"entries": [
-						"House agents are diverse. Consider the house you serve and the work you do when choosing characteristics.",
-						{
-							"type": "table",
-							"caption": "Personality Traits",
-							"colLabels": [
-								"d6",
-								"個性"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"1",
-									"I'm always looking to improve efficiency."
-								],
-								[
-									"2",
-									"I love to share trivia about my house's business."
-								],
-								[
-									"3",
-									"I never forget an insult against me or my house."
-								],
-								[
-									"4",
-									"I'm enthusiastic about everything my house does."
-								],
-								[
-									"5",
-									"I represent my house and take pride in my looks."
-								],
-								[
-									"6",
-									"I'm critical of monarchies and limits on the houses."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"caption": "Ideals",
-							"colLabels": [
-								"d6",
-								"理念"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"1",
-									"{@b Common Good}. My house serves a vital function, and its prosperity will help everyone. (Good)"
-								],
-								[
-									"2",
-									"{@b Tradition}. I uphold traditions of my house and bring honor to my family. (Lawful)"
-								],
-								[
-									"3",
-									"{@b Innovation}. Abandon old traditions and find better ways to do things. (Chaotic)"
-								],
-								[
-									"4",
-									"{@b Power}. I want to ensure the prosperity of my house and wield its power myself. (Evil)"
-								],
-								[
-									"5",
-									"{@b Discovery}. I want to learn all I can, both for my house and for my own curiosity. (Any)"
-								],
-								[
-									"6",
-									"{@b Comfort}. I want to ensure that me and mine enjoy the best things in life. (Any)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"caption": "Bonds",
-							"colLabels": [
-								"d6",
-								"羈絆"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"1",
-									"My house is my family. I would do anything for it."
-								],
-								[
-									"2",
-									"I love someone from another house, but the relationship is forbidden."
-								],
-								[
-									"3",
-									"Someone I love was killed by a rival faction within my house, and I will have revenge."
-								],
-								[
-									"4",
-									"I don't care about the house as a whole, but I would do anything for my old mentor."
-								],
-								[
-									"5",
-									"My house must evolve, and I'll lead the evolution."
-								],
-								[
-									"6",
-									"I'm determined to impress the leaders of my house, and to become a leader myself."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"caption": "Flaws",
-							"colLabels": [
-								"d6",
-								"缺點"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"1",
-									"I'm fixated on following official protocols."
-								],
-								[
-									"2",
-									"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons."
-								],
-								[
-									"3",
-									"My house and bloodline make me the best!"
-								],
-								[
-									"4",
-									"My secret could get me expelled from my house."
-								],
-								[
-									"5",
-									"My religious beliefs aren't widespread in my house."
-								],
-								[
-									"6",
-									"I'm working for a hidden faction in my house that gives me secret assignments."
-								]
-							]
-						}
-					]
-				}
-			],
-			"skillProficiencies": [
-				{
-					"investigation": true,
-					"persuasion": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"alchemist's supplies": true,
-					"tinker's tools": true
-				},
-				{
-					"gaming set": true,
-					"vehicles (land)": true
-				},
-				{
-					"brewer's supplies": true,
-					"cook's utensils": true
-				},
-				{
-					"alchemist's supplies": true,
-					"herbalism kit": true
-				},
-				{
-					"tinker's tools": true,
-					"thieves' tools": true
-				},
-				{
-					"vehicles (water)": true,
-					"vehicles (air)": true,
-					"navigator's tools": true
-				},
-				{
-					"thieves' tools": true,
-					"disguise kit": true
-				},
-				{
-					"vehicles (land)": true,
-					"gaming set": true
-				},
-				{
-					"disguise kit": true,
-					"musical instrument": true
-				},
-				{
-					"calligrapher's supplies": true,
-					"forgery kit": true
-				},
-				{
-					"thieves' tools": true,
-					"gaming set": true
-				},
-				{
-					"poisoner's kit": true,
-					"musical instrument": true
-				},
-				{
-					"vehicles (land)": true,
-					"herbalism kit": true
-				}
-			],
-			"startingEquipment": [
-				{
-					"_": [
-						"fine clothes|phb",
-						{
-							"item": "signet ring|phb",
-							"displayName": "house signet ring"
-						},
-						{
-							"special": "identification papers"
-						},
-						{
-							"special": "purse",
-							"containsValue": 2000
-						}
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "繼承者",
 			"source": "SCAG",
 			"page": 150,
@@ -11532,7 +11127,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -12229,7 +11824,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -12515,7 +12110,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"Members of the Izzet League embody some combination of chaotic, frenetic energy with intellectual curiosity, in varying proportions. Some are committed to academic pursuits, and others just like explosions.",
@@ -13035,7 +12630,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"海軍受到其他士兵和其上級的尊重。這些老兵很少在戰場上失去鎮靜。退役的海軍往往會擔任僱傭兵，但他們豐富的戰鬥經驗也使他們成為優秀的冒險者。儘管他們是自力更生，但海軍更傾向於團隊合作，重視戰友情誼和志同道合的朋友的友誼。",
@@ -13902,7 +13497,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"Members of the Orzhov Syndicate range from the decadent nobility at the top of the oligarchy to the debt-ridden wretches at the bottom. You fall somewhere between those extremes, so you might behave with the arrogance of the very rich or the humility of the impoverished.",
@@ -14635,7 +14230,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -15131,7 +14726,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -15474,7 +15069,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"Members of demonic cults aren't generally known as the kindest or most mentally stable individuals, so you're likely to have something in your nature that distinguishes you from the law-abiding citizens of Ravnica.",
@@ -15865,7 +15460,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -16925,7 +16520,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"Most members of the Selesnya Conclave are true believers\u2014the tight-knit community allows little room for the cynical or disillusioned. They are spiritual, empathetic, and generally peaceful\u2014unless roused to action. Their flaws and bonds alike grow naturally from their close ties to the community.",
@@ -17590,7 +17185,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"船工是足智多謀的木匠和設計師。他們在當地酒館經常有個專座，因為船工對於沿海社區來說是無價之寶。有些則和海軍艦隊一起旅行，如果他們的性格合適的話，還有可能被任命為軍官。船工們喜歡用他們雙手工作，而且經常做一些其他人認為不可思議的木工活。",
@@ -17923,7 +17518,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"The bizarre science of the Simic Combine attracts a certain type of personality and encompasses a set of beliefs about the nature of life. Simic members' bonds and flaws derive from their scientific research\u2014including their creation of new life forms, which they can become very attached to.",
@@ -18344,7 +17939,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"entries": [
 						"一般來說走私者看重生存，其次是利益，而不是其他的。一個人可能是另一個更大的組織的一部分，也可能是自主經營一條小走私船。走私者活在他們所說的謊言當中，他們天生就有能力回憶起他們所說的每一句謊言和每一個半真半假的事實。",
@@ -18897,7 +18492,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -19149,7 +18744,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -20122,7 +19717,7 @@
 						"mode": "replaceArr",
 						"replace": "Feature: Criminal Contact",
 						"items": {
-							"name": "特性：間諜人脈",
+							"name": "特性：罪犯人脈",
 							"ENG_name": "Feature: Criminal Contact",
 							"type": "entries",
 							"entries": [
@@ -20386,7 +19981,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -20644,7 +20239,7 @@
 					}
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"ENG_name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
@@ -20976,19 +20571,19 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練度：",
+							"name": "技能熟練",
 							"entry": "{@skill 威嚇}, {@skill 生存}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言：",
+							"name": "語言",
 							"entry": "巨人語以及你選擇的另一種語言",
 							"ENG_name": "Languages:"
 						},
 						{
 							"type": "item",
-							"name": "裝備:",
+							"name": "裝備",
 							"entry": "一個 {@item 背包|phb}, 一套 {@item 旅行者服裝|phb},一塊讓你想起家的小石頭或是一根小樹枝，以及一個包含10金幣的{@item 囊袋|phb}",
 							"ENG_name": "Equipment:"
 						}
@@ -21060,7 +20655,7 @@
 					"ENG_name": "Feature: Strike of the Giants"
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
 						"巨人養子個性特徵表提出了您可能為角色採用的各種特徵。",
@@ -21161,25 +20756,25 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練度：",
+							"name": "技能熟練",
 							"entry": "{@skill 歷史}, {@skill 察覺}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "工具熟練度:",
+							"name": "工具熟練",
 							"entry": "One set of {@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=artisan's tools}",
 							"ENG_name": "Tool Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言：",
+							"name": "語言",
 							"entry": "巨人語",
 							"ENG_name": "Languages:"
 						},
 						{
 							"type": "item",
-							"name": "裝備:",
+							"name": "裝備",
 							"entry": "一套{@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=artisan's tools}（你選擇的一種）、一把小刀、一個{@item 磨刀石|phb}、一套{@item 尋常服裝|phb}，以及一個含有10金幣的{@item 囊袋|phb}",
 							"ENG_name": "Equipment:"
 						}
@@ -21251,7 +20846,7 @@
 					"ENG_name": "Feature: Rune Shaper"
 				},
 				{
-					"name": "建議特徵",
+					"name": "建議特質",
 					"type": "entries",
 					"entries": [
 						"符文雕刻師人格特質表提議您可能采用的各种特質為您的角色。",
@@ -21378,19 +20973,19 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練度：",
+							"name": "技能熟練",
 							"entry": "{@skill 歷史}, {@skill 宗教}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言：",
+							"name": "語言",
 							"entry": "你可以選擇的兩項",
 							"ENG_name": "Languages:"
 						},
 						{
 							"type": "item",
-							"name": "裝備:",
+							"name": "裝備",
 							"entry": "一瓶{@item 墨水(1盎司小瓶裝)}，一支{@item 墨水筆}，一把{@item 鐵錘}，一個{@item 附蓋提燈}，一個{@item 打火匣}，一本歷史書冊，一套學校制服，以及一個裝有15金幣的{@item 囊袋}。",
 							"ENG_name": "Equipment:"
 						}
@@ -21451,7 +21046,7 @@
 						"對於一個更不尋常的衡鑑學院學生的角色詮釋，您可以考慮扮演一個與過去有原始連接的野蠻人（也許採用來自 {@book Xanathar's Guide to Everything|XGE}的{@class Barbarian|PHB|Path of the Ancestral Guardian|Ancestral Guardian|XGE}），或者是一個其 {@class Paladin|PHB|Oath of the Ancients|Ancients|PHB} 給予實質歷史連結的聖騎士。",
 						{
 							"type": "entries",
-							"name": "建議特徵",
+							"name": "建議特質",
 							"entries": [
 								"紀實的歷史學家和大膽的冒險家同樣可以在衡鑑學院學院的名冊中找到。衡鑑學院個性特質表建議了您可以為角色采用的各種特質。",
 								{
@@ -21649,25 +21244,25 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練:",
+							"name": "技能熟練",
 							"entry": "{@skill 體操}, {@skill 表演}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "工具熟練度：",
+							"name": "工具熟練",
 							"entry": "一種{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}或{@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=工匠工具}",
 							"ENG_name": "Tool Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言：",
+							"name": "語言",
 							"entry": "你的選擇之一",
 							"ENG_name": "Languages:"
 						},
 						{
 							"type": "item",
-							"name": "裝備:",
+							"name": "裝備",
 							"entry": "一瓶{@item 墨水(1盎司小瓶裝)|PHB|墨水(1盎司小瓶裝)}，一隻{@item 墨水筆}，一套{@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=工匠工具} 或 一個{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}（你的選擇），一套學校制服，和一個裝有 10 gp的{@item pouch|phb|小袋子}。",
 							"ENG_name": "Equipment:"
 						}
@@ -21728,7 +21323,7 @@
 						"除了傳統法術施法者的階級之外，粹麗學院的學生還包括追隨{@class Monk|PHB|Way of the Four Elements|Four Elements|PHB}的僧侶。一些敏捷的盜賊和鬥士（包括那些模仿{@class Fighter|PHB|Eldritch Knight|Eldritch Knight|PHB}的原型）也喜愛粹麗學院表演的體能。",
 						{
 							"type": "entries",
-							"name": "建議特徵",
+							"name": "建議特質",
 							"entries": [
 								"儘管粹麗學院學院的課程吸引了許多熱情洋溢和有野心的藝術家，但學校中並不缺乏害羞的學者和悠閒的吹牛者。 粹麗學院性格特點表建議了您可能會為您的角色採用的各種特性。",
 								{
@@ -21910,25 +21505,25 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練度:",
+							"name": "技能熟練",
 							"entry": "{@skill 奧秘}, {@skill 自然}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "工具熟練：",
+							"name": "工具熟練",
 							"entry": "一種{@filter 工匠工具|items|source=phb|miscellaneous=mundane|type=工匠工具}種類的工匠工具",
 							"ENG_name": "Tool Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言：",
+							"name": "語言",
 							"entry": "你的選擇之一",
 							"ENG_name": "Languages:"
 						},
 						{
 							"type": "item",
-							"name": "裝備:",
+							"name": "裝備",
 							"entry": "一瓶{@item 墨水(1盎司小瓶裝)|PHB|墨水(1盎司小瓶裝)}，一支{@item ink pen|PHB|墨水筆}，一個{@item abacus|PHB|算盤}，一本秘法理論書，一套學校制服，以及一個裝有15金幣的{@item pouch|phb|小袋子}。",
 							"ENG_name": "Equipment:"
 						}
@@ -21989,7 +21584,7 @@
 						"除了傳統的法術施放者外，還有一些其他職業的角色選擇在量析學院中駐紮。一些戰士、僧侶、遊俠、和盜賊在這裡研究，利用量析學院的原則來訓練他們的思維。",
 						{
 							"type": "entries",
-							"name": "建議特徵",
+							"name": "建議特質",
 							"entries": [
 								"學科範疇從實物及有形的事物到矛盾和奇特的事物，量析學院學院的學生群體包括了相當多元的個體。量析學院性格特點表提議你可以為你的角色選擇多種性格特點。",
 								{
@@ -22165,13 +21760,13 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練度:",
+							"name": "技能熟練",
 							"entry": "{@skill 威嚇}, {@skill 說服}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言:",
+							"name": "語言",
 							"entry": "你自由選擇的兩項",
 							"ENG_name": "Languages:"
 						},
@@ -22238,7 +21833,7 @@
 						"同樣有一些聖騎士和盜賊也在銀毫學院學院學習，凸顯了學生群體的多元性。",
 						{
 							"type": "entries",
-							"name": "建議特徵",
+							"name": "建議特質",
 							"entries": [
 								"面臨著學院嚴格的標準，銀毫學院的學生們從自大且冷酷，到完美主義者被壓垮。銀毫學院的性格特徵表建議了您可以為您的角色選擇的各種特徵。",
 								{
@@ -22420,19 +22015,19 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練度:",
+							"name": "技能熟練",
 							"entry": "{@skill 自然}, {@skill 生存}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "工具熟練：",
+							"name": "工具熟練",
 							"entry": "{@item 草藥學工具包|phb}",
 							"ENG_name": "Tool Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言:",
+							"name": "語言",
 							"entry": "你的一個選擇",
 							"ENG_name": "Languages:"
 						},
@@ -22499,7 +22094,7 @@
 						"一些遊俠和野蠻人也在靡華學院學習，還有一些盜賊在這個學院學習如何製造和使用毒藥。",
 						{
 							"type": "entries",
-							"name": "建議特徵",
+							"name": "建議特質",
 							"entries": [
 								"靡華學院學院的學生同樣可能會被發現正在採集草藥製作治療性煎劑，或駕馭著被變為僵屍的沼澤生物在沼澤中奔馳。靡華學院性格特質表提供了你可以為你的角色採納的各種特質。",
 								{
@@ -22652,25 +22247,25 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練度：",
+							"name": "技能熟練",
 							"entry": "{@skill 欺瞞}, {@skill 生存}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "工具熟練度：",
+							"name": "工具熟練",
 							"entry": "一種{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}的類型",
 							"ENG_name": "Tool Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言：",
+							"name": "語言",
 							"entry": "你可以選擇一種 {@language Elvish}、{@language Gnomish}、{@language Goblin} 或 {@language Sylvan}",
 							"ENG_name": "Languages:"
 						},
 						{
 							"type": "item",
-							"name": "裝備:",
+							"name": "裝備",
 							"entry": "一個{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}（你的選擇），一套{@item 旅行者服裝|PHB|旅行者的衣物}，三個小飾品（每個都由滾動在{@item 妖精荒野 Trinket|WBtW|妖精荒野 Trinkets}表上來決定），以及一個{@item 囊袋|phb}，裡面裝有8個金幣",
 							"ENG_name": "Equipment:"
 						}
@@ -23050,25 +22645,25 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "技能熟練度：",
+							"name": "技能熟練",
 							"entry": "{@skill 表演}, {@skill 巧手}",
 							"ENG_name": "Skill Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "工具熟練度：",
+							"name": "工具熟練",
 							"entry": "{易容工具|phb} 或一種 {樂器|items|source=phb|miscellaneous=mundane|type=樂器} 類型的物品",
 							"ENG_name": "Tool Proficiencies:"
 						},
 						{
 							"type": "item",
-							"name": "語言：",
+							"name": "語言",
 							"entry": "你自由選擇的一個",
 							"ENG_name": "Languages:"
 						},
 						{
 							"type": "item",
-							"name": "裝備:",
+							"name": "裝備",
 							"entry": "一個{@item 易容工具|PHB}或是你選擇的一種{@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}，一副紙牌，馬戲團制服或{@item 戲服|phb|costume}，一件小飾物（由{@item 妖精荒野 Trinket|WBtW|妖精荒野 Trinkets}的擲骰子決定），以及一個裝有8金幣的{@item 囊袋|phb}。",
 							"ENG_name": "Equipment:"
 						}
@@ -23337,6 +22932,698 @@
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"ENG_name": "Witchlight Hand"
+		},
+		{
+			"name": "索拉尼亞騎士",
+			"source": "DSotDQ",
+			"page": 30,
+			"prerequisite": [
+				{
+					"campaign": [
+						"Dragonlance"
+					]
+				}
+			],
+			"feats": [
+				{
+					"squire of solamnia|dsotdq": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "insignia of rank"
+						},
+						"playing card set|phb",
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練",
+							"entry": "{@skill 運動}, {@skill 生存}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言",
+							"entry": "Two of your choice",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備",
+							"entry": "一個等級徽章，一副紙牌，一套{@item 尋常服裝|PHB}，以及一個包含10 gp的{@item 囊袋|PHB}。",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Squire of Solamnia",
+					"entries": [
+						"你獲得了\"{@feat 索拉尼亞的騎士學徒|DSotDQ}\"專長。",
+						"此外，索拉姆尼亞騎士團在他們的任何要塞或營地為您提供免費的、簡樸的住宿和食物。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Squire of Solamnia"
+				},
+				{
+					"type": "entries",
+					"name": "Building a 索拉尼亞的騎士 Character",
+					"entries": [
+						"任何擁有武技的職業都能很好地融入索拉莫尼亞騎士團。{@class Fighter||戰士}和{@class Paladin||聖騎士}組成了騎士團大部分的力量。{@class Cleric||牧師}(通常擁有{@class Cleric|PHB|War|戰爭}領域)也能在騎士團的行列中發現。",
+						"為了在一個中國角色身上找到更不尋常的刻畫，可以嘗試扮演來自《玩家手冊》（PHB）的勇氣學院（College of Valor）或者來自《桑納塔的一切指南》（Xanathar's Guide to Everything，簡稱XGE）的劍術學院（College of Swords）的吟遊詩人（Bard），或者一個致力於自然之神赫巴庫（Habbakuk）理念的野蠻人（barbarian），或許還可以選擇XGE中的狂熱之路（Path of the Zealot）。",
+						{
+							"type": "entries",
+							"name": "索拉尼亞的騎士 Trinkets",
+							"entries": [
+								"當你創建角色時，請在《玩家手冊》中的 {@item 飾品|PHB|飾品s table} 起始小物品表上丟擲一次，取代為在 索拉尼亞騎士 飾品s 表上丟擲一次。",
+								{
+									"type": "table",
+									"caption": "索拉尼亞騎士 小裝飾品",
+									"colLabels": [
+										"d6",
+										"Trinket"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"一個扁平的銀色光碟，你可以在上面記錄你的英勇事跡。"
+										],
+										[
+											"2",
+											"墮落騎士的一塊鎧甲"
+										],
+										[
+											"3",
+											"一個吊墜上面有皇冠、玫瑰或劍的圖案。"
+										],
+										[
+											"4",
+											"你導師劍柄的頭部"
+										],
+										[
+											"5",
+											"從你保衛過的某人那裡得到的一個有意義的恩惠\u2014或許是一條手帕或是一只手套。"
+										],
+										[
+											"6",
+											"一個掛墜，內有一條銀龍的素描"
+										]
+									]
+								}
+							],
+							"ENG_name": "Knight of Solamnia Trinkets"
+						}
+					],
+					"ENG_name": "Building a Knight of Solamnia Character"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Knight of Solamnia"
+		},
+		{
+			"name": "高階術士",
+			"source": "DSotDQ",
+			"page": 30,
+			"prerequisite": [
+				{
+					"campaign": [
+						"Dragonlance"
+					]
+				}
+			],
+			"feats": [
+				{
+					"initiate of high sorcery|dsotdq": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"history": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"ink (1-ounce bottle)|phb",
+						"ink pen|phb",
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "技能熟練",
+							"entry": "{@skill 奧秘}, {@skill 歷史}",
+							"ENG_name": "Skill Proficiencies:"
+						},
+						{
+							"type": "item",
+							"name": "語言",
+							"entry": "您的選擇有兩個",
+							"ENG_name": "Languages:"
+						},
+						{
+							"type": "item",
+							"name": "裝備",
+							"entry": "一瓶彩色的墨水，一個墨水筆，一組尋常服裝，和一個包含10個金幣的囊袋。",
+							"ENG_name": "Equipment:"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Initiate of High Sorcery",
+					"entries": [
+						"你獲得了《高等巫術的初學者|DSotDQ》專長。",
+						"此外，法師塔將為您提供免費、樸實的住宿和食物，且在任何有人居住的法師塔裡無限期提供，在組織成員的家中則提供一晚。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: Initiate of High Sorcery"
+				},
+				{
+					"type": "entries",
+					"name": "Building a 高階術士 Character",
+					"entries": [
+						"透過虔誠獲得魔法的施法者不太可能被傳統派法師所歡迎。然而，高階術士 是精明的，他們很少讓獨特的機會或個人從他們身邊溜走。即使是接受魔法訓練的武術類成員，也可能在該團體的三個秩序中找到一個罕見的位置。",
+						{
+							"type": "entries",
+							"name": "高階術士 Trinkets",
+							"entries": [
+								"當你創造你的角色時，在高階術士的小玩意桌上擲骰一次，而不是在玩家手冊中的{@item 飾品|phb|小玩意桌}上擲骰，作為你起始的飾品。",
+								{
+									"type": "table",
+									"caption": "高階術士 Trinkets",
+									"colLabels": [
+										"d6",
+										"Trinket"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"一封來自你的第一位老師的未拆封信函"
+										],
+										[
+											"2",
+											"一只由黑色、紅色或白色木材製成的折斷魔杖"
+										],
+										[
+											"3",
+											"捲軸上寫著一個難以理解的公式"
+										],
+										[
+											"4",
+											"一個沒有特定用途的裝置，表面鑲嵌著彩色寶石，可以摺成各種神秘的形狀。"
+										],
+										[
+											"5",
+											"如果我給你的是英文就翻譯成繁體中文，其他的直接返回原文字串：一個袋子或魔法書，上面飾有代表三重月亮象徵的高階術士标志。"
+										],
+										[
+											"6",
+											"您可以透過這個鏡片看到克萊恩的隱形黑月，努伊塔裡。"
+										]
+									]
+								}
+							],
+							"ENG_name": "Mage of High Sorcery Trinkets"
+						}
+					],
+					"ENG_name": "Building a Mage of High Sorcery Character"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ENG_name": "Mage of High Sorcery"
+		},
+		{
+			"name": "房屋仲介",
+			"source": "ERLW",
+			"page": 53,
+			"otherSources": [
+				{
+					"source": "UAWGE",
+					"page": 94
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "熟練的技能",
+							"entry": "{@skill 調查}, {@skill 說服}",
+							"ENG_name": "技能熟練"
+						},
+						{
+							"type": "item",
+							"name": "工具熟練度",
+							"entries": [
+								"來自屋宅工具熟練表的兩項技能"
+							],
+							"ENG_name": "Tool Proficiency"
+						},
+						{
+							"type": "item",
+							"name": "設備",
+							"entry": "一套高級服裝、家族璽戒、身份證明文件，以及一個內有20金幣的錢包。",
+							"ENG_name": "裝備"
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "家居工具熟練度",
+					"colLabels": [
+						"你的房子",
+						"熟練程度"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Cannith ",
+							"{@item 鍊金工具|phb} and {@item 修理工具|phb}"
+						],
+						[
+							"Deneith",
+							"一份賭具和一份載具(陸上)"
+						],
+						[
+							"加蘭達",
+							"{@item 釀酒工具|phb} and {@item 廚師工具|phb}"
+						],
+						[
+							"Jorasco",
+							"{@item 鍊金工具|phb} and {@item 草藥工具|phb}"
+						],
+						[
+							"庫達拉克",
+							"{@item 盜賊工具|phb} and {@item 修理工具|phb}"
+						],
+						[
+							"Lyrandar",
+							"{@item 領航工具|phb} and {@filter vehicles (sea and air)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water);vehicle (air)}"
+						],
+						[
+							"Medani",
+							"{@item 易容工具|phb} and {@item 盜賊工具|phb}"
+						],
+						[
+							"東方",
+							"一項賭具和載具(陸上)"
+						],
+						[
+							"Phiarlan",
+							"{@item 易容工具|phb} and one {@filter 樂器|items|source=phb|miscellaneous=mundane|type=樂器}"
+						],
+						[
+							"Sivis",
+							"{@item 書法工具|phb} and {@item 文書偽造工具|phb}"
+						],
+						[
+							"Tharashk",
+							"一組賭具和盜賊工具"
+						],
+						[
+							"Thuranni",
+							"一項樂器和毒藥製造工具"
+						],
+						[
+							"Vadalis",
+							"{@item 草藥工具|phb} and {@filter 載具(陸上)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "角色",
+					"entries": [
+						"你總是為你的房屋收集資訊，但當一位男爵給你一項特定任務時，你會做哪些工作？房屋仲介角色表提供了一些可能性。",
+						{
+							"type": "table",
+							"caption": "房屋仲介 角色",
+							"colLabels": [
+								"d8",
+								"角色"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"1",
+									"收購"
+								],
+								[
+									"2",
+									"調查"
+								],
+								[
+									"3",
+									"研究與開發"
+								],
+								[
+									"4",
+									"安全"
+								],
+								[
+									"5",
+									"恐嚇"
+								],
+								[
+									"6",
+									"探索"
+								],
+								[
+									"7",
+									"協商"
+								],
+								[
+									"8",
+									"隱密行動"
+								]
+							]
+						}
+					],
+					"ENG_name": "Role"
+				},
+				{
+					"name": "功能：房屋連接",
+					"type": "entries",
+					"entries": [
+						"作為你家族的代理人，你和你的朋友總是可以在家族飛地獲得食物和住宿。當家族指派給你任務時，它通常會提供你所需的補給品和交通工具。除此之外，你在家族中有許多老朋友、導師和敵手，當你與家族業務互動時，可能會遇到他們中的一個。這些熟人願意幫助你的程度，取決於你在家族中的當前地位。"
+					],
+					"data": {
+						"isFeature": true
+					},
+					"ENG_name": "Feature: House Connections"
+				},
+				{
+					"name": "建議特質",
+					"ENG_name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"房屋仲介服務是多樣化的。選擇特點時，要考慮你服務的房屋和你所做的工作。",
+						{
+							"type": "table",
+							"caption": "人格特質",
+							"colLabels": [
+								"d6",
+								"性格"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我總是在尋求提高效率。"
+								],
+								[
+									"2",
+									"我喜歡分享關於我家的企業的小知識。"
+								],
+								[
+									"3",
+									"我永遠不會忘記對我或我的家的侮辱。"
+								],
+								[
+									"4",
+									"我對家中發生的所有事情都抱持著熱情。"
+								],
+								[
+									"5",
+									"我代表我的家族，並以我的外表感到自豪。"
+								],
+								[
+									"6",
+									"我對君主制和對房屋限制持批評態度。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "理想",
+							"colLabels": [
+								"d6",
+								"哲理"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"公共利益。我的房子發揮了至關重要的作用，它的繁榮將有助於每個人。（Good）"
+								],
+								[
+									"2",
+									"{@b 傳統}。我維護家族的傳統，為我的家庭帶來榮耀。（守序）"
+								],
+								[
+									"3",
+									"創新。拋棄舊有的傳統，尋找更好的做事方式。（混沌）"
+								],
+								[
+									"4",
+									"我要確保我的家族的繁榮並親自揮舞它的力量。（惡）"
+								],
+								[
+									"5",
+									"\"探索\"。我想盡可能學習所有我能學的東西，無論是為了我的家庭還是為了我自己的好奇心。（任何）"
+								],
+								[
+									"6",
+									"\"舒適\"。我想確保我和我的家人享受生活中最美好的事物。（任何）"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "債券",
+							"colLabels": [
+								"d6",
+								"牽絆"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我的家就是我的家人。我願意為它做任何事。"
+								],
+								[
+									"2",
+									"我愛上了來自另一個家族的人，但這段關係是被禁止的。"
+								],
+								[
+									"3",
+									"我心愛的人被我家族內的敵對派系所殺，我將復仇。"
+								],
+								[
+									"4",
+									"我不在乎整體的房子，但為了我那位老導師，我願意做任何事。"
+								],
+								[
+									"5",
+									"我的家必須進化，而我將帶領這場進化。"
+								],
+								[
+									"6",
+									"我決心要給我的house的領導們留下深刻印象，並且自己也成為一名領導者。"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "缺陷",
+							"colLabels": [
+								"d6",
+								"缺點"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我堅持遵循官方規範。"
+								],
+								[
+									"2",
+									"我對陰謀論著迷，並且擔心秘密組織和隱藏的惡魔。"
+								],
+								[
+									"3",
+									"我的家族與血統讓我成為最優秀的！"
+								],
+								[
+									"4",
+									"我的秘密可能讓我被趕出家門。"
+								],
+								[
+									"5",
+									"我的宗教信仰在我家不是普遍的。"
+								],
+								[
+									"6",
+									"我在我家為一個隱藏的派系工作，他們給我秘密任務。"
+								]
+							]
+						}
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"investigation": true,
+					"persuasion": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"alchemist's supplies": true,
+					"tinker's tools": true
+				},
+				{
+					"gaming set": true,
+					"vehicles (land)": true
+				},
+				{
+					"brewer's supplies": true,
+					"cook's utensils": true
+				},
+				{
+					"alchemist's supplies": true,
+					"herbalism kit": true
+				},
+				{
+					"tinker's tools": true,
+					"thieves' tools": true
+				},
+				{
+					"vehicles (water)": true,
+					"vehicles (air)": true,
+					"navigator's tools": true
+				},
+				{
+					"thieves' tools": true,
+					"disguise kit": true
+				},
+				{
+					"vehicles (land)": true,
+					"gaming set": true
+				},
+				{
+					"disguise kit": true,
+					"musical instrument": true
+				},
+				{
+					"calligrapher's supplies": true,
+					"forgery kit": true
+				},
+				{
+					"thieves' tools": true,
+					"gaming set": true
+				},
+				{
+					"poisoner's kit": true,
+					"musical instrument": true
+				},
+				{
+					"vehicles (land)": true,
+					"herbalism kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"fine clothes|phb",
+						{
+							"item": "signet ring|phb",
+							"displayName": "house signet ring"
+						},
+						{
+							"special": "identification papers"
+						},
+						{
+							"special": "purse",
+							"containsValue": 2000
+						}
+					]
+				}
+			],
+			"hasFluff": true,
+			"ENG_name": "House Agent"
 		}
 	]
 }

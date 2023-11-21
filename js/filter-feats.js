@@ -29,11 +29,12 @@ class PageFilterFeats extends PageFilter {
 					case "Proficiency": return "熟練";
 					case "Spellcasting":return "施法";
 					case "feat":		return "專長";
+					case "class":		return "職業";
 					default: return tag;
 				}
 			},
 			header: "Other",
-			items: ["Ability", "Race", "Psionics", "Proficiency", "Special", "Spellcasting"],
+			items: ["Ability", "Race", "Psionics", "Proficiency", "Special", "Spellcasting","feat","class"],
 		});
 		this._levelFilter = new Filter({
 			header: "Level",

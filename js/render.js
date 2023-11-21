@@ -3005,7 +3005,7 @@ Renderer.utils = {
 							const isSubclassVisible = v.subclass && v.subclass.visible;
 							const isClassVisible = v.class && (v.class.visible || isSubclassVisible); // force the class name to be displayed if there's a subclass being displayed
 							if (isListMode) {
-								const shortNameRaw = isClassVisible ? Renderer.utils._getPrerequisiteText_getShortClassName(v.class.name) : null;
+								const shortNameRaw = isClassVisible ? Renderer.utils._getPrerequisiteText_getShortClassName(v.class.ENG_name ? v.class.ENG_name : v.class.name) : null;
 								return `${isClassVisible ? `${shortNameRaw.slice(0, 4)}${isSubclassVisible ? "*" : "."} ` : ""} Lvl ${v.level}`
 							} else {
 								let classPart = "";
@@ -3144,7 +3144,7 @@ Renderer.utils = {
 								return isListMode ? parts.join("/") : parts.joinConjunct(", ", " or ");
 
 							}
-						default: throw new Error(`Unhandled key: ${k}`);
+						// default: throw new Error(`Unhandled key: ${k}`);
 					}
 				})
 				.filter(Boolean)

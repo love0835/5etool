@@ -6895,6 +6895,922 @@
 				}
 			],
 			"ENG_name": "Strixhaven Mascot"
+		},
+		{
+			"name": "黑袍專家",
+			"source": "DSotDQ",
+			"page": 31,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"initiate of high sorcery|dsotdq|高等巫術的初學者 (nuitari)"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=E;N"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你選擇了月亮努伊塔里來影響你的魔法，你對黑袍秩序的雄心和忠誠已經得到認可，賦予你以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "雄心勃勃的魔法",
+							"entries": [
+								"你學會了一個你選擇的二級咒語。這個{@filter 2nd-level spell|spells|level=2|school=E;N}必須來自附魔或死靈魔法學派。你可以在不消耗咒語位的情況下施放這項專長的二級咒語，並且你必須完成一次長休息後才能再次以這種方式施放它。如果你有相應等級的咒語位，也可以使用咒語位來施放這個咒語。施法能力使用你獲得{@feat 高等巫術啟蒙者|DSotDQ}專長時選擇的能力。"
+							],
+							"ENG_name": "Ambitious Magic"
+						},
+						{
+							"type": "item",
+							"name": "In the context of Dungeons & Dragons, \"Life Channel\" might be a reference to a class feature, spell, or a concept relating to healing or positive energy. In traditional Chinese, it can be translated as \"生命導能\". Please note that this is a general translation and the specific term might vary depending on the exact mechanics or source material. If there is a specific ability or feature named \"Life Channel\" in a D&D sourcebook, the translation could be different based on official localized material.",
+							"entries": [
+								"你可以將你的生命力量注入到你的魔法力量中。當你能看到的、在你60英尺範圍內的生物對你施放的造成傷害的法術進行一次豁免檢定失敗時，你可以花費等同於該法術等級的生命骰。投擲所花費的生命骰並將它們加起來。該生物受到的傷害增加等於那個總和。"
+							],
+							"ENG_name": "Life Channel"
+						}
+					]
+				}
+			],
+			"hasFluffImages": true,
+			"ENG_name": "Adept of the Black Robes"
+		},
+		{
+			"name": "紅袍專家",
+			"source": "DSotDQ",
+			"page": 32,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"initiate of high sorcery|dsotdq|高等巫術的初學者 (lunitari)"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=I;T"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你選擇了月神露娜塔利來影響你的魔法，而你致力於維持萬物之間平衡的決心已被紅袍法師團所認可，賦予你以下益處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "洞察魔法",
+							"entries": [
+								"你學會了一個你選擇的二級咒語。這個{@filter 2nd-level spell|spells|level=2|school=I;T}必須是幻術或變化學派的咒語。你可以在不使用咒語欄位的情況下施放這項專長的二級咒語，並且你必須完成一次長休息才能再次以此方式施放它。你也可以使用你擁有的適當等級的咒語欄位來施放這個咒語。該咒語的咒語施放能力是你獲得{@feat 高等咒術啟蒙者|DSotDQ}專長時選擇的那一個。"
+							],
+							"ENG_name": "Insightful Magic"
+						},
+						{
+							"type": "item",
+							"name": "魔法平衡",
+							"entries": [
+								"當你進行攻擊擲骰或能力檢定時，如果在{@dice d20}上擲出了9或更低的數字，你可以使命運平衡，將該次擲骰視為10。你可以根據你的熟練加值來這樣平衡命運的次數，並且在完成一次長休息後，你可以恢復所有已耗盡的使用次數。"
+							],
+							"ENG_name": "Magical Balance"
+						}
+					]
+				}
+			],
+			"hasFluffImages": true,
+			"ENG_name": "Adept of the Red Robes"
+		},
+		{
+			"name": "白袍專家",
+			"source": "DSotDQ",
+			"page": 32,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"initiate of high sorcery|dsotdq|高等巫術的初學者 (solinari)"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=A;D"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"你選擇了月亮Solinari來強化你的魔法，並且你宣誓用魔法讓世界變得更好的決心已經被白袍秩序所認可，授予你以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "防護魔法",
+							"entries": [
+								"你學會了一個你選擇的第二級法術。這個{二級法術|法術|等級=2|學派=A;D}必須來自於防護或占卜魔法學派。你可以在不使用法術位的情況下施展此專長的二級法術，並且在你能夠以這種方式再次施展它之前必須完成一次長休息。你也可以使用你擁有的合適等級的法術位來施展這個法術。這個法術的施法能力是你獲得{@feat 高等巫術的入門者|DSotDQ}專長時選擇的那個。"
+							],
+							"ENG_name": "Protective Magic"
+						},
+						{
+							"type": "item",
+							"name": "護盾結界",
+							"entries": [
+								"當你或你能看見在你30英尺範圍內的一個生物受到傷害時，你可以使用你的反應來消耗一個法術位並在目標周圍編織防護魔法。根據你所消耗的法術位等級，投擲等同於該等級數量的d6，並將目標所受傷害減少所投擲的骰子總和加上你的施法能力加值。"
+							],
+							"ENG_name": "Protective Ward"
+						}
+					]
+				}
+			],
+			"hasFluffImages": true,
+			"ENG_name": "Adept of the White Robes"
+		},
+		{
+			"name": "天賦神恩",
+			"source": "DSotDQ",
+			"page": 32,
+			"prerequisite": [
+				{
+					"level": 4,
+					"campaign": [
+						"Dragonlance"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"name": "Evil",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"augury",
+									{
+										"choose": "level=1|class=warlock"
+									}
+								]
+							}
+						}
+					},
+					"ENG_name": "Evil"
+				},
+				{
+					"name": "Good",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"augury",
+									{
+										"choose": "level=1|class=cleric"
+									}
+								]
+							}
+						}
+					},
+					"ENG_name": "Good"
+				},
+				{
+					"name": "Neutral",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"augury",
+									{
+										"choose": "level=1|class=druid"
+									}
+								]
+							}
+						}
+					},
+					"ENG_name": "Neutral"
+				}
+			],
+			"entries": [
+				"一位神選擇了你，讓你攜帶他們力量的火花。",
+				"你從{@filter 牧師法術列表|spells|level=0|class=cleric}中學會一個你選擇的戲法（cantrip），以及根據下面的附表，基於你角色的守序選擇一個1級法術。你同時學會了{@spell 卜筮}法術。",
+				{
+					"type": "table",
+					"caption": "陣營法術",
+					"colLabels": [
+						"陣營",
+						"1級法術"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"邪惡",
+							"選擇一個{@filter 1級術士法術列表|spells|level=1|class=Sorcerer}"
+						],
+						[
+							"善良",
+							"選擇一個{@filter 1級牧師法術列表|spells|level=1|class=cleric}"
+						],
+						[
+							"中立",
+							"選擇一個{@filter 1級德魯伊法術列表|spells|level=1|class=druid}"
+						]
+					]
+				},
+				"你可以不消耗法术位施放所選的1級法術和{@spell 卜筮}法術，你必須完成一次長休息之後才能再以此方式施放這些法術。你也可以使用你所擁有的適當等級的法朓位來施放這些法術。",
+				"你此專長法术的施法能力是智力、感知或魅力（选择此專長时决定）。",
+				"此外，你可以使用一個神聖符號作為施法焦點，於你施放的任何使用你選取這項天賦時所選擇的施法能力的咒語。"
+			],
+			"ENG_name": "Divinely Favored"
+		},
+		{
+			"name": "高等巫術的初學者",
+			"source": "DSotDQ",
+			"page": 32,
+			"prerequisite": [
+				{
+					"campaign": [
+						"Dragonlance"
+					],
+					"level": {
+						"level": 1,
+						"class": {
+							"name": "術士",
+							"visible": true,
+							"ENG_name": "Sorcerer"
+						}
+					}
+				},
+				{
+					"campaign": [
+						"Dragonlance"
+					],
+					"level": {
+						"level": 1,
+						"class": {
+							"name": "法師",
+							"visible": true,
+							"ENG_name": "Wizard"
+						}
+					}
+				},
+				{
+					"campaign": [
+						"Dragonlance"
+					],
+					"background": [
+						{
+							"name": "Mage of High Sorcery",
+							"displayEntry": "{@background 高階術士|DSotDQ}",
+							"ENG_name": "Mage of High Sorcery"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"name": "Nuitari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard"
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"dissonant whispers",
+												"false life",
+												"hex",
+												"ray of sickness"
+											],
+											"count": 2
+										}
+									}
+								]
+							}
+						}
+					},
+					"ENG_name": "Nuitari"
+				},
+				{
+					"name": "Lunitari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard"
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"color spray",
+												"disguise self",
+												"feather fall",
+												"longstrider"
+											],
+											"count": 2
+										}
+									}
+								]
+							}
+						}
+					},
+					"ENG_name": "Lunitari"
+				},
+				{
+					"name": "Solinari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard"
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"comprehend languages",
+												"detect evil and good",
+												"protection from evil and good",
+												"shield"
+											],
+											"count": 2
+										}
+									}
+								]
+							}
+						}
+					},
+					"ENG_name": "Solinari"
+				}
+			],
+			"entries": [
+				"你接受了與高階巫術師會相關聯的魔法使用者的訓練。",
+				"選擇克萊恩的三個衛星中的一個來影響你的魔法：黑月，努伊塔裡；紅月，露妮塔裡；或是白月，索林納裡。你從巫師法術列表中學會一個你所選的{戲法}，以及根據你所選擇的月亮，在月之法術表中指定的兩個一級法術。",
+				{
+					"type": "table",
+					"caption": "月光法術",
+					"colLabels": [
+						"月亮",
+						"1級法術"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"努伊塔利",
+							"選擇兩項：{@spell 噪音暗語}、{@spell 摹造生命}、{@spell 脆弱詛咒}、{@spell 致病射線}"
+						],
+						[
+							"Lunitari (魯尼塔莉)",
+							"選擇兩個：{@spell 七彩噴射}、{@spell 易容術}、{@spell 羽落術}和{@spell 大步奔行}"
+						],
+						[
+							"索林納利",
+							"選擇兩個自{法術 通曉語言}、{法術 偵測善惡}、{法術 防護善惡}以及{法術 護盾術}"
+						]
+					]
+				},
+				"你可以不消耗法術位施放每個選定的一級法術，並且你必須完成一次長休息才能再次以這種方式施放它們。你也可以利用任何你擁有的法術位來施放這些法術。",
+				"你對於此專長法術的施法能力是智力、智慧或魅力（選擇此專長時決定）。"
+			],
+			"hasFluffImages": true,
+			"ENG_name": "Initiate of High Sorcery"
+		},
+		{
+			"name": "王冠騎士",
+			"source": "DSotDQ",
+			"page": 32,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"squire of solamnia|dsotdq|索拉尼亞的騎士學徒"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你是屬於太陽騎士團的一員，並且與皇冠騎士團隊伍一致，這是一個讚揚合作、忠誠和服從美德的團體。你在群體戰鬥中表現出色，並獲得以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "指揮集結",
+							"entries": [
+								"作為附贈動作，你可以命令一個在你30英尺範圍內的盟友進行攻擊。如果那個盟友能夠看見或聽見你，他們可以立即作為反應進行一次武器攻擊。如果攻擊命中，盟友可以擲一個{@dice d8}，將擲出的數字作為額外傷害加到攻擊的傷害擲骰中。你可以使用這項附贈動作的次數等同於你的熟練加值，並且在你完成一次長休息後恢復所有已使用的次數。"
+							],
+							"ENG_name": "Commanding Rally"
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "騎士團的成員資格",
+					"entries": [
+						"索拉尼亞騎士永遠只會是他們組織中某一騎士團的成員。在他們的訓練過程中，大部分騎士起初會成為皇冠騎士團的成員，然後再轉投其他騎士團。無論角色選擇哪一條路徑，他們加入另一騎士團後仍然保留作為某個騎士團成員所學到的知識。角色可以改變他們所屬的騎士團，但他們總能夠使用他們所獲得的所有索拉尼亞騎士專長。"
+					],
+					"ENG_name": "Membership in Knightly Orders"
+				}
+			],
+			"ENG_name": "Knight of the Crown"
+		},
+		{
+			"name": "玫瑰騎士",
+			"source": "DSotDQ",
+			"page": 33,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"squire of solamnia|dsotdq|索拉尼亞的騎士學徒"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"您是与玫瑰骑士团一致的索拉尼亞骑士，这个团体以领导力、正义和智慧闻名。您的决心给予您以下好处：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "鼓舞集結",
+							"entries": [
+								"作為附贈動作，你可以鼓舞你能看到的30英尺內的一個生物（你可以選擇自己）。如果目標能看見或聽見你，目標將獲得相當於{@dice 1d8} + 你的熟練加成 + 透過這項專長增加的能力值修正的臨時生命值。你可以使用這個附贈動作的次數等於你的熟練加成，並且在你完成一次長時間休息後恢復所有已花費的使用次數。"
+							],
+							"ENG_name": "Bolstering Rally"
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "騎士團的成員資格",
+					"entries": [
+						"索拉尼亞騎士只會成為他們組織中某一騎士團的成員。在訓練過程中，大多數騎士最初加入的是王冠騎士團，然後才轉投其他騎士團。無論角色選擇哪條道路，即使加入了其他騎士團，他們仍然保留作為該騎士團成員時學到的知識。角色可以更改他們所屬的騎士團，但他們始終可以使用他們已獲得的所有索拉尼亞騎士專長。"
+					],
+					"ENG_name": "Membership in Knightly Orders"
+				}
+			],
+			"ENG_name": "Knight of the Rose"
+		},
+		{
+			"name": "劍之騎士",
+			"source": "DSotDQ",
+			"page": 33,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"squire of solamnia|dsotdq|索拉尼亞的騎士學徒"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你是索拉尼亞騎士團中屬於劍騎士團的一員，這個團體致力於英勇與勇氣。勇敢鑄就你的精神，給予你以下的好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "挫志打擊",
+							"entries": [
+								"每輪一次，在你用武器攻擊擊中生物時，你可以嘗試讓目標感到恐懼。目標必須進行一次智慧豁免（DC 等於 8 + 你的熟練加值 + 由此專長提升的能力修正值）。在豁免失敗的情況下，目標將在你下一輪結束前，對你產生{@condition 害怕}的情緒。在豁免成功的情況下，目標在其下一輪結束前的下一次攻擊擲骰將會處於劣勢。你可以使用這個效果的次數等於你的熟練加值，並在你完成一次長休息後恢復所有已花費的使用次數。"
+							],
+							"ENG_name": "Demoralizing Strike"
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "騎士團的成員資格",
+					"entries": [
+						"索拉尼亞騎士只會屬於他們組織中的一個騎士團。在他們的訓練過程中，大多數騎士最初會成為皇冠騎士團的成員，然後轉移到其他騎士團。無論角色是否遵循這條路徑或其他路徑，他們作為騎士團成員所學到的知識，即使加入了另一個騎士團也會保留。角色可以改變他們所屬的騎士團，但他們始終能夠使用他們獲得的索拉尼亞騎士專長。"
+					],
+					"ENG_name": "Membership in Knightly Orders"
+				}
+			],
+			"ENG_name": "Knight of the Sword"
+		},
+		{
+			"name": "索拉尼亞的騎士學徒",
+			"source": "DSotDQ",
+			"page": 34,
+			"prerequisite": [
+				{
+					"campaign": [
+						"Dragonlance"
+					],
+					"level": {
+						"level": 1,
+						"class": {
+							"name": "戰士",
+							"displayEntry": "戰士",
+							"visible": true,
+							"ENG_name": "Fighter"
+						}
+					}
+				},
+				{
+					"campaign": [
+						"Dragonlance"
+					],
+					"level": {
+						"level": 1,
+						"class": {
+							"name": "聖騎士",
+							"displayEntry": "聖騎士",
+							"visible": true,
+							"ENG_name": "Paladin"
+						}
+					}
+				},
+				{
+					"campaign": [
+						"Dragonlance"
+					],
+					"background": [
+						{
+							"name": "Knight of Solamnia",
+							"displayEntry": "{@background 索拉尼亞騎士|DSotDQ}",
+							"ENG_name": "Knight of Solamnia"
+						}
+					]
+				}
+			],
+			"entries": [
+				"你接受索拉尼亞騎士道的訓練，賦予你以下好處：",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "騎乘上",
+							"entries": [
+								"上下坐騎只花費你5英尺的移動距離。"
+							],
+							"ENG_name": "Mount Up"
+						},
+						{
+							"type": "item",
+							"name": "精確打擊",
+							"entries": [
+								"每回合一次，當你對一個生物進行武器攻擊擲骰時，你可以使這次攻擊擲骰具有優勢。如果攻擊命中，你擲一個{@dice d8}，並將擲骰結果作為額外傷害加到攻擊的傷害擲骰上。你可以按照你的熟練加值使用這個效果若干次，但只有在攻擊命中時才會消耗次數。你在完成一次長休息後恢復所有已耗用的次數。"
+							],
+							"ENG_name": "Precise Strike"
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "騎士團的成員資格",
+					"entries": [
+						"索拉尼亞騎士只會是他們組織中某個騎士團的成員。在他們訓練的過程中，大多數騎士最初會成為皇冠騎士團的成員，然後轉移到其他騎士團。無論角色遵循這條路徑或其他路徑，即使他們加入了另一個騎士團，他們仍然保留作為騎士團成員時學到的知識。角色可以更改他們所屬的騎士團，但他們始終可以使用他們獲得的任何索拉尼亞騎士專長。"
+					],
+					"ENG_name": "Membership in Knightly Orders"
+				}
+			],
+			"ENG_name": "Squire of Solamnia"
+		},
+		{
+			"name": "Aberrant Dragonmark",
+			"source": "ERLW",
+			"page": 52,
+			"otherSources": [
+				{
+					"source": "UAWGE",
+					"page": 112
+				}
+			],
+			"prerequisite": [
+				{
+					"other": "No other dragonmark"
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate": {
+						"_": {
+							"_": [
+								{
+									"choose": "level=0|class=Sorcerer"
+								}
+							],
+							"rest": {
+								"1": [
+									{
+										"choose": "level=1|class=Sorcerer"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn a {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. In addition, choose a {@filter 1st-level spell from the sorcerer spell list|spells|level=1|class=Sorcerer}. You learn that spell and can cast it through your mark. Once you cast it, you must finish a short or long rest before you can cast it again through the mark. Constitution is your spellcasting ability for these spells.",
+						"When you cast the 1st-level spell through your mark, you can expend one of your Hit Dice and roll it. If you roll an even number, you gain a number of temporary hit points equal to the number rolled. If you roll an odd number, one random creature within 30 feet of you (not including you) takes force damage equal to the number rolled. If no other creatures are in range, you take the damage."
+					]
+				},
+				"You also develop a random flaw from the Aberrant Dragonmark Flaws table.",
+				{
+					"type": "table",
+					"caption": "Aberrant Dragonmark Flaws",
+					"colLabels": [
+						"d8",
+						"Flaw"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Your mark is a source of constant physical pain."
+						],
+						[
+							"2",
+							"Your mark whispers to you. Its meaning can be unclear."
+						],
+						[
+							"3",
+							"When you're stressed, the mark hisses audibly."
+						],
+						[
+							"4",
+							"The skin around the mark is burned, scaly, or withered."
+						],
+						[
+							"5",
+							"Animals are uneasy around you."
+						],
+						[
+							"6",
+							"You have a mood swing any time you use your mark."
+						],
+						[
+							"7",
+							"Your looks change slightly whenever you use the mark."
+						],
+						[
+							"8",
+							"You have horrific nightmares after you use your mark."
+						]
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Option: Greater Aberrant Powers",
+									"entries": [
+										"At the DM's option, a character who has the Aberrant Dragonmark feat has a chance of manifesting greater power. Upon reaching 10th level, such a character has a 10 percent chance of gaining an {@filter epic boon|rewards|type=boon} from among the options in chapter 7 of the {@book Dungeon Master's Guide|DMG}. If the character fails to gain a boon, they have a 10 percent chance the next time they gain a level.",
+										"If the character gains a boon, the DM chooses it or determines it randomly. The character also permanently loses one of their Hit Dice, and their hit point maximum is reduced by an amount equal to a roll of that die plus their Constitution modifier (minimum reduction of 1). This reduction can't be reversed by any means."
+									],
+									"ENG_name": "Option: Greater Aberrant Powers"
+								}
+							]
+						}
+					]
+				}
+			],
+			"ENG_name": "Aberrant Dragonmark"
+		},
+		{
+			"name": "Revenant Blade",
+			"source": "ERLW",
+			"page": 22,
+			"otherSources": [
+				{
+					"source": "UAWGE",
+					"page": 74
+				}
+			],
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "elf",
+							"ENG_name": "elf"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You are descended from a master of the {@item double-bladed scimitar|ERLW}, and some of that mastery has passed on to you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.",
+						"A double-bladed scimitar has the finesse property when you wield it."
+					]
+				}
+			],
+			"ENG_name": "Revenant Blade"
 		}
 	]
 }

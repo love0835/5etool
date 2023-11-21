@@ -2125,6 +2125,24 @@
 				}
 			],
 			"ENG_name": "Witchlight Hand"
+		},
+		{
+			"name": "House Agent",
+			"source": "ERLW",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"You have sworn fealty to a dragonmarked house. If you have a dragonmark, you're likely a member of one of the house's influential families; otherwise you're an outsider who hopes to make your fortune through the house. Your main task is to serve as the eyes of your house, but you could be called on at any time to act as its hand. Such missions can be perilous but lucrative."
+							]
+						}
+					]
+				}
+			],
+			"ENG_name": "House Agent"
 		}
 	]
 }
